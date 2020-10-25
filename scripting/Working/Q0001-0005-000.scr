@@ -1,0 +1,37 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		/* NPC Information */
+
+		/* NPC Number */
+	
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+       	svar1 = "野外探险的时候，记得多带一些营养丰富的红浆果，可以让疲劳的宠物恢复活力，";
+	svar2 = "可是我这边的红浆果也不多了，为了下一次探险做准备，你能帮我找5个红浆果来么？";
+	svar3 = "很多野外宠物的身上都带有红浆果哦!";
+	svar4 = " ";
+	svar5 = " ";
+	Show_clickmessage;
+       			
+	lvar1 = 5;
+	lvar2 = 1;
+	Set_scriptvar;	
+
+				 
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

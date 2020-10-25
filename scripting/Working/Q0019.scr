@@ -1,0 +1,28 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{		
+	
+		svar1 = "这里是南北的中转站， ";
+		svar2 = " 探险家们总会到我这里来歇歇脚。";
+		svar3 = " ";
+		svar4 = " ";
+		svar5 = " ";
+		Show_clickmessage;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

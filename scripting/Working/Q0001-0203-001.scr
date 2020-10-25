@@ -1,0 +1,35 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{		
+        svar1 = "这背后一定是有人策划操纵的，具体情况你要去郊外草地询问";
+	svar2 = "一下魔力使白，不过这之前我要先考验你的能力，你先打败方 ";
+	svar3 = "舟花园东北处的邪恶宠物中的BOSS怪鼠米宝再来找我吧。";
+	svar4 = " ";
+	svar5 = " ";
+	Show_clickmessage;
+      
+
+	
+	lvar1 = 0203;
+	lvar2 = 2;
+	Set_scriptvar;	
+
+
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

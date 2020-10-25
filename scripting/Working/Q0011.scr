@@ -1,0 +1,28 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{		
+	
+		svar1 = " 我要学习学习，不断的学习，";
+		svar2 = "争取做一个伟大的发明家。 ";
+		svar3 = " ";
+		svar4 = " ";
+		svar5 = " ";
+		Show_clickmessage;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

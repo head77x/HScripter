@@ -1,0 +1,65 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		/* NPC Information */
+
+		/* NPC Number */
+	
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{		
+
+		lvar1 = 8000; 
+		lvar2 = 1;
+		Check_user_item;
+
+			if(lvar1 = 1)
+			{
+			lvar1 = 8000; 
+			lvar2 = 1;
+			Delete_user_item;
+
+			svar1 = " 谢谢你，你看我已经治好它了，它似乎恢复的还不错。";
+			svar2 = "不过我感觉它似乎有点无精打采的，应该是饿了吧，你去帮我找5个红浆果来吧。 ";
+			svar3 = " ";
+			svar4 = " ";
+			svar5 = " ";
+			Show_clickmessage; 
+               
+			lvar1 = 13;
+			lvar2 = 2;
+			Set_scriptvar;
+			
+			goto skip;			
+
+
+			}
+			
+			if(lvar1 ! 1)
+			{
+			svar1 = " 我需要的是一个小瓶治疗药水，可别搞错了。";
+			svar2 = " ";
+			svar3 = " ";
+			svar4 = " ";
+			svar5 = " ";
+			Show_clickmessage; 
+			}
+			skip:
+
+
+
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

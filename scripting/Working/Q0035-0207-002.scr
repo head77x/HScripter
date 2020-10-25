@@ -1,0 +1,34 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+		{	
+	
+		svar1 = "耳根终于清静了。听我慢慢跟你说，托里岛是以制作优质的玩具出名的，";
+		svar2 = "但是，玩具只是玩具，是没有生命的，而玩具变成有生命的宠物，在托";
+		svar3 = "里岛上只有短短两年的历史，这一切，都要归功于伟大的魔力使索伯特长"; 
+		svar4 = "老和他的弟子瞳……咳咳咳……话一多就咳嗽，老毛病了，好孩子，你能"; 
+		svar5 = "帮我到凌那里要些润喉糖吗？ "; 
+		Show_clickmessage; 
+
+		lvar1 = 0207;
+		lvar2 = 3;
+		Set_scriptvar;
+
+		}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

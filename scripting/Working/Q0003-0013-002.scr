@@ -1,0 +1,62 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		/* NPC Information */
+
+		/* NPC Number */
+	
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{		
+
+		lvar1 = 8005; 
+		lvar2 = 5;
+		Check_user_item;
+
+			if(lvar1 = 1)
+			{
+			lvar1 = 8005; 
+			lvar2 = 5;
+			Delete_user_item;
+
+			svar1 = " 它果然是饿坏了，你看它现在精神多了，真是谢谢你。";
+			svar2 = " ";
+			svar3 = " ";
+			svar4 = " ";
+			svar5 = " ";
+			Show_clickmessage; 
+               
+			lvar1 = 9999; 
+			lvar2 = 380;
+			Give_user_item;	
+			
+			lvar1 = 13;
+			lvar2 = 3;
+			Set_scriptvar;	
+			}
+			
+			if(lvar1 ! 1)
+			{
+			svar1 = " 你找到5个红浆果了么？";
+			svar2 = " ";
+			svar3 = " ";
+			svar4 = " ";
+			svar5 = " ";
+			Show_clickmessage; 
+			}
+
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

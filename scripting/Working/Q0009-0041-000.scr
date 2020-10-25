@@ -1,0 +1,34 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{		
+        svar1 = "早就听说莫古的蘑菇汤鲜美无比，看来我应该向莫古多请教请教，";
+	svar2 = "你能帮我带个口信给莫古，让他周末来我这里切磋厨艺么？ ";
+	svar3 = " ";
+	svar4 = " ";
+	svar5 = " ";
+	Show_clickmessage;
+      
+	lvar1 = 41;
+	lvar2 = 1;
+	Set_scriptvar;	
+
+
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

@@ -1,0 +1,62 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+	/* When Click the NPC */
+	OnClicking
+	{		
+
+			lvar1 = 8052;
+			lvar2 = 1;
+			Check_user_item;
+
+			if(lvar1 = 1)
+			{
+			svar1 = "身手不错，孺子可教！";
+			svar2 = " ";
+			svar3 = " ";
+			svar4 = " ";
+			svar5 = " ";
+			Show_clickmessage; 
+
+			lvar1 = 8052; 
+			lvar2 = 1;
+			Delete_user_item;
+
+			lvar1 = 9999; 
+			lvar2 = 100;
+			Give_user_item;	
+
+			lvar1 = 0201;
+			lvar2 = 2;
+			Set_scriptvar;	
+
+			goto skip;
+			}
+
+
+
+			if(lvar1 ! 1)
+			{
+			svar1 = "还不会捕捉邪恶玩具吗？按一下F2，再左键点击邪恶玩具";
+			svar2 = "进攻就可以了，勇敢一点，再试试！加油！";
+			svar3 = " ";
+			svar4 = " ";
+			svar5 = " ";
+			Show_clickmessage; 
+			}
+		
+			skip:
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

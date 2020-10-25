@@ -1,0 +1,26 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 13;
+		lvar2 = 2;
+		svar1 = "救救野外受伤的小宠物";
+		svar2 = "凌已经医好那个小宠物了，不过看\n起来它似乎饿坏了，凌让你去野外找\n5个红浆果来，很多邪恶宠物身上\n都能得到红浆果哦！";
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

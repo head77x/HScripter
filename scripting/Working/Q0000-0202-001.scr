@@ -1,0 +1,67 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+		{		
+		
+			lvar1 = 8053;
+			lvar2 = 3;
+			Check_user_item;
+
+			if(lvar1 = 1)
+			{
+			svar1 = "你已经渐渐熟悉了这里的战斗方式，记住，";
+			svar2 = "要想在战斗中取胜，一定要好好锻炼你的";
+			svar3 = "宠物伙伴噢！";
+			svar4 = " ";
+			svar5 = " ";
+			Show_clickmessage; 
+
+			lvar1 = 8053; 
+			lvar2 = 3;
+			Delete_user_item;
+
+			lvar1 = 9999; 
+			lvar2 = 200;
+			Give_user_item;	
+
+
+			lvar1 = 0202;
+			lvar2 = 2;
+			Set_scriptvar;	
+
+			goto skip;
+			}
+
+
+
+			if(lvar1 ! 1)
+			{
+			svar1 = " 嗯，我等你的捷报噢！加油！";
+			svar2 = " ";
+			svar3 = " ";
+			svar4 = " ";
+			svar5 = " ";
+			Show_clickmessage; 
+			}
+
+		skip:
+		}
+
+
+		
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

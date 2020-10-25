@@ -1,0 +1,26 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 203;
+		lvar2 = 4;
+		svar1 = "探险家雷欧";
+		svar2 = "胜利完成！";
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

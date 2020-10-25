@@ -1,0 +1,105 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		/* NPC Information */
+
+		/* NPC Number */
+	
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{		
+
+		lvar1 = 0;
+		Get_toystatus;
+			
+			if(lvar1 > 6)
+			{
+			svar1 = "不错，你的宠物机灵多了。";
+			svar2 = "但它看上似乎有点瘦弱的样子，我想它该加强锻炼了。";
+			svar3 = "去找运动老师吧，当你的宠物运动值达到7的时候再来找我吧。";
+			svar4 = " ";
+			svar5 = " ";
+			Show_clickmessage; 
+
+			lvar1 = 9999; 
+			lvar2 = 280;
+			Give_user_item;	
+
+			lvar1 = 7;
+			lvar2 = 2;
+			Set_scriptvar;
+
+			goto skip;
+			}
+
+
+			if(lvar2 > 6)
+			{
+			svar1 = " 不错，你的宠物机灵多了。但它看上似乎有点瘦弱的样子，我想它该加强锻炼了，去找运动老师吧，当你的宠物运动值达到7的时候再来找我吧。";
+			svar2 = " ";
+			svar3 = " ";
+			svar4 = " ";
+			svar5 = " ";
+			Show_clickmessage; 
+
+			lvar1 = 9999; 
+			lvar2 = 280;
+			Give_user_item;	
+
+			lvar1 = 7;
+			lvar2 = 2;
+			Set_scriptvar;
+
+			goto skip;
+			}
+
+
+			if(lvar3 > 6)
+			{
+			svar1 = " 不错，你的宠物机灵多了。但它看上似乎有点瘦弱的样子，我想它该加强锻炼了，去找运动老师吧，当你的宠物运动值达到7的时候再来找我吧。";
+			svar2 = " ";
+			svar3 = " ";
+			svar4 = " ";
+			svar5 = " ";
+			Show_clickmessage; 
+
+			lvar1 = 9999; 
+			lvar2 = 280;
+			Give_user_item;	
+
+			lvar1 = 7;
+			lvar2 = 2;
+			Set_scriptvar;
+
+			goto skip;
+			}
+
+
+			if(lvar1 < 7)
+			{
+			svar1 = " 你宠物的智力值还没达到7呢，你还需要好好训练啊。";
+			svar2 = " ";
+			svar3 = " ";
+			svar4 = " ";
+			svar5 = " ";
+			Show_clickmessage; 
+			}
+
+skip:
+
+
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

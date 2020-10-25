@@ -1,0 +1,33 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	
+	
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{		
+        svar1 = "欢迎你来到托里岛。最近玩家太多我真的很忙，你能帮我找到雷欧，让他把上次的那个包裹送回来么？";
+	svar2 = " ";
+	svar3 = " ";
+	svar4 = " ";
+	svar5 = " ";
+	Show_clickmessage;
+       			
+	lvar1 = 1;
+	lvar2 = 1;
+	Set_scriptvar;	
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

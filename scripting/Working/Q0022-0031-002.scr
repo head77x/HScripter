@@ -1,0 +1,67 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		/* NPC Information */
+
+		/* NPC Number */
+	
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{		
+
+			lvar1 = 8086;
+			lvar2 = 15;
+			Check_user_item;
+
+			if(lvar1 = 1)
+			{
+			lvar1 = 8086;  
+			lvar2 = 15;
+			Delete_user_item;
+
+			svar1 = "你真厉害，多谢你了，现在我可以安心地帮米米亚修鱼竿了，你去告诉米米亚让他耐心地等待一下。";
+			svar2 = " ";
+			svar3 = " ";
+			svar4 = " ";
+			svar5 = " ";
+			Show_clickmessage; 
+
+			lvar1 = 9; 
+			lvar2 = 8015;
+			Reset_toygetitem;
+			
+			lvar1 = 9999; 
+			lvar2 = 200;
+			Give_user_item;	
+
+			lvar1 = 31;
+			lvar2 = 3;
+			Get_scriptvar;
+goto skip;
+			}
+
+			if(lvar1 ! 1)
+			{
+			svar1 = " 你还没打败那些野蛮的牛牛么？他们在南面的旷野泥沼里。";
+			svar2 = " ";
+			svar3 = " ";
+			svar4 = " ";
+			svar5 = " ";
+			Show_clickmessage; 
+			}
+skip:
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

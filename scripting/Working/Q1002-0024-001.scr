@@ -1,0 +1,36 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		/* NPC Information */
+
+		/* NPC Number */
+	
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{		
+		
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+        svar1 = "又是你，每次你都能打败我，你果然值得成为我的对手。";
+	svar2 = "但是我不会气馁的，我会再次回来报仇的。 ";
+	svar3 = " ";
+	svar4 = " ";
+	svar5 = " ";
+	Show_clickmessage;
+
+	lvar1 = 24;
+	lvar2 = 2;
+	Set_scriptvar;	
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

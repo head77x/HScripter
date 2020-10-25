@@ -1,0 +1,27 @@
+
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 18;
+		lvar2 = 2;
+		svar1 = "爱提问的小女孩 二";
+		svar2 = "帮拉布拉布转告克莉斯,他只知道\n太阳系里最美丽的行星是土星";
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

@@ -1,0 +1,62 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{		
+
+			lvar1 = 8058;
+			lvar2 = 2;
+			Check_user_item;
+
+			if(lvar1 = 1)
+			{
+			svar1 = "你现在已经够实力加入魔力使预备队了，魔力使是研究魔力、保卫";
+			svar2 = "岛屿的队伍，我也是其中一员。要想有足够的能力保卫岛屿，首先";
+			svar3 = "就要有强大的宠物伙伴，托里学校就是一个很不错的地方，去那里";
+			svar4 = "转转，你能找到很多提升宠物能力的方法！对了，我最近听说托里";
+			svar5 = "学校南的药剂师凌遇到了麻烦，或许你能帮得上忙噢！";
+			Show_clickmessage; 
+
+			lvar1 = 8058; 
+			lvar2 = 2;
+			Delete_user_item;
+
+			lvar1 = 9999; 
+			lvar2 = 300;
+			Give_user_item;	
+	
+			lvar1 = 0205;
+			lvar2 = 3;
+			Set_scriptvar;	
+	
+
+			goto skip;
+			}
+
+			if(lvar1 ! 1)
+			{
+			svar1 = " 小狗纳豆确实是厉害角色，嗯，你再继续做一些简单的修炼吧，到了足够强大时再去找纳豆。";
+			svar2 = " ";
+			svar3 = " ";
+			svar4 = " ";
+			svar5 = " ";
+			Show_clickmessage; 
+			}
+
+			skip:
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

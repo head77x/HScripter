@@ -1,0 +1,50 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{		
+		svar1 = "大家好，我是数学老师高斯，数学需要非常强";
+		svar2 = "的逻辑思维和计算能力，生活中许多事情都需";
+		svar3 = "要用到数学方法，你想来我这里训练一下吗？";
+		svar4 = "";
+		svar5 = "";
+		
+		svar6 = "1. 不了，我的数学已经很好了！";
+		svar7 = "2. 那我们就来比比脑子吧！";
+		svar8 = "3. 没兴趣！";
+		svar9 = "";
+		
+		Show_multiselect;
+		
+		if ( lvar1 = 1 )
+		{
+			svar1 = "我看不一定哦！学习，一定要戒骄戒躁！虚心是最好的伙伴！";
+			svar2 = "";
+			svar3 = "";
+			svar4 = "";
+			svar5 = "";
+			
+			Show_clickmessage;
+		}
+		
+		if ( lvar1 = 2 )
+		{
+			lvar1 = 3;
+			Run_minigame;
+		}
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

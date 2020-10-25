@@ -1,0 +1,65 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{		
+			lvar1 = 5003;
+			lvar2 = 1;
+			Check_user_item;
+
+			if(lvar1 = 1)
+			{
+			svar1 = "说我是麻烦精？哼！他布拉布拉就是牛皮大王，你以为他真的什么都懂，";
+			svar2 = "别听他的，关于邪恶宠物的事情，我比谁都清楚！你看，他自吹很厉害， ";
+			svar3 = "连蝴蝶发夹被偷走都没办法对付！你先去找他吧，如果不满意他的答案，";
+			svar4 = "你可以再来找我！ ";
+			svar5 = " ";
+			Show_clickmessage; 
+
+			lvar1 = 5003; 
+			lvar2 = 1;
+			Delete_user_item;
+
+			lvar1 = 9999; 
+			lvar2 = 500;
+			Give_user_item;	
+
+
+			lvar1 = 0207;
+			lvar2 = 2; 
+			Set_scriptvar;
+
+
+			goto skip;
+
+			}
+
+			if(lvar1 ! 1)
+			{
+			svar1 = " 哥哥姐姐好，我叫克莉斯，喜欢一切可爱的东西，我很萌哦。";
+			svar2 = " ";
+			svar3 = " ";
+			svar4 = " ";
+			svar5 = " ";
+			Show_clickmessage; 
+			}
+
+
+			skip:
+		
+		}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

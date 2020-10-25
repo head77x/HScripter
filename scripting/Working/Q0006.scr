@@ -1,0 +1,28 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{		
+	
+		svar1 = "什么，你连这这也不知道，难道你是火星人么？ ";
+		svar2 = " ";
+		svar3 = " ";
+		svar4 = " ";
+		svar5 = " ";
+		Show_clickmessage;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

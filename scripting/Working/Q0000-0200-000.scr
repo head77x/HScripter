@@ -1,0 +1,34 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{	
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{		
+        svar1 = "欢迎你，亲爱的孩子。嗯，这里啊？这里是盛产玩具的托里岛。";
+	svar2 = "穿这么少小心着凉，我这里有一套衣服，就当送你的见面礼吧， ";
+	svar3 = " 双击物品栏里的装备就可以了，试试吧。";
+	svar4 = " ";
+	svar5 = " ";
+	Show_clickmessage;
+       			
+	lvar1 = 0200;
+	lvar2 = 1;
+	Set_scriptvar;	
+
+	
+
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

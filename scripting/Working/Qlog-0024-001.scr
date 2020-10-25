@@ -1,0 +1,27 @@
+
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 24;
+		lvar2 = 1;
+		svar1 = "难缠的对手";
+		svar2 = "那个难缠的猎犬弗雷德又来了，它\n已经被你们打败了几百次了，不过\n它还是不愿意善罢甘休，里拉拜托\n你再去打败它一次，顺便打败15\n个小鹿乔巴。";
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

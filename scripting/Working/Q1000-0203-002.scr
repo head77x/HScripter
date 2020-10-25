@@ -1,0 +1,34 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{		
+
+
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+        svar1 = "好疼啊，好疼啊，没想你刚进来就这么厉害。 ";
+	svar2 = " ";
+	svar3 = " ";
+	svar4 = " ";
+	svar5 = " ";
+	Show_clickmessage;
+      
+	lvar1 = 0203;
+	lvar2 = 3;
+	Set_scriptvar;	
+
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

@@ -1,0 +1,34 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{		
+        svar1 = "我的玩具熊似乎有点不开心了，为了完成家庭作业，我已经很久没有带它去散步，喂它吃好吃的绿风果了，";
+	svar2 = "你能帮去找5个绿风果来么？它闻到熟悉的味道会很高兴的。方舟花园南的邪恶玩具身上有很多绿风果哦！";
+	svar3 = " ";
+	svar4 = " ";
+	svar5 = " ";
+	Show_clickmessage;
+      
+	lvar1 = 21;
+	lvar2 = 1;
+	Set_scriptvar;	
+
+
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

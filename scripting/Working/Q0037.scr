@@ -1,0 +1,28 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{		
+	
+		svar1 = " 哼，我可是世上最美丽的女人，";
+		svar2 = " 我挖鼻孔的样子也比你好看一百倍。";
+		svar3 = " ";
+		svar4 = " ";
+		svar5 = " ";
+		Show_clickmessage;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

@@ -1,0 +1,69 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{		
+
+			lvar1 = 0088;
+			lvar2 = 8051;
+			Check_user_item;
+
+			if(lvar1 = 1)
+			{
+			svar1 = "白正在调查邪恶宠物事件，需要人手，你可以去帮他了。";
+			svar2 = "去郊外草地找他吧，他可是托里岛的大帅哥噢！很显眼的！";
+			svar3 = " ";
+			svar4 = " ";
+			svar5 = " ";
+			Show_clickmessage; 
+
+			lvar1 = 8051; 
+			lvar2 = 10;
+			Delete_user_item;
+
+			lvar1 = 9999; 
+			lvar2 = 100;
+			Give_user_item;	
+
+			lvar1 = 204;
+			lvar2 = 2;
+			Set_scriptvar;	
+
+			goto skip;
+
+			}
+
+
+		
+
+			}
+
+			if(lvar1 ! 1)
+			{
+			svar1 = " 加油加油，我看好你噢！";
+			svar2 = " ";
+			svar3 = " ";
+			svar4 = " ";
+			svar5 = " ";
+			Show_clickmessage; 
+			}
+			skip:
+
+
+		
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

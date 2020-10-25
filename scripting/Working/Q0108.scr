@@ -1,0 +1,50 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{		
+		svar1 = "我是玩具养育老师潘，宠物是我们的伙伴，";
+		svar2 = "一定要珍惜爱护，宠物倒下了一定要来找";
+		svar3 = "我哦！我会让它康复的！";
+		svar4 = "";
+		svar5 = "";
+		
+		svar6 = "1. 你真的这么厉害？";
+		svar7 = "2. 我的宠物受伤了，能帮我忙吗！";
+		svar8 = "3. 我去别的地方逛逛！";
+		svar9 = "";
+		
+		Show_multiselect;
+		
+		if ( lvar1 = 1 )
+		{
+			svar1 = "托里岛最厉害的玩具养育员就是我，我可是有证书的噢！";
+			svar2 = "";
+			svar3 = "";
+			svar4 = "";
+			svar5 = "";
+			
+			Show_clickmessage;
+		}
+		
+		if ( lvar1 = 2 )
+		{
+			lvar1 = 3;
+			Run_shop;
+		}
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

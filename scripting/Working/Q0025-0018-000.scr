@@ -1,0 +1,34 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{		
+        svar1 = "我喜欢在夜里仰望天空，看天上美丽的繁星，觉得每一颗星星都份外漂亮，忽然想了解一下宇宙万物的知识了。";
+	svar2 = "我想知道宇宙里最美丽的行星是什么？如果你不知道的话可以帮我去问问聪明的拉布拉布么。";
+	svar3 = "他就住在中部湖的小木屋里。";
+	svar4 = " ";
+	svar5 = " ";
+	Show_clickmessage;
+      
+	lvar1 = 18;
+	lvar2 = 1;
+	Set_scriptvar;	
+
+
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

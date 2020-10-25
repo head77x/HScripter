@@ -1,0 +1,27 @@
+
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 21;
+		lvar2 = 2;
+		svar1 = "绿风果花茶";
+		svar2 = "克莉斯为了慰劳总对她操心的里拉奶\n奶，特地做了一份绿风果花茶给她，\n拜托你帮忙送去，里拉奶奶就住在阳\n光农场。";
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

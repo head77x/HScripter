@@ -1,0 +1,41 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		/* NPC Information */
+
+		/* NPC Number */
+	
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{		
+
+		svar1 = "原来是这样，前几天我还把鱼放在地上看它能不能活呢，罪过啊罪过。";
+		svar2 = " ";
+		svar3 = " ";
+		svar4 = " ";
+		svar5 = " ";
+		Show_clickmessage; 
+               
+		lvar1 = 9999; 
+		lvar2 = 300;
+		Give_user_item;	
+
+		lvar1 = 17;
+		lvar2 = 3;
+		Set_scriptvar;	
+
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

@@ -1,0 +1,26 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 1;
+		lvar2 = 1;
+		svar1 = "马凯的包裹";
+		svar2 = "马凯最近实在太忙了，他请你去问\n问雷欧何时才能把包裹送回去给他。\n雷欧就也在方舟花园";
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

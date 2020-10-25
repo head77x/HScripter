@@ -1,0 +1,26 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 5;
+		lvar2 = 0;
+		svar1 = "营养的果子";
+		svar2 = "得到5个红浆果给雷欧";
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

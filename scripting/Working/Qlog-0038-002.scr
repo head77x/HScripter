@@ -1,0 +1,27 @@
+
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 38;
+		lvar2 = 2;
+		svar1 = "偷蘑菇的贼";
+		svar2 = "你已经打败了黄猫费耶，现在你可\n以去找莫古领赏了。";
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

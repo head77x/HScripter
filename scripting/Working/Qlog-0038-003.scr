@@ -1,0 +1,27 @@
+
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 38;
+		lvar2 = 3;
+		svar1 = "偷蘑菇的贼";
+		svar2 = "胜利完成";
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

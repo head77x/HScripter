@@ -1,0 +1,27 @@
+
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 18;
+		lvar2 = 4;
+		svar1 = "爱提问的小女孩 二";
+		svar2 = "替雷欧转告克莉斯，吃太多糖对身\n体不好，让她少吃点糖。";
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

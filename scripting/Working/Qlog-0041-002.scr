@@ -1,0 +1,27 @@
+
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 41;
+		lvar2 = 2;
+		svar1 = "料理邀请";
+		svar2 = "由于在幽幽森林有邪恶宠物的阻挠，\n莫古不能前往维安的住处，于是拜\n托你去赶走幽幽森林的骏马酱爆，\n并拿15个马马铁牌给莫古。";
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

@@ -1,0 +1,28 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{		
+	
+		svar1 = " 我是退休的海盗老杰克，";
+		svar2 = " 什么？海盗就不能退休吗？";
+		svar3 = " 想当年，我可以掌管着一方海域的超级大海盗呢，";
+		svar4 = " 不过我已经金盆洗手了。";
+		svar5 = " ";
+		Show_clickmessage;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

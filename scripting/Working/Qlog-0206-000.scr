@@ -1,0 +1,26 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 206;
+		lvar2 = 0;
+		svar1 = "凌的求助";
+		svar2 = "赶跑10个小鹿乔巴，得到10个鹿鹿饼干后回复凌";
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

@@ -1,0 +1,28 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{		
+	
+		svar1 = "我欲乘风归去，又恐琼楼玉宇， ";
+		svar2 = " 人真是个矛盾体啊，";
+		svar3 = " 我是娜娜，一个忧郁的诗人。";
+		svar4 = " ";
+		svar5 = " ";
+		Show_clickmessage;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

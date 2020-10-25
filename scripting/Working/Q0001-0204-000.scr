@@ -1,0 +1,39 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{		
+        svar1 = "先去郊外草地闯闯吧，去打败那里的10只小狗正泰，";
+	svar2 = "数量有点多，不要急，一只只打败它们！";
+	svar3 = " ";
+	svar4 = " ";
+	svar5 = " ";
+	Show_clickmessage;
+      
+	lvar1 = 0088; 
+	lvar2 = 8051;  
+	lvar3 = 10;  
+	Set_toygetitem;
+	
+	lvar1 = 0204;
+	lvar2 = 1;
+	Set_scriptvar;	
+
+
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

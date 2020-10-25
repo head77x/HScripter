@@ -1,0 +1,37 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+			
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{	
+
+		svar1 = "那是当然拉，因为鱼是用鳃呼吸的，而鱼鳃只能吸收溶解在水中的氧气，不能吸收空气中的氧气， ";
+		svar2 = "如果鱼离开了水，鱼的身体就无法补充进氧气，鱼当然会死翘翘。"; 
+		svar3 = "你去告诉小克莉斯吧。";
+		svar4 = " ";
+		svar5 = " "; 
+		Show_clickmessage;
+		
+		lvar1 = 17;
+		lvar2 = 2;
+		Set_scriptvar;			
+	
+
+		 
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

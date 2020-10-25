@@ -1,0 +1,28 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{		
+	
+		svar1 = " 我叫莫古，虽然我喜欢吃蘑菇，喜欢种蘑菇，";
+		svar2 = " 还戴着一个蘑菇头，但是，我要郑重的申明，";
+		svar3 = " 我叫莫古，不叫蘑菇。";
+		svar4 = " ";
+		svar5 = " ";
+		Show_clickmessage;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

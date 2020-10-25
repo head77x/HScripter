@@ -1,0 +1,28 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{		
+	
+		svar1 = "我是贸易商船的船长拉尔夫， ";
+		svar2 = " 我的责任只是运输货物，但是为什么";
+		svar3 = "总让我碰到神奇的事情呢。。。 ";
+		svar4 = " 大海真是奇妙啊。";
+		svar5 = " ";
+		Show_clickmessage;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

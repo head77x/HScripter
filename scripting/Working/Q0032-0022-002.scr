@@ -1,0 +1,66 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		/* NPC Information */
+
+		/* NPC Number */
+	
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{		
+
+			lvar1 = 8052;
+			lvar2 = 8;
+			Check_user_item;
+
+			if(lvar1 = 1) {
+			lvar1 = 8052;  
+			lvar2 = 8;
+			Delete_user_item;
+
+			svar1 = "谢谢你，不过真是一波未平一波又起，我的果林开始遭受邪恶宠物的破坏。";
+			svar2 = "那可是我辛苦栽培的果树，趁现在情况还不算太坏，你能帮我赶跑那些家伙么？";
+			svar3 = "它们在中部的果树林子里，那些看起来很可爱的兔子洁妮们。";
+			svar4 = " ";
+			svar5 = " ";
+			Show_clickmessage; 
+
+			lvar1 = 83; 
+			lvar2 = 8005;
+			Reset_toygetitem;
+
+			lvar1 = 2; 
+			lvar2 = 8055;  
+			lvar3 = 1; 
+			Set_toygetitem;
+	
+			lvar1 = 22;
+			lvar2 = 3;
+			Set_scriptvar;	
+			goto skip;
+			}
+
+			if(lvar1 ! 1) {
+			svar1 = " 你还没赶跑那些小鹿乔巴么？快去吧，别忘记拿来鹿鹿饼干，那是你打败它们的凭证。";
+			svar2 = " ";
+			svar3 = " ";
+			svar4 = " ";
+			svar5 = " ";
+			Show_clickmessage; 
+			}
+    skip:
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

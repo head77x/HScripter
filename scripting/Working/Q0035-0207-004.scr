@@ -1,0 +1,69 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{		
+		
+			lvar1 = 8013;
+			lvar2 = 1;
+			Check_user_item;
+
+			if(lvar1 = 1)
+			{
+			svar1 = "多谢你，孩子。我接着说，索伯特和瞳用非凡的魔力让玩具拥有了生命，";
+			svar2 = "但是，大约一个月前，索伯特和瞳却突然失踪了！而且几天后，许多邪恶";
+			svar3 = "宠物就悄无声息地出现在托里岛上，大肆破坏。嗯，我知道的就这么多了。";
+			svar4 = " ";
+			svar5 = " ";
+			Show_clickmessage; 
+
+			lvar1 = 8013; 
+			lvar2 = 1;
+			Delete_user_item;
+
+			lvar1 = 9999; 
+			lvar2 = 100;
+			Give_user_item;	
+
+			lvar1 = 207;
+			lvar2 = 5;
+			Set_scriptvar;
+
+			goto skip;
+
+			}
+
+
+
+
+		if(lvar1 ! 1 )
+		{
+		svar1 = "噢，你还没找到凌吗？我喉咙疼死了！咳咳咳……我讲不了话了！凌就在托里学校南，你能找到她的！";
+		svar2 = " ";
+		svar3 = " "; 
+		svar4 = " "; 
+		svar5 = " "; 
+		Show_clickmessage; 
+		}
+
+
+	skip:
+
+
+
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

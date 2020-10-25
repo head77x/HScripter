@@ -1,0 +1,26 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 4;
+		lvar2 = 1;
+		svar1 = "助雷欧驱邪恶";
+		svar2 = "最近方舟花园附近徘徊着许多邪恶\n宠物，雷欧生怕那些邪恶宠物会去\n骚扰初来乍到的新玩家，于是委托\n你去赶走3个小鹿乔巴，但你必须\n拿3个鹿鹿饼干给雷欧作为赶走它\n们的凭证。";
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

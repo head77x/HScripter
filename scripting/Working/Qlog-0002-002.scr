@@ -1,0 +1,26 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 2;
+		lvar2 = 2;
+		svar1 = "马凯的包裹 续";
+		svar2 = "白老师认为这是雷欧自己的失职，\n应该自己担起这个责任而不应该麻\n烦别人，委托你去告诉雷欧这个道\n理。";
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

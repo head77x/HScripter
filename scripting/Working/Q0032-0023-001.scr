@@ -1,0 +1,76 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		/* NPC Information */
+
+		/* NPC Number */
+	
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{		
+		lvar1 = 23;
+		Get_scriptvar;
+		
+        	if(lvar1 = 1)
+		{
+			lvar1 = 8062;
+			lvar2 = 1;
+			Check_user_item;
+
+			lvar1 = 8062;  
+			lvar2 = 1;
+			Delete_user_item;
+
+			if(lvar1 = 1) {
+			svar1 = "你真是太厉害了，我想这下它们永远不会再来骚扰我的农场了。";
+			svar2 = " ";
+			svar3 = " ";
+			svar4 = " ";
+			svar5 = " ";
+			Show_clickmessage; 
+
+			
+			lvar1 = 10; 
+			lvar2 = 8012;
+			Reset_toygetitem;
+			
+			lvar1 = 9999; 
+			lvar2 = 150;
+			Give_user_item;	
+			}
+
+			if(lvar1 ! 1) {
+			svar1 = " 早就听说猎犬弗雷德是个厉害的角色。";
+			svar2 = " ";
+			svar3 = " ";
+			svar4 = " ";
+			svar5 = " ";
+			Show_clickmessage; 
+			}
+		}
+
+
+		if(lvar1 ! 1 )
+		{
+		svar1 = "孩子，平时多吃点水果，对身体可是很有帮助的。";
+		svar2 = " ";
+		svar3 = " "; 
+		svar4 = " "; 
+		svar5 = " "; 
+		Show_clickmessage; 
+		}
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

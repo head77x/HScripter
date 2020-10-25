@@ -1,0 +1,40 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{	
+
+        svar1 = "修个鱼钩对我来说太容易了，只是最近陆续而来的众多邪恶宠物让我无法安心工作，";
+	svar2 = "现在那些家伙又跑进那恐怖的沼泽去了，我可不敢进去抓它们，于是它们就老拿着沼泽当挡箭牌， ";
+	svar3 = "我想你去沼泽一定没有问题的，求求你让它们老实点。";
+	svar4 = " ";
+	svar5 = " ";
+	Show_clickmessage;
+      
+	lvar1 = 9;  
+	lvar2 = 8068;  
+	lvar3 = 1;  
+	Set_toygetitem;
+	
+	lvar1 = 31;
+	lvar2 = 2;
+	Set_scriptvar;	
+
+  
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

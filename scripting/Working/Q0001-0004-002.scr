@@ -1,0 +1,66 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		/* NPC Information */
+
+		/* NPC Number */
+	
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{		
+		lvar1 = 8052 ;
+		lvar2 = 3;
+		Check_user_item;
+		
+		if ( lvar1 = 1 )
+		{
+			lvar1 = 8052; 
+			lvar2 = 3;
+			Delete_user_item;
+
+			svar1 = "谢谢你，现在社会和谐多了，马凯也应该放心了。";
+			svar2 = " ";
+			svar3 = " ";
+			svar4 = " ";
+			svar5 = " ";
+			Show_clickmessage; 
+			
+			lvar1 = 83; 
+			lvar2 = 8005;
+			Reset_toygetitem;
+
+			lvar1 = 9999;
+			lvar2 = 15;
+			Give_user_item;	
+			
+			lvar1 = 4;
+			lvar2 = 3;
+			Set_scriptvar;
+			
+			goto skip;
+		}
+
+		if(lvar1 ! 1 )
+		{
+			svar1 = "你好像还是没有赶跑它们。";
+			svar2 = " ";
+			svar3 = " "; 
+			svar4 = " "; 
+			svar5 = " "; 
+			Show_clickmessage; 
+		}
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

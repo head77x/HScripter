@@ -1,0 +1,34 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{		
+        svar1 = "我那精致鱼竿的鱼钩断了，似乎只有托里郊外的阿里克斯有这种鱼竿的材料，";
+	svar2 = "你能帮我去问问阿里克斯还能修理么？ ";
+	svar3 = " ";
+	svar4 = " ";
+	svar5 = " ";
+	Show_clickmessage;
+      
+	lvar1 = 31;
+	lvar2 = 1;
+	Set_scriptvar;	
+
+
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

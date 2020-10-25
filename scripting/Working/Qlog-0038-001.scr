@@ -1,0 +1,27 @@
+
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 38;
+		lvar2 = 1;
+		svar1 = "偷蘑菇的贼";
+		svar2 = "最近蘑菇林子里来了一个厉害的家\n伙，到处偷摘莫古的蘑菇，而且屡\n次得手。听说是一只会飞的猫，莫\n古请你去东北的蘑菇高地打败1个\n黄猫费耶（BOSS）。";
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

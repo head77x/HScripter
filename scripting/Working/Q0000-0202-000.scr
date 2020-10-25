@@ -1,0 +1,39 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{		
+        svar1 = "你也看见了，托里岛上现在出现了很多被邪恶力量";
+	svar2 = "控制的宠物，这件事情非常复杂，你要去慢慢查清";
+	svar3 = "它的真相。首先，你先在方舟花园打败3只被邪恶";
+	svar4 = "力量控制的跳球瓜皮怪，然后再来找我吧。";
+	svar5 = " ";
+	Show_clickmessage;
+      
+	lvar1 = 0011;  
+	lvar2 = 8053;  
+	lvar3 = 3;  
+	Set_toygetitem;
+	
+	lvar1 = 0202;
+	lvar2 = 1;
+	Set_scriptvar;	
+
+
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

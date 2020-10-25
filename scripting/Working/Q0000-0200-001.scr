@@ -1,0 +1,82 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{	
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{		
+		
+		lvar1 = 0000;
+		lvar2 = 1;
+		Check_user_item;
+		lvar3 = lvar1;		
+
+		lvar1 = 1000;
+		lvar2 = 1;
+		Check_user_item;
+		lvar4 = lvar1;	
+
+		lvar1 = 2000;
+		lvar2 = 1;
+		Check_user_item;
+		lvar5 = lvar1;			
+	
+		lvar1 = 3000;
+		lvar2 = 1;
+		Check_user_item;
+		lvar6 = lvar1;	
+
+		lvar1 = 4000;
+		lvar2 = 1;
+		Check_user_item;
+		lvar7 = lvar1;	
+
+		lvar8 = lvar3+lvar4+lvar5+lvar6+lvar7;
+
+		if(lvar8 = 0)
+		{
+		svar1 = "不错，看来大小正合适。更好的装备，会在前方的冒险之路上等着你噢！";
+		svar2 = " ";
+		svar3 = " ";
+		svar4 = " ";
+		svar5 = " ";
+		Show_clickmessage;
+
+		lvar1 = 9999;
+		lvar2 = 100;
+		Give_user_item;	
+
+		lvar1 = 0200;
+		lvar2 = 2;
+		Set_scriptvar;	
+
+		goto skip;
+		}
+
+	
+
+		if(lvar8 ! 0)
+		{
+		svar1 = "别心急，再试一次，双击物品栏就可以了。";
+		svar2 = " ";
+		svar3 = " ";
+		svar4 = " ";
+		svar5 = " ";
+		Show_clickmessage; 
+		}
+	
+		skip:
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

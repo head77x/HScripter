@@ -1,0 +1,69 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		/* NPC Information */
+
+		/* NPC Number */
+	
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{		
+
+
+			lvar1 = 8052;
+			lvar2 = 15;
+			Check_user_item;			
+			
+				if(lvar1 = 1) {
+				svar1 = "我想它还不会死心的，我快受不了那讨厌的家伙了。";
+				svar2 = " ";
+				svar3 = " ";
+				svar4 = " ";
+				svar5 = " ";
+				Show_clickmessage; 
+				
+				lvar1 = 8052;  
+				lvar2 = 15;
+				Delete_user_item;
+	
+				lvar1 = 83; 
+				lvar2 = 8005;
+				Reset_toygetitem;
+
+				lvar1 = 9999; 
+				lvar2 = 950;
+				Give_user_item;	
+				
+				lvar1 = 24;
+				lvar2 = 0;
+				Set_scriptvar;	
+
+				goto skip;
+				}
+
+				if(lvar1 ! 1) {
+				svar1 = "你好像还没赶走猎犬弗雷德的手下小鹿乔巴，快去打跑它们，拿15个鹿鹿饼干来给我。";
+				svar2 = " ";
+				svar3 = " ";
+				svar4 = " ";
+				svar5 = " ";
+				Show_clickmessage; }
+
+skip:
+	
+
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

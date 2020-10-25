@@ -1,0 +1,33 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{	
+		svar1 = "希望白能答应我的请求";
+		svar2 = " ";
+		svar3 = " "; 
+		svar4 = " "; 
+		svar5 = " "; 
+		Show_clickmessage; 
+		
+		lvar1 = 3;
+		lvar2 = 2;
+		Set_scriptvar;
+		
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

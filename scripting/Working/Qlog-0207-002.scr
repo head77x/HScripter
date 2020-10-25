@@ -1,0 +1,26 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 207;
+		lvar2 = 2;
+		svar1 = "情报";
+		svar2 = "至少有一段时间拉布拉布能耳根清\n静了，快去听听他要告诉你的情报\n吧！";
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

@@ -1,0 +1,35 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+			
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{	
+
+		svar1 = "宇宙里最美丽的行星我不知道，但是太阳系里最美丽的行星当属土星。";
+		svar2 = "而它最让人着迷的便是那美丽的土星环了。土星环是一些永远也不能聚结成一颗卫星的岩屑。 "; 
+		svar3 = "据估计，如果将土星环所有的物质聚合成一个天体，结果将会是一个比我们的月亮稍大的圆球呢。 ";
+		svar4 = "你把这些转达给小克莉斯吧。";
+		svar5 = " "; 
+		Show_clickmessage;
+		
+		lvar1 = 18;
+		lvar2 = 2;
+		Set_scriptvar;			
+ 
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

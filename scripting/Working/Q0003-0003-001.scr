@@ -1,0 +1,38 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		/* NPC Information */
+
+		/* NPC Number */
+	
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{
+
+		svar1 = "这点事就包在我身上吧，让雷欧好好地去探险。";
+		svar2 = " "; 
+		svar3 = " ";
+		svar4 = " ";
+		svar5 = " "; 
+		Show_clickmessage;
+       			
+		lvar1 = 3;
+		lvar2 = 2;
+		Set_scriptvar;				
+		}
+
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

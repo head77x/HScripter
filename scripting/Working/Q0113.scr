@@ -1,0 +1,53 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{		
+		svar1 = "我是船长莱昂，欢迎您进入舒适的船舶家园！";
+		svar2 = "请问有什么可以为您效劳的？";
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+		
+		svar6 = "1. 进入船舶家园";
+		svar7 = "2. 我去别的地方逛逛！";
+		svar8 = "";
+		svar9 = "";
+		
+		Show_multiselect;
+		
+		if ( lvar1 = 1 )
+		{
+			
+			lvar1 = 5;
+			Run_shop;
+
+
+		}
+		
+		if ( lvar1 = 2 )
+		{
+			svar1 = "祝您玩得开心！";
+			svar2 = "";
+			svar3 = "";
+			svar4 = "";
+			svar5 = "";
+			
+			Show_clickmessage;
+		}
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

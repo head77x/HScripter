@@ -1,0 +1,39 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{		
+        svar1 = "看来你已经对战斗有所了解了，现在是考验你成果的时候了，";
+	svar2 = "最近在方舟花园附近总是徘徊着一些邪恶宠物，虽然我知道那些家伙并不能对我们造成威胁，";
+	svar3 = "不过马凯不希望它们去骚扰初来乍到的新人，于是我希望你能帮我赶跑它们。";
+	svar4 = " ";
+	svar5 = " ";
+	Show_clickmessage;
+
+	lvar1 = 83;  
+	lvar2 = 8052;  
+	lvar3 = 1;  
+	Set_toygetitem;
+
+	lvar1 = 4;
+	lvar2 = 1;
+	Set_scriptvar;	
+
+
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

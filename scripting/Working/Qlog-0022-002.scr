@@ -1,0 +1,27 @@
+
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 22;
+		lvar2 = 2;
+		svar1 = "保卫农场 一";
+		svar2 = "白老师已经为最近邪恶宠物频繁\n闹事伤透了头脑，于是委托你帮助\n里拉奶奶，现在去阳光农场的麦田\n附近，赶走8个小鹿乔巴，然后拿\n着8个鹿鹿饼干交给里拉，那是你\n战胜它们的凭证。";
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

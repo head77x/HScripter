@@ -1,0 +1,27 @@
+
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 22;
+		lvar2 = 1;
+		svar1 = "保卫农场 一";
+		svar2 = "最近农场的麦田附近徘徊着很多邪\n恶宠物，这让里拉很是担心，她委\n托你去通知郊外草地的白老师，让\n白老师来赶走那些邪恶宠物。";
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

@@ -1,0 +1,68 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{		
+		
+			lvar1 = 8052;
+			lvar2 = 10;
+			Check_user_item;
+
+			if(lvar1 = 1)
+			{
+			svar1 = "很好，身手敏捷，现在要给你更难的任务了，打败郊外草地西南处的";
+			svar2 = "1只小狗纳豆，它们可是比较难对付的，要多动动脑子噢！";
+			svar3 = " ";
+			svar4 = " ";
+			svar5 = " ";
+			Show_clickmessage; 
+
+			lvar1 = 8052; 
+			lvar2 = 10;
+			Delete_user_item;
+
+			lvar1 = 9999; 
+			lvar2 = 300;
+			Give_user_item;	
+
+
+			lvar1 = 0205;
+			lvar2 = 2;
+			Set_scriptvar;	
+
+
+			goto skip;
+
+
+			}
+
+			if(lvar1 ! 1)
+			{
+			svar1 = " 修炼的道路不是一帆风顺的，你要坚持住噢。";
+			svar2 = " ";
+			svar3 = " ";
+			svar4 = " ";
+			svar5 = " ";
+			Show_clickmessage; 
+			}
+
+
+			skip:
+		}
+
+
+		
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

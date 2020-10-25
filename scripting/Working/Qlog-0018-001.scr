@@ -1,0 +1,27 @@
+
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 18;
+		lvar2 = 1;
+		svar1 = "爱提问的小女孩 二";
+		svar2 = "帮克莉斯问拉布拉布宇宙里最美丽\n的行星是什么,拉布拉布就住在中\n部湖的小屋子里。";
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

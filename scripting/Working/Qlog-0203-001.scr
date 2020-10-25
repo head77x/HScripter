@@ -1,0 +1,26 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 203;
+		lvar2 = 1;
+		svar1 = "探险家雷欧";
+		svar2 = "帮助马凯询问雷欧岛上异常情况，\n雷欧也在方舟花园，提示：小地图\n上的闪光点就是NPC位置噢。";
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

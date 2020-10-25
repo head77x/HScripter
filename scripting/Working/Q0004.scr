@@ -1,0 +1,28 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{		
+	
+		svar1 = " 进了星空大陆你们就要小心了，";
+		svar2 = "虽然我柯妮是魔力使，但是我 ";
+		svar3 = " 可不保证你们的安全，";
+		svar4 = " 这里可有很多……";
+		svar5 = " ";
+		Show_clickmessage;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

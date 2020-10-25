@@ -1,0 +1,27 @@
+
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 22;
+		lvar2 = 3;
+		svar1 = "保卫农场 一";
+		svar2 = "真是一波未平一波又起，阳光农场\n的果园子里也出现了邪恶宠物，里\n拉委托你赶走10个兔子洁妮，并\n拿10个兔兔饼干给里拉，那是你\n战胜它们的凭证。";
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

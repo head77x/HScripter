@@ -1,0 +1,34 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{		
+        svar1 = "最近我发现总有一些邪恶宠物在我的麦田附近徘徊，我必须在它们破坏庄稼之前赶走它们，";
+	svar2 = "可是我已经是一把老骨头了。";
+	svar3 = "孩子，我能拜托你帮我去把这件事告诉白么？让白来铲除它们。";
+	svar4 = " ";
+	svar5 = " ";
+	Show_clickmessage;
+      
+	lvar1 = 22;
+	lvar2 = 1;
+	Set_scriptvar;	
+
+
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

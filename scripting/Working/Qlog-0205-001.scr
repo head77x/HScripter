@@ -1,0 +1,26 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 205;
+		lvar2 = 1;
+		svar1 = "白的特训";
+		svar2 = "在郊外草地打败10只小鹿乔巴得\n到10个鹿鹿饼干后回复白";
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}
