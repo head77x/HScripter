@@ -1,0 +1,1335 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 0;
+		svar1 = "我国生长的孔雀种类是";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "绿孔雀";
+		svar7 = "白孔雀";
+		svar8 = "蓝孔雀";
+		svar9 = "灰孔雀";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "电子计算机发明于哪一年？";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "1946年";
+		svar7 = "1945年";
+		svar8 = "1947年";
+		svar9 = "1948年";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "电影《刘三姐》是反映什么民族的生活故事？";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "壮族";
+		svar7 = "高山族";
+		svar8 = "蒙古族";
+		svar9 = "傣族";
+		Set_quiz;
+
+                lvar1 = 0;
+		svar1 = "被称作“法国号”的乐器是：";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "圆号";
+		svar7 = "小号";
+		svar8 = "短号";
+		svar9 = "长号";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "黄酒名品“加饭酒”的产地在哪？";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "浙江";
+		svar7 = "安徽";
+		svar8 = "四川";
+		svar9 = "陕西";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "成都的市花是";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "芙蓉花";
+		svar7 = "桂花";
+		svar8 = "牡丹";
+		svar9 = "月季";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "大汶口文化遗址在我国的：";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "山东";
+		svar7 = "济南";
+		svar8 = "北京";
+		svar9 = "天津";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "世界最重要的IT高科技产业";
+		svar2 = "基地硅谷位于美国的哪个州？"; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "加利弗尼亚州";
+		svar7 = "阿拉斯加州";
+		svar8 = "科罗拉多州";
+		svar9 = "佛罗里达州";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "人体消化道中最长的器官是：";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "小肠";
+		svar7 = "食管";
+		svar8 = "大肠";
+		svar9 = "胃";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "哈雷慧星的最早记录是哪国人留下的？";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "中国人";
+		svar7 = "英国人";
+		svar8 = "美国人";
+		svar9 = "印度人";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "我国最早的中医学专著是什么？";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "《黄帝内经》";
+		svar7 = "《本草纲目》";
+		svar8 = "《伤寒杂病论》";
+		svar9 = "《千金方》";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "钢是由什么组成的？";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "铁、碳";
+		svar7 = "煤、铁";
+		svar8 = "煤、碳";
+		svar9 = "铁";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "建元是我国哪一个皇帝使用的年号？";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "汉武帝";
+		svar7 = "汉文帝";
+		svar8 = "秦始皇";
+		svar9 = "唐太宗";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "欧元什么时候正式诞生？";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "1999年1月1日";
+		svar7 = "1998年1月1日";
+		svar8 = "1997年7月1日";
+		svar9 = "1998年7月1日";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "心比天高，身为下贱";
+		svar2 = "是《红楼梦》中对谁的判词？"; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "睛雯";
+		svar7 = "袭人";
+		svar8 = "林黛玉";
+		svar9 = "薛宝钗";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "“七月流火”指天气";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "转凉";
+		svar7 = "转暖";
+		svar8 = "炎热";
+		svar9 = "干燥";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "美国历史上第一所高等学府是";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "哈佛大学";
+		svar7 = "耶鲁大学";
+		svar8 = "普林斯顿大学";
+		svar9 = "麻省理工学院";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "最早的校园歌曲出现在";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "日本";
+		svar7 = "美国";
+		svar8 = "中国";
+		svar9 = "法国";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "世界上第一个国家颁布的药典出现在";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "中国唐朝";
+		svar7 = "中国宋朝";
+		svar8 = "印度";
+		svar9 = "埃及";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "企鹅一般在几月份产卵？";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "5月";
+		svar7 = "6月";
+		svar8 = "7月";
+		svar9 = "8月";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "“沙龙”源于哪国语言？";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "法国";
+		svar7 = "德国";
+		svar8 = "应该";
+		svar9 = "阿拉伯";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "地球的年龄约有？";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "46亿年";
+		svar7 = "47亿年";
+		svar8 = "48亿年";
+		svar9 = "49亿年";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "哈雷彗星绕太阳运行的周期约为";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "76年";
+		svar7 = "70年";
+		svar8 = "72年";
+		svar9 = "74年";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "六弦琴是什么乐器的别称";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "吉他";
+		svar7 = "古筝";
+		svar8 = "二胡";
+		svar9 = "琵琶";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "沟通太平洋和印度洋的水道是";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "马六甲海峡";
+		svar7 = "英吉利海峡";
+		svar8 = "白令海峡";
+		svar9 = "麦哲伦海峡";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "一般认为篮球起源于";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "美国";
+		svar7 = "中国";
+		svar8 = "加拿大";
+		svar9 = "罗马";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "世界第一枚邮票出现在";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "英国";
+		svar7 = "中国";
+		svar8 = "法国";
+		svar9 = "俄罗斯";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "自由女神像是哪个国家送给美国的礼物？";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "法国";
+		svar7 = "英国";
+		svar8 = "加拿大";
+		svar9 = "德国";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "有“植物熊猫”之称的是";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "银杉";
+		svar7 = "水杉";
+		svar8 = "银杏";
+		svar9 = "紫檀";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "有记录的世界上飞翔距离最远的是什么鸟？";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "北极燕鸥";
+		svar7 = "大雁";
+		svar8 = "白头鹰";
+		svar9 = "黑尾鸥";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "下半旗是把旗子下降到：";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "距离杆顶的1/3处";
+		svar7 = "距离杆顶的1/2处";
+		svar8 = "距离杆顶的2/3";
+		svar9 = "距离杆顶的1/4";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "我国最早的佛寺是";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "白马寺";
+		svar7 = "寒山寺";
+		svar8 = "清真寺";
+		svar9 = "天灯寺";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "中国最大的商业银行是：";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "中国工商银行";
+		svar7 = "中国农业银行";
+		svar8 = "中国建设银行";
+		svar9 = "中国银行";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "全国性抗日战争爆发的标志是？";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "七七事件";
+		svar7 = "九一八事件";
+		svar8 = "五四运动";
+		svar9 = "淞沪会战";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "中国最热的地方在哪里？";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "吐鲁番盆地";
+		svar7 = "重庆";
+		svar8 = "成都";
+		svar9 = "海南";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "围棋棋盘共有几个交叉点？";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "361";
+		svar7 = "362";
+		svar8 = "363";
+		svar9 = "364";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "被称为“国际会议之都”的城市是";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "日内瓦";
+		svar7 = "北京";
+		svar8 = "瑞士";
+		svar9 = "华盛顿";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "UNESCO是什么国际组织的简称？";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "联合国科教文组织";
+		svar7 = "联合国工业发展组织";
+		svar8 = "联合国国际学校";
+		svar9 = "联合国贸易和发展会议";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "“瘦金体”由谁所创？";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "宋徽宗";
+		svar7 = "唐太宗";
+		svar8 = "王羲之";
+		svar9 = "张旭";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "“光年”是什么单位？";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "长度单位";
+		svar7 = "时间单位";
+		svar8 = "空间单位";
+		svar9 = "质量单位";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "“皇帝”作为国家元首的正式称号，始于";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "秦始皇";
+		svar7 = "汉文帝";
+		svar8 = "周武王";
+		svar9 = "商纣王";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "“打蛇打七寸”的七寸是指";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "心脏";
+		svar7 = "咽喉";
+		svar8 = "胆";
+		svar9 = "肚子";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "谷类食品含量最高的是";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "碳水化合物";
+		svar7 = "脂肪";
+		svar8 = "蛋白质";
+		svar9 = "维生素";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "中国签定的第一个不平等条约是哪个？";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "南京条约";
+		svar7 = "天津条约";
+		svar8 = "北京条约";
+		svar9 = "辛丑条约";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "五岳中的中岳是";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "嵩山";
+		svar7 = "华山";
+		svar8 = "峨眉";
+		svar9 = "松山";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "音乐城在哪个国家";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "奥地利";
+		svar7 = "罗马";
+		svar8 = "法国";
+		svar9 = "希腊";
+		Set_quiz;
+
+
+		lvar1 = 0;
+		svar1 = "诸葛亮的办公地点，武侯祠在什么地方";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "四川成都";
+		svar7 = "重庆";
+		svar8 = "湖南";
+		svar9 = "福建";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "馒头是谁发明的？";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "诸葛亮";
+		svar7 = "朱元璋";
+		svar8 = "华佗";
+		svar9 = "姜子牙";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "哪个火山的爆发毁灭了古罗马帝国的庞贝城？";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "维苏威火山";
+		svar7 = "夏威夷群岛火山";
+		svar8 = "喀拉喀托火山";
+		svar9 = "腾冲火山";
+		Set_quiz;
+
+		lvar1 = 0;
+		svar1 = "五谷中的菽是指什么？";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "大豆";
+		svar7 = "玉米";
+		svar8 = "番薯";
+		svar9 = "黄豆";
+		Set_quiz;
+
+
+	
+		lvar1 = 1;
+		svar1 = "Who washed the plates on the table?";
+		svar2 = "Jenny ________. "; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "did";
+		svar7 = "was";
+		svar8 = "had";
+		svar9 = "would";
+		Set_quiz;
+
+		lvar1 = 1;
+		svar1 = "How are you feeling now?";
+		svar2 = "________."; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "Much better";
+		svar7 = "Very interesting";
+		svar8 = "Never mind";
+		svar9 = "Thank you very much";
+		Set_quiz;
+
+		lvar1 = 1;
+		svar1 = "Could you look after";
+		svar2 = "y daughter for me while I’m away?"; 
+		svar3 = "___________.";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "With pleasure";
+		svar7 = "Yes, here you are";
+		svar8 = "You’re welcome";
+		svar9 = "Yes, please";
+		Set_quiz;
+
+		lvar1 = 1;
+		svar1 = "Oh, I’ve left my schoolbag";
+		svar2 = "in the classroom."; 
+		svar3 = "Don’t worry, I’ll ___it for you.";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "get";
+		svar7 = "carry";
+		svar8 = "bring";
+		svar9 = "take";
+		Set_quiz;
+
+		lvar1 = 1;
+		svar1 = "We never know _______he is.";
+		svar2 = "They say he is a doctor."; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "what";
+		svar7 = "whom";
+		svar8 = "which";
+		svar9 = "where";
+		Set_quiz;
+
+		lvar1 = 1;
+		svar1 = "__________?";
+		svar2 = "Quite well, thank you."; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "How are you getting on with your English";
+		svar7 = "What do you do";
+		svar8 = "What do you think of it";
+		svar9 = "Are you good at English";
+		Set_quiz;
+
+		lvar1 = 1;
+		svar1 = "What’s the weather going";
+		svar2 = "to be like next week?"; 
+		svar3 = "It’s going to be ________.";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "wet";
+		svar7 = "dark";
+		svar8 = "long";
+		svar9 = "far";
+		Set_quiz;
+
+		lvar1 = 1;
+		svar1 = "My parents have been to the United States.";
+		svar2 = "Really? When _______there?"; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "did they go";
+		svar7 = "will they go";
+		svar8 = "had they gone";
+		svar9 = "have they gone.";
+		Set_quiz;
+
+		lvar1 = 1;
+		svar1 = "How long have you ____the";
+		svar2 = "football team of the school?"; 
+		svar3 = "About two years.";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "been on";
+		svar7 = "been at";
+		svar8 = "joined";
+		svar9 = "played";
+		Set_quiz;
+
+		lvar1 = 1;
+		svar1 = "Would you like to come to dinner tonight?";
+		svar2 = "I’d like to, _____I’m to busy."; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "but";
+		svar7 = "and";
+		svar8 = "if";
+		svar9 = "so";
+		Set_quiz;
+
+		lvar1 = 1;
+		svar1 = "Will Mr. Smith be here soon?";
+		svar2 = "I can’t tell. Let’s"; 
+		svar3 = "go and _____when the train arrives.";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "find out";
+		svar7 = "look";
+		svar8 = "look for";
+		svar9 = "find";
+		Set_quiz;
+
+		lvar1 = 1;
+		svar1 = "Shall we stop and have _______tea now?";
+		svar2 = "Great."; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "some";
+		svar7 = "any";
+		svar8 = "little";
+		svar9 = "a bit";
+		Set_quiz;
+
+		lvar1 = 1;
+		svar1 = "Many I ______your bike?";
+		svar2 = "Sorry. I ______it to Mary yesterday."; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "use; lent";
+		svar7 = "keep; borrowed";
+		svar8 = "borrow; repaired";
+		svar9 = "lend; returned";
+		Set_quiz;
+
+		lvar1 = 1;
+		svar1 = "What a nice garden!";
+		svar2 = "It ___ every day."; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "is cleaned.";
+		svar7 = "is cleaning";
+		svar8 = "has cleaned";
+		svar9 = "must clean";
+		Set_quiz;
+
+		lvar1 = 1;
+		svar1 = "Where is Tom?";
+		svar2 = "He’s left a _____ saying that he has"; 
+		svar3 = "something important to do.";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "message";
+		svar7 = "excuse";
+		svar8 = "sentence";
+		svar9 = "news";
+		Set_quiz;
+
+		lvar1 = 1;
+		svar1 = "I am a student. ________ name is Tom.";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "My";
+		svar7 = "Your";
+		svar8 = "His";
+		svar9 = "Her";
+		Set_quiz;
+
+		lvar1 = 1;
+		svar1 = "We usually have a football";
+		svar2 = "match ________ Sunday."; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "on";
+		svar7 = "in";
+		svar8 = "at";
+		svar9 = "to";
+		Set_quiz;
+
+		lvar1 = 1;
+		svar1 = "There ________ a lot of meat on";
+		svar2 = "he plate. Would you like some?"; 
+		svar3 = "Just a little, please.";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "is";
+		svar7 = "are";
+		svar8 = "am";
+		svar9 = "be";
+		Set_quiz;
+
+		lvar1 = 1;
+		svar1 = "Of all the students, Linda draws";
+		svar2 = "________ carefully."; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "most";
+		svar7 = "very";
+		svar8 = "much";
+		svar9 = "more";
+		Set_quiz;
+
+		lvar1 = 1;
+		svar1 = "What is Mum doing now?";
+		svar2 = "She ________ some clothes."; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "is washingt";
+		svar7 = "washes";
+		svar8 = "washed";
+		svar9 = "has washed";
+		Set_quiz;
+
+		lvar1 = 1;
+		svar1 = "There isn't ________ water in the glass.";
+		svar2 = "Let's go and get some."; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "any";
+		svar7 = "many";
+		svar8 = "lots";
+		svar9 = "some";
+		Set_quiz;
+
+		lvar1 = 1;
+		svar1 = "Tomorrow's meeting is very important.";
+		svar2 = "Please ask them ________ there on time."; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "to go";
+		svar7 = "go";
+		svar8 = "going";
+		svar9 = "went";
+		Set_quiz;
+
+		lvar1 = 1;
+		svar1 = "Why are you walking to school?";
+		svar2 = "Because my ________ is broken."; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "bike";
+		svar7 = "radio";
+		svar8 = "watch";
+		svar9 = "bag";
+		Set_quiz;
+
+		lvar1 = 1;
+		svar1 = "Betty didn't come to school";
+		svar2 = "yesterday ________ she was ill."; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "because";
+		svar7 = "but";
+		svar8 = "than";
+		svar9 = "if";
+		Set_quiz;
+
+		lvar1 = 1;
+		svar1 = "Do you enjoy ________ English in";
+		svar2 = "our class, Mr. Green?"; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "teachin";
+		svar7 = "teach";
+		svar8 = "taught";
+		svar9 = "to teach";
+		Set_quiz;
+
+		lvar1 = 1;
+		svar1 = "____为贵，____次之，____为轻";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "民、社稷、君";
+		svar7 = "民、国、君";
+		svar8 = "国、君、民";
+		svar9 = "君、民、国";
+		Set_quiz;
+
+		lvar1 = 1;
+		svar1 = "____不能淫，____不能移，____不能屈";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "富贵、贫贱、威武";
+		svar7 = "贫贱、威武、富贵";
+		svar8 = "威武、富贵、贫贱";
+		svar9 = "";
+		Set_quiz;
+
+		lvar1 = 1;
+		svar1 = "差若____，谬以____";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "毫厘、千里";
+		svar7 = "毫米、万米";
+		svar8 = "厘米、分米";
+		svar9 = "厘米、千米";
+		Set_quiz;
+
+
+		lvar1 = 1;
+		svar1 = "古人有“闻过则喜”之说，";
+		svar2 = "而今天有些人则不然，总是________，"; 
+		svar3 = "对比之下，实在不应该。";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "讳疾忌医";
+		svar7 = "瑕不掩瑜";
+		svar8 = "刚愎自用";
+		svar9 = "好大喜功";
+		Set_quiz;
+
+		lvar1 = 1;
+		svar1 = "这一套百科全书，内容涉及各个领域、";
+		svar2 = "各门学科，真是________，十富多彩。"; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "包罗万象";
+		svar7 = "洋洋大观";
+		svar8 = "蔚为大观";
+		svar9 = "汗牛充栋";
+		Set_quiz;
+
+		lvar1 = 1;
+		svar1 = "人人都有缺点，都有不足，不应";
+		svar2 = "对别人________，对自己高抬贵手。"; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "吹毛求疵";
+		svar7 = "手下留情";
+		svar8 = "严格要求";
+		svar9 = "得过且过";
+		Set_quiz;
+
+		lvar1 = 1;
+		svar1 = "“三国”是我国民间流传最广、";
+		svar2 = "老百姓最为________的一段历史。"; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "熟知";
+		svar7 = "喜爱";
+		svar8 = "难忘";
+		svar9 = "熟悉";
+		Set_quiz;
+
+		lvar1 = 1;
+		svar1 = "武当山________312平方公里，";
+		svar2 = "主峰天柱峰，海拔1613米。"; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "方圆";
+		svar7 = "大约";
+		svar8 = "大小";
+		svar9 = "周围";
+		Set_quiz;
+
+
+		lvar1 = 1;
+		svar1 = "腊月天气________";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "动手动脚";
+		svar7 = "毛手毛脚";
+		svar8 = "双手双脚";
+		svar9 = "冻手冻脚";
+		Set_quiz;
+
+		lvar1 = 1;
+		svar1 = "出奇____胜";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "制";
+		svar7 = "致";
+		svar8 = "至";
+		svar9 = "治";
+		Set_quiz;
+
+		lvar1 = 1;
+		svar1 = "____然不动";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "岿";
+		svar7 = "巍";
+		svar8 = "伟";
+		svar9 = "威";
+		Set_quiz;
+
+		lvar1 = 1;
+		svar1 = "张____失措";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "皇";
+		svar7 = "惶";
+		svar8 = "慌";
+		svar9 = "荒";
+		Set_quiz;
+
+		lvar1 = 1;
+		svar1 = "集思广____";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "益";
+		svar7 = "义";
+		svar8 = "易";
+		svar9 = "意";
+		Set_quiz;
+
+		lvar1 = 1;
+		svar1 = "____里藏针";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "绵";
+		svar7 = "棉";
+		svar8 = "缅";
+		svar9 = "";
+		Set_quiz;
+
+		lvar1 = 1;
+		svar1 = "披星____月";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "戴";
+		svar7 = "带";
+		svar8 = "代";
+		svar9 = "待";
+		Set_quiz;
+
+		lvar1 = 1;
+		svar1 = "浮想联____";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "翩";
+		svar7 = "篇";
+		svar8 = "片";
+		svar9 = "偏";
+		Set_quiz;
+
+		lvar1 = 1;
+		svar1 = "人情____故";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "世";
+		svar7 = "事";
+		svar8 = "是";
+		svar9 = "市";
+		Set_quiz;
+
+		lvar1 = 1;
+		svar1 = "任人____亲";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "唯";
+		svar7 = "为";
+		svar8 = "未";
+		svar9 = "维";
+		Set_quiz;
+
+		lvar1 = 1;
+		svar1 = "名____其实";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "副";
+		svar7 = "符";
+		svar8 = "附";
+		svar9 = "府";
+		Set_quiz;
+
+		lvar1 = 1;
+		svar1 = "目前许多国家都在寻求和采取各种有力";
+		svar2 = "________，减少汽车对人类的危害。"; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "措施";
+		svar7 = "举措";
+		svar8 = "手段";
+		svar9 = "方法";
+		Set_quiz;
+
+		lvar1 = 1;
+		svar1 = "我国大型深水港——山东石臼港的建设";
+		svar2 = "进展顺利，________九月中旬，"; 
+		svar3 = "已完成年施工计划的90%。";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "截至";
+		svar7 = "截止";
+		svar8 = "大约";
+		svar9 = "到了";
+		Set_quiz;
+
+		lvar1 = 1;
+		svar1 = "人行____里路，胜读____年书";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "千、十";
+		svar7 = "百、十";
+		svar8 = "百、一";
+		svar9 = "千、一";
+		Set_quiz;
+
+		lvar1 = 1;
+		svar1 = "天无____日，人无____理";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "二、二";
+		svar7 = "一、一";
+		svar8 = "三、三";
+		svar9 = "一、三";
+		Set_quiz;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
