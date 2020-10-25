@@ -1,0 +1,36 @@
+{
+	OnInitial		
+	{
+		Init_variables;
+	}
+
+	OnPosition	
+	{
+		gvar1 = 14;
+		gvar2 = 134;
+		gvar3 = 30;
+		gvar4 = 161;
+		svar1 = "성지( Zentrne`s Sanctuary )";
+		
+		Check_pos_message;	
+	
+        gvar1 = 54;
+		gvar2 = 164;
+		gvar3 = 76;
+		gvar4 = 197;
+		svar1 = "환희의 동산( Heden )";
+		
+		Check_pos_message;	
+
+	}
+
+	OnTalking	
+	{
+		lvar13 = 156;
+	}
+
+	OnKilling		
+	{
+		lvar13 = 156;
+	}
+}

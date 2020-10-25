@@ -1,0 +1,35 @@
+{
+	OnInitial		
+	{
+		Init_variables;
+	}
+
+	OnPosition	
+	{
+		gvar1 = 55;
+		gvar2 = 183;
+		gvar3 = 85;
+		gvar4 = 215;
+		svar1 = "Basta Beach 2 Ride";
+		
+		Check_pos_message;	
+
+		gvar1 = 113;
+		gvar2 = 238;
+		gvar3 = 161;
+		gvar4 = 4;
+		svar1 = "Triton Beach";
+		
+		Check_pos_message;	           	
+	}
+
+	OnTalking	
+	{
+		lvar13 = 156;
+	}
+
+	OnKilling		
+	{
+		lvar13 = 156;
+	}
+}

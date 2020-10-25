@@ -1,0 +1,4540 @@
+/* Zone Number : 018 */
+
+
+{
+	/* 현재 존(zone)과 관련된 정보 초기화 */
+	OnInitial
+	{
+	}
+
+
+
+
+
+	/* 캐릭터 또는 오브젝트를 선택했을때 처리 */
+	OnClicking
+	{
+		/* 캐릭터인지 비교 */
+		if ( gvar1 = 0 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 341 )
+			{
+
+EXIT_CLICK_341:
+
+
+				/* 대화 출력 */
+				lvar1 = 572;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 342 )
+			{
+
+EXIT_CLICK_342:
+
+
+				/* 대화 출력 */
+				lvar1 = 578;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 343 )
+			{
+
+EXIT_CLICK_343:
+
+
+				/* 대화 출력 */
+				lvar1 = 579;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 344 )
+			{
+
+EXIT_CLICK_344:
+
+
+				/* 대화 출력 */
+				lvar1 = 582;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 345 )
+			{
+
+EXIT_CLICK_345:
+
+
+				/* 대화 출력 */
+				lvar1 = 580;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 346 )
+			{
+
+EXIT_CLICK_346:
+
+
+				/* 대화 출력 */
+				lvar1 = 583;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 347 )
+			{
+
+EXIT_CLICK_347:
+
+
+				/* 대화 출력 */
+				lvar1 = 580;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 348 )
+			{
+
+EXIT_CLICK_348:
+
+
+				/* 대화 출력 */
+				lvar1 = 580;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 349 )
+			{
+
+EXIT_CLICK_349:
+
+
+				/* 대화 출력 */
+				lvar1 = 580;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 350 )
+			{
+
+EXIT_CLICK_350:
+
+
+				/* 대화 출력 */
+				lvar1 = 580;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+		}
+
+		/* 오브젝트인지 비교 */
+		if ( gvar1 = 1 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 3630106 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri5 = 141 )
+				{
+					/* 조건 비교 */
+					lvar1 = 409;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 대화 출력 */
+						lvar1 = 0;
+						svar1 = "신성의 우물로 정화가 된다면,";
+						svar2 = "";
+						svar3 = "정화가 필요한 곳이 너무나도 많다.";
+						svar4 = "";
+						svar5 = "이러다간 우물물이 마르고 말꺼야.";
+						Show_clickmessage;
+
+						/* 행동 처리 */
+						/* 대화 출력 */
+						/* 값 설정 */
+
+						goto EXIT_CLICK;
+					}
+
+
+					goto EXIT_CLICK_3630106;
+				}
+
+
+EXIT_CLICK_3630106:
+
+
+				/* 대화 출력 */
+				lvar1 = 0;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 3840110 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 112 )
+				{
+					/* 조건 비교 */
+					lvar1 = 378;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 대화 출력 */
+						lvar1 = 0;
+						svar1 = "이런데 숨어 있었군.";
+						svar2 = "";
+						svar3 = "정말 이 호박으로 막을 수 있을까?";
+						svar4 = "";
+						svar5 = "";
+						Show_clickmessage;
+
+						/* 행동 처리 */
+						/* 대화 출력 */
+						/* 값 설정 */
+
+						goto EXIT_CLICK;
+					}
+
+
+					goto EXIT_CLICK_3840110;
+				}
+
+
+EXIT_CLICK_3840110:
+
+
+				/* 대화 출력 */
+				lvar1 = 0;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 1990120 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 120 )
+				{
+					/* 조건 비교 */
+					lvar1 = 377;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 대화 출력 */
+						lvar1 = 0;
+						svar1 = "황금의 태양조각을 여기에 넣으면 되는건가?";
+						svar2 = "";
+						svar3 = "";
+						svar4 = "";
+						svar5 = "";
+						Show_clickmessage;
+
+						/* 행동 처리 */
+						/* 대화 출력 */
+						/* 값 설정 */
+
+						goto EXIT_CLICK;
+					}
+
+
+					goto EXIT_CLICK_1990120;
+				}
+
+
+EXIT_CLICK_1990120:
+
+
+				/* 대화 출력 */
+				lvar1 = 0;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 1310130 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 112 )
+				{
+					/* 조건 비교 */
+					lvar1 = 378;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 대화 출력 */
+						lvar1 = 0;
+						svar1 = "여기 하나가 있군.";
+						svar2 = "";
+						svar3 = "호박을 넣어볼까?";
+						svar4 = "";
+						svar5 = "";
+						Show_clickmessage;
+
+						/* 행동 처리 */
+						/* 대화 출력 */
+						/* 값 설정 */
+
+						goto EXIT_CLICK;
+					}
+
+
+					goto EXIT_CLICK_1310130;
+				}
+
+
+EXIT_CLICK_1310130:
+
+
+				/* 대화 출력 */
+				lvar1 = 0;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 1130131 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri5 = 143 )
+				{
+					/* 조건 비교 */
+					lvar1 = 409;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 대화 출력 */
+						lvar1 = 0;
+						svar1 = "이제 마지막이군.";
+						svar2 = "";
+						svar3 = "산더미 같은 시체들을 보면 나도 모르게 움츠려들고 만다.";
+						svar4 = "";
+						svar5 = "부디 이 신성의 우물로 여기에 잠들어 있는 이들의 영혼에 안식이 오기를…";
+						Show_clickmessage;
+
+						/* 행동 처리 */
+						/* 대화 출력 */
+						/* 값 설정 */
+
+						goto EXIT_CLICK;
+					}
+
+
+					goto EXIT_CLICK_1130131;
+				}
+
+
+EXIT_CLICK_1130131:
+
+
+				/* 대화 출력 */
+				lvar1 = 0;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 1710200 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 121 )
+				{
+					/* 조건 비교 */
+					lvar1 = 377;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 대화 출력 */
+						lvar1 = 0;
+						svar1 = "엘긴족은 정말 대단한 민족이었나보군.";
+						svar2 = "";
+						svar3 = "강의 수위까지 조절할 정도의 능력이라니…";
+						svar4 = "";
+						svar5 = "";
+						Show_clickmessage;
+
+						/* 행동 처리 */
+						/* 대화 출력 */
+						/* 값 설정 */
+
+						goto EXIT_CLICK;
+					}
+
+
+					goto EXIT_CLICK_1710200;
+				}
+
+
+EXIT_CLICK_1710200:
+
+
+				/* 대화 출력 */
+				lvar1 = 0;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 7430236 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 134 )
+				{
+					/* 조건 비교 */
+					lvar1 = 351;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 조건 비교 */
+						if ( gvar3 = 351 )
+						{
+							/* 대화 출력 */
+							lvar1 = 0;
+							svar1 = "저 멀리 보이는 것이 쿰란의 묘지군.";
+							svar2 = "";
+							svar3 = "펜던트를 여기다 끼우면 되는 건가?";
+							svar4 = "";
+							svar5 = "";
+							Show_clickmessage;
+
+							/* 행동 처리 */
+							/* 대화 출력 */
+							/* 값 설정 */
+							lvar1 = 351;
+							lvar2 = 1;
+							lvar3 = -1;
+							lvar4 = 0;
+							lvar5 = 0;
+							lvar6 = 0;
+							lvar7 = 0;
+							lvar8 = 0;
+							lvar9 = 0;
+							lvar10 = -1;
+							lvar11 = -1;
+							lvar12 = 0;
+							lvar13 = 0;
+							lvar14 = 0;
+							lvar15 = 0;
+							lvar16 = 0;
+							lvar17 = 0;
+							lvar18 = 0;
+							lvar19 = -1;
+							lvar20 = 1;
+							lvar21 = 135;
+							Set_scriptvar;
+
+							goto EXIT_CLICK;
+						}
+
+					}
+
+
+					goto EXIT_CLICK_7430236;
+				}
+
+
+EXIT_CLICK_7430236:
+
+
+				/* 대화 출력 */
+				lvar1 = 0;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 2430252 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri5 = 148 )
+				{
+					/* 대화 출력 */
+					lvar1 = 0;
+					svar1 = "내가 아바에게 말 안 한건 지금의 이 사태가 올 줄 알았기 때문이지.";
+					svar2 = "";
+					svar3 = "잎의 효능 때문에 이곳 역시 에베스 성의 손길이 닿고 말았다.";
+					svar4 = "";
+					svar5 = "";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+					lvar1 = -1;
+					lvar2 = 0;
+					lvar3 = 399;
+					lvar4 = 0;
+					lvar5 = 1;
+					lvar6 = 0;
+					lvar7 = 0;
+					lvar8 = 0;
+					lvar9 = 0;
+					lvar10 = -1;
+					lvar11 = -1;
+					lvar12 = 0;
+					lvar13 = 0;
+					lvar14 = 0;
+					lvar15 = 0;
+					lvar16 = 0;
+					lvar17 = 0;
+					lvar18 = 0;
+					lvar19 = -1;
+					lvar20 = 4;
+					lvar21 = 149;
+					Set_scriptvar;
+
+					goto EXIT_CLICK;
+
+					goto EXIT_CLICK_2430252;
+				}
+
+
+EXIT_CLICK_2430252:
+
+
+				/* 대화 출력 */
+				lvar1 = 0;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 3090274 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 126 )
+				{
+					/* 조건 비교 */
+					if ( gvar10 = 380 )
+					{
+						/* 대화 출력 */
+						lvar1 = 0;
+						svar1 = "윽! 냄새가 고약하군.";
+						svar2 = "";
+						svar3 = "강으로의 유입도 막아야겠지만 냄새도 없어졌으면 좋겠군.";
+						svar4 = "";
+						svar5 = "물을 뿌려 볼까?";
+						Show_clickmessage;
+
+						/* 행동 처리 */
+						/* 대화 출력 */
+						/* 값 설정 */
+
+						goto EXIT_CLICK;
+					}
+
+
+					goto EXIT_CLICK_3090274;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri5 = 153 )
+				{
+					/* 대화 출력 */
+					lvar1 = 0;
+					svar1 = "지독한 녀석들이군.";
+					svar2 = "";
+					svar3 = "송장들을 이렇게 방치하다니.";
+					svar4 = "";
+					svar5 = "아무리 독한 사람이라도 이걸 보면 속이 뒤집어지고 말겠어.";
+					Show_clickmessage;
+
+					lvar1 = 0;
+					svar1 = "엘긴족의 두개골을 찾으면 된다고 했지?";
+					svar2 = "";
+					svar3 = "음... 이건가?";
+					svar4 = "";
+					svar5 = "";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+					lvar1 = -1;
+					lvar2 = 0;
+					lvar3 = 381;
+					lvar4 = 0;
+					lvar5 = 1;
+					lvar6 = 0;
+					lvar7 = 0;
+					lvar8 = 0;
+					lvar9 = 0;
+					lvar10 = -1;
+					lvar11 = -1;
+					lvar12 = 0;
+					lvar13 = 0;
+					lvar14 = 0;
+					lvar15 = 0;
+					lvar16 = 0;
+					lvar17 = 0;
+					lvar18 = 0;
+					lvar19 = -1;
+					lvar20 = 4;
+					lvar21 = 154;
+					Set_scriptvar;
+
+					goto EXIT_CLICK;
+
+					goto EXIT_CLICK_3090274;
+				}
+
+
+EXIT_CLICK_3090274:
+
+
+				/* 대화 출력 */
+				lvar1 = 0;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 5070316 )
+			{
+
+EXIT_CLICK_5070316:
+
+
+				/* 대화 출력 */
+				lvar1 = 0;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 2810361 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 112 )
+				{
+					/* 조건 비교 */
+					lvar1 = 378;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 대화 출력 */
+						lvar1 = 0;
+						svar1 = "호박을 넣는 곳이 여기 어디인 것 같은데…";
+						svar2 = "";
+						svar3 = "";
+						svar4 = "";
+						svar5 = "";
+						Show_clickmessage;
+
+						/* 행동 처리 */
+						/* 대화 출력 */
+						/* 값 설정 */
+
+						goto EXIT_CLICK;
+					}
+
+
+					goto EXIT_CLICK_2810361;
+				}
+
+
+EXIT_CLICK_2810361:
+
+
+				/* 대화 출력 */
+				lvar1 = 0;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 2660372 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri5 = 139 )
+				{
+					/* 조건 비교 */
+					lvar1 = 409;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 대화 출력 */
+						lvar1 = 0;
+						svar1 = "골렘 녀석들 귀찮게 구는군.";
+						svar2 = "";
+						svar3 = "녀석들은 잠도 안자나?";
+						svar4 = "";
+						svar5 = "하긴 머리가 없으니 피곤한 줄도 모르겠군.";
+						Show_clickmessage;
+
+						lvar1 = 0;
+						svar1 = "어서 끝내고 물이나 뜨러 가야겠다.";
+						svar2 = "";
+						svar3 = "";
+						svar4 = "";
+						svar5 = "";
+						Show_clickmessage;
+
+						/* 행동 처리 */
+						/* 대화 출력 */
+						/* 값 설정 */
+
+						goto EXIT_CLICK;
+					}
+
+
+					goto EXIT_CLICK_2660372;
+				}
+
+
+EXIT_CLICK_2660372:
+
+
+				/* 대화 출력 */
+				lvar1 = 0;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 7550424 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri5 = 150 )
+				{
+					/* 대화 출력 */
+					lvar1 = 0;
+					svar1 = "도착했다. 루트엔 별 문제가 없는것 같군.";
+					svar2 = "";
+					svar3 = "상인들이 타른 지역으로 들어갈 수 있게 된다면 ";
+					svar4 = "";
+					svar5 = "토라만에 대한 공급이 원활하게 이루어지겠지?";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+					lvar1 = -1;
+					lvar2 = 0;
+					lvar3 = 278;
+					lvar4 = 0;
+					lvar5 = 1;
+					lvar6 = 0;
+					lvar7 = 0;
+					lvar8 = 0;
+					lvar9 = 0;
+					lvar10 = -1;
+					lvar11 = -1;
+					lvar12 = 0;
+					lvar13 = 0;
+					lvar14 = 0;
+					lvar15 = 0;
+					lvar16 = 0;
+					lvar17 = 0;
+					lvar18 = 0;
+					lvar19 = -1;
+					lvar20 = 4;
+					lvar21 = 151;
+					Set_scriptvar;
+
+					goto EXIT_CLICK;
+
+					goto EXIT_CLICK_7550424;
+				}
+
+
+EXIT_CLICK_7550424:
+
+
+				/* 대화 출력 */
+				lvar1 = 0;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 2870436 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 122 )
+				{
+					/* 조건 비교 */
+					lvar1 = 377;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 대화 출력 */
+						lvar1 = 0;
+						svar1 = "이 강은 어디로 통하는 걸까?";
+						svar2 = "";
+						svar3 = "에베스 성 근처에선 본적이 없는것 같은데…";
+						svar4 = "";
+						svar5 = "태양의 조각을 넣어볼까?";
+						Show_clickmessage;
+
+						/* 행동 처리 */
+						/* 대화 출력 */
+						/* 값 설정 */
+
+						goto EXIT_CLICK;
+					}
+
+
+					goto EXIT_CLICK_2870436;
+				}
+
+
+EXIT_CLICK_2870436:
+
+
+				/* 대화 출력 */
+				lvar1 = 0;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 3590464 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 123 )
+				{
+					/* 조건 비교 */
+					lvar1 = 377;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 대화 출력 */
+						lvar1 = 0;
+						svar1 = "엘긴족은 기술은 좋았지만 예술은 별로였나보다.";
+						svar2 = "";
+						svar3 = "어딜가나 똑같은 레버밖에 보이질 않으니…";
+						svar4 = "";
+						svar5 = "이제 마지막 조각만 넣으면 된다.";
+						Show_clickmessage;
+
+						/* 행동 처리 */
+						/* 대화 출력 */
+						/* 값 설정 */
+
+						goto EXIT_CLICK;
+					}
+
+
+					goto EXIT_CLICK_3590464;
+				}
+
+
+EXIT_CLICK_3590464:
+
+
+				/* 대화 출력 */
+				lvar1 = 0;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 8230488 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 125 )
+				{
+					/* 조건 비교 */
+					lvar1 = 401;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 대화 출력 */
+						lvar1 = 0;
+						svar1 = "폐허가 된 이곳에 아직 생명의 힘이 흘러넘치는 곳이 있다니,";
+						svar2 = "";
+						svar3 = "밑어지지 않는군.";
+						svar4 = "";
+						svar5 = "그럼 물을 담아볼까?";
+						Show_clickmessage;
+
+						/* 행동 처리 */
+						/* 대화 출력 */
+						/* 값 설정 */
+
+						goto EXIT_CLICK;
+					}
+
+
+					goto EXIT_CLICK_8230488;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri5 = 133 )
+				{
+					/* 조건 비교 */
+					lvar1 = 406;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 대화 출력 */
+						lvar1 = 0;
+						svar1 = "이게 신성의 우물인가 보지?";
+						svar2 = "";
+						svar3 = "생각보단 검소하군.";
+						svar4 = "";
+						svar5 = "이 병에 물을 담으면 되는거군.";
+						Show_clickmessage;
+
+						/* 행동 처리 */
+						/* 대화 출력 */
+						/* 값 설정 */
+
+						goto EXIT_CLICK;
+					}
+
+
+					goto EXIT_CLICK_8230488;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri5 = 136 )
+				{
+					/* 조건 비교 */
+					lvar1 = 408;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 대화 출력 */
+						lvar1 = 0;
+						svar1 = "이런 보잘 것 없는 우물에 그러한 큰 힘이 숨겨져 있다는 사실이";
+						svar2 = "";
+						svar3 = "새삼 나를 놀라게 하는군.";
+						svar4 = "";
+						svar5 = "자연의 힘이라는 것인가?";
+						Show_clickmessage;
+
+						/* 행동 처리 */
+						/* 대화 출력 */
+						/* 값 설정 */
+
+						goto EXIT_CLICK;
+					}
+
+
+					goto EXIT_CLICK_8230488;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri5 = 138 )
+				{
+					/* 조건 비교 */
+					lvar1 = 408;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 대화 출력 */
+						lvar1 = 0;
+						svar1 = "두번째지만 벌써 지겹기 시작하는군.";
+						svar2 = "";
+						svar3 = "왜 아바가 좀더 큰 병을 주진 않았을까?";
+						svar4 = "";
+						svar5 = "";
+						Show_clickmessage;
+
+						/* 행동 처리 */
+						/* 대화 출력 */
+						/* 값 설정 */
+
+						goto EXIT_CLICK;
+					}
+
+
+					goto EXIT_CLICK_8230488;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri5 = 140 )
+				{
+					/* 조건 비교 */
+					lvar1 = 408;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 대화 출력 */
+						lvar1 = 0;
+						svar1 = "신성의 우물물이 여러모로 쓸모가 있군.";
+						svar2 = "";
+						svar3 = "미리 준비해 놓았다가 써먹으면 좋겠어.";
+						svar4 = "";
+						svar5 = "다음에 야영지에 가면 아바에게 부탁해서 병을 얻어놔야겠다.";
+						Show_clickmessage;
+
+						/* 행동 처리 */
+						/* 대화 출력 */
+						/* 값 설정 */
+
+						goto EXIT_CLICK;
+					}
+
+
+					goto EXIT_CLICK_8230488;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri5 = 142 )
+				{
+					/* 조건 비교 */
+					lvar1 = 408;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 대화 출력 */
+						lvar1 = 0;
+						svar1 = "잠깐 쉬었다가 갈까?";
+						svar2 = "";
+						svar3 = "앞으로 가야할 곳이 얼마나 남아 있을까?";
+						svar4 = "";
+						svar5 = "네피림은 왜 전쟁을 일으키는 걸까?";
+						Show_clickmessage;
+
+						lvar1 = 0;
+						svar1 = "무엇을 위해서…";
+						svar2 = "";
+						svar3 = "후~ 과연 내가 어디까지 버틸 수 있을지 궁금하군.";
+						svar4 = "";
+						svar5 = "계속되는 긴장으로 신경이 많이 쇠약해진것 같다.";
+						Show_clickmessage;
+
+						lvar1 = 0;
+						svar1 = "이제 마무리하러 떠나볼까?";
+						svar2 = "";
+						svar3 = "";
+						svar4 = "";
+						svar5 = "";
+						Show_clickmessage;
+
+						/* 행동 처리 */
+						/* 대화 출력 */
+						/* 값 설정 */
+
+						goto EXIT_CLICK;
+					}
+
+
+					goto EXIT_CLICK_8230488;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri5 = 154 )
+				{
+					/* 조건 비교 */
+					lvar1 = 381;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 대화 출력 */
+						lvar1 = 0;
+						svar1 = "여기에 두개골을 넣으라고 했지?";
+						svar2 = "";
+						svar3 = "";
+						svar4 = "";
+						svar5 = "";
+						Show_clickmessage;
+
+						/* 행동 처리 */
+						/* 대화 출력 */
+						/* 값 설정 */
+
+						goto EXIT_CLICK;
+					}
+
+
+					goto EXIT_CLICK_8230488;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri5 = 163 )
+				{
+					/* 조건 비교 */
+					lvar1 = 410;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 대화 출력 */
+						lvar1 = 0;
+						svar1 = "도착했군. 물을 담아볼까?";
+						svar2 = "";
+						svar3 = "";
+						svar4 = "";
+						svar5 = "";
+						Show_clickmessage;
+
+						/* 행동 처리 */
+						/* 대화 출력 */
+						/* 값 설정 */
+
+						goto EXIT_CLICK;
+					}
+
+
+					goto EXIT_CLICK_8230488;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri5 = 166 )
+				{
+					/* 조건 비교 */
+					lvar1 = 410;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 대화 출력 */
+						lvar1 = 0;
+						svar1 = "어디... 물을 담아볼까?";
+						svar2 = "";
+						svar3 = "";
+						svar4 = "";
+						svar5 = "";
+						Show_clickmessage;
+
+						/* 행동 처리 */
+						/* 대화 출력 */
+						/* 값 설정 */
+
+						goto EXIT_CLICK;
+					}
+
+
+					goto EXIT_CLICK_8230488;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri5 = 169 )
+				{
+					/* 조건 비교 */
+					lvar1 = 410;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 대화 출력 */
+						lvar1 = 0;
+						svar1 = "도착했군. 물을 담아볼까?";
+						svar2 = "";
+						svar3 = "";
+						svar4 = "";
+						svar5 = "";
+						Show_clickmessage;
+
+						/* 행동 처리 */
+						/* 대화 출력 */
+						/* 값 설정 */
+
+						goto EXIT_CLICK;
+					}
+
+
+					goto EXIT_CLICK_8230488;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri5 = 172 )
+				{
+					/* 조건 비교 */
+					lvar1 = 410;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 대화 출력 */
+						lvar1 = 0;
+						svar1 = "도착했군. 물을 담아볼까?";
+						svar2 = "";
+						svar3 = "";
+						svar4 = "";
+						svar5 = "";
+						Show_clickmessage;
+
+						/* 행동 처리 */
+						/* 대화 출력 */
+						/* 값 설정 */
+
+						goto EXIT_CLICK;
+					}
+
+
+					goto EXIT_CLICK_8230488;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri5 = 175 )
+				{
+					/* 조건 비교 */
+					lvar1 = 410;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 대화 출력 */
+						lvar1 = 0;
+						svar1 = "도착했군. 물을 담아볼까?";
+						svar2 = "";
+						svar3 = "";
+						svar4 = "";
+						svar5 = "";
+						Show_clickmessage;
+
+						/* 행동 처리 */
+						/* 대화 출력 */
+						/* 값 설정 */
+
+						goto EXIT_CLICK;
+					}
+
+
+					goto EXIT_CLICK_8230488;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri5 = 178 )
+				{
+					/* 조건 비교 */
+					lvar1 = 410;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 대화 출력 */
+						lvar1 = 0;
+						svar1 = "도착했군. 물을 담아볼까?";
+						svar2 = "";
+						svar3 = "";
+						svar4 = "";
+						svar5 = "";
+						Show_clickmessage;
+
+						/* 행동 처리 */
+						/* 대화 출력 */
+						/* 값 설정 */
+
+						goto EXIT_CLICK;
+					}
+
+
+					goto EXIT_CLICK_8230488;
+				}
+
+
+EXIT_CLICK_8230488:
+
+
+				/* 대화 출력 */
+				lvar1 = 0;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 6910513 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 112 )
+				{
+					/* 조건 비교 */
+					lvar1 = 378;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 대화 출력 */
+						lvar1 = 0;
+						svar1 = "네피림이 어떻게 이걸 통해 들어왔지?";
+						svar2 = "";
+						svar3 = "일단 호박부터 넣자.";
+						svar4 = "";
+						svar5 = "";
+						Show_clickmessage;
+
+						/* 행동 처리 */
+						/* 대화 출력 */
+						/* 값 설정 */
+
+						goto EXIT_CLICK;
+					}
+
+
+					goto EXIT_CLICK_6910513;
+				}
+
+
+EXIT_CLICK_6910513:
+
+
+				/* 대화 출력 */
+				lvar1 = 0;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 6740525 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri5 = 137 )
+				{
+					/* 조건 비교 */
+					lvar1 = 409;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 대화 출력 */
+						lvar1 = 0;
+						svar1 = "이것이 상징의 깃발인가 보군.";
+						svar2 = "";
+						svar3 = "";
+						svar4 = "";
+						svar5 = "";
+						Show_clickmessage;
+
+						/* 행동 처리 */
+						/* 대화 출력 */
+						/* 값 설정 */
+
+						goto EXIT_CLICK;
+					}
+
+
+					goto EXIT_CLICK_6740525;
+				}
+
+
+EXIT_CLICK_6740525:
+
+
+				/* 대화 출력 */
+				lvar1 = 0;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 7790276 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 130 )
+				{
+					/* 조건 비교 */
+					if ( gvar10 > 45 )
+					{
+						/* 조건 비교 */
+						if ( gvar11 > 1999 )
+						{
+							/* 대화 출력 */
+							lvar1 = 0;
+							svar1 = "조금 파손된 흔적은 있지만 아직 건재하군.";
+							svar2 = "";
+							svar3 = "응? 표면에 글이 새겨져 있는데? 피로 쓴 글이군.";
+							svar4 = "";
+							svar5 = "";
+							Show_clickmessage;
+
+							lvar1 = 0;
+							svar1 = "'엘긴의 안식처 쿰란이 네피림을 불러들였다. ";
+							svar2 = "";
+							svar3 = "그들이 잠들어 있던 혈족을 이용하여 뒤를 치니 그 누구도 알지 못했으리라... ";
+							svar4 = "";
+							svar5 = "쿰란에 다가가지 마라. 그곳엔 네피림의 문턱이 되었다.'";
+							Show_clickmessage;
+
+							lvar1 = 0;
+							svar1 = "쿰란이란 곳이네피림과 연결되어 있나보군.";
+							svar2 = "";
+							svar3 = "카프탄에게 이 사실을 알려야겠다.";
+							svar4 = "";
+							svar5 = "";
+							Show_clickmessage;
+
+							/* 행동 처리 */
+							/* 대화 출력 */
+							/* 값 설정 */
+							lvar1 = -1;
+							lvar2 = 0;
+							lvar3 = -1;
+							lvar4 = 0;
+							lvar5 = 0;
+							lvar6 = 0;
+							lvar7 = 0;
+							lvar8 = 0;
+							lvar9 = 0;
+							lvar10 = -1;
+							lvar11 = -1;
+							lvar12 = -2000;
+							lvar13 = 0;
+							lvar14 = 0;
+							lvar15 = 0;
+							lvar16 = 0;
+							lvar17 = 0;
+							lvar18 = 0;
+							lvar19 = -1;
+							lvar20 = 1;
+							lvar21 = 131;
+							Set_scriptvar;
+
+							goto EXIT_CLICK;
+						}
+
+					}
+
+					/* 조건 비교 */
+					if ( gvar10 < 46 )
+					{
+						/* 대화 출력 */
+						lvar1 = 0;
+						svar1 = "음… 끙…";
+						svar2 = "";
+						svar3 = "여기 뭐라고 쓰여져 있는 것 같은데…";
+						svar4 = "";
+						svar5 = "나의 레벨로는 볼 수 없는 글인것 같군.";
+						Show_clickmessage;
+
+						lvar1 = 0;
+						svar1 = "음… 레벨에 따라 볼 수 없는 글이 있다니…";
+						svar2 = "";
+						svar3 = "얼토당치도 않군.";
+						svar4 = "";
+						svar5 = "";
+						Show_clickmessage;
+
+						/* 행동 처리 */
+						/* 대화 출력 */
+						/* 값 설정 */
+
+						goto EXIT_CLICK;
+					}
+
+					/* 조건 비교 */
+					if ( gvar11 < 2000 )
+					{
+						/* 대화 출력 */
+						lvar1 = 0;
+						svar1 = "음… 끙…";
+						svar2 = "";
+						svar3 = "여기 뭐라고 쓰여져 있는 것 같은데…";
+						svar4 = "";
+						svar5 = "자이아가 부족해서 이 글을 읽을 수 없는것 같군.";
+						Show_clickmessage;
+
+						lvar1 = 0;
+						svar1 = "레벨이 부족해도 안 읽어지겠군.";
+						svar2 = "";
+						svar3 = "자이아 에너지 2000이상이어야 한다고 했지?";
+						svar4 = "";
+						svar5 = "";
+						Show_clickmessage;
+
+						/* 행동 처리 */
+						/* 대화 출력 */
+						/* 값 설정 */
+
+						goto EXIT_CLICK;
+					}
+
+
+					goto EXIT_CLICK_7790276;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri5 = 155 )
+				{
+					/* 조건 비교 */
+					lvar1 = 382;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 대화 출력 */
+						lvar1 = 0;
+						svar1 = "여기가 엘모르상이군.";
+						svar2 = "";
+						svar3 = "여기에 두개골을 바치면 되겠군.";
+						svar4 = "";
+						svar5 = "";
+						Show_clickmessage;
+
+						/* 행동 처리 */
+						/* 대화 출력 */
+						/* 값 설정 */
+
+						goto EXIT_CLICK;
+					}
+
+
+					goto EXIT_CLICK_7790276;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri5 = 181 )
+				{
+					/* 조건 비교 */
+					lvar1 = 383;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 대화 출력 */
+						lvar1 = 0;
+						svar1 = "위압감이 느껴지는 석상이로군.";
+						svar2 = "";
+						svar3 = "폐허가 된 이곳과는 달리 그 신성함이 넘쳐 흐르는 것 같다.";
+						svar4 = "";
+						svar5 = "여기에 G. 마스터가 부탁한 증서를 바치면 되는건가?";
+						Show_clickmessage;
+
+						/* 행동 처리 */
+						/* 대화 출력 */
+						/* 값 설정 */
+
+						goto EXIT_CLICK;
+					}
+
+
+					goto EXIT_CLICK_7790276;
+				}
+
+
+EXIT_CLICK_7790276:
+
+
+				/* 대화 출력 */
+				lvar1 = 0;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+		}
+
+
+EXIT_CLICK:
+	}
+
+
+
+
+
+	/* 캐릭터 또는 오브젝트를 죽였을때 처리 */
+	OnKilling
+	{
+		/* 캐릭터인지 비교 */
+		if ( gvar1 = 0 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 341 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri5 = 161 )
+				{
+					/* 대화 출력 */
+					lvar1 = 572;
+					svar1 = "내가 죽더라도 우리조직은 계속 활동 할거야.";
+					svar2 = "";
+					svar3 = "복수를 먹고 사는 종족에겐 너의 이런 행동은 불을 더 지필 뿐이다.";
+					svar4 = "";
+					svar5 = "우리의 항전은 계속될 것이다.";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+					lvar1 = -1;
+					lvar2 = 0;
+					lvar3 = -1;
+					lvar4 = 0;
+					lvar5 = 0;
+					lvar6 = 0;
+					lvar7 = 0;
+					lvar8 = 0;
+					lvar9 = 0;
+					lvar10 = -1;
+					lvar11 = -1;
+					lvar12 = 0;
+					lvar13 = 0;
+					lvar14 = 0;
+					lvar15 = 0;
+					lvar16 = 0;
+					lvar17 = 0;
+					lvar18 = 0;
+					lvar19 = -1;
+					lvar20 = 4;
+					lvar21 = 162;
+					Set_scriptvar;
+
+					goto EXIT_KILL;
+
+					goto EXIT_KILL_341;
+				}
+
+
+EXIT_KILL_341:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 342 )
+			{
+
+EXIT_KILL_342:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 343 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri5 = 145 )
+				{
+					/* 대화 출력 */
+					lvar1 = 579;
+					svar1 = "이 수상한 돌에 네피림의 명령이라도 들어있는 건가?";
+					svar2 = "";
+					svar3 = "보기엔 그냥 낙서해 놓은 돌 같은걸?";
+					svar4 = "";
+					svar5 = "";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+					lvar1 = -1;
+					lvar2 = 0;
+					lvar3 = 277;
+					lvar4 = 0;
+					lvar5 = 1;
+					lvar6 = 0;
+					lvar7 = 0;
+					lvar8 = 0;
+					lvar9 = 0;
+					lvar10 = -1;
+					lvar11 = -1;
+					lvar12 = 0;
+					lvar13 = 0;
+					lvar14 = 0;
+					lvar15 = 0;
+					lvar16 = 0;
+					lvar17 = 0;
+					lvar18 = 0;
+					lvar19 = -1;
+					lvar20 = 4;
+					lvar21 = 146;
+					Set_scriptvar;
+
+					goto EXIT_KILL;
+
+					goto EXIT_KILL_343;
+				}
+
+
+EXIT_KILL_343:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 344 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri5 = 189 )
+				{
+					/* 대화 출력 */
+					lvar1 = 582;
+					svar1 = "꾸에엑~";
+					svar2 = "";
+					svar3 = "어떻게 우리의 정보를 알았지?";
+					svar4 = "";
+					svar5 = "누군가 내부의 밀고자가 있었던 모양이군.";
+					Show_clickmessage;
+
+					lvar1 = 582;
+					svar1 = "인간과 거래를 하다니.";
+					svar2 = "";
+					svar3 = "파이크맨의 수치다.";
+					svar4 = "";
+					svar5 = "꾸에엑~~";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+					lvar1 = -1;
+					lvar2 = 0;
+					lvar3 = -1;
+					lvar4 = 0;
+					lvar5 = 0;
+					lvar6 = 0;
+					lvar7 = 0;
+					lvar8 = 0;
+					lvar9 = 0;
+					lvar10 = -1;
+					lvar11 = -1;
+					lvar12 = 0;
+					lvar13 = 0;
+					lvar14 = 0;
+					lvar15 = 0;
+					lvar16 = 0;
+					lvar17 = 0;
+					lvar18 = 0;
+					lvar19 = -1;
+					lvar20 = 4;
+					lvar21 = 190;
+					Set_scriptvar;
+
+					goto EXIT_KILL;
+
+					goto EXIT_KILL_344;
+				}
+
+
+EXIT_KILL_344:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 345 )
+			{
+
+EXIT_KILL_345:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 346 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 133 )
+				{
+					/* 대화 출력 */
+					lvar1 = 583;
+					svar1 = "으아악~";
+					svar2 = "";
+					svar3 = "네피림의 4극 천왕 중의 하나인 내가 이런 나약한 인간에게 쓰러지다니…";
+					svar4 = "";
+					svar5 = "나의 죽음으로 모든 네피림은 너를 죽음의 벼랑으로 내 몰 것이다.";
+					Show_clickmessage;
+
+					lvar1 = 583;
+					svar1 = "들어라. 네피림의 형제들이여! ";
+					svar2 = "";
+					svar3 = "나, 로닌이 형제들의 복수를 바라며 잠들겠다~";
+					svar4 = "";
+					svar5 = "";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+					lvar1 = -1;
+					lvar2 = 0;
+					lvar3 = 351;
+					lvar4 = 0;
+					lvar5 = 1;
+					lvar6 = 0;
+					lvar7 = 0;
+					lvar8 = 0;
+					lvar9 = 0;
+					lvar10 = -1;
+					lvar11 = -1;
+					lvar12 = 0;
+					lvar13 = 0;
+					lvar14 = 0;
+					lvar15 = 0;
+					lvar16 = 0;
+					lvar17 = 0;
+					lvar18 = 0;
+					lvar19 = -1;
+					lvar20 = 1;
+					lvar21 = 134;
+					Set_scriptvar;
+
+					goto EXIT_KILL;
+
+					goto EXIT_KILL_346;
+				}
+
+
+EXIT_KILL_346:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 347 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri5 = 157 )
+				{
+					/* 대화 출력 */
+					lvar1 = 580;
+					svar1 = "크헉~";
+					svar2 = "";
+					svar3 = "내가 쓰러지는 순간 우리 동족은 당신의 존재에 대해 알게 될 것이다.";
+					svar4 = "";
+					svar5 = "당신의 목숨도 얼마남지 않았다...";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+					lvar1 = -1;
+					lvar2 = 0;
+					lvar3 = 400;
+					lvar4 = 0;
+					lvar5 = 1;
+					lvar6 = 0;
+					lvar7 = 0;
+					lvar8 = 0;
+					lvar9 = 0;
+					lvar10 = -1;
+					lvar11 = -1;
+					lvar12 = 0;
+					lvar13 = 0;
+					lvar14 = 0;
+					lvar15 = 0;
+					lvar16 = 0;
+					lvar17 = 0;
+					lvar18 = 0;
+					lvar19 = -1;
+					lvar20 = 4;
+					lvar21 = 158;
+					Set_scriptvar;
+
+					goto EXIT_KILL;
+
+					goto EXIT_KILL_347;
+				}
+
+
+EXIT_KILL_347:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 348 )
+			{
+
+EXIT_KILL_348:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 349 )
+			{
+
+EXIT_KILL_349:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 350 )
+			{
+
+EXIT_KILL_350:
+
+
+
+				goto EXIT_KILL;
+			}
+
+		}
+
+		/* 오브젝트인지 비교 */
+		if ( gvar1 = 1 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 3630106 )
+			{
+
+EXIT_KILL_3630106:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 3840110 )
+			{
+
+EXIT_KILL_3840110:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 1990120 )
+			{
+
+EXIT_KILL_1990120:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 1310130 )
+			{
+
+EXIT_KILL_1310130:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 1130131 )
+			{
+
+EXIT_KILL_1130131:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 1710200 )
+			{
+
+EXIT_KILL_1710200:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 7430236 )
+			{
+
+EXIT_KILL_7430236:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 2430252 )
+			{
+
+EXIT_KILL_2430252:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 3090274 )
+			{
+
+EXIT_KILL_3090274:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 5070316 )
+			{
+
+EXIT_KILL_5070316:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 2810361 )
+			{
+
+EXIT_KILL_2810361:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 2660372 )
+			{
+
+EXIT_KILL_2660372:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 7550424 )
+			{
+
+EXIT_KILL_7550424:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 2870436 )
+			{
+
+EXIT_KILL_2870436:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 3590464 )
+			{
+
+EXIT_KILL_3590464:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 8230488 )
+			{
+
+EXIT_KILL_8230488:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 6910513 )
+			{
+
+EXIT_KILL_6910513:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 6740525 )
+			{
+
+EXIT_KILL_6740525:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 7790276 )
+			{
+
+EXIT_KILL_7790276:
+
+
+
+				goto EXIT_KILL;
+			}
+
+		}
+
+
+EXIT_KILL:
+	}
+
+
+
+
+
+	/* 아이템을 드래그 했을때 처리 */
+	OnDraging
+	{
+		/* 캐릭터인지 비교 */
+		if ( gvar1 = 0 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 341 )
+			{
+
+EXIT_GET_ITEM_341:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 342 )
+			{
+
+EXIT_GET_ITEM_342:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 343 )
+			{
+
+EXIT_GET_ITEM_343:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 344 )
+			{
+
+EXIT_GET_ITEM_344:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 345 )
+			{
+
+EXIT_GET_ITEM_345:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 346 )
+			{
+
+EXIT_GET_ITEM_346:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 347 )
+			{
+
+EXIT_GET_ITEM_347:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 348 )
+			{
+
+EXIT_GET_ITEM_348:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 349 )
+			{
+
+EXIT_GET_ITEM_349:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 350 )
+			{
+
+EXIT_GET_ITEM_350:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+		}
+
+		/* 오브젝트인지 비교 */
+		if ( gvar1 = 1 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 3630106 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri5 = 141 )
+				{
+					/* 조건 비교 */
+					lvar1 = 409;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 조건 비교 */
+						if ( gvar3 = 409 )
+						{
+							/* 대화 출력 */
+							lvar1 = 0;
+							svar1 = "이제 마지막으로 한번만 더 가면 된다.";
+							svar2 = "";
+							svar3 = "";
+							svar4 = "";
+							svar5 = "";
+							Show_clickmessage;
+
+							/* 행동 처리 */
+							/* 대화 출력 */
+							/* 값 설정 */
+							lvar1 = 409;
+							lvar2 = 1;
+							lvar3 = 408;
+							lvar4 = 0;
+							lvar5 = 1;
+							lvar6 = 0;
+							lvar7 = 0;
+							lvar8 = 0;
+							lvar9 = 0;
+							lvar10 = -1;
+							lvar11 = -1;
+							lvar12 = 0;
+							lvar13 = 0;
+							lvar14 = 0;
+							lvar15 = 0;
+							lvar16 = 0;
+							lvar17 = 0;
+							lvar18 = 0;
+							lvar19 = -1;
+							lvar20 = 4;
+							lvar21 = 142;
+							Set_scriptvar;
+
+							goto EXIT_GET_ITEM;
+						}
+
+					}
+
+
+					goto EXIT_GET_ITEM_3630106;
+				}
+
+
+EXIT_GET_ITEM_3630106:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 3840110 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 112 )
+				{
+					/* 조건 비교 */
+					lvar1 = 378;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 조건 비교 */
+						if ( gvar3 = 378 )
+						{
+							/* 대화 출력 */
+							lvar1 = 0;
+							svar1 = "호박을 넣었으니 카프탄에게 알려줘야겠다.";
+							svar2 = "";
+							svar3 = "";
+							svar4 = "";
+							svar5 = "";
+							Show_clickmessage;
+
+							/* 행동 처리 */
+							/* 대화 출력 */
+							/* 값 설정 */
+							lvar1 = 378;
+							lvar2 = 1;
+							lvar3 = -1;
+							lvar4 = 0;
+							lvar5 = 0;
+							lvar6 = 0;
+							lvar7 = 0;
+							lvar8 = 0;
+							lvar9 = 0;
+							lvar10 = -1;
+							lvar11 = -1;
+							lvar12 = 0;
+							lvar13 = 0;
+							lvar14 = 0;
+							lvar15 = 0;
+							lvar16 = 0;
+							lvar17 = 0;
+							lvar18 = 0;
+							lvar19 = -1;
+							lvar20 = 1;
+							lvar21 = 116;
+							Set_scriptvar;
+
+							goto EXIT_GET_ITEM;
+						}
+
+					}
+
+
+					goto EXIT_GET_ITEM_3840110;
+				}
+
+
+EXIT_GET_ITEM_3840110:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 1990120 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 120 )
+				{
+					/* 조건 비교 */
+					lvar1 = 377;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 조건 비교 */
+						if ( gvar3 = 377 )
+						{
+							/* 대화 출력 */
+							lvar1 = 0;
+							svar1 = "강 상류에 있는 것 중 하나는 됐고, 다른 건 근처의 요새 부근에서 본 것 같은데...";
+							svar2 = "";
+							svar3 = "우선 베루수스에게 돌아가서 태양의 조각을 받아와야겠다.";
+							svar4 = "";
+							svar5 = "";
+							Show_clickmessage;
+
+							/* 행동 처리 */
+							/* 대화 출력 */
+							/* 값 설정 */
+							lvar1 = 377;
+							lvar2 = 1;
+							lvar3 = -1;
+							lvar4 = 0;
+							lvar5 = 0;
+							lvar6 = 0;
+							lvar7 = 0;
+							lvar8 = 0;
+							lvar9 = 0;
+							lvar10 = -1;
+							lvar11 = -1;
+							lvar12 = 0;
+							lvar13 = 0;
+							lvar14 = 0;
+							lvar15 = 0;
+							lvar16 = 0;
+							lvar17 = 0;
+							lvar18 = 0;
+							lvar19 = -1;
+							lvar20 = 1;
+							lvar21 = 135;
+							Set_scriptvar;
+
+							goto EXIT_GET_ITEM;
+						}
+
+					}
+
+
+					goto EXIT_GET_ITEM_1990120;
+				}
+
+
+EXIT_GET_ITEM_1990120:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 1310130 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 112 )
+				{
+					/* 조건 비교 */
+					lvar1 = 378;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 조건 비교 */
+						if ( gvar3 = 378 )
+						{
+							/* 대화 출력 */
+							lvar1 = 0;
+							svar1 = "이제 동쪽의 요새로 이동해야겠다.";
+							svar2 = "";
+							svar3 = "";
+							svar4 = "";
+							svar5 = "";
+							Show_clickmessage;
+
+							/* 행동 처리 */
+							/* 대화 출력 */
+							/* 값 설정 */
+							lvar1 = 378;
+							lvar2 = 1;
+							lvar3 = -1;
+							lvar4 = 0;
+							lvar5 = 0;
+							lvar6 = 0;
+							lvar7 = 0;
+							lvar8 = 0;
+							lvar9 = 0;
+							lvar10 = -1;
+							lvar11 = -1;
+							lvar12 = 0;
+							lvar13 = 0;
+							lvar14 = 0;
+							lvar15 = 0;
+							lvar16 = 0;
+							lvar17 = 0;
+							lvar18 = 0;
+							lvar19 = -1;
+							lvar20 = 1;
+							lvar21 = 116;
+							Set_scriptvar;
+
+							goto EXIT_GET_ITEM;
+						}
+
+					}
+
+
+					goto EXIT_GET_ITEM_1310130;
+				}
+
+
+EXIT_GET_ITEM_1310130:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 1130131 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri5 = 143 )
+				{
+					/* 조건 비교 */
+					lvar1 = 409;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 조건 비교 */
+						if ( gvar3 = 409 )
+						{
+							/* 대화 출력 */
+							lvar1 = 0;
+							svar1 = "후~ 아이고 허리야~";
+							svar2 = "";
+							svar3 = "이것으로 다 끝난건가?";
+							svar4 = "";
+							svar5 = "이제 아바에게 돌아가 보상을 받아야지...";
+							Show_clickmessage;
+
+							/* 행동 처리 */
+							/* 대화 출력 */
+							/* 값 설정 */
+							lvar1 = 409;
+							lvar2 = 1;
+							lvar3 = -1;
+							lvar4 = 0;
+							lvar5 = 0;
+							lvar6 = 0;
+							lvar7 = 0;
+							lvar8 = 0;
+							lvar9 = 0;
+							lvar10 = -1;
+							lvar11 = -1;
+							lvar12 = 0;
+							lvar13 = 0;
+							lvar14 = 0;
+							lvar15 = 0;
+							lvar16 = 0;
+							lvar17 = 0;
+							lvar18 = 0;
+							lvar19 = -1;
+							lvar20 = 4;
+							lvar21 = 144;
+							Set_scriptvar;
+
+							goto EXIT_GET_ITEM;
+						}
+
+					}
+
+
+					goto EXIT_GET_ITEM_1130131;
+				}
+
+
+EXIT_GET_ITEM_1130131:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 1710200 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 121 )
+				{
+					/* 조건 비교 */
+					lvar1 = 377;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 조건 비교 */
+						if ( gvar3 = 377 )
+						{
+							/* 대화 출력 */
+							lvar1 = 0;
+							svar1 = "이것으로 상류는 다 됐다. 이제 하류쪽을 살펴봐야 겠군.";
+							svar2 = "";
+							svar3 = "베루수스에게 가서 나머지 2개를 한꺼번에 달라고 졸라봐야겠다.";
+							svar4 = "";
+							svar5 = "";
+							Show_clickmessage;
+
+							/* 행동 처리 */
+							/* 대화 출력 */
+							/* 값 설정 */
+							lvar1 = 377;
+							lvar2 = 1;
+							lvar3 = -1;
+							lvar4 = 0;
+							lvar5 = 0;
+							lvar6 = 0;
+							lvar7 = 0;
+							lvar8 = 0;
+							lvar9 = 0;
+							lvar10 = -1;
+							lvar11 = -1;
+							lvar12 = 0;
+							lvar13 = 0;
+							lvar14 = 0;
+							lvar15 = 0;
+							lvar16 = 0;
+							lvar17 = 0;
+							lvar18 = 0;
+							lvar19 = -1;
+							lvar20 = 1;
+							lvar21 = 136;
+							Set_scriptvar;
+
+							goto EXIT_GET_ITEM;
+						}
+
+					}
+
+
+					goto EXIT_GET_ITEM_1710200;
+				}
+
+
+EXIT_GET_ITEM_1710200:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 7430236 )
+			{
+
+EXIT_GET_ITEM_7430236:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 2430252 )
+			{
+
+EXIT_GET_ITEM_2430252:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 3090274 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 126 )
+				{
+					/* 조건 비교 */
+					lvar1 = 380;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 조건 비교 */
+						if ( gvar3 = 380 )
+						{
+							/* 대화 출력 */
+							lvar1 = 0;
+							svar1 = "이정도의 물로 다 없어질까?";
+							svar2 = "";
+							svar3 = "마차로 몇번 실어 날라야할 것 같은데?";
+							svar4 = "";
+							svar5 = "일단은... 작업을 마쳤으니 카프탄에게 돌아가야겠다.";
+							Show_clickmessage;
+
+							/* 행동 처리 */
+							/* 대화 출력 */
+							/* 값 설정 */
+							lvar1 = 380;
+							lvar2 = 1;
+							lvar3 = -1;
+							lvar4 = 0;
+							lvar5 = 0;
+							lvar6 = 0;
+							lvar7 = 0;
+							lvar8 = 0;
+							lvar9 = 0;
+							lvar10 = -1;
+							lvar11 = -1;
+							lvar12 = 0;
+							lvar13 = 0;
+							lvar14 = 0;
+							lvar15 = 0;
+							lvar16 = 0;
+							lvar17 = 0;
+							lvar18 = 0;
+							lvar19 = -1;
+							lvar20 = 1;
+							lvar21 = 127;
+							Set_scriptvar;
+
+							goto EXIT_GET_ITEM;
+						}
+
+					}
+
+
+					goto EXIT_GET_ITEM_3090274;
+				}
+
+
+EXIT_GET_ITEM_3090274:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 5070316 )
+			{
+
+EXIT_GET_ITEM_5070316:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 2810361 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 112 )
+				{
+					/* 조건 비교 */
+					lvar1 = 378;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 조건 비교 */
+						if ( gvar3 = 378 )
+						{
+							/* 대화 출력 */
+							lvar1 = 0;
+							svar1 = "이것으로 끝났다.";
+							svar2 = "";
+							svar3 = "";
+							svar4 = "";
+							svar5 = "";
+							Show_clickmessage;
+
+							/* 행동 처리 */
+							/* 대화 출력 */
+							/* 값 설정 */
+							lvar1 = 378;
+							lvar2 = 1;
+							lvar3 = -1;
+							lvar4 = 0;
+							lvar5 = 0;
+							lvar6 = 0;
+							lvar7 = 0;
+							lvar8 = 0;
+							lvar9 = 0;
+							lvar10 = -1;
+							lvar11 = -1;
+							lvar12 = 0;
+							lvar13 = 0;
+							lvar14 = 0;
+							lvar15 = 0;
+							lvar16 = 0;
+							lvar17 = 0;
+							lvar18 = 0;
+							lvar19 = -1;
+							lvar20 = 1;
+							lvar21 = 116;
+							Set_scriptvar;
+
+							goto EXIT_GET_ITEM;
+						}
+
+					}
+
+
+					goto EXIT_GET_ITEM_2810361;
+				}
+
+
+EXIT_GET_ITEM_2810361:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 2660372 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri5 = 139 )
+				{
+					/* 조건 비교 */
+					lvar1 = 409;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 조건 비교 */
+						if ( gvar3 = 409 )
+						{
+							/* 대화 출력 */
+							lvar1 = 0;
+							svar1 = "이제 두곳을 정화했군.";
+							svar2 = "";
+							svar3 = "그리고 아직 두곳이 남았다.";
+							svar4 = "";
+							svar5 = "";
+							Show_clickmessage;
+
+							/* 행동 처리 */
+							/* 대화 출력 */
+							/* 값 설정 */
+							lvar1 = 409;
+							lvar2 = 1;
+							lvar3 = 408;
+							lvar4 = 0;
+							lvar5 = 1;
+							lvar6 = 0;
+							lvar7 = 0;
+							lvar8 = 0;
+							lvar9 = 0;
+							lvar10 = -1;
+							lvar11 = -1;
+							lvar12 = 0;
+							lvar13 = 0;
+							lvar14 = 0;
+							lvar15 = 0;
+							lvar16 = 0;
+							lvar17 = 0;
+							lvar18 = 0;
+							lvar19 = -1;
+							lvar20 = 4;
+							lvar21 = 140;
+							Set_scriptvar;
+
+							goto EXIT_GET_ITEM;
+						}
+
+					}
+
+
+					goto EXIT_GET_ITEM_2660372;
+				}
+
+
+EXIT_GET_ITEM_2660372:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 7550424 )
+			{
+
+EXIT_GET_ITEM_7550424:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 2870436 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 122 )
+				{
+					/* 조건 비교 */
+					lvar1 = 377;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 조건 비교 */
+						if ( gvar3 = 377 )
+						{
+							/* 대화 출력 */
+							lvar1 = 0;
+							svar1 = "이제 마지막 하나만 남았다.";
+							svar2 = "";
+							svar3 = "이번엔 베루수스가 준비해 놓았겠지?";
+							svar4 = "";
+							svar5 = "";
+							Show_clickmessage;
+
+							/* 행동 처리 */
+							/* 대화 출력 */
+							/* 값 설정 */
+							lvar1 = 377;
+							lvar2 = 1;
+							lvar3 = -1;
+							lvar4 = 0;
+							lvar5 = 0;
+							lvar6 = 0;
+							lvar7 = 0;
+							lvar8 = 0;
+							lvar9 = 0;
+							lvar10 = -1;
+							lvar11 = -1;
+							lvar12 = 0;
+							lvar13 = 0;
+							lvar14 = 0;
+							lvar15 = 0;
+							lvar16 = 0;
+							lvar17 = 0;
+							lvar18 = 0;
+							lvar19 = -1;
+							lvar20 = 1;
+							lvar21 = 137;
+							Set_scriptvar;
+
+							goto EXIT_GET_ITEM;
+						}
+
+					}
+
+
+					goto EXIT_GET_ITEM_2870436;
+				}
+
+
+EXIT_GET_ITEM_2870436:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 3590464 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 123 )
+				{
+					/* 조건 비교 */
+					lvar1 = 377;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 조건 비교 */
+						if ( gvar3 = 377 )
+						{
+							/* 대화 출력 */
+							lvar1 = 0;
+							svar1 = "이것으로 다 끝났다. 아호벤 야영지에 있는 카프탄에게 결과를 알려줘야겠다.";
+							svar2 = "";
+							svar3 = "";
+							svar4 = "";
+							svar5 = "";
+							Show_clickmessage;
+
+							/* 행동 처리 */
+							/* 대화 출력 */
+							/* 값 설정 */
+							lvar1 = 377;
+							lvar2 = 1;
+							lvar3 = -1;
+							lvar4 = 0;
+							lvar5 = 0;
+							lvar6 = 0;
+							lvar7 = 0;
+							lvar8 = 0;
+							lvar9 = 0;
+							lvar10 = -1;
+							lvar11 = -1;
+							lvar12 = 0;
+							lvar13 = 0;
+							lvar14 = 0;
+							lvar15 = 0;
+							lvar16 = 0;
+							lvar17 = 0;
+							lvar18 = 0;
+							lvar19 = -1;
+							lvar20 = 1;
+							lvar21 = 124;
+							Set_scriptvar;
+
+							goto EXIT_GET_ITEM;
+						}
+
+					}
+
+
+					goto EXIT_GET_ITEM_3590464;
+				}
+
+
+EXIT_GET_ITEM_3590464:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 8230488 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 125 )
+				{
+					/* 조건 비교 */
+					lvar1 = 401;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 조건 비교 */
+						if ( gvar3 = 401 )
+						{
+							/* 대화 출력 */
+							lvar1 = 0;
+							svar1 = "이제 물은 준비되었다.";
+							svar2 = "";
+							svar3 = "이걸 시체의 섬에 있는 시체에 뿌리면 된다.";
+							svar4 = "";
+							svar5 = "";
+							Show_clickmessage;
+
+							/* 행동 처리 */
+							/* 대화 출력 */
+							/* 값 설정 */
+							lvar1 = 401;
+							lvar2 = 1;
+							lvar3 = 380;
+							lvar4 = 0;
+							lvar5 = 1;
+							lvar6 = 0;
+							lvar7 = 0;
+							lvar8 = 0;
+							lvar9 = 0;
+							lvar10 = -1;
+							lvar11 = -1;
+							lvar12 = 0;
+							lvar13 = 0;
+							lvar14 = 0;
+							lvar15 = 0;
+							lvar16 = 0;
+							lvar17 = 0;
+							lvar18 = 0;
+							lvar19 = -1;
+							lvar20 = 1;
+							lvar21 = 126;
+							Set_scriptvar;
+
+							goto EXIT_GET_ITEM;
+						}
+
+					}
+
+
+					goto EXIT_GET_ITEM_8230488;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri5 = 133 )
+				{
+					/* 조건 비교 */
+					lvar1 = 406;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 조건 비교 */
+						if ( gvar3 = 406 )
+						{
+							/* 대화 출력 */
+							lvar1 = 0;
+							svar1 = "신기한 걸? 물에 닿았을 뿐인데도 기분이 상쾌해 지는 걸?";
+							svar2 = "";
+							svar3 = "…";
+							svar4 = "";
+							svar5 = "하지만 체력이 회복 되지는 않는군.";
+							Show_clickmessage;
+
+							lvar1 = 0;
+							svar1 = "어서 여길 벗어나야지.";
+							svar2 = "";
+							svar3 = "유령도시 같군.";
+							svar4 = "";
+							svar5 = "베루수스에게 전해주면 된다고 했지?";
+							Show_clickmessage;
+
+							/* 행동 처리 */
+							/* 대화 출력 */
+							/* 값 설정 */
+							lvar1 = 406;
+							lvar2 = 1;
+							lvar3 = 407;
+							lvar4 = 0;
+							lvar5 = 1;
+							lvar6 = 0;
+							lvar7 = 0;
+							lvar8 = 0;
+							lvar9 = 0;
+							lvar10 = -1;
+							lvar11 = -1;
+							lvar12 = 0;
+							lvar13 = 0;
+							lvar14 = 0;
+							lvar15 = 0;
+							lvar16 = 0;
+							lvar17 = 0;
+							lvar18 = 0;
+							lvar19 = -1;
+							lvar20 = 4;
+							lvar21 = 134;
+							Set_scriptvar;
+
+							goto EXIT_GET_ITEM;
+						}
+
+					}
+
+
+					goto EXIT_GET_ITEM_8230488;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri5 = 136 )
+				{
+					/* 조건 비교 */
+					lvar1 = 408;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 조건 비교 */
+						if ( gvar3 = 408 )
+						{
+							/* 대화 출력 */
+							lvar1 = 0;
+							svar1 = "자~ 이번엔 가까운 남쪽의 요새부터 가볼까?";
+							svar2 = "";
+							svar3 = "";
+							svar4 = "";
+							svar5 = "";
+							Show_clickmessage;
+
+							/* 행동 처리 */
+							/* 대화 출력 */
+							/* 값 설정 */
+							lvar1 = 408;
+							lvar2 = 1;
+							lvar3 = 409;
+							lvar4 = 0;
+							lvar5 = 1;
+							lvar6 = 0;
+							lvar7 = 0;
+							lvar8 = 0;
+							lvar9 = 0;
+							lvar10 = -1;
+							lvar11 = -1;
+							lvar12 = 0;
+							lvar13 = 0;
+							lvar14 = 0;
+							lvar15 = 0;
+							lvar16 = 0;
+							lvar17 = 0;
+							lvar18 = 0;
+							lvar19 = -1;
+							lvar20 = 4;
+							lvar21 = 137;
+							Set_scriptvar;
+
+							goto EXIT_GET_ITEM;
+						}
+
+					}
+
+
+					goto EXIT_GET_ITEM_8230488;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri5 = 138 )
+				{
+					/* 조건 비교 */
+					lvar1 = 408;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 조건 비교 */
+						if ( gvar3 = 408 )
+						{
+							/* 대화 출력 */
+							lvar1 = 0;
+							svar1 = "이번엔 서쪽 요새인가?";
+							svar2 = "";
+							svar3 = "";
+							svar4 = "";
+							svar5 = "";
+							Show_clickmessage;
+
+							/* 행동 처리 */
+							/* 대화 출력 */
+							/* 값 설정 */
+							lvar1 = 408;
+							lvar2 = 1;
+							lvar3 = 409;
+							lvar4 = 0;
+							lvar5 = 1;
+							lvar6 = 0;
+							lvar7 = 0;
+							lvar8 = 0;
+							lvar9 = 0;
+							lvar10 = -1;
+							lvar11 = -1;
+							lvar12 = 0;
+							lvar13 = 0;
+							lvar14 = 0;
+							lvar15 = 0;
+							lvar16 = 0;
+							lvar17 = 0;
+							lvar18 = 0;
+							lvar19 = -1;
+							lvar20 = 4;
+							lvar21 = 139;
+							Set_scriptvar;
+
+							goto EXIT_GET_ITEM;
+						}
+
+					}
+
+
+					goto EXIT_GET_ITEM_8230488;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri5 = 140 )
+				{
+					/* 조건 비교 */
+					lvar1 = 408;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 조건 비교 */
+						if ( gvar3 = 408 )
+						{
+							/* 대화 출력 */
+							lvar1 = 0;
+							svar1 = "다음은 동쪽 요새다.";
+							svar2 = "";
+							svar3 = "서서히 작업이 끝나간다.";
+							svar4 = "";
+							svar5 = "";
+							Show_clickmessage;
+
+							/* 행동 처리 */
+							/* 대화 출력 */
+							/* 값 설정 */
+							lvar1 = 408;
+							lvar2 = 1;
+							lvar3 = 409;
+							lvar4 = 0;
+							lvar5 = 1;
+							lvar6 = 0;
+							lvar7 = 0;
+							lvar8 = 0;
+							lvar9 = 0;
+							lvar10 = -1;
+							lvar11 = -1;
+							lvar12 = 0;
+							lvar13 = 0;
+							lvar14 = 0;
+							lvar15 = 0;
+							lvar16 = 0;
+							lvar17 = 0;
+							lvar18 = 0;
+							lvar19 = -1;
+							lvar20 = 4;
+							lvar21 = 141;
+							Set_scriptvar;
+
+							goto EXIT_GET_ITEM;
+						}
+
+					}
+
+
+					goto EXIT_GET_ITEM_8230488;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri5 = 142 )
+				{
+					/* 조건 비교 */
+					lvar1 = 408;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 조건 비교 */
+						if ( gvar3 = 408 )
+						{
+							/* 대화 출력 */
+							lvar1 = 0;
+							svar1 = "마지막 북쪽의 요새다.";
+							svar2 = "";
+							svar3 = "이런 막무가내식의 퀘스트는 지겨워~";
+							svar4 = "";
+							svar5 = "";
+							Show_clickmessage;
+
+							/* 행동 처리 */
+							/* 대화 출력 */
+							/* 값 설정 */
+							lvar1 = 408;
+							lvar2 = 1;
+							lvar3 = 409;
+							lvar4 = 0;
+							lvar5 = 1;
+							lvar6 = 0;
+							lvar7 = 0;
+							lvar8 = 0;
+							lvar9 = 0;
+							lvar10 = -1;
+							lvar11 = -1;
+							lvar12 = 0;
+							lvar13 = 0;
+							lvar14 = 0;
+							lvar15 = 0;
+							lvar16 = 0;
+							lvar17 = 0;
+							lvar18 = 0;
+							lvar19 = -1;
+							lvar20 = 4;
+							lvar21 = 143;
+							Set_scriptvar;
+
+							goto EXIT_GET_ITEM;
+						}
+
+					}
+
+
+					goto EXIT_GET_ITEM_8230488;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri5 = 154 )
+				{
+					/* 조건 비교 */
+					lvar1 = 381;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 조건 비교 */
+						if ( gvar3 = 381 )
+						{
+							/* 대화 출력 */
+							lvar1 = 0;
+							svar1 = "으~";
+							svar2 = "";
+							svar3 = "이런일 하기 싫어~";
+							svar4 = "";
+							svar5 = "";
+							Show_clickmessage;
+
+							lvar1 = 0;
+							svar1 = "엘긴족의 두개골은 인간보다 더 길고 가늘군.";
+							svar2 = "";
+							svar3 = "그럼 G. 마스터의 머리도 이런가?";
+							svar4 = "";
+							svar5 = "얼굴을 직접 본적이 있어야 말이지…";
+							Show_clickmessage;
+
+							/* 행동 처리 */
+							/* 대화 출력 */
+							/* 값 설정 */
+							lvar1 = 381;
+							lvar2 = 1;
+							lvar3 = 382;
+							lvar4 = 0;
+							lvar5 = 1;
+							lvar6 = 0;
+							lvar7 = 0;
+							lvar8 = 0;
+							lvar9 = 0;
+							lvar10 = -1;
+							lvar11 = -1;
+							lvar12 = 0;
+							lvar13 = 0;
+							lvar14 = 0;
+							lvar15 = 0;
+							lvar16 = 0;
+							lvar17 = 0;
+							lvar18 = 0;
+							lvar19 = -1;
+							lvar20 = 4;
+							lvar21 = 155;
+							Set_scriptvar;
+
+							goto EXIT_GET_ITEM;
+						}
+
+					}
+
+
+					goto EXIT_GET_ITEM_8230488;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri5 = 163 )
+				{
+					/* 조건 비교 */
+					lvar1 = 410;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 조건 비교 */
+						if ( gvar3 = 410 )
+						{
+							/* 대화 출력 */
+							lvar1 = 0;
+							svar1 = "보수가 괜찮은 편이지만 지루한 일이기도 하군.";
+							svar2 = "";
+							svar3 = "";
+							svar4 = "";
+							svar5 = "";
+							Show_clickmessage;
+
+							/* 행동 처리 */
+							/* 대화 출력 */
+							/* 값 설정 */
+							lvar1 = 410;
+							lvar2 = 1;
+							lvar3 = 411;
+							lvar4 = 0;
+							lvar5 = 1;
+							lvar6 = 0;
+							lvar7 = 0;
+							lvar8 = 0;
+							lvar9 = 0;
+							lvar10 = -1;
+							lvar11 = -1;
+							lvar12 = 0;
+							lvar13 = 0;
+							lvar14 = 0;
+							lvar15 = 0;
+							lvar16 = 0;
+							lvar17 = 0;
+							lvar18 = 0;
+							lvar19 = -1;
+							lvar20 = 4;
+							lvar21 = 164;
+							Set_scriptvar;
+
+							goto EXIT_GET_ITEM;
+						}
+
+					}
+
+
+					goto EXIT_GET_ITEM_8230488;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri5 = 166 )
+				{
+					/* 조건 비교 */
+					lvar1 = 410;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 조건 비교 */
+						if ( gvar3 = 410 )
+						{
+							/* 대화 출력 */
+							lvar1 = 0;
+							svar1 = "신비한 능력이 있는 물이지만 우물은 여느 우물과 마찬가지로 허름하군.";
+							svar2 = "";
+							svar3 = "이번엔 베루수스 차례다.";
+							svar4 = "";
+							svar5 = "";
+							Show_clickmessage;
+
+							/* 행동 처리 */
+							/* 대화 출력 */
+							/* 값 설정 */
+							lvar1 = 410;
+							lvar2 = 1;
+							lvar3 = 411;
+							lvar4 = 0;
+							lvar5 = 1;
+							lvar6 = 0;
+							lvar7 = 0;
+							lvar8 = 0;
+							lvar9 = 0;
+							lvar10 = -1;
+							lvar11 = -1;
+							lvar12 = 0;
+							lvar13 = 0;
+							lvar14 = 0;
+							lvar15 = 0;
+							lvar16 = 0;
+							lvar17 = 0;
+							lvar18 = 0;
+							lvar19 = -1;
+							lvar20 = 4;
+							lvar21 = 167;
+							Set_scriptvar;
+
+							goto EXIT_GET_ITEM;
+						}
+
+					}
+
+
+					goto EXIT_GET_ITEM_8230488;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri5 = 169 )
+				{
+					/* 조건 비교 */
+					lvar1 = 410;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 조건 비교 */
+						if ( gvar3 = 410 )
+						{
+							/* 대화 출력 */
+							lvar1 = 0;
+							svar1 = "서둘러 돌아가야겠다.";
+							svar2 = "";
+							svar3 = "자케르의 경우처럼 위급한 일에 쓰인다면 신성의 우물물을 제대로 쓰는 거지…";
+							svar4 = "";
+							svar5 = "";
+							Show_clickmessage;
+
+							/* 행동 처리 */
+							/* 대화 출력 */
+							/* 값 설정 */
+							lvar1 = 410;
+							lvar2 = 1;
+							lvar3 = 411;
+							lvar4 = 0;
+							lvar5 = 1;
+							lvar6 = 0;
+							lvar7 = 0;
+							lvar8 = 0;
+							lvar9 = 0;
+							lvar10 = -1;
+							lvar11 = -1;
+							lvar12 = 0;
+							lvar13 = 0;
+							lvar14 = 0;
+							lvar15 = 0;
+							lvar16 = 0;
+							lvar17 = 0;
+							lvar18 = 0;
+							lvar19 = -1;
+							lvar20 = 4;
+							lvar21 = 170;
+							Set_scriptvar;
+
+							goto EXIT_GET_ITEM;
+						}
+
+					}
+
+
+					goto EXIT_GET_ITEM_8230488;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri5 = 172 )
+				{
+					/* 조건 비교 */
+					lvar1 = 410;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 조건 비교 */
+						if ( gvar3 = 410 )
+						{
+							/* 대화 출력 */
+							lvar1 = 0;
+							svar1 = "끙… 이블리스라…";
+							svar2 = "";
+							svar3 = "그다지 좋은 사람은 아닌것 같던데…";
+							svar4 = "";
+							svar5 = "이걸 갖다주면서 또 뭐라고 한마디 하겠군.";
+							Show_clickmessage;
+
+							/* 행동 처리 */
+							/* 대화 출력 */
+							/* 값 설정 */
+							lvar1 = 410;
+							lvar2 = 1;
+							lvar3 = 411;
+							lvar4 = 0;
+							lvar5 = 1;
+							lvar6 = 0;
+							lvar7 = 0;
+							lvar8 = 0;
+							lvar9 = 0;
+							lvar10 = -1;
+							lvar11 = -1;
+							lvar12 = 0;
+							lvar13 = 0;
+							lvar14 = 0;
+							lvar15 = 0;
+							lvar16 = 0;
+							lvar17 = 0;
+							lvar18 = 0;
+							lvar19 = -1;
+							lvar20 = 4;
+							lvar21 = 173;
+							Set_scriptvar;
+
+							goto EXIT_GET_ITEM;
+						}
+
+					}
+
+
+					goto EXIT_GET_ITEM_8230488;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri5 = 175 )
+				{
+					/* 조건 비교 */
+					lvar1 = 410;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 조건 비교 */
+						if ( gvar3 = 410 )
+						{
+							/* 대화 출력 */
+							lvar1 = 0;
+							svar1 = "황무지에 이런 풍부한 우물이 있다는게 믿어지지 않는군.";
+							svar2 = "";
+							svar3 = "이 역시 엘긴의 작품인가?";
+							svar4 = "";
+							svar5 = "마지막으로 디로나에게 갖다주면 된다.";
+							Show_clickmessage;
+
+							/* 행동 처리 */
+							/* 대화 출력 */
+							/* 값 설정 */
+							lvar1 = 410;
+							lvar2 = 1;
+							lvar3 = 411;
+							lvar4 = 0;
+							lvar5 = 1;
+							lvar6 = 0;
+							lvar7 = 0;
+							lvar8 = 0;
+							lvar9 = 0;
+							lvar10 = -1;
+							lvar11 = -1;
+							lvar12 = 0;
+							lvar13 = 0;
+							lvar14 = 0;
+							lvar15 = 0;
+							lvar16 = 0;
+							lvar17 = 0;
+							lvar18 = 0;
+							lvar19 = -1;
+							lvar20 = 4;
+							lvar21 = 176;
+							Set_scriptvar;
+
+							goto EXIT_GET_ITEM;
+						}
+
+					}
+
+
+					goto EXIT_GET_ITEM_8230488;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri5 = 178 )
+				{
+					/* 조건 비교 */
+					lvar1 = 410;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 조건 비교 */
+						if ( gvar3 = 410 )
+						{
+							/* 대화 출력 */
+							lvar1 = 0;
+							svar1 = "역시 아바도 어쩔수 없었나보군.";
+							svar2 = "";
+							svar3 = "이러다간 나도 하나 가지고 있어야 하는건 아닌가?";
+							svar4 = "";
+							svar5 = "";
+							Show_clickmessage;
+
+							/* 행동 처리 */
+							/* 대화 출력 */
+							/* 값 설정 */
+							lvar1 = 410;
+							lvar2 = 1;
+							lvar3 = 411;
+							lvar4 = 0;
+							lvar5 = 1;
+							lvar6 = 0;
+							lvar7 = 0;
+							lvar8 = 0;
+							lvar9 = 0;
+							lvar10 = -1;
+							lvar11 = -1;
+							lvar12 = 0;
+							lvar13 = 0;
+							lvar14 = 0;
+							lvar15 = 0;
+							lvar16 = 0;
+							lvar17 = 0;
+							lvar18 = 0;
+							lvar19 = -1;
+							lvar20 = 4;
+							lvar21 = 179;
+							Set_scriptvar;
+
+							goto EXIT_GET_ITEM;
+						}
+
+					}
+
+
+					goto EXIT_GET_ITEM_8230488;
+				}
+
+
+EXIT_GET_ITEM_8230488:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 6910513 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 112 )
+				{
+					/* 조건 비교 */
+					lvar1 = 378;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 조건 비교 */
+						if ( gvar3 = 378 )
+						{
+							/* 대화 출력 */
+							lvar1 = 0;
+							svar1 = "휴~ 이제 다 끝났군. 이제 카프탄에게 알리는 일만 남았구나.";
+							svar2 = "";
+							svar3 = "";
+							svar4 = "";
+							svar5 = "";
+							Show_clickmessage;
+
+							/* 행동 처리 */
+							/* 대화 출력 */
+							/* 값 설정 */
+							lvar1 = 378;
+							lvar2 = 1;
+							lvar3 = -1;
+							lvar4 = 0;
+							lvar5 = 0;
+							lvar6 = 0;
+							lvar7 = 0;
+							lvar8 = 0;
+							lvar9 = 0;
+							lvar10 = -1;
+							lvar11 = -1;
+							lvar12 = 0;
+							lvar13 = 0;
+							lvar14 = 0;
+							lvar15 = 0;
+							lvar16 = 0;
+							lvar17 = 0;
+							lvar18 = 0;
+							lvar19 = -1;
+							lvar20 = 1;
+							lvar21 = 116;
+							Set_scriptvar;
+
+							goto EXIT_GET_ITEM;
+						}
+
+					}
+
+
+					goto EXIT_GET_ITEM_6910513;
+				}
+
+
+EXIT_GET_ITEM_6910513:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 6740525 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri5 = 137 )
+				{
+					/* 조건 비교 */
+					lvar1 = 409;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 조건 비교 */
+						if ( gvar3 = 409 )
+						{
+							/* 대화 출력 */
+							lvar1 = 0;
+							svar1 = "매우 고약한 냄새가 나는군.";
+							svar2 = "";
+							svar3 = "그리고 그 냄새 만큼이나 혐오스러운 기운이 맴돌고 있어.";
+							svar4 = "";
+							svar5 = "신성의 우물이 과연 정화시킬 수 있을까?";
+							Show_clickmessage;
+
+							/* 행동 처리 */
+							/* 대화 출력 */
+							/* 값 설정 */
+							lvar1 = 409;
+							lvar2 = 1;
+							lvar3 = 408;
+							lvar4 = 0;
+							lvar5 = 1;
+							lvar6 = 0;
+							lvar7 = 0;
+							lvar8 = 0;
+							lvar9 = 0;
+							lvar10 = -1;
+							lvar11 = -1;
+							lvar12 = 0;
+							lvar13 = 0;
+							lvar14 = 0;
+							lvar15 = 0;
+							lvar16 = 0;
+							lvar17 = 0;
+							lvar18 = 0;
+							lvar19 = -1;
+							lvar20 = 4;
+							lvar21 = 138;
+							Set_scriptvar;
+
+							goto EXIT_GET_ITEM;
+						}
+
+					}
+
+
+					goto EXIT_GET_ITEM_6740525;
+				}
+
+
+EXIT_GET_ITEM_6740525:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 7790276 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri5 = 155 )
+				{
+					/* 조건 비교 */
+					lvar1 = 382;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 조건 비교 */
+						if ( gvar3 = 382 )
+						{
+							/* 대화 출력 */
+							lvar1 = 0;
+							svar1 = "이것으로 G. 마스터의 부탁은 끝났다.";
+							svar2 = "";
+							svar3 = "엘긴족의 위령제라는 것이 영 고약하군.";
+							svar4 = "";
+							svar5 = "돌아가서 결과를 얘기해 줘야지.";
+							Show_clickmessage;
+
+							/* 행동 처리 */
+							/* 대화 출력 */
+							/* 값 설정 */
+							lvar1 = 382;
+							lvar2 = 1;
+							lvar3 = -1;
+							lvar4 = 0;
+							lvar5 = 0;
+							lvar6 = 0;
+							lvar7 = 0;
+							lvar8 = 0;
+							lvar9 = 0;
+							lvar10 = -1;
+							lvar11 = -1;
+							lvar12 = 0;
+							lvar13 = 0;
+							lvar14 = 0;
+							lvar15 = 0;
+							lvar16 = 0;
+							lvar17 = 0;
+							lvar18 = 0;
+							lvar19 = -1;
+							lvar20 = 4;
+							lvar21 = 156;
+							Set_scriptvar;
+
+							goto EXIT_GET_ITEM;
+						}
+
+					}
+
+
+					goto EXIT_GET_ITEM_7790276;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri5 = 181 )
+				{
+					/* 조건 비교 */
+					lvar1 = 383;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 조건 비교 */
+						if ( gvar3 = 383 )
+						{
+							/* 대화 출력 */
+							lvar1 = 0;
+							svar1 = "응? 아무런 반응이 없는데?";
+							svar2 = "";
+							svar3 = "G. 마스터가 분명히 신의 계시가 있을거라고 했는데?";
+							svar4 = "";
+							svar5 = "자신의 피가 아니었나보지?";
+							Show_clickmessage;
+
+							/* 행동 처리 */
+							/* 대화 출력 */
+							/* 값 설정 */
+							lvar1 = 383;
+							lvar2 = 1;
+							lvar3 = -1;
+							lvar4 = 0;
+							lvar5 = 0;
+							lvar6 = 0;
+							lvar7 = 0;
+							lvar8 = 0;
+							lvar9 = 0;
+							lvar10 = -1;
+							lvar11 = -1;
+							lvar12 = 0;
+							lvar13 = 0;
+							lvar14 = 0;
+							lvar15 = 0;
+							lvar16 = 0;
+							lvar17 = 0;
+							lvar18 = 0;
+							lvar19 = -1;
+							lvar20 = 4;
+							lvar21 = 182;
+							Set_scriptvar;
+
+							goto EXIT_GET_ITEM;
+						}
+
+					}
+
+
+					goto EXIT_GET_ITEM_7790276;
+				}
+
+
+EXIT_GET_ITEM_7790276:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+		}
+
+
+EXIT_GET_ITEM:
+	}
+
+
+
+
+
+	/* 캐릭터 또는 오브젝트를 공격했을때 처리 */
+	OnHitting
+	{
+		/* 캐릭터인지 비교 */
+		if ( gvar1 = 0 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 341 )
+			{
+
+EXIT_HIT_341:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 342 )
+			{
+
+EXIT_HIT_342:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 343 )
+			{
+
+EXIT_HIT_343:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 344 )
+			{
+
+EXIT_HIT_344:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 345 )
+			{
+
+EXIT_HIT_345:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 346 )
+			{
+
+EXIT_HIT_346:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 347 )
+			{
+
+EXIT_HIT_347:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 348 )
+			{
+
+EXIT_HIT_348:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 349 )
+			{
+
+EXIT_HIT_349:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 350 )
+			{
+
+EXIT_HIT_350:
+
+
+
+				goto EXIT_HIT;
+			}
+
+		}
+
+		/* 오브젝트인지 비교 */
+		if ( gvar1 = 1 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 3630106 )
+			{
+
+EXIT_HIT_3630106:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 3840110 )
+			{
+
+EXIT_HIT_3840110:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 1990120 )
+			{
+
+EXIT_HIT_1990120:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 1310130 )
+			{
+
+EXIT_HIT_1310130:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 1130131 )
+			{
+
+EXIT_HIT_1130131:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 1710200 )
+			{
+
+EXIT_HIT_1710200:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 7430236 )
+			{
+
+EXIT_HIT_7430236:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 2430252 )
+			{
+
+EXIT_HIT_2430252:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 3090274 )
+			{
+
+EXIT_HIT_3090274:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 5070316 )
+			{
+
+EXIT_HIT_5070316:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 2810361 )
+			{
+
+EXIT_HIT_2810361:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 2660372 )
+			{
+
+EXIT_HIT_2660372:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 7550424 )
+			{
+
+EXIT_HIT_7550424:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 2870436 )
+			{
+
+EXIT_HIT_2870436:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 3590464 )
+			{
+
+EXIT_HIT_3590464:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 8230488 )
+			{
+
+EXIT_HIT_8230488:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 6910513 )
+			{
+
+EXIT_HIT_6910513:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 6740525 )
+			{
+
+EXIT_HIT_6740525:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 7790276 )
+			{
+
+EXIT_HIT_7790276:
+
+
+
+				goto EXIT_HIT;
+			}
+
+		}
+
+
+EXIT_HIT:
+	}
+
+}
+

@@ -1,0 +1,36 @@
+{
+	OnInitial		
+	{
+		Init_variables;
+	}
+
+	OnPosition	
+	{
+		gvar1 = 45;
+		gvar2 = 225;
+		gvar3 = 70;
+		gvar4 = 245;
+		svar1 = "Spider Temple";
+		
+		Check_pos_message;	
+
+		gvar1 = 85;
+		gvar2 = 106;
+		gvar3 = 106;
+		gvar4 = 126;
+		svar1 = "√÷√ ¿« ±º( Cavern Of Healing )";
+		
+		Check_pos_message;	
+	}
+
+	OnTalking	
+	{
+		lvar13 = 156;
+	}
+
+
+	OnKilling		
+	{
+		lvar13 = 156;
+	}
+}

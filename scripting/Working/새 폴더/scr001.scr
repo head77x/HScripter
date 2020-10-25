@@ -1,0 +1,41 @@
+{
+	OnInitial		
+	{
+		Init_variables;
+
+		gvar1 = 0;
+		gvar2 = 200;
+		gvar3 = 0;
+		gvar4 = 120;
+		gvar5 = 17;
+		svar1 = "White Dragon";
+		
+		Stand_chr;
+	}
+
+	OnPosition	
+	{
+		lvar13 = 156;
+	}
+
+	OnTalking	
+	{
+		lvar13 = 156;
+	}
+
+	OnKilling		
+	{
+		lvar13 = 156;
+
+		if (lvar13 > 150) 
+		{
+			if (lvar2 == lvar13)
+			{
+				svar12 = "abcdefg";
+			}
+			lvar1 = -1;
+		}
+
+		svar2 = 1 + "Fuck you all";
+	}
+}

@@ -1,0 +1,54 @@
+{
+	OnInitial		
+	{
+		Init_variables;
+	}
+
+	OnPosition	
+	{
+		gvar1 = 97;
+		gvar2 = 123;
+		gvar3 = 123;
+		gvar4 = 154;
+		svar1 = "Gadius의 상처( Gadius Scar )";
+		
+		Check_pos_message;	
+
+		gvar1 = 39;
+		gvar2 = 250;
+		gvar3 = 94;
+		gvar4 = 311;
+		svar1 = "Villicoa 해변( Villicoa Beach )";
+		
+		Check_pos_message;	
+
+		svar1 = "이곳은 레벨 30 이상만 출입이 가능한 곳입니다";
+		gvar1 = 16;
+		gvar2 = 202;
+		gvar3 = 24;
+		gvar4 = 210;
+		gvar5 = 30;
+		SetLevelZone;
+	}
+
+	OnTalking	
+	{
+		lvar13 = 156;
+	}
+
+	OnKilling		
+	{
+		lvar13 = 156;
+
+		if (lvar13 > 150) 
+		{
+			if (lvar2 == lvar13)
+			{
+				svar12 = "abcdefg";
+			}
+			lvar1 = -1;
+		}
+
+		svar2 = 1 + "Fuck you all";
+	}
+}

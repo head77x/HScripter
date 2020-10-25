@@ -1,0 +1,55 @@
+{
+	OnInitial		
+	{
+		Init_variables;
+	}
+
+	OnPosition	
+	{
+		gvar1 = 93;
+		gvar2 = 211;
+		gvar3 = 107;
+		gvar4 = 224;
+		svar1 = "데몬의 성 입구( Demon's Lair Gate )";
+		
+		Check_pos_message;	
+
+		gvar1 = 12;
+		gvar2 = 204;
+		gvar3 = 24;
+		gvar4 = 214;
+		svar1 = "악마의 피( Devil Blood )";
+		
+		Check_pos_message;	
+
+		gvar1 = 12;
+		gvar2 = 204;
+		gvar3 = 24;
+		gvar4 = 214;
+		svar1 = "데빌 프린스의 유적( Devil Prince Vestiges )";
+		
+		Check_pos_message;	
+
+	}
+
+	OnTalking	
+	{
+		lvar13 = 156;
+	}
+
+	OnKilling		
+	{
+		lvar13 = 156;
+
+		if (lvar13 > 150) 
+		{
+			if (lvar2 == lvar13)
+			{
+				svar12 = "abcdefg";
+			}
+			lvar1 = -1;
+		}
+
+		svar2 = 1 + "Fuck you all";
+	}
+}

@@ -1,0 +1,55 @@
+{
+	OnInitial		
+	{
+		Init_variables;
+	}
+
+	OnPosition	
+	{
+		gvar1 = 122;
+		gvar2 = 43;
+		gvar3 = 134;
+		gvar4 = 54;
+		svar1 = "젠 라스케이드( Zen Lascade )";
+		
+		Check_pos_message;	
+
+		gvar1 = 103;
+		gvar2 = 36;
+		gvar3 = 116;
+		gvar4 = 172;
+		svar1 = "져크 다리( Zerk Bridge )";
+		
+		Check_pos_message;	
+
+		svar1 = "이곳은 레벨 35 이상만 출입이 가능한 곳입니다";
+		gvar1 = 72;
+		gvar2 = 17;
+		gvar3 = 79;
+		gvar4 = 25;
+		gvar5 = 35;
+		SetLevelZone;
+
+	}
+
+	OnTalking	
+	{
+		lvar13 = 156;
+	}
+
+	OnKilling		
+	{
+		lvar13 = 156;
+
+		if (lvar13 > 150) 
+		{
+			if (lvar2 == lvar13)
+			{
+				svar12 = "abcdefg";
+			}
+			lvar1 = -1;
+		}
+
+		svar2 = 1 + "Fuck you all";
+	}
+}

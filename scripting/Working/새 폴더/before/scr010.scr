@@ -1,0 +1,373 @@
+/* Zone Number : 010 */
+
+
+{
+	/* 현재 존(zone)과 관련된 정보 초기화 */
+	OnInitial
+	{
+	}
+
+
+
+
+
+	/* 캐릭터 또는 오브젝트를 선택했을때 처리 */
+	OnClicking
+	{
+		/* 캐릭터인지 비교 */
+		if ( gvar1 = 0 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 181 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 57 )
+				{
+					/* 대화 출력 */
+					lvar1 = 208;
+					svar1 = "내가 벨리움이오. 나를 찾아왔다면 그대 역시 망각의 돌을 원하는 자로군. ";
+					svar2 = "";
+					svar3 = "그대가 정말 실력이 있다면 내 주변을 살피고 있는 간악한 아르만투스를 물리치고 ";
+					svar4 = "'행운의 리타 1개'를 구해오시오.. ";
+					svar5 = "행운의 리타를 받은 후에 그대와 얘기하겠소.";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+					lvar1 = -1;
+					lvar2 = 0;
+					lvar3 = -1;
+					lvar4 = 0;
+					lvar5 = 0;
+					lvar6 = 0;
+					lvar7 = 0;
+					lvar8 = 0;
+					lvar9 = 0;
+					lvar10 = -1;
+					lvar11 = -1;
+					lvar12 = 0;
+					lvar13 = 0;
+					lvar14 = 0;
+					lvar15 = 0;
+					lvar16 = 0;
+					lvar17 = 1;
+					lvar18 = 0;
+					lvar19 = -1;
+					lvar20 = 1;
+					lvar21 = 58;
+					Set_scriptvar;
+
+					goto EXIT_CLICK;
+
+					goto EXIT_CLICK_181;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 58 )
+				{
+					/* 대화 출력 */
+					lvar1 = 208;
+					svar1 = "아무리 그대가 라멕트의 전사라할지라도.. ";
+					svar2 = "그대의 실력을 확인하기 전까진 망각의 돌을 줄수 없네,";
+					svar3 = "";
+					svar4 = "";
+					svar5 = "행운의 리타 1개를 구해오게.";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+
+					goto EXIT_CLICK;
+
+					goto EXIT_CLICK_181;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 59 )
+				{
+					/* 대화 출력 */
+					lvar1 = 208;
+					svar1 = "망각의 돌이라면.. 언제 끝날지 모르는 시련을 덜어줄 수 있겠지.. ";
+					svar2 = "";
+					svar3 = "무탄에게 되돌아가 그 돌이 쓰일 방법을 알아내길 바라오.";
+					svar4 = "";
+					svar5 = "";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+					lvar1 = -1;
+					lvar2 = 0;
+					lvar3 = -1;
+					lvar4 = 0;
+					lvar5 = 0;
+					lvar6 = 0;
+					lvar7 = 0;
+					lvar8 = 0;
+					lvar9 = 0;
+					lvar10 = -1;
+					lvar11 = -1;
+					lvar12 = 0;
+					lvar13 = 0;
+					lvar14 = 0;
+					lvar15 = 0;
+					lvar16 = 0;
+					lvar17 = 0;
+					lvar18 = 0;
+					lvar19 = -1;
+					lvar20 = 1;
+					lvar21 = -1;
+					Set_scriptvar;
+
+					goto EXIT_CLICK;
+
+					goto EXIT_CLICK_181;
+				}
+
+
+EXIT_CLICK_181:
+
+
+				/* 대화 출력 */
+				lvar1 = 208;
+				svar1 = "안녕하시오. 용병단 최고의 정찰병 벨리움이라 하오.";
+				svar2 = "";
+				svar3 = "쉿... 난 지금 말못할 사정이 있어서.. 이렇게 던전 안에 숨어있는 거라오.";
+				svar4 = "숨어있는 이유는 말해줄수 없소! ";
+				svar5 = "음.. 주변의 아르만전사들이나 확 쓸어주고 가시오.";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+		}
+
+		/* 오브젝트인지 비교 */
+		if ( gvar1 = 1 )
+		{
+		}
+
+
+EXIT_CLICK:
+	}
+
+
+
+
+
+	/* 캐릭터 또는 오브젝트를 죽였을때 처리 */
+	OnKilling
+	{
+		/* 캐릭터인지 비교 */
+		if ( gvar1 = 0 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 181 )
+			{
+
+EXIT_KILL_181:
+
+
+
+				goto EXIT_KILL;
+			}
+
+		}
+
+		/* 오브젝트인지 비교 */
+		if ( gvar1 = 1 )
+		{
+		}
+
+
+EXIT_KILL:
+	}
+
+
+
+
+
+	/* 아이템을 드래그 했을때 처리 */
+	OnDraging
+	{
+		/* 캐릭터인지 비교 */
+		if ( gvar1 = 0 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 181 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 58 )
+				{
+					/* 조건 비교 */
+					lvar1 = 285;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 조건 비교 */
+						if ( gvar3 = 285 )
+						{
+							/* 대화 출력 */
+							lvar1 = 208;
+							svar1 = "내 그대의 실력을 직접 확인해보고 싶었네. ";
+							svar2 = "그대의 몸에 흐르는 대륙의 기운이 느껴지는군 . ";
+							svar3 = "";
+							svar4 = "모든게 제자리를 찾기 위해 힘겨운 사투를 벌이고 있어. ";
+							svar5 = "자네뿐만 아니라.. 다른 라멕트의 전사들도.. 모두 열심히 싸워주고 있지.";
+							Show_clickmessage;
+
+							lvar1 = 208;
+							svar1 = "여기 '망각의 돌'을 주겠소. 무탄에게 되돌아가 그 돌이 쓰일 방법을 알아내길 바라오.";
+							svar2 = "";
+							svar3 = "";
+							svar4 = "";
+							svar5 = "";
+							Show_clickmessage;
+
+							/* 행동 처리 */
+							/* 대화 출력 */
+							/* 값 설정 */
+							lvar1 = 285;
+							lvar2 = 1;
+							lvar3 = 225;
+							lvar4 = 0;
+							lvar5 = 1;
+							lvar6 = 0;
+							lvar7 = 0;
+							lvar8 = 0;
+							lvar9 = 0;
+							lvar10 = -1;
+							lvar11 = -1;
+							lvar12 = 0;
+							lvar13 = 0;
+							lvar14 = 0;
+							lvar15 = 0;
+							lvar16 = 0;
+							lvar17 = 0;
+							lvar18 = 0;
+							lvar19 = -1;
+							lvar20 = 1;
+							lvar21 = 59;
+							Set_scriptvar;
+
+							goto EXIT_GET_ITEM;
+						}
+
+					}
+
+
+					goto EXIT_GET_ITEM_181;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri3 = 124 )
+				{
+					/* 조건 비교 */
+					lvar1 = 73;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 조건 비교 */
+						if ( gvar3 = 73 )
+						{
+							/* 대화 출력 */
+							lvar1 = 208;
+							svar1 = "흠.. 베루수스는 항상 나를 염려하고 있군.";
+							svar2 = "";
+							svar3 = "아무래도.. 내가 무너지면.. 그것 또한 지킬 수 없을 테니..";
+							svar4 = "";
+							svar5 = "아무튼 이곳까지 와주어 고맙네. 베루수스에게 안부를 전해주게.";
+							Show_clickmessage;
+
+							/* 행동 처리 */
+							/* 대화 출력 */
+							/* 값 설정 */
+							lvar1 = 73;
+							lvar2 = 1;
+							lvar3 = -1;
+							lvar4 = 0;
+							lvar5 = 0;
+							lvar6 = 0;
+							lvar7 = 0;
+							lvar8 = 0;
+							lvar9 = 0;
+							lvar10 = -1;
+							lvar11 = -1;
+							lvar12 = 0;
+							lvar13 = 0;
+							lvar14 = 0;
+							lvar15 = 0;
+							lvar16 = 0;
+							lvar17 = 0;
+							lvar18 = 0;
+							lvar19 = -1;
+							lvar20 = 2;
+							lvar21 = 125;
+							Set_scriptvar;
+
+							goto EXIT_GET_ITEM;
+						}
+
+					}
+
+
+					goto EXIT_GET_ITEM_181;
+				}
+
+
+EXIT_GET_ITEM_181:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+		}
+
+		/* 오브젝트인지 비교 */
+		if ( gvar1 = 1 )
+		{
+		}
+
+
+EXIT_GET_ITEM:
+	}
+
+
+
+
+
+	/* 캐릭터 또는 오브젝트를 공격했을때 처리 */
+	OnHitting
+	{
+		/* 캐릭터인지 비교 */
+		if ( gvar1 = 0 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 181 )
+			{
+
+EXIT_HIT_181:
+
+
+
+				goto EXIT_HIT;
+			}
+
+		}
+
+		/* 오브젝트인지 비교 */
+		if ( gvar1 = 1 )
+		{
+		}
+
+
+EXIT_HIT:
+	}
+
+}
+

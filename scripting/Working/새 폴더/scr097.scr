@@ -1,0 +1,29 @@
+{
+	OnInitial		
+	{
+		Init_variables;
+	}
+
+	OnPosition	
+	{
+		gvar1 = 113;
+		gvar2 = 56;
+		gvar3 = 129;
+		gvar4 = 72;
+		svar1 = "Hell Fountain";
+		
+		Check_pos_message;	
+
+	}
+
+	OnTalking	
+	{
+		lvar13 = 156;
+	}
+
+
+	OnKilling		
+	{
+		lvar13 = 156;
+	}
+}

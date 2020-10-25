@@ -1,0 +1,39 @@
+{
+	OnInitial		
+	{
+		Init_variables;
+	}
+
+
+	OnPosition	
+	{
+		gvar1 = 12;
+		gvar2 = 39;
+		gvar3 = 26;
+		gvar4 = 53;
+		svar1 = "Artamis Cross";
+		
+		Check_pos_message;	
+
+		gvar1 = 109;
+		gvar2 = 112;
+		gvar3 = 120;
+		gvar4 = 123;
+		svar1 = "∏∂≥‡¿« «•Ω√( Witch`s Sign )";
+		
+		Check_pos_message;	
+
+	}
+
+
+	OnTalking	
+	{
+		lvar13 = 156;
+	}
+
+
+	OnKilling		
+	{
+		lvar13 = 156;
+	}
+}

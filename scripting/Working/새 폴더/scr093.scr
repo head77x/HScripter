@@ -1,0 +1,45 @@
+{
+	OnInitial		
+	{
+		Init_variables;
+	}
+
+	OnPosition	
+	{
+		gvar1 = 97;
+		gvar2 = 0;
+		gvar3 = 138;
+		gvar4 = 82;
+		svar1 = "Gasta Beach";
+		
+		Check_pos_message;	
+
+		gvar1 = 126;
+		gvar2 = 261;
+		gvar3 = 150;
+		gvar4 = 291;
+		svar1 = "Gasta Megalith";
+		
+		Check_pos_message;	
+
+		gvar1 = 1;
+		gvar2 = 91;
+		gvar3 = 84;
+		gvar4 = 239;
+		svar1 = "Lost Delta Wing";
+		
+		Check_pos_message;	
+
+	}
+
+	OnTalking	
+	{
+		lvar13 = 156;
+	}
+
+
+	OnKilling		
+	{
+		lvar13 = 156;
+	}
+}

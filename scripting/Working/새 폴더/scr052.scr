@@ -1,0 +1,480 @@
+{
+	OnInitial		
+	{
+		Init_variables;
+
+
+		gvar1 = 0;
+		gvar2 = 2;
+		gvar3 = 1;
+		gvar4 = 14;
+		gvar5 = 66;
+		Stand_chr;
+
+		gvar1 = 1;
+		gvar2 = 2;
+		gvar3 = 1;
+		gvar4 = 53;
+		gvar5 = 95;
+		Stand_chr;
+
+		gvar1 = 2;
+		gvar2 = 2;
+		gvar3 = 1;
+		gvar4 = 106;
+		gvar5 = 157;
+		Stand_chr;
+
+		gvar1 = 3;
+		gvar2 = 2;
+		gvar3 = 1;
+		gvar4 = 141;
+		gvar5 = 203;
+		Stand_chr;
+
+		gvar1 = 4;
+		gvar2 = 2;
+		gvar3 = 1;
+		gvar4 = 94;
+		gvar5 = 189;
+		Stand_chr;
+
+		gvar1 = 5;
+		gvar2 = 2;
+		gvar3 = 1;
+		gvar4 = 77;
+		gvar5 = 243;
+		Stand_chr;
+
+		gvar1 = 6;
+		gvar2 = 2;
+		gvar3 = 1;
+		gvar4 = 56;
+		gvar5 = 279;
+		Stand_chr;
+
+		gvar1 = 7;
+		gvar2 = 2;
+		gvar3 = 1;
+		gvar4 = 149;
+		gvar5 = 16;
+		Stand_chr;
+
+		gvar1 = 8;
+		gvar2 = 220;
+		gvar3 = 0;
+		gvar4 = 116;
+		gvar5 = 189;
+		svar1 = "Daparunt(The shopkeeper)";
+		Stand_chr;
+
+		gvar1 = 9;
+		gvar2 = 223;
+		gvar3 = 0;
+		gvar4 = 87;
+		gvar5 = 234;
+		svar1 = "Lanshal(The innkeeper)";
+		Stand_chr;
+
+		gvar1 = 10;
+		gvar2 = 226;
+		gvar3 = 0;
+		gvar4 = 97;
+		gvar5 = 204;
+		svar1 = "Eben(The banker)";
+		Stand_chr;
+
+		gvar1 = 11;
+		gvar2 = 229;
+		gvar3 = 0;
+		gvar4 = 151;
+		gvar5 = 175;
+		svar1 = "Veresian(The priest)";
+		Stand_chr;
+
+		gvar1 = 12;
+		gvar2 = 232;
+		gvar3 = 0;
+		gvar4 = 60;
+		gvar5 = 207;
+		svar1 = "Roins(The wizard)";
+		Stand_chr;
+
+		gvar1 = 13;
+		gvar2 = 234;
+		gvar3 = 0;
+		gvar4 = 53;
+		gvar5 = 164;
+		svar1 = "Dugal(The blacksmith)";
+		Stand_chr;
+
+		gvar1 = 14;
+		gvar2 = 238;
+		gvar3 = 0;
+		gvar4 = 140;
+		gvar5 = 206;
+		svar1 = "Mckeon(Man)";
+		Stand_chr;
+
+		gvar1 = 15;
+		gvar2 = 239;
+		gvar3 = 0;
+		gvar4 = 102;
+		gvar5 = 183;
+		svar1 = "Iria(Woman)";
+		Stand_chr;
+	}
+
+	OnPosition	
+	{
+		gvar1 = 144;
+		gvar2 = 235;
+		gvar3 = 153;
+		gvar4 = 243;
+		svar1 = "이름없는 무덤( A Burial Ground )";
+		
+		Check_pos_message;	
+
+		gvar1 = 53;
+		gvar2 = 219;
+		gvar3 = 63;
+		gvar4 = 228;
+		svar1 = "수련장( Arena Of Amelioration )";
+		
+		Check_pos_message;	
+
+		gvar1 = 104;
+		gvar2 = 191;
+		gvar3 = 112;
+		gvar4 = 197;
+		svar1 = "Daparunt의 상점( Daparunt's Store )";
+		
+		Check_pos_message;	
+
+		gvar1 = 46;
+		gvar2 = 19;
+		gvar3 = 62;
+		gvar4 = 34;
+		svar1 = "Dhyana";
+		
+		Check_pos_message;	
+
+		gvar1 = 49;
+		gvar2 = 164;
+		gvar3 = 58;
+		gvar4 = 171;
+		svar1 = "Dugal의 무기점( Dugal Ames's Armory )";
+		
+		Check_pos_message;	
+
+		gvar1 = 91;
+		gvar2 = 210;
+		gvar3 = 99;
+		gvar4 = 216;
+		svar1 = "Eben의 은행( Bank Of Eben Robbins )";
+		
+		Check_pos_message;	
+
+		gvar1 = 100;
+		gvar2 = 207;
+		gvar3 = 108;
+		gvar4 = 212;
+		svar1 = "Eben의 은행( Bank Of Eben Robbins )";
+		
+		Check_pos_message;	
+
+		gvar1 = 80;
+		gvar2 = 235;
+		gvar3 = 88;
+		gvar4 = 241;
+		svar1 = "Lanshal의 여관( Lanshal's Inn )";
+		
+		Check_pos_message;	
+
+		gvar1 = 91;
+		gvar2 = 244;
+		gvar3 = 99;
+		gvar4 = 249;
+		svar1 = "Lanshal의 여관( Lanshal's Inn )";
+		
+		Check_pos_message;	
+
+		gvar1 = 55;
+		gvar2 = 210;
+		gvar3 = 63;
+		gvar4 = 211;
+		svar1 = "마법사 Roin의 집( Roin's Wizardry )";
+		
+		Check_pos_message;	
+
+		gvar1 = 146;
+		gvar2 = 177;
+		gvar3 = 154;
+		gvar4 = 183;
+		svar1 = "Veresian의 사원( Veresian's Temple )";
+		
+		Check_pos_message;	
+
+		gvar1 = 62;
+		gvar2 = 129;
+		gvar3 = 72;
+		gvar4 = 136;
+		svar1 = "Vergenia 성 북문( Vergenia Castle North Gate )";
+		
+		Check_pos_message;	
+
+		gvar1 = 117;
+		gvar2 = 142;
+		gvar3 = 127;
+		gvar4 = 152;
+		svar1 = "Vergenia 명예의 전당( Vergenia Castle Palace Of Glory )";
+		
+		Check_pos_message;	
+
+		gvar1 = 63;
+		gvar2 = 258;
+		gvar3 = 72;
+		gvar4 = 266;
+		svar1 = "Vergenia 성 남문( Vergenia Castle South Gate )";
+		
+		Check_pos_message;	
+
+
+		gvar1 = 11;
+		gvar2 = 63;
+		gvar3 = 17;
+		gvar4 = 69;
+		svar1 = "";
+		svar2 = "Orc의 오두막";
+		svar3 = "";
+		svar4 = "숲 II";
+		svar5 = "";
+		svar6 = "평원 II";
+		svar7 = "Vergenia 성";
+		svar8 = "Cris의 집들";
+
+		Check_pos_direction;
+	
+		gvar1 = 50;
+		gvar2 = 92;
+		gvar3 = 56;
+		gvar4 = 98;
+		svar1 = "";
+		svar2 = "";
+		svar3 = "Orc의 오두막";
+		svar4 = "";
+		svar5 = "숲 II / 평원 II";
+		svar6 = "";
+		svar7 = "Vergenia 성";
+		svar8 = "";
+
+		Check_pos_direction;
+	
+		gvar1 = 103;
+		gvar2 = 154;
+		gvar3 = 109;
+		gvar4 = 160;
+		svar1 = "수련장";
+		svar2 = "무기상점";
+		svar3 = "";
+		svar4 = "";
+		svar5 = "명예의 전당";
+		svar6 = "사원";
+		svar7 = "";
+		svar8 = "상점 / 은행";
+
+		Check_pos_direction;
+	
+		gvar1 = 138;
+		gvar2 = 200;
+		gvar3 = 144;
+		gvar4 = 206;
+		svar1 = "남쪽 입구";
+		svar2 = "상점 / 은행";
+		svar3 = "";
+		svar4 = "명예의 전당";
+		svar5 = "사원";
+		svar6 = "";
+		svar7 = "";
+		svar8 = "";
+
+		Check_pos_direction;
+	
+		gvar1 = 91;
+		gvar2 = 186;
+		gvar3 = 97;
+		gvar4 = 192;
+		svar1 = "수련장";
+		svar2 = "무기상점";
+		svar3 = "";
+		svar4 = "";
+		svar5 = "명예의 전당";
+		svar6 = "상점";
+		svar7 = "";
+		svar8 = "여관/남쪽 입구/은행";
+
+		Check_pos_direction;
+	
+		gvar1 = 74;
+		gvar2 = 240;
+		gvar3 = 80;
+		gvar4 = 246;
+		svar1 = "";
+		svar2 = "훈련장";
+		svar3 = "무기상점";
+		svar4 = "북쪽 입구";
+		svar5 = "은행";
+		svar6 = "여관";
+		svar7 = "";
+		svar8 = "남쪽 입구";
+
+		Check_pos_direction;
+	
+		gvar1 = 59;
+		gvar2 = 282;
+		gvar3 = 53;
+		gvar4 = 276;
+		svar1 = "";
+		svar2 = "Orc의 오두막";
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+		svar6 = "묘지";
+		svar7 = "";
+		svar8 = "Cris의 집들";
+
+		Check_pos_direction;
+	
+		gvar1 = 149;
+		gvar2 = 16;
+		gvar3 = 149;
+		gvar4 = 16;
+		svar1 = "Vergenia 성";
+		svar2 = "";
+		svar3 = "";
+		svar4 = "숲 II";
+		svar5 = "";
+		svar6 = "평원 II";
+		svar7 = "";
+		svar8 = "";
+
+		Check_pos_direction;
+	
+	}
+
+	OnTalking	
+	{
+		if ( lvar1 == 0 )			
+		{
+			if ( lvar2 == 8 )
+			{
+				svar1 = "안녕하세요? 저는 상인입니다.";
+				svar2 = "한번 둘러보세요.";
+				gvar1 = 14;
+				ShopType;
+			}
+
+			if ( lvar2 == 9 )	
+			{
+				svar1 = "안녕하세요? 이곳은 여관입니다. 하루 한번 쉬실수 있으며, 레벨 10이상의 유저는 사용료 10000 GOLD 를 지불해야 합니다.";
+				svar2 = "쉬시겠습니까?";
+				gvar1 = 17;
+				ShopType;
+
+				if ( gvar100 == 1 )  /* 리턴값이 Yes 라면 */
+				{
+					if ( gvar7 < 11 )	/* 레벨이 10 이하면 무료로 이용하게 */
+					{
+						Sleeping;
+					}
+
+					if ( gvar7 > 10 )	/* 레벨이 10 이상이면 */
+					{
+						if ( gvar31 > 9999 ) /* 10000 골드보다 많이 가지고 있다면 */
+						{
+							Sleeping;
+						}
+
+						if ( gvar31 < 10000 )
+						{
+							svar1 = "10000 GOLD가 없군요";
+							svar2 = "여관을 사용할 수 없습니다.";
+							gvar1 = -1;
+							ShopType;
+						}
+					}
+				}
+			}
+
+			if ( lvar2 == 10 )	
+			{
+				svar1 = "이곳은 은행입니다.";
+				svar2 = "무엇을 도와드릴까요?";
+				gvar1 = 16;
+				ShopType;
+			}
+
+			if ( lvar2 == 11 )	
+			{
+				svar1 = "이곳은 사원입니다.";
+				svar2 = "무엇이 필요하시죠?";
+				gvar1 = 15;
+				ShopType;
+			}
+
+			if ( lvar2 == 12 )	
+			{
+				svar1 = "저는 마법사입니다.";
+				svar2 = "무엇이 필요하시죠?";
+				gvar1 = 6;
+				ShopType;
+			}
+
+			if ( lvar2 == 13 )	
+			{
+				svar1 = "안녕하세요? 저는 대장장이입니다.";
+				svar2 = "한번 둘러보세요.";
+				gvar1 = 0;
+				ShopType;
+			}
+
+			if ( lvar2 == 14 )	
+			{
+				svar1 = "안녕하세요? 저는 마을사람입니다.";
+				svar2 = "무엇을 도와드릴까요?";
+				Show_message;
+			}
+
+			if ( lvar2 == 15 )	
+			{
+				svar1 = "안녕하세요? 저는 여자마을사람입니다.";
+				svar2 = "반가워요.";
+				Show_message;
+			}
+		}
+	}
+
+	OnKilling		
+	{
+		lvar13 = 156;
+
+		if (lvar13 > 150) 
+		{
+			if (lvar2 == lvar13)
+			{
+				svar12 = "abcdefg";
+			}
+			lvar1 = -1;
+		}
+
+		svar2 = 1 + "Fuck you all";
+	}
+
+	OnSpecial
+	{
+		gvar1 = 83;
+		gvar2 = 237;
+		gvar3 = 0;
+		Check_and_stand_guard;
+	}
+}

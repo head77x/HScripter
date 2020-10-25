@@ -1,0 +1,133 @@
+{
+	OnInitial		
+	{
+		Init_variables;
+
+		gvar1 = 0;
+		gvar2 = 2;
+		gvar3 = 1;
+		gvar4 = 76;
+		gvar5 = 126;
+		Stand_chr;
+
+		gvar1 = 1;
+		gvar2 = 2;
+		gvar3 = 1;
+		gvar4 = 16;
+		gvar5 = 285;
+		Stand_chr;
+
+		gvar1 = 2;
+		gvar2 = 226;
+		gvar3 = 0;
+		gvar4 = 62;
+		gvar5 = 113;
+		svar1 = "Flycelot(The banker)";
+		Stand_chr;
+
+		gvar1 = 3;
+		gvar2 = 220;
+		gvar3 = 0;
+		gvar4 = 92;
+		gvar5 = 88;
+		svar1 = "Bonigill(The shopkeeper)";
+		Stand_chr;
+	}
+	OnPosition	
+	{
+		gvar1 = 87;
+		gvar2 = 90;
+		gvar3 = 95;
+		gvar4 = 96;
+		svar1 = "Bonigill의 상점( Bonigill's Store )";
+		
+		Check_pos_message;	
+
+		gvar1 = 58;
+		gvar2 = 117;
+		gvar3 = 66;
+		gvar4 = 122;
+		svar1 = "Flycelot의 은행( Bank Of Flycelot )";
+		
+		Check_pos_message;	
+
+		gvar1 = 66;
+		gvar2 = 137;
+		gvar3 = 78;
+		gvar4 = 143;
+		svar1 = "Kenneth 마을( Kenneth Village )";
+		
+		Check_pos_message;	
+
+		gvar1 = 73;
+		gvar2 = 123;
+		gvar3 = 79;
+		gvar4 = 129;
+		svar1 = "";
+		svar2 = "";
+		svar3 = "Flycelot의 은행";
+		svar4 = "";
+		svar5 = "Bonigill의 상점";
+		svar6 = "";
+		svar7 = "";
+		svar8 = "평원 II";
+
+		Check_pos_direction;
+	
+		gvar1 = 13;
+		gvar2 = 282;
+		gvar3 = 19;
+		gvar4 = 288;
+		svar1 = "";
+		svar2 = "숲 II";
+		svar3 = "";
+		svar4 = "";
+		svar5 = "Flycelot의 은행";
+		svar6 = "Hiden 다리";
+		svar7 = "";
+		svar8 = "평원 II";
+
+		Check_pos_direction;
+	
+
+	}
+
+	OnTalking	
+	{
+		if ( lvar1 == 0 )			
+		{
+			if ( lvar2 == 2 )
+			{
+				svar1 = "안녕하세요? 이곳은 은행입니다.";
+				svar2 = "무얼 도와드릴까요?";
+				gvar1 = 16;
+				ShopType;
+			}
+
+			if ( lvar2 == 3 )	
+			{
+				svar1 = "안녕하세요? 저는 상입니다.";
+				svar2 = "한번 둘러보세요.";
+				gvar1 = 14;
+				ShopType;
+			}
+
+		}
+	}
+
+	OnKilling		
+	{
+		lvar13 = 156;
+
+		if (lvar13 > 150) 
+		{
+			if (lvar2 == lvar13)
+			{
+				svar12 = "abcdefg";
+			}
+			lvar1 = -1;
+		}
+
+		svar2 = 1 + "Fuck you all";
+	}
+}

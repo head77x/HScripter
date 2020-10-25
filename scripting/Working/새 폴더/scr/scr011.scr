@@ -1,0 +1,378 @@
+/* Zone Number : 011 */
+
+
+{
+	/* 현재 존(zone)과 관련된 정보 초기화 */
+	OnInitial
+	{
+	}
+
+
+
+
+
+	/* 캐릭터 또는 오브젝트를 선택했을때 처리 */
+	OnClicking
+	{
+		/* 캐릭터인지 비교 */
+		if ( gvar1 = 0 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 201 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 62 )
+				{
+					/* 대화 출력 */
+					lvar1 = 570;
+					svar1 = "두번째 생명의 나무를 지배하던, 모하른의 시체가 놓여있다.";
+					svar2 = "";
+					svar3 = "";
+					svar4 = "'망각의 돌'을 두번쨰 생명의 나무에 넣어, 역행하고 있는 대륙의 힘을 바로 잡아야 겠다.";
+					svar5 = "";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+
+					goto EXIT_CLICK;
+
+					goto EXIT_CLICK_201;
+				}
+
+
+EXIT_CLICK_201:
+
+
+				/* 대화 출력 */
+				lvar1 = 570;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+		}
+
+		/* 오브젝트인지 비교 */
+		if ( gvar1 = 1 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 3420100 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 61 )
+				{
+					/* 대화 출력 */
+					lvar1 = 0;
+					svar1 = "두번째 생명의 나무 주변에.. 강력한 에너지를 품고 있는 존재가 느껴진다.";
+					svar2 = "";
+					svar3 = "'모하른'이 다가오고 있다. 그를 먼저 쓰러뜨린뒤, 생명의 나무를 구해야 겠다.";
+					svar4 = "";
+					svar5 = "";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+
+					goto EXIT_CLICK;
+
+					goto EXIT_CLICK_3420100;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 62 )
+				{
+					/* 대화 출력 */
+					lvar1 = 0;
+					svar1 = "'두번째 생명의 나무에 망각의 돌을 넣어라' 라는 무탄의 당부가 생각났다.";
+					svar2 = "";
+					svar3 = "";
+					svar4 = "";
+					svar5 = "";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+
+					goto EXIT_CLICK;
+
+					goto EXIT_CLICK_3420100;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 63 )
+				{
+					/* 대화 출력 */
+					lvar1 = 0;
+					svar1 = "두번째 생명의 나무를 둘러싼 대륙의 힘이 올바로 흐르고 있음이 느껴진다.";
+					svar2 = "";
+					svar3 = "무탄에게 돌아가 제 2의 모두스를 어떻게 사용할 지 물어봐야 겠다. ";
+					svar4 = "";
+					svar5 = "";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+
+					goto EXIT_CLICK;
+
+					goto EXIT_CLICK_3420100;
+				}
+
+
+EXIT_CLICK_3420100:
+
+
+				/* 대화 출력 */
+				lvar1 = 0;
+				svar1 = "자이아의 충만한 에너지가 나무를 중심으로 지역 곧곧으로 뻗어나고 있다.";
+				svar2 = "";
+				svar3 = "젊은 순결한 육체가 제단과 하나가 되어, 자이아 에너지를 온몸으로 흡수하고 있다.";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+		}
+
+
+EXIT_CLICK:
+	}
+
+
+
+
+
+	/* 캐릭터 또는 오브젝트를 죽였을때 처리 */
+	OnKilling
+	{
+		/* 캐릭터인지 비교 */
+		if ( gvar1 = 0 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 201 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 61 )
+				{
+					/* 대화 출력 */
+					lvar1 = 570;
+					svar1 = "고귀한 네피림의 의도를 막는 너는 누구냐?";
+					svar2 = "";
+					svar3 = "두번째 생명의 나무는 이 두 손으로 영원히 지키려 했건만.. ";
+					svar4 = "";
+					svar5 = "";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+					lvar1 = -1;
+					lvar2 = 0;
+					lvar3 = -1;
+					lvar4 = 0;
+					lvar5 = 0;
+					lvar6 = 0;
+					lvar7 = 0;
+					lvar8 = 0;
+					lvar9 = 0;
+					lvar10 = -1;
+					lvar11 = -1;
+					lvar12 = 0;
+					lvar13 = 0;
+					lvar14 = 0;
+					lvar15 = 0;
+					lvar16 = 0;
+					lvar17 = 0;
+					lvar18 = 0;
+					lvar19 = -1;
+					lvar20 = 1;
+					lvar21 = 62;
+					Set_scriptvar;
+
+					goto EXIT_KILL;
+
+					goto EXIT_KILL_201;
+				}
+
+
+EXIT_KILL_201:
+
+
+
+				goto EXIT_KILL;
+			}
+
+		}
+
+		/* 오브젝트인지 비교 */
+		if ( gvar1 = 1 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 3420100 )
+			{
+
+EXIT_KILL_3420100:
+
+
+
+				goto EXIT_KILL;
+			}
+
+		}
+
+
+EXIT_KILL:
+	}
+
+
+
+
+
+	/* 아이템을 드래그 했을때 처리 */
+	OnDraging
+	{
+		/* 캐릭터인지 비교 */
+		if ( gvar1 = 0 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 201 )
+			{
+
+EXIT_GET_ITEM_201:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+		}
+
+		/* 오브젝트인지 비교 */
+		if ( gvar1 = 1 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 3420100 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 62 )
+				{
+					/* 조건 비교 */
+					lvar1 = 225;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 대화 출력 */
+						lvar1 = 0;
+						svar1 = "자이아의 충만한 에너지가 내 몸을 감싼 뒤, 대륙 깊숙히 스며들어 간다.";
+						svar2 = "두번째 생명의 나무를 둘러싼 대륙의 힘이 올바로 흐르고 있음이 느껴진다.";
+						svar3 = "";
+						svar4 = "";
+						svar5 = "'제 2의 모두스'를 손에 넣었다. 자이아 에너지가 '300' 상승했다.";
+						Show_clickmessage;
+
+						/* 행동 처리 */
+						/* 대화 출력 */
+						/* 값 설정 */
+						lvar1 = 225;
+						lvar2 = 1;
+						lvar3 = 222;
+						lvar4 = 0;
+						lvar5 = 1;
+						lvar6 = 0;
+						lvar7 = 0;
+						lvar8 = 0;
+						lvar9 = 0;
+						lvar10 = -1;
+						lvar11 = -1;
+						lvar12 = 300;
+						lvar13 = 0;
+						lvar14 = 0;
+						lvar15 = 0;
+						lvar16 = 0;
+						lvar17 = 0;
+						lvar18 = 0;
+						lvar19 = -1;
+						lvar20 = 1;
+						lvar21 = 63;
+						Set_scriptvar;
+
+						goto EXIT_GET_ITEM;
+					}
+
+
+					goto EXIT_GET_ITEM_3420100;
+				}
+
+
+EXIT_GET_ITEM_3420100:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+		}
+
+
+EXIT_GET_ITEM:
+	}
+
+
+
+
+
+	/* 캐릭터 또는 오브젝트를 공격했을때 처리 */
+	OnHitting
+	{
+		/* 캐릭터인지 비교 */
+		if ( gvar1 = 0 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 201 )
+			{
+
+EXIT_HIT_201:
+
+
+
+				goto EXIT_HIT;
+			}
+
+		}
+
+		/* 오브젝트인지 비교 */
+		if ( gvar1 = 1 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 3420100 )
+			{
+
+EXIT_HIT_3420100:
+
+
+
+				goto EXIT_HIT;
+			}
+
+		}
+
+
+EXIT_HIT:
+	}
+
+}
+

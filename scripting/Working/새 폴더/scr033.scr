@@ -1,0 +1,70 @@
+{
+	OnInitial		
+	{
+		Init_variables;
+	}
+
+	OnPosition	
+	{
+		gvar1 = 15;
+		gvar2 = 170;
+		gvar3 = 29;
+		gvar4 = 186;
+		svar1 = "Zentrue 성지( A Sacred Place Of Zentrue )";
+		
+		Check_pos_message;	
+
+		gvar1 = 73;
+		gvar2 = 67;
+		gvar3 = 83;
+		gvar4 = 75;
+		svar1 = "낙원의 바위( Crag Of Elysium )";
+		
+		Check_pos_message;	
+
+		gvar1 = 30;
+		gvar2 = 113;
+		gvar3 = 45;
+		gvar4 = 121;
+		svar1 = "가디우스의 기둥( Gadius Pillar )";
+		
+		Check_pos_message;	
+
+		gvar1 = 63;
+		gvar2 = 91;
+		gvar3 = 99;
+		gvar4 = 179;
+		svar1 = "인컨 숲( Incon Forest )";
+		
+		Check_pos_message;	
+
+		svar1 = "이곳은 레벨 30 이상만 출입이 가능한 곳입니다";
+		gvar1 = 11;
+		gvar2 = 152;
+		gvar3 = 16;
+		gvar4 = 157;
+		gvar5 = 30;
+		SetLevelZone;
+	}
+
+	OnTalking	
+	{
+		lvar13 = 156;
+	}
+
+	OnKilling		
+	{
+		lvar13 = 156;
+
+		if (lvar13 > 150) 
+		{
+			if (lvar2 == lvar13)
+			{
+				svar12 = "abcdefg";
+			}
+			lvar1 = -1;
+		}
+
+		svar2 = 1 + "Fuck you all";
+	}
+}

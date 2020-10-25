@@ -1,0 +1,63 @@
+{
+	OnInitial		
+	{
+		Init_variables;
+	}
+
+	OnPosition	
+	{
+		gvar1 = 86;
+		gvar2 = 9;
+		gvar3 = 125;
+		gvar4 = 207;
+		svar1 = "밤나무 숲( Beech Forest )";
+		
+		Check_pos_message;	
+
+		gvar1 = 110;
+		gvar2 = 237;
+		gvar3 = 125;
+		gvar4 = 253;
+		svar1 = "Brich 다리( Brich Bridge )";
+		
+		Check_pos_message;	
+
+		gvar1 = 59;
+		gvar2 = 76;
+		gvar3 = 81;
+		gvar4 = 114;
+		svar1 = "Viking 유적지( Viking Remains )";
+		
+		Check_pos_message;	
+
+		gvar1 = 0;
+		gvar2 = 8;
+		gvar3 = 44;
+		gvar4 = 142;
+		svar1 = "Viking 해변( Viking Beach )";
+		
+		Check_pos_message;	
+
+	}
+
+	OnTalking	
+	{
+		lvar13 = 156;
+	}
+
+	OnKilling		
+	{
+		lvar13 = 156;
+
+		if (lvar13 > 150) 
+		{
+			if (lvar2 == lvar13)
+			{
+				svar12 = "abcdefg";
+			}
+			lvar1 = -1;
+		}
+
+		svar2 = 1 + "Fuck you all";
+	}
+}

@@ -1,0 +1,130 @@
+/*     
+  선언된 변수들 
+
+	-------	  문자열 변수들
+		svar1 ~ svar5 : 함수의 문자열 인자로 사용됨
+		svar12	:	주인공 이름
+
+
+	-------	  수치 변수들
+		gvar1 ~ gvar5 : 함수의 숫자 인자로 사용됨
+		gvar6	:	주인공 혈통
+		gvar7	:	주인공 레벨
+		gvar8	:	주인공 경험치
+		gvar9	:	주인공 선악수치( ENT )
+		gvar11	:	주인공 1 스킬레벨		
+		gvar12	:	주인공 2 스킬레벨		
+		gvar13	:	주인공 3 스킬레벨		
+		gvar14	:	주인공 4 스킬레벨		
+		gvar15	:	주인공 5 스킬레벨		
+		gvar16	:	주인공 6 스킬레벨		
+		gvar17	:	주인공 7 스킬레벨		
+		gvar18	:	주인공 8 스킬레벨		
+		gvar19	:	주인공 9 스킬레벨		
+		gvar20	:	주인공 10 스킬레벨		
+		gvar21	:	주인공 11 스킬레벨		
+		gvar22	:	주인공 12 스킬레벨		
+		gvar23  :	주인공 13 스킬레벨		
+		gvar24	:	주인공 14 스킬레벨		
+		gvar25	:	주인공 15 스킬레벨		
+		gvar26	:	주인공 16 스킬레벨		
+		gvar27	:	주인공 17 스킬레벨		
+		gvar28	:	주인공 18 스킬레벨		
+		gvar29	:	주인공 19 스킬레벨		
+		gvar30	:	주인공 20 스킬레벨		
+
+
+	-------	  수치 변수들
+		scri1	:	스크립트 변수 1
+		scri2	:	스크립트 변수 2
+		scri3	:	스크립트 변수 3
+		scri4	:	스크립트 변수 4
+		scri5	:	스크립트 변수 5
+		scri6	:	스크립트 변수 6
+		scri7	:	스크립트 변수 7
+		scri8	:	스크립트 변수 8
+		scri9	:	스크립트 변수 9
+		scri10	:	스크립트 변수 10
+
+*/
+
+{
+	/*   처음 이 맵이 실행될 때 초기화로 사용되는 부분	*/
+
+	OnInitial		
+	{
+		Init_variables;
+	}
+
+
+
+	/*   주인공이 움직일 때 체크하는 부분 ( lvar1 : x 좌표, lvar2 : y 좌표 )	
+	
+		gvar1 = 101;
+		gvar2 = 152;
+		gvar3 = 111;
+		gvar4 = 162;
+		svar1 = "훈련장왼쪽 아래";
+		svar2 = "왼쪽";
+		svar3 = "왼쪽 위";
+		svar4 = "위";
+		svar5 = "오른쪽 위";
+		svar6 = "오른쪽";
+		svar7 = "오른쪽 아래";
+		svar8 = "아래";
+
+		Check_pos_direction;
+	
+	*/
+
+	OnPosition	
+	{
+		gvar1 = 0;
+		gvar2 = 0;
+		gvar3 = 162;
+		gvar4 = 4;
+		svar1 = "이 지역은 봉인된 지역으로 이동이 불가능합니다";
+		
+		Check_pos_message;	
+	}
+
+
+
+	/*   주인공이 대화할 때 체크하는 부분 ( lvar1 : 스탠드 캐릭터면 0 아니면 1,	lvar2 : 캐릭터(스탠드) 번호, lvar3: x좌표, lvar4 : y좌표 )  */
+
+	OnTalking	
+	{
+		lvar13 = 156;
+
+		if (lvar13 > 150) 
+		{
+			if (lvar2 == lvar13)
+			{
+				svar12 = "abcdefg";
+			}
+			lvar1 = -1;
+		}
+
+		svar2 = 1 + "Fuck you all";
+	}
+
+
+
+	/*   주인공이 상대를 죽였을 때 체크하는 부분  ( lvar1 : 캐릭터 번호 )	*/
+
+	OnKilling		
+	{
+		lvar13 = 156;
+
+		if (lvar13 > 150) 
+		{
+			if (lvar2 == lvar13)
+			{
+				svar12 = "abcdefg";
+			}
+			lvar1 = -1;
+		}
+
+		svar2 = 1 + "Fuck you all";
+	}
+}

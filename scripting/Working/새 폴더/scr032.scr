@@ -1,0 +1,39 @@
+{
+	OnInitial		
+	{
+		Init_variables;
+	}
+
+	OnPosition	
+	{
+		gvar1 = 11;
+		gvar2 = 224;
+		gvar3 = 25;
+		gvar4 = 236;
+		svar1 = "신비의 약초( Mystery Herb )";
+		
+		Check_pos_message;	
+	}
+
+
+	OnTalking	
+	{
+		lvar13 = 156;
+	}
+
+	OnKilling		
+	{
+		lvar13 = 156;
+
+		if (lvar13 > 150) 
+		{
+			if (lvar2 == lvar13)
+			{
+				svar12 = "abcdefg";
+			}
+			lvar1 = -1;
+		}
+
+		svar2 = 1 + "Fuck you all";
+	}
+}

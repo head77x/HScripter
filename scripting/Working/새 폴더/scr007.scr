@@ -1,0 +1,46 @@
+{
+	OnInitial		
+	{
+		Init_variables;
+	}
+
+	OnPosition	
+	{
+		gvar1 = 41;
+		gvar2 = 99;
+		gvar3 = 61;
+		gvar4 = 116;
+		svar1 = "ÄÚ³­ÀÇ ¹¦( Conan's Grave )";
+		
+		Check_pos_message;	
+
+		gvar1 = 37;
+		gvar2 = 160;
+		gvar3 = 47;
+		gvar4 = 170;
+		svar1 = "¾Ç¸¶ÀÇ ¹®Àå( Devil's Prose )";
+		
+		Check_pos_message;	
+	}
+
+	OnTalking	
+	{
+		lvar13 = 156;
+	}
+
+	OnKilling		
+	{
+		lvar13 = 156;
+
+		if (lvar13 > 150) 
+		{
+			if (lvar2 == lvar13)
+			{
+				svar12 = "abcdefg";
+			}
+			lvar1 = -1;
+		}
+
+		svar2 = 1 + "Fuck you all";
+	}
+}

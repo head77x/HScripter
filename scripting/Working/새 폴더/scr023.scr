@@ -1,0 +1,55 @@
+{
+	OnInitial		
+	{
+		Init_variables;
+	}
+
+	OnPosition	
+	{
+		gvar1 = 63;
+		gvar2 = 75;
+		gvar3 = 73;
+		gvar4 = 83;
+		svar1 = "기혼의 돌( Gihon Stone )";
+		
+		Check_pos_message;	
+
+		gvar1 = 29;
+		gvar2 = 122;
+		gvar3 = 39;
+		gvar4 = 130;
+		svar1 = "비손의 돌( Vison Stone )";
+		
+		Check_pos_message;	
+
+		svar1 = "이곳은 레벨 50 이상만 출입이 가능한 곳입니다";
+		gvar1 = 100;
+		gvar2 = 15;
+		gvar3 = 107;
+		gvar4 = 24;
+		gvar5 = 50;
+		SetLevelZone;
+
+	}
+
+	OnTalking	
+	{
+		lvar13 = 156;
+	}
+
+	OnKilling		
+	{
+		lvar13 = 156;
+
+		if (lvar13 > 150) 
+		{
+			if (lvar2 == lvar13)
+			{
+				svar12 = "abcdefg";
+			}
+			lvar1 = -1;
+		}
+
+		svar2 = 1 + "Fuck you all";
+	}
+}

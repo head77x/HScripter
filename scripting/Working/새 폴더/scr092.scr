@@ -1,0 +1,36 @@
+{
+	OnInitial		
+	{
+		Init_variables;
+	}
+
+	OnPosition	
+	{
+		gvar1 = 95;
+		gvar2 = 215;
+		gvar3 = 116;
+		gvar4 = 234;
+		svar1 = "Meth A Place Of Execution";
+		
+		Check_pos_message;	
+
+		gvar1 = 66;
+		gvar2 = 94;
+		gvar3 = 110;
+		gvar4 = 136;
+		svar1 = "Plaza Of Penance";
+		
+		Check_pos_message;	
+
+	}
+
+	OnTalking	
+	{
+		lvar13 = 156;
+	}
+
+	OnKilling		
+	{
+		lvar13 = 156;
+	}
+}

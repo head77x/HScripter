@@ -1,0 +1,39 @@
+{
+	OnInitial		
+	{
+		Init_variables;
+	}
+
+
+	OnPosition	
+	{
+		gvar1 = 0;
+		gvar2 = 0;
+		gvar3 = 162;
+		gvar4 = 4;
+		svar1 = "이 지역은 봉인된 지역으로 이동이 불가능합니다";
+		
+		Check_pos_message;	
+	}
+
+	OnTalking	
+	{
+		lvar13 = 156;
+	}
+
+	OnKilling		
+	{
+		lvar13 = 156;
+
+		if (lvar13 > 150) 
+		{
+			if (lvar2 == lvar13)
+			{
+				svar12 = "abcdefg";
+			}
+			lvar1 = -1;
+		}
+
+		svar2 = 1 + "Fuck you all";
+	}
+}

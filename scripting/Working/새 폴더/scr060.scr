@@ -1,0 +1,148 @@
+{
+	OnInitial		
+	{
+		Init_variables;
+
+		gvar1 = 0;
+		gvar2 = 2;
+		gvar3 = 1;
+		gvar4 = 114;
+		gvar5 = 16;
+		Stand_chr;
+
+		gvar1 = 1;
+		gvar2 = 2;
+		gvar3 = 1;
+		gvar4 = 115;
+		gvar5 = 145;
+		Stand_chr;
+
+		gvar1 = 2;
+		gvar2 = 226;
+		gvar3 = 0;
+		gvar4 = 78;
+		gvar5 = 71;
+		svar1 = "Tortsteen(The Banker)";
+		Stand_chr;
+
+		gvar1 = 3;
+		gvar2 = 220;
+		gvar3 = 0;
+		gvar4 = 129;
+		gvar5 = 219;
+		svar1 = "Cris(The shopkeeper)";
+		Stand_chr;
+
+	}
+
+	OnPosition	
+	{
+		gvar1 = 124;
+		gvar2 = 221;
+		gvar3 = 132;
+		gvar4 = 227;
+		svar1 = "Cris의 집( Cris's House )";
+		
+		Check_pos_message;	
+
+		gvar1 = 62;
+		gvar2 = 172;
+		gvar3 = 70;
+		gvar4 = 178;
+		svar1 = "Miche 폭포( Miche Waterfall )";
+		
+		Check_pos_message;	
+
+		gvar1 = 47;
+		gvar2 = 156;
+		gvar3 = 57;
+		gvar4 = 163;
+		svar1 = "Miche 폭포( Miche Waterfall )";
+		
+		Check_pos_message;	
+
+		gvar1 = 93;
+		gvar2 = 114;
+		gvar3 = 102;
+		gvar4 = 119;
+		svar1 = "Rion 다리( Rion Bridge )";
+		
+		Check_pos_message;	
+
+		gvar1 = 74;
+		gvar2 = 13;
+		gvar3 = 82;
+		gvar4 = 79;
+		svar1 = "Tortsteen의 은행( Bank Of Tortsteen )";
+		
+		Check_pos_message;	
+
+		gvar1 = 111;
+		gvar2 = 13;
+		gvar3 = 117;
+		gvar4 = 19;
+		svar1 = "Tortsteen의 은행";
+		svar2 = "";
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+		svar6 = "";
+		svar7 = "";
+		svar8 = "Caral 던전/리온 다리";
+
+		Check_pos_direction;
+
+		gvar1 = 112;
+		gvar2 = 142;
+		gvar3 = 118;
+		gvar4 = 148;
+		svar1 = "";
+		svar2 = "Miche 폭포";
+		svar3 = "Tortsteen의 은행";
+		svar4 = "";
+		svar5 = "";
+		svar6 = "평원 III";
+		svar7 = "";
+		svar8 = "Cris의 집들";
+
+		Check_pos_direction;
+	}
+
+	OnTalking	
+	{
+		if ( lvar1 == 0 )			
+		{
+			if ( lvar2 == 2 )
+			{
+				svar1 = "안녕하세요? 이곳은 은행입니다.";
+				svar2 = "무엇을 도와드릴까요";
+				gvar1 = 16;
+				ShopType;
+			}
+
+			if ( lvar2 == 3 )	
+			{
+				svar1 = "저는 상인입니다.";
+				svar2 = "한번 둘러보세요.";
+				gvar1 = 14;
+				ShopType;
+			}
+		}
+	}
+
+	OnKilling		
+	{
+		lvar13 = 156;
+
+		if (lvar13 > 150) 
+		{
+			if (lvar2 == lvar13)
+			{
+				svar12 = "abcdefg";
+			}
+			lvar1 = -1;
+		}
+
+		svar2 = 1 + "Fuck you all";
+	}
+}

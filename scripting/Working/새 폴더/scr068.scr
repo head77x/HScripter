@@ -1,0 +1,47 @@
+{
+	OnInitial		
+	{
+		Init_variables;
+	}
+
+	OnPosition	
+	{
+		gvar1 = 58;
+		gvar2 = 192;
+		gvar3 = 73;
+		gvar4 = 223;
+		svar1 = "Cromatore 거석( Cromatore Megalith )";
+		
+		Check_pos_message;	
+
+		gvar1 = 32;
+		gvar2 = 62;
+		gvar3 = 42;
+		gvar4 = 72;
+		svar1 = "Ian의 우물( A Well Of Ian )";
+		
+		Check_pos_message;	
+
+	}
+
+	OnTalking	
+	{
+		lvar13 = 156;
+	}
+
+	OnKilling		
+	{
+		lvar13 = 156;
+
+		if (lvar13 > 150) 
+		{
+			if (lvar2 == lvar13)
+			{
+				svar12 = "abcdefg";
+			}
+			lvar1 = -1;
+		}
+
+		svar2 = 1 + "Fuck you all";
+	}
+}

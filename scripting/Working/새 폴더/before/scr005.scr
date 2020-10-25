@@ -1,0 +1,970 @@
+/* Zone Number : 005 */
+
+
+{
+	/* 현재 존(zone)과 관련된 정보 초기화 */
+	OnInitial
+	{
+	}
+
+
+
+
+
+	/* 캐릭터 또는 오브젝트를 선택했을때 처리 */
+	OnClicking
+	{
+		/* 캐릭터인지 비교 */
+		if ( gvar1 = 0 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 81 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 68 )
+				{
+					/* 대화 출력 */
+					lvar1 = 400;
+					svar1 = "세번째 생명의 나무를 지배하던 모타룬이 쓰러졌다.";
+					svar2 = "";
+					svar3 = "";
+					svar4 = "'지배의 목판'을 생명의 나무에 넣어, 역행하는 대륙의 힘을 바로 잡아야 겠다.";
+					svar5 = "";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+
+					goto EXIT_CLICK;
+
+					goto EXIT_CLICK_81;
+				}
+
+
+EXIT_CLICK_81:
+
+
+				/* 대화 출력 */
+				lvar1 = 400;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 82 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 81 )
+				{
+					/* 대화 출력 */
+					lvar1 = 209;
+					svar1 = "라멕트의 전사여. 몇번의 경고를 무시하고 여기까지 오고 말았구나.";
+					svar2 = "";
+					svar3 = "네가 막연히 적대적인 감정을 갖고 있는 네피림에 대해 알고 있는가?";
+					svar4 = "네피림은 결코 허망된 목적을 쫓는 집단이 아니다. ";
+					svar5 = "우리는 대륙의 영웅들이였으며.. 대륙에 절대적인 평화를 만든 자들이란 말이다.";
+					Show_clickmessage;
+
+					lvar1 = 209;
+					svar1 = "네피림을 이기적이라고 할만한 자격이 되는가? ";
+					svar2 = "";
+					svar3 = "우리의 의지는 세상의 정의를 위한것이며.. 처음부터 대륙은 우리를 선택했어야 했어.";
+					svar4 = "";
+					svar5 = "대륙의 실수가 피를 부른 것이였고, 더 이상 라멕트와 우린 하나가 아니였다. ";
+					Show_clickmessage;
+
+					lvar1 = 209;
+					svar1 = "그러나 우리를 기억해봐라. 너희가 감히 우리에 맞설수 있단 말인가.. ";
+					svar2 = "너희가 우리 대신 대륙의 선택을 받을 자격이 있다고 보는가.. ";
+					svar3 = "";
+					svar4 = "우린 대륙의 힘을 가지고 있지만. 대륙을 능가할 절대적인 존재임을 기억하라.";
+					svar5 = "";
+					Show_clickmessage;
+
+					lvar1 = 209;
+					svar1 = "언제 끝날지 모르는 너의 시련을 덜어주려 했건만.. ";
+					svar2 = "이대로 물러서지 않겠다면 난 기다리겠다. 때가되면 날 찾아 와라. ";
+					svar3 = "";
+					svar4 = "새로운 월드에서 기다리고 있겠다.";
+					svar5 = "";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+					lvar1 = -1;
+					lvar2 = 0;
+					lvar3 = -1;
+					lvar4 = 0;
+					lvar5 = 0;
+					lvar6 = 0;
+					lvar7 = 0;
+					lvar8 = 0;
+					lvar9 = 0;
+					lvar10 = -1;
+					lvar11 = -1;
+					lvar12 = 0;
+					lvar13 = 0;
+					lvar14 = 0;
+					lvar15 = 0;
+					lvar16 = 0;
+					lvar17 = 0;
+					lvar18 = 0;
+					lvar19 = -1;
+					lvar20 = 1;
+					lvar21 = 82;
+					Set_scriptvar;
+
+					goto EXIT_CLICK;
+
+					goto EXIT_CLICK_82;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 88 )
+				{
+					/* 대화 출력 */
+					lvar1 = 209;
+					svar1 = "시간이 다가왔다..";
+					svar2 = "";
+					svar3 = "다음 월드의 첫번째 존인 아호벤 지역과 연결된 '빛의 문'이 열리는 시간이 다가왔다.";
+					svar4 = "";
+					svar5 = "";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+					lvar1 = -1;
+					lvar2 = 0;
+					lvar3 = -1;
+					lvar4 = 0;
+					lvar5 = 0;
+					lvar6 = 0;
+					lvar7 = 0;
+					lvar8 = 0;
+					lvar9 = 0;
+					lvar10 = -1;
+					lvar11 = -1;
+					lvar12 = 0;
+					lvar13 = 17;
+					lvar14 = 366;
+					lvar15 = 0;
+					lvar16 = 838;
+					lvar17 = 0;
+					lvar18 = 3;
+					lvar19 = 1;
+					lvar20 = 1;
+					lvar21 = 89;
+					Set_scriptvar;
+
+					goto EXIT_CLICK;
+
+					goto EXIT_CLICK_82;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri4 = 1 )
+				{
+					/* 대화 출력 */
+					lvar1 = 209;
+					svar1 = "시간이 다가왔다..";
+					svar2 = "";
+					svar3 = "다음 월드의 첫번째 존인 아호벤 지역과 연결된 '빛의 문'이 열리는 시간이 다가왔다.";
+					svar4 = "";
+					svar5 = "아호벤 지역에 도착한 뒤, 그곳의 오비를 기억시켜 두어라";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+					lvar1 = -1;
+					lvar2 = 0;
+					lvar3 = -1;
+					lvar4 = 0;
+					lvar5 = 0;
+					lvar6 = 0;
+					lvar7 = 0;
+					lvar8 = 0;
+					lvar9 = 0;
+					lvar10 = -1;
+					lvar11 = -1;
+					lvar12 = 0;
+					lvar13 = 17;
+					lvar14 = 366;
+					lvar15 = 0;
+					lvar16 = 838;
+					lvar17 = 0;
+					lvar18 = 0;
+					lvar19 = -1;
+					lvar20 = 3;
+					lvar21 = -1;
+					Set_scriptvar;
+
+					goto EXIT_CLICK;
+
+					goto EXIT_CLICK_82;
+				}
+
+
+EXIT_CLICK_82:
+
+
+				/* 대화 출력 */
+				lvar1 = 209;
+				svar1 = "라멕트의 전사여..";
+				svar2 = "";
+				svar3 = "시간이 다가오고 있다.";
+				svar4 = "네피림은 항상 너를 주시하고 있다. 언젠가 적당한 때가 되면.. 날 만나게 될 것이다.";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 83 )
+			{
+
+EXIT_CLICK_83:
+
+
+				/* 대화 출력 */
+				lvar1 = 380;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+		}
+
+		/* 오브젝트인지 비교 */
+		if ( gvar1 = 1 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 4710055 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 67 )
+				{
+					/* 대화 출력 */
+					lvar1 = 0;
+					svar1 = "세번째 생명의 나무 주변에.. 강력한 에너지를 품고 있는 존재가 느껴진다. ";
+					svar2 = "";
+					svar3 = "이 강력한 에너지가 생명의 나무를 중심으로 역행하고 있다. ";
+					svar4 = "";
+					svar5 = "모타룬이 다가오고 있다. 그를 먼저 쓰러뜨린뒤, 생명의 나무를 구해야 겠다.";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+
+					goto EXIT_CLICK;
+
+					goto EXIT_CLICK_4710055;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 68 )
+				{
+					/* 대화 출력 */
+					lvar1 = 0;
+					svar1 = "'세번째 생명의 나무에 지배의 목판을 넣어라' 라는 무탄의 당부가 기억났다.";
+					svar2 = "";
+					svar3 = "";
+					svar4 = "";
+					svar5 = "";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+
+					goto EXIT_CLICK;
+
+					goto EXIT_CLICK_4710055;
+				}
+
+
+EXIT_CLICK_4710055:
+
+
+				/* 대화 출력 */
+				lvar1 = 0;
+				svar1 = "거대한 동상을 감싸고 있는 나무는 주변의 모든 생명을 다스리고 있는 느낌을 준다.";
+				svar2 = "";
+				svar3 = "대륙의 충만한 에너지의 흐름이 강하게 느껴지는 나무 주변에 다가서는 것만으로";
+				svar4 = "";
+				svar5 = "불완전한 내 자이아 에너지가 점점 안정을 되찾아 가는 기분이 느껴진다.";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 7260227 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 71 )
+				{
+					/* 조건 비교 */
+					lvar1 = 221;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 대화 출력 */
+						lvar1 = 0;
+						svar1 = "대륙을 상징하는 제단의 머리가 하늘을 향해 높이 솟은 모두스의 제단이 보인다..";
+						svar2 = "";
+						svar3 = "'모두스의 제단에 제 1의 모두스를 넣으라'는 무탄의 당부가 생각났다.";
+						svar4 = "";
+						svar5 = "";
+						Show_clickmessage;
+
+						/* 행동 처리 */
+						/* 대화 출력 */
+						/* 값 설정 */
+
+						goto EXIT_CLICK;
+					}
+
+
+					goto EXIT_CLICK_7260227;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 72 )
+				{
+					/* 대화 출력 */
+					lvar1 = 0;
+					svar1 = " 상징하는 제단의 머리가 하늘을 향해 높이 솟은 모두스의 제단이 보인다..";
+					svar2 = "";
+					svar3 = "'모두스의 제단에 제 2의 모두스를 넣으라'는 무탄의 당부가 생각났다.";
+					svar4 = "";
+					svar5 = "";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+
+					goto EXIT_CLICK;
+
+					goto EXIT_CLICK_7260227;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 73 )
+				{
+					/* 대화 출력 */
+					lvar1 = 0;
+					svar1 = "대륙을 상징하는 제단의 머리가 하늘을 향해 높이 솟은 모두스의 제단이 보인다..";
+					svar2 = "";
+					svar3 = "";
+					svar4 = "'모두스의 제단에 제 3의 모두스를 넣으라'는 무탄의 당부가 생각났다.";
+					svar5 = "";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+
+					goto EXIT_CLICK;
+
+					goto EXIT_CLICK_7260227;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 74 )
+				{
+					/* 대화 출력 */
+					lvar1 = 0;
+					svar1 = "무탄에게 돌아가야 겠다.";
+					svar2 = "";
+					svar3 = "";
+					svar4 = "";
+					svar5 = "";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+
+					goto EXIT_CLICK;
+
+					goto EXIT_CLICK_7260227;
+				}
+
+
+EXIT_CLICK_7260227:
+
+
+				/* 대화 출력 */
+				lvar1 = 0;
+				svar1 = "하늘을 향해 뻗어있는 높은 제단의 머리는 푸른 이끼와 풀잎으로 덮혀 있고,";
+				svar2 = "";
+				svar3 = "제단 주변을 둘러싼 돌담은 오래되었으나, 그 견고함만을 간직하고 있다.";
+				svar4 = "";
+				svar5 = "제단 주변에 쌓인 해골보다, 제단의 웅장함에 깊은 떨림이 밀려온다.";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+		}
+
+
+EXIT_CLICK:
+	}
+
+
+
+
+
+	/* 캐릭터 또는 오브젝트를 죽였을때 처리 */
+	OnKilling
+	{
+		/* 캐릭터인지 비교 */
+		if ( gvar1 = 0 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 81 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 67 )
+				{
+					/* 대화 출력 */
+					lvar1 = 400;
+					svar1 = "고귀한 네피림의 의도를 막는 너는 누구냐?";
+					svar2 = "";
+					svar3 = "생명의 나무가 나의 지배를 벗어나겠지만.. 대륙의 흐름까지 잡을 수는 없을 것이다.";
+					svar4 = "";
+					svar5 = "";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+					lvar1 = -1;
+					lvar2 = 0;
+					lvar3 = -1;
+					lvar4 = 0;
+					lvar5 = 0;
+					lvar6 = 0;
+					lvar7 = 0;
+					lvar8 = 0;
+					lvar9 = 0;
+					lvar10 = -1;
+					lvar11 = -1;
+					lvar12 = 0;
+					lvar13 = 0;
+					lvar14 = 0;
+					lvar15 = 0;
+					lvar16 = 0;
+					lvar17 = 0;
+					lvar18 = 0;
+					lvar19 = -1;
+					lvar20 = 1;
+					lvar21 = 68;
+					Set_scriptvar;
+
+					goto EXIT_KILL;
+
+					goto EXIT_KILL_81;
+				}
+
+
+EXIT_KILL_81:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 82 )
+			{
+
+EXIT_KILL_82:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 83 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri3 = 129 )
+				{
+					/* 조건 비교 */
+					if ( gvar12 = 1 )
+					{
+						/* 대화 출력 */
+						/* 행동 처리 */
+						/* 대화 출력 */
+						/* 값 설정 */
+						lvar1 = -1;
+						lvar2 = 0;
+						lvar3 = -1;
+						lvar4 = 0;
+						lvar5 = 0;
+						lvar6 = 0;
+						lvar7 = 0;
+						lvar8 = 0;
+						lvar9 = 0;
+						lvar10 = -1;
+						lvar11 = -1;
+						lvar12 = 0;
+						lvar13 = 0;
+						lvar14 = 0;
+						lvar15 = 0;
+						lvar16 = 0;
+						lvar17 = 0;
+						lvar18 = 0;
+						lvar19 = -1;
+						lvar20 = 2;
+						lvar21 = 130;
+						Set_scriptvar;
+
+						goto EXIT_KILL;
+					}
+
+
+					goto EXIT_KILL_83;
+				}
+
+
+EXIT_KILL_83:
+
+
+
+				goto EXIT_KILL;
+			}
+
+		}
+
+		/* 오브젝트인지 비교 */
+		if ( gvar1 = 1 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 4710055 )
+			{
+
+EXIT_KILL_4710055:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 7260227 )
+			{
+
+EXIT_KILL_7260227:
+
+
+
+				goto EXIT_KILL;
+			}
+
+		}
+
+
+EXIT_KILL:
+	}
+
+
+
+
+
+	/* 아이템을 드래그 했을때 처리 */
+	OnDraging
+	{
+		/* 캐릭터인지 비교 */
+		if ( gvar1 = 0 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 81 )
+			{
+
+EXIT_GET_ITEM_81:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 82 )
+			{
+
+EXIT_GET_ITEM_82:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 83 )
+			{
+
+EXIT_GET_ITEM_83:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+		}
+
+		/* 오브젝트인지 비교 */
+		if ( gvar1 = 1 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 4710055 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 68 )
+				{
+					/* 조건 비교 */
+					lvar1 = 220;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 조건 비교 */
+						if ( gvar3 = 220 )
+						{
+							/* 대화 출력 */
+							lvar1 = 0;
+							svar1 = "지배의 목판을 넣은 순간, '제 3의 모두스'를 손에 넣었다.";
+							svar2 = "";
+							svar3 = "자이아의 충만한 에너지가 내 몸을 감싼 뒤, 대륙 깊숙히 스며들어 간다.";
+							svar4 = "세번째 생명의 나무를 둘러싼 대륙의 힘이 올바로 흐르고 있음이 느껴진다.";
+							svar5 = "'자이아 에너지1000'이 상승하였다.";
+							Show_clickmessage;
+
+							/* 행동 처리 */
+							/* 대화 출력 */
+							/* 값 설정 */
+							lvar1 = 220;
+							lvar2 = 1;
+							lvar3 = 223;
+							lvar4 = 0;
+							lvar5 = 1;
+							lvar6 = 0;
+							lvar7 = 0;
+							lvar8 = 0;
+							lvar9 = 0;
+							lvar10 = -1;
+							lvar11 = -1;
+							lvar12 = 1000;
+							lvar13 = 0;
+							lvar14 = 0;
+							lvar15 = 0;
+							lvar16 = 0;
+							lvar17 = 0;
+							lvar18 = 0;
+							lvar19 = -1;
+							lvar20 = 1;
+							lvar21 = 69;
+							Set_scriptvar;
+
+							goto EXIT_GET_ITEM;
+						}
+
+					}
+
+
+					goto EXIT_GET_ITEM_4710055;
+				}
+
+
+EXIT_GET_ITEM_4710055:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 7260227 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 71 )
+				{
+					/* 조건 비교 */
+					lvar1 = 221;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 조건 비교 */
+						if ( gvar3 = 221 )
+						{
+							/* 대화 출력 */
+							lvar1 = 0;
+							svar1 = "모두스의 제단에 제 1의 모두스를 올려 놓았다.";
+							svar2 = "";
+							svar3 = "";
+							svar4 = "대륙의 힘이 조금씩 제자리로 돌아오고 있다.";
+							svar5 = "";
+							Show_clickmessage;
+
+							/* 행동 처리 */
+							/* 대화 출력 */
+							/* 값 설정 */
+							lvar1 = 221;
+							lvar2 = 1;
+							lvar3 = -1;
+							lvar4 = 0;
+							lvar5 = 0;
+							lvar6 = 0;
+							lvar7 = 0;
+							lvar8 = 0;
+							lvar9 = 0;
+							lvar10 = -1;
+							lvar11 = -1;
+							lvar12 = 0;
+							lvar13 = 0;
+							lvar14 = 0;
+							lvar15 = 0;
+							lvar16 = 0;
+							lvar17 = 2;
+							lvar18 = 0;
+							lvar19 = -1;
+							lvar20 = 1;
+							lvar21 = 72;
+							Set_scriptvar;
+
+							goto EXIT_GET_ITEM;
+						}
+
+					}
+
+
+					goto EXIT_GET_ITEM_7260227;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 72 )
+				{
+					/* 조건 비교 */
+					lvar1 = 222;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 조건 비교 */
+						if ( gvar3 = 222 )
+						{
+							/* 대화 출력 */
+							lvar1 = 0;
+							svar1 = "모두스의 제단에 제 2의 모두스를 올려 놓았다.";
+							svar2 = "";
+							svar3 = "";
+							svar4 = "...";
+							svar5 = "대륙의 힘이 조금씩 제자리로 돌아오고 있다.";
+							Show_clickmessage;
+
+							/* 행동 처리 */
+							/* 대화 출력 */
+							/* 값 설정 */
+							lvar1 = 222;
+							lvar2 = 1;
+							lvar3 = -1;
+							lvar4 = 0;
+							lvar5 = 0;
+							lvar6 = 0;
+							lvar7 = 0;
+							lvar8 = 0;
+							lvar9 = 0;
+							lvar10 = -1;
+							lvar11 = -1;
+							lvar12 = 0;
+							lvar13 = 0;
+							lvar14 = 0;
+							lvar15 = 0;
+							lvar16 = 0;
+							lvar17 = 2;
+							lvar18 = 0;
+							lvar19 = -1;
+							lvar20 = 1;
+							lvar21 = 73;
+							Set_scriptvar;
+
+							goto EXIT_GET_ITEM;
+						}
+
+					}
+
+
+					goto EXIT_GET_ITEM_7260227;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 73 )
+				{
+					/* 조건 비교 */
+					lvar1 = 223;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 조건 비교 */
+						if ( gvar3 = 223 )
+						{
+							/* 대화 출력 */
+							lvar1 = 0;
+							svar1 = "모두스의 제단에 제 3의 모두스를 올려 놓았다.";
+							svar2 = "대륙의 힘이 점차 제자리로 돌아오고 있다. ";
+							svar3 = "...";
+							svar4 = "그때.. 생명의 자이아석을 얻었다. ";
+							svar5 = "무탄이 언급한 최후의 전투가 멀지 않았음이 느껴진다. 무탄을 찾아가야 겠다.";
+							Show_clickmessage;
+
+							/* 행동 처리 */
+							/* 대화 출력 */
+							/* 값 설정 */
+							lvar1 = 223;
+							lvar2 = 1;
+							lvar3 = 213;
+							lvar4 = 0;
+							lvar5 = 1;
+							lvar6 = 0;
+							lvar7 = 0;
+							lvar8 = 0;
+							lvar9 = 0;
+							lvar10 = -1;
+							lvar11 = -1;
+							lvar12 = 0;
+							lvar13 = 0;
+							lvar14 = 0;
+							lvar15 = 0;
+							lvar16 = 0;
+							lvar17 = 2;
+							lvar18 = 0;
+							lvar19 = -1;
+							lvar20 = 1;
+							lvar21 = 74;
+							Set_scriptvar;
+
+							goto EXIT_GET_ITEM;
+						}
+
+					}
+
+
+					goto EXIT_GET_ITEM_7260227;
+				}
+
+
+EXIT_GET_ITEM_7260227:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+		}
+
+
+EXIT_GET_ITEM:
+	}
+
+
+
+
+
+	/* 캐릭터 또는 오브젝트를 공격했을때 처리 */
+	OnHitting
+	{
+		/* 캐릭터인지 비교 */
+		if ( gvar1 = 0 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 81 )
+			{
+
+EXIT_HIT_81:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 82 )
+			{
+
+EXIT_HIT_82:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 83 )
+			{
+
+EXIT_HIT_83:
+
+
+
+				goto EXIT_HIT;
+			}
+
+		}
+
+		/* 오브젝트인지 비교 */
+		if ( gvar1 = 1 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 4710055 )
+			{
+
+EXIT_HIT_4710055:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 7260227 )
+			{
+
+EXIT_HIT_7260227:
+
+
+
+				goto EXIT_HIT;
+			}
+
+		}
+
+
+EXIT_HIT:
+	}
+
+}
+

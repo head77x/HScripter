@@ -1,0 +1,320 @@
+{
+	OnInitial		
+	{
+		Init_variables;
+
+		gvar1 = 0;
+		gvar2 = 2;
+		gvar3 = 1;
+		gvar4 = 64;
+		gvar5 = 196;
+		Stand_chr;
+
+		gvar1 = 1;
+		gvar2 = 2;
+		gvar3 = 1;
+		gvar4 = 82;
+		gvar5 = 142;
+		Stand_chr;
+
+		gvar1 = 2;
+		gvar2 = 2;
+		gvar3 = 1;
+		gvar4 = 94;
+		gvar5 = 220;
+		Stand_chr;
+
+		gvar1 = 3;
+		gvar2 = 220;
+		gvar3 = 0;
+		gvar4 = 90;
+		gvar5 = 204;
+		svar1 = "Kithrone(The shopkeeper)";
+		Stand_chr;
+
+		gvar1 = 4;
+		gvar2 = 223;
+		gvar3 = 0;
+		gvar4 = 110;
+		gvar5 = 180;
+		svar1 = "Ulrins(The innkeeper)";
+		Stand_chr;
+
+		gvar1 = 5;
+		gvar2 = 226;
+		gvar3 = 0;
+		gvar4 = 78;
+		gvar5 = 166;
+		svar1 = "Gluttus(The banker)";
+		Stand_chr;
+
+		gvar1 = 6;
+		gvar2 = 229;
+		gvar3 = 0;
+		gvar4 = 56;
+		gvar5 = 151;
+		svar1 = "Buckguay(The priest)";
+		Stand_chr;
+
+		gvar1 = 7;
+		gvar2 = 232;
+		gvar3 = 0;
+		gvar4 = 105;
+		gvar5 = 140;
+		svar1 = "Oddmar(The wizard)";
+		Stand_chr;
+
+		gvar1 = 8;
+		gvar2 = 234;
+		gvar3 = 0;
+		gvar4 = 115;
+		gvar5 = 119;
+		svar1 = "Duperon(The blacksmith)";
+		Stand_chr;
+
+		gvar1 = 9;
+		gvar2 = 238;
+		gvar3 = 0;
+		gvar4 = 102;
+		gvar5 = 104;
+		svar1 = "Ordan Lee(Man)";
+		Stand_chr;
+
+		gvar1 = 10;
+		gvar2 = 239;
+		gvar3 = 0;
+		gvar4 = 56;
+		gvar5 = 188;
+		svar1 = "Mildisa(Woman)";
+		Stand_chr;
+
+	}
+
+	OnPosition	
+	{
+		gvar1 = 54;
+		gvar2 = 151;
+		gvar3 = 62;
+		gvar4 = 156;
+		svar1 = "Buckguay의 사원( Buckguay's Temple )";
+		
+		Check_pos_message;	
+
+		gvar1 = 116;
+		gvar2 = 246;
+		gvar3 = 125;
+		gvar4 = 254;
+		svar1 = "Centra 다리( Centra Bridge )";
+		
+		Check_pos_message;	
+
+		gvar1 = 110;
+		gvar2 = 110;
+		gvar3 = 118;
+		gvar4 = 127;
+		svar1 = "Duperon 무기점( Duperon's Armory )";	
+		Check_pos_message;	
+
+		gvar1 = 83;
+		gvar2 = 206;
+		gvar3 = 91;
+		gvar4 = 212;
+		svar1 = "Kithrone의 상점( Kithrone's Store )";
+		
+		Check_pos_message;	
+
+		gvar1 = 102;
+		gvar2 = 229;
+		gvar3 = 99;
+		gvar4 = 243;
+		svar1 = "호수의 성 입구( Lake Castle Gate )";
+		
+		Check_pos_message;	
+
+		gvar1 = 56;
+		gvar2 = 187;
+		gvar3 = 64;
+		gvar4 = 192;
+		svar1 = "Mildisa의 집( Mildisa's House )";
+		
+		Check_pos_message;	
+
+		gvar1 = 103;
+		gvar2 = 140;
+		gvar3 = 111;
+		gvar4 = 145;
+		svar1 = "마법사 Oddmar의 집( Oddmar's Wizardry )";
+		
+		Check_pos_message;	
+
+		gvar1 = 97;
+		gvar2 = 106;
+		gvar3 = 105;
+		gvar4 = 112;
+		svar1 = "Ordan Lee의 집( Ordan Lee's House )";
+		
+		Check_pos_message;	
+
+		gvar1 = 106;
+		gvar2 = 181;
+		gvar3 = 114;
+		gvar4 = 187;
+		svar1 = "Ulrins의 여관( Ulrins Inn )";
+		
+		Check_pos_message;	
+
+		gvar1 = 61;
+		gvar2 = 192;
+		gvar3 = 67;
+		gvar4 = 199;
+		svar1 = "";
+		svar2 = "";
+		svar3 = "무기상점";
+		svar4 = "";
+		svar5 = "은행";
+		svar6 = "상점";
+		svar7 = "GATE";
+		svar8 = "";
+
+		Check_pos_direction;
+
+		gvar1 = 79;
+		gvar2 = 139;
+		gvar3 = 85;
+		gvar4 = 145;
+		svar1 = "";
+		svar2 = "신전";
+		svar3 = "GATE/우물";
+		svar4 = "";
+		svar5 = "무기상점";
+		svar6 = "마법사의 집";
+		svar7 = "여관";
+		svar8 = "은행";
+
+		Check_pos_direction;
+
+		gvar1 = 91;
+		gvar2 = 217;
+		gvar3 = 97;
+		gvar4 = 223;
+		svar1 = "";
+		svar2 = "";
+		svar3 = "은행/상점";
+		svar4 = "은행/무기상점";
+		svar5 = "여관";
+		svar6 = "";
+		svar7 = "GATE";
+		svar8 = "";
+
+		Check_pos_direction;
+
+	}
+
+	OnTalking	
+	{
+		if ( lvar1 == 0 )			
+		{
+			if ( lvar2 == 3 )
+			{
+				svar1 = "안녕하세요? 저는 상인입니다.";
+				svar2 = "한번 둘러보세요.";
+				gvar1 = 14;
+				ShopType;
+			}
+
+			if ( lvar2 == 4 )	
+			{
+				svar1 = "안녕하세요? 이곳은 여관입니다. 하루 한번 쉬실수 있으며, 레벨 10이상의 유저는 사용료 10000 GOLD 를 지불해야 합니다.";
+				svar2 = "쉬시겠습니까?";
+				gvar1 = 17;
+				ShopType;
+
+				if ( gvar100 == 1 )  /* 리턴값이 Yes 라면 */
+				{
+					if ( gvar7 < 11 )	/* 레벨이 10 이하면 무료로 이용하게 */
+					{
+						Sleeping;
+					}
+
+					if ( gvar7 > 10 )	/* 레벨이 10 이상이면 */
+					{
+						if ( gvar31 > 9999 ) /* 10000 골드보다 많이 가지고 있다면 */
+						{
+							Sleeping;
+						}
+
+						if ( gvar31 < 10000 )
+						{
+							svar1 = "10000 GOLD가 없군요";
+							svar2 = "여관을 사용할 수 없습니다.";
+							gvar1 = -1;
+							ShopType;
+						}
+					}
+				}
+			}
+
+			if ( lvar2 == 5 )	
+			{
+				svar1 = "이곳은 은행입니다.";
+				svar2 = "무엇을 도와드릴까요?";
+				gvar1 = 16;
+				ShopType;
+			}
+
+			if ( lvar2 == 6 )	
+			{
+				svar1 = "이곳은 사원입니다.";
+				svar2 = "무엇이 필요하시죠?";
+				gvar1 = 15;
+				ShopType;
+			}
+
+			if ( lvar2 == 7 )	
+			{
+				svar1 = "저는 마법사입니다.";
+				svar2 = "무엇이 필요하시죠?";
+				gvar1 = 9;
+				ShopType;
+			}
+
+			if ( lvar2 == 8 )	
+			{
+				svar1 = "안녕하세요? 저는 대장장이입니다.";
+				svar2 = "한번 둘러보세요.";
+				gvar1 = 3;
+				ShopType;
+			}
+
+			if ( lvar2 == 9 )	
+			{
+				svar1 = "안녕하세요? 저는 마을사람입니다.";
+				svar2 = "무엇을 도와드릴까요?";
+				Show_message;
+			}
+
+			if ( lvar2 == 10 )	
+			{
+				svar1 = "안녕하세요? 저는 여자마을사람입니다.";
+				svar2 = "반가워요.";
+				Show_message;
+			}
+		}
+	}
+
+	OnKilling		
+	{
+		lvar13 = 156;
+
+		if (lvar13 > 150) 
+		{
+			if (lvar2 == lvar13)
+			{
+				svar12 = "abcdefg";
+			}
+			lvar1 = -1;
+		}
+
+		svar2 = 1 + "Fuck you all";
+	}
+}

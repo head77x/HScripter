@@ -1,0 +1,38 @@
+{
+	OnInitial		
+	{
+		Init_variables;
+	}
+
+	OnPosition	
+	{
+		gvar1 = 109;
+		gvar2 = 48;
+		gvar3 = 119;
+		gvar4 = 56;
+		svar1 = "Sakti ¹ÙÀ§( Sakti Crag )";
+		
+		Check_pos_message;	
+	}
+
+	OnTalking	
+	{
+		lvar13 = 156;
+	}
+
+	OnKilling		
+	{
+		lvar13 = 156;
+
+		if (lvar13 > 150) 
+		{
+			if (lvar2 == lvar13)
+			{
+				svar12 = "abcdefg";
+			}
+			lvar1 = -1;
+		}
+
+		svar2 = 1 + "Fuck you all";
+	}
+}

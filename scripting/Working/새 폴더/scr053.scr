@@ -1,0 +1,63 @@
+{
+	OnInitial		
+	{
+		Init_variables;
+	}
+
+	OnPosition	
+	{
+		gvar1 = 116;
+		gvar2 = 39;
+		gvar3 = 153;
+		gvar4 = 147;
+		svar1 = "공포의 늪( Fear Of Marsh )";
+		
+		Check_pos_message;	
+
+		gvar1 = 28;
+		gvar2 = 11;
+		gvar3 = 45;
+		gvar4 = 36;
+		svar1 = "Mulrin 대평원( Mulrin Prairie )";
+		
+		Check_pos_message;	
+
+		gvar1 = 2;
+		gvar2 = 67;
+		gvar3 = 34;
+		gvar4 = 157;
+		svar1 = "Thiassi신의 손( Thiassi's Hand Forest )";
+		
+		Check_pos_message;	
+
+		gvar1 = 112;
+		gvar2 = 201;
+		gvar3 = 127;
+		gvar4 = 217;
+		svar1 = "Vergenia 다리( Vergenia Bridge )";
+		
+		Check_pos_message;	
+
+	}
+
+	OnTalking	
+	{
+		lvar13 = 156;
+	}
+
+	OnKilling		
+	{
+		lvar13 = 156;
+
+		if (lvar13 > 150) 
+		{
+			if (lvar2 == lvar13)
+			{
+				svar12 = "abcdefg";
+			}
+			lvar1 = -1;
+		}
+
+		svar2 = 1 + "Fuck you all";
+	}
+}

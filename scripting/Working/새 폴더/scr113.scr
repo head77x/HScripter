@@ -1,0 +1,95 @@
+{
+	OnInitial		
+	{
+		Init_variables;
+
+		gvar1 = 0;
+		gvar2 = 238;
+		gvar3 = 0;
+		gvar4 = 89;
+		gvar5 = 234;
+		svar1 = "Perios(The innkeeper)";
+		Stand_chr;
+
+		gvar1 = 1;
+		gvar2 = 239;
+		gvar3 = 0;
+		gvar4 = 42;
+		gvar5 = 204;
+		svar1 = "Tane(The banker)";
+		Stand_chr;
+
+		gvar1 = 2;
+		gvar2 = 220;
+		gvar3 = 0;
+		gvar4 = 121;
+		gvar5 = 219;
+		svar1 = "Gerod(The shopkeeper)";
+		Stand_chr;
+
+	}
+
+	OnPosition	
+	{
+		lvar13 = 156;
+	}
+
+	OnTalking	
+	{
+		if ( lvar1 == 0 )			
+		{
+			if ( lvar2 == 0 )	
+			{
+				svar1 = "안녕하세요? 이곳은 여관입니다. 하루 한번 쉬실수 있으며, 레벨 10이상의 유저는 사용료 10000 GOLD 를 지불해야 합니다.";
+				svar2 = "쉬시겠습니까?";
+				gvar1 = 17;
+				ShopType;
+
+				if ( gvar100 == 1 )  /* 리턴값이 Yes 라면 */
+				{
+					if ( gvar7 < 11 )	/* 레벨이 10 이하면 무료로 이용하게 */
+					{
+						Sleeping;
+					}
+
+					if ( gvar7 > 10 )	/* 레벨이 10 이상이면 */
+					{
+						if ( gvar31 > 9999 ) /* 10000 골드보다 많이 가지고 있다면 */
+						{
+							Sleeping;
+						}
+
+						if ( gvar31 < 10000 )
+						{
+							svar1 = "10000 GOLD가 없군요";
+							svar2 = "여관을 사용할 수 없습니다.";
+							gvar1 = -1;
+							ShopType;
+						}
+					}
+				}
+			}
+
+			if ( lvar2 == 1 )	
+			{
+				svar1 = "이곳은 은행입니다.";
+				svar2 = "무엇을 도와드릴까요?";
+				gvar1 = 16;
+				ShopType;
+			}
+
+			if ( lvar2 == 2 )
+			{
+				svar1 = "안녕하세요? 저는 상인입니다.";
+				svar2 = "한번 둘러보세요.";
+				gvar1 = 14;
+				ShopType;
+			}
+		}
+	}
+
+	OnKilling		
+	{
+		lvar13 = 156;
+	}
+}

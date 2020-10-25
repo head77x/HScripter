@@ -1,0 +1,176 @@
+{
+	OnInitial		
+	{
+		Init_variables;
+
+
+		gvar1 = 0;
+		gvar2 = 2;
+		gvar3 = 1;
+		gvar4 = 45;
+		gvar5 = 116;
+		Stand_chr;
+
+		gvar1 = 1;
+		gvar2 = 2;
+		gvar3 = 1;
+		gvar4 = 68;
+		gvar5 = 29;
+		Stand_chr;
+
+		gvar1 = 2;
+		gvar2 = 220;
+		gvar3 = 0;
+		gvar4 = 22;
+		gvar5 = 207;
+		svar1 = "Nero(The shopkeeper)";
+		Stand_chr;
+
+		gvar1 = 3;
+		gvar2 = 226;
+		gvar3 = 0;
+		gvar4 = 23;
+		gvar5 = 176;
+		svar1 = "Marvin(The banker)";
+		Stand_chr;
+
+		gvar1 = 4;
+		gvar2 = 232;
+		gvar3 = 0;
+		gvar4 = 37;
+		gvar5 = 156;
+		svar1 = "Fateyad(The wizard)";
+		Stand_chr;
+
+		gvar1 = 5;
+		gvar2 = 234;
+		gvar3 = 0;
+		gvar4 = 24;
+		gvar5 = 143;
+		svar1 = "Clifford(The blacksmith)";
+		Stand_chr;
+
+	}
+
+	OnPosition	
+	{
+		gvar1 = 17;
+		gvar2 = 144;
+		gvar3 = 25;
+		gvar4 = 150;
+		svar1 = "Clifford의 무기점( Clifford's Armory )";
+		
+		Check_pos_message;	
+
+		gvar1 = 34;
+		gvar2 = 157;
+		gvar3 = 42;
+		gvar4 = 162;
+		svar1 = "마법사 Fateyad의 집( Fateyad's Wizardry )";
+		
+		Check_pos_message;	
+
+		gvar1 = 20;
+		gvar2 = 177;
+		gvar3 = 28;
+		gvar4 = 182;
+		svar1 = "Marvin의 은행( Bank Of Marvin )";
+		
+		Check_pos_message;	
+
+		gvar1 = 20;
+		gvar2 = 207;
+		gvar3 = 28;
+		gvar4 = 212;
+		svar1 = "Nero의 상점( Nero's Store )";
+		
+		Check_pos_message;	
+
+		gvar1 = 42;
+		gvar2 = 163;
+		gvar3 = 48;
+		gvar4 = 169;
+		svar1 = "Nero의 상점";
+		svar2 = "Marvin의 은행";
+		svar3 = "Clifford의 무기상점";
+		svar4 = "";
+		svar5 = "Orc의 오두막";
+		svar6 = "해변";
+		svar7 = "";
+		svar8 = "우물";
+
+		Check_pos_direction;
+
+
+		gvar1 = 65;
+		gvar2 = 26;
+		gvar3 = 71;
+		gvar4 = 32;
+		svar1 = "";
+		svar2 = "";
+		svar3 = "Incon 던전 입구";
+		svar4 = "";
+		svar5 = "Orc의 오두막";
+		svar6 = "";
+		svar7 = "";
+		svar8 = "Britim 마을";
+
+		Check_pos_direction;
+
+
+	}
+
+	OnTalking	
+	{
+		if ( lvar1 == 0 )			
+		{
+			if ( lvar2 == 2 )
+			{
+				svar1 = "안녕하세요? 저는 상인입니다.";
+				svar2 = "한번 둘러보세요.";
+				gvar1 = 14;
+				ShopType;
+			}
+
+			if ( lvar2 == 3 )	
+			{
+				svar1 = "이곳은 은행입니다.";
+				svar2 = "무엇을 도와드릴까요?";
+				gvar1 = 16;
+				ShopType;
+			}
+
+			if ( lvar2 == 4 )	
+			{
+				svar1 = "저는 마법사입니다.";
+				svar2 = "무엇이 필요하시죠?";
+				gvar1 = 7;
+				ShopType;
+			}
+
+			if ( lvar2 == 5 )	
+			{
+				svar1 = "안녕하세요? 저는 대장장이입니다.";
+				svar2 = "한번 둘러보세요.";
+				gvar1 = 1;
+				ShopType;
+			}
+		}
+	}
+
+	OnKilling		
+	{
+		lvar13 = 156;
+
+		if (lvar13 > 150) 
+		{
+			if (lvar2 == lvar13)
+			{
+				svar12 = "abcdefg";
+			}
+			lvar1 = -1;
+		}
+
+		svar2 = 1 + "Fuck you all";
+	}
+}

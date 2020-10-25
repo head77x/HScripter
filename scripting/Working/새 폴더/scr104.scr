@@ -1,0 +1,287 @@
+{
+	OnInitial		
+	{
+		Init_variables;
+
+		gvar1 = 0;
+		gvar2 = 2;
+		gvar3 = 1;
+		gvar4 = 75;
+		gvar5 = 106;
+		Stand_chr;
+
+		gvar1 = 1;
+		gvar2 = 2;
+		gvar3 = 1;
+		gvar4 = 103;
+		gvar5 = 71;
+		Stand_chr;
+
+		gvar1 = 2;
+		gvar2 = 2;
+		gvar3 = 1;
+		gvar4 = 146;
+		gvar5 = 99;
+		Stand_chr;
+
+		gvar1 = 3;
+		gvar2 = 2;
+		gvar3 = 1;
+		gvar4 = 42;
+		gvar5 = 77;
+		Stand_chr;
+
+		gvar1 = 4;
+		gvar2 = 222;
+		gvar3 = 0;
+		gvar4 = 111;
+		gvar5 = 124;
+		svar1 = "Durukan(The shopkeeper)";
+		Stand_chr;
+
+		gvar1 = 5;
+		gvar2 = 231;
+		gvar3 = 0;
+		gvar4 = 132;
+		gvar5 = 25;
+		svar1 = "Balions(The priest)";
+		Stand_chr;
+
+		gvar1 = 6;
+		gvar2 = 228;
+		gvar3 = 0;
+		gvar4 = 63;
+		gvar5 = 37;
+		svar1 = "Recarun(The banker)";
+		Stand_chr;
+
+		gvar1 = 7;
+		gvar2 = 225;
+		gvar3 = 0;
+		gvar4 = 23;
+		gvar5 = 8;
+		svar1 = "Drossban(The innkeeper)";
+		Stand_chr;
+
+		gvar1 = 8;
+		gvar2 = 242;
+		gvar3 = 0;
+		gvar4 = 13;
+		gvar5 = 43;
+		svar1 = "Delimuf(The blacksmith)";
+		Stand_chr;
+
+		gvar1 = 9;
+		gvar2 = 242;
+		gvar3 = 0;
+		gvar4 = 145;
+		gvar5 = 112;
+		svar1 = "Ruincott(Man)";
+		Stand_chr;
+
+	}
+
+
+	OnPosition	
+	{
+		gvar1 = 135;
+		gvar2 = 119;
+		gvar3 = 147;
+		gvar4 = 129;
+		svar1 = "훈련장( Arena Of Amelioration )";
+		
+		Check_pos_message;	
+
+		gvar1 = 124;
+		gvar2 = 21;
+		gvar3 = 141;
+		gvar4 = 39;
+		svar1 = "Balions 사원( Balions` Temple )";
+		
+		Check_pos_message;	
+
+		gvar1 = 147;
+		gvar2 = 163;
+		gvar3 = 158;
+		gvar4 = 171;
+		svar1 = "명예의 전당( Croteen Lair Palace Of Glory )";
+		
+		Check_pos_message;	
+
+		gvar1 = 73;
+		gvar2 = 62;
+		gvar3 = 101;
+		gvar4 = 108;
+		svar1 = "Lair 광장( Croteen Lair Plaza )";
+		
+		Check_pos_message;	
+
+		gvar1 = 17;
+		gvar2 = 2;
+		gvar3 = 29;
+		gvar4 = 14;
+		svar1 = "Recarun의 은행( Bank Of Recarun )";
+		
+		Check_pos_message;	
+
+		gvar1 = 106;
+		gvar2 = 119;
+		gvar3 = 120;
+		gvar4 = 129;
+		svar1 = "Durukan의상점( Durukan`s Store )";
+		
+		Check_pos_message;	
+
+		gvar1 = 55;
+		gvar2 = 29;
+		gvar3 = 70;
+		gvar4 = 41;
+		svar1 = "Delimuf 대장간/무기상점( Delimuf Armory )";
+		
+		Check_pos_message;	
+
+		gvar1 = 72;
+		gvar2 = 103;
+		gvar3 = 78;
+		gvar4 = 109;
+		svar1 = "평원";
+		svar2 = "";
+		svar3 = "무기상점";
+		svar4 = "은행";
+		svar5 = "수련장";
+		svar6 = "상점";
+		svar7 = "";
+		svar8 = "";
+
+		Check_pos_direction;
+
+		gvar1 = 100;
+		gvar2 = 68;
+		gvar3 = 106;
+		gvar4 = 74;
+		svar1 = "평원";
+		svar2 = "";
+		svar3 = "은행";
+		svar4 = "신전";
+		svar5 = "";
+		svar6 = "";
+		svar7 = "수련장";
+		svar8 = "";
+
+		Check_pos_direction;
+
+		gvar1 = 143;
+		gvar2 = 96;
+		gvar3 = 149;
+		gvar4 = 102;
+		svar1 = "";
+		svar2 = "광장";
+		svar3 = "";
+		svar4 = "신전";
+		svar5 = "";
+		svar6 = "";
+		svar7 = "";
+		svar8 = "수련장/명예의 전당";
+
+		Check_pos_direction;
+
+		gvar1 = 39;
+		gvar2 = 74;
+		gvar3 = 45;
+		gvar4 = 80;
+		svar1 = "";
+		svar2 = "";
+		svar3 = "무기상점";
+		svar4 = "";
+		svar5 = "";
+		svar6 = "은행";
+		svar7 = "평원";
+		svar8 = "";
+
+		Check_pos_direction;
+
+	}
+
+	OnTalking	
+	{
+		if ( lvar1 == 0 )			
+		{
+			if ( lvar2 == 4 )
+			{
+				svar1 = "안녕하세요? 저는 오우거 상인입니다.";
+				svar2 = "한번 둘러보세요.";
+				gvar1 = 14;
+				ShopType;
+			}
+
+			if ( lvar2 == 5 )	
+			{
+				svar1 = "안녕하세요? 이곳은 오우거 사원입니다.";
+				svar2 = "무엇을 도와드릴까요?";
+				gvar1 = 15;
+				ShopType;
+			}
+
+			if ( lvar2 == 6 )	
+			{
+				svar1 = "이곳은 오우거 은행입니다.";
+				svar2 = "무엇을 도와드릴까요?";
+				gvar1 = 16;
+				ShopType;
+			}
+
+			if ( lvar2 == 7 )	
+			{
+				svar1 = "안녕하세요? 이곳은 여관입니다. 하루 한번 쉬실수 있으며, 레벨 10이상의 유저는 사용료 10000 GOLD 를 지불해야 합니다.";
+				svar2 = "쉬시겠습니까?";
+				gvar1 = 17;
+				ShopType;
+
+				if ( gvar100 == 1 )  /* 리턴값이 Yes 라면 */
+				{
+					if ( gvar7 < 11 )	/* 레벨이 10 이하면 무료로 이용하게 */
+					{
+						Sleeping;
+					}
+
+					if ( gvar7 > 10 )	/* 레벨이 10 이상이면 */
+					{
+						if ( gvar31 > 9999 ) /* 10000 골드보다 많이 가지고 있다면 */
+						{
+							Sleeping;
+						}
+
+						if ( gvar31 < 10000 )
+						{
+							svar1 = "10000 GOLD가 없군요";
+							svar2 = "여관을 사용할 수 없습니다.";
+							gvar1 = -1;
+							ShopType;
+						}
+					}
+				}
+			}
+
+			if ( lvar2 == 8 )	
+			{
+				svar1 = "저는 오우거 대장장이입니다.";
+				svar2 = "무엇이 필요하시죠?";
+				gvar1 = 0;
+				ShopType;
+			}
+
+			if ( lvar2 == 9 )	
+			{
+				svar1 = "안녕하세요? 저는 마을사람입니다.";
+				svar2 = "무엇을 도와드릴까요?";
+				Show_message;
+			}
+		}
+	}
+
+
+	OnKilling		
+	{
+		lvar13 = 156;
+	}
+}

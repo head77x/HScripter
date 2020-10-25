@@ -1,0 +1,28 @@
+{
+	OnInitial		
+	{
+		Init_variables;
+	}
+
+	OnPosition	
+	{
+		gvar1 = 22;
+		gvar2 = 136;
+		gvar3 = 47;
+		gvar4 = 173;
+		svar1 = "Cruna`s Fountain";
+		
+		Check_pos_message;	
+	}
+
+	OnTalking	
+	{
+		lvar13 = 156;
+	}
+
+
+	OnKilling		
+	{
+		lvar13 = 156;
+	}
+}

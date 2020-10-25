@@ -1,0 +1,48 @@
+{
+
+	OnInitial		
+	{
+		Init_variables;
+	}
+
+
+	OnPosition	
+	{
+		gvar1 = 98;
+		gvar2 = 116;
+		gvar3 = 116;
+		gvar4 = 134;
+		svar1 = "Axis Mundi";
+		
+		Check_pos_message;	
+
+		gvar1 = 28;
+		gvar2 = 263;
+		gvar3 = 40;
+		gvar4 = 275;
+		svar1 = "æÓµ“¿« πŸ¥Ÿ II( Dark Sea Dungeon 2 )";
+		
+		Check_pos_message;	
+
+		gvar1 = 21;
+		gvar2 = 192;
+		gvar3 = 36;
+		gvar4 = 207;
+		svar1 = "ªÁΩ≈¿« øµ»•( Four Spiritually Endowed Creatures Soul )";
+		
+		Check_pos_message;	
+
+
+	}
+
+	OnTalking	
+	{
+		lvar13 = 156;
+	}
+
+
+	OnKilling		
+	{
+		lvar13 = 156;
+	}
+}

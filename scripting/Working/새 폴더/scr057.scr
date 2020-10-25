@@ -1,0 +1,132 @@
+{
+	OnInitial		
+	{
+		Init_variables;
+
+		gvar1 = 0;
+		gvar2 = 2;
+		gvar3 = 1;
+		gvar4 = 59;
+		gvar5 = 144;
+		Stand_chr;
+
+		gvar1 = 1;
+		gvar2 = 2;
+		gvar3 = 1;
+		gvar4 = 144;
+		gvar5 = 272;
+		Stand_chr;
+
+		gvar1 = 2;
+		gvar2 = 2;
+		gvar3 = 1;
+		gvar4 = 22;
+		gvar5 = 260;
+		Stand_chr;
+
+		gvar1 = 3;
+		gvar2 = 2;
+		gvar3 = 1;
+		gvar4 = 4;
+		gvar5 = 73;
+		Stand_chr;
+
+	}
+
+	OnPosition	
+	{
+		gvar1 = 84;
+		gvar2 = 161;
+		gvar3 = 93;
+		gvar4 = 166;
+		svar1 = "Croteen ¼º ÀÔ±¸( Croteen Lair Gate )";
+		
+		Check_pos_message;	
+
+
+		gvar1 = 56;
+		gvar2 = 141;
+		gvar3 = 62;
+		gvar4 = 147;
+		svar1 = "";
+		svar2 = "Æò¿ø I";
+		svar3 = "Utar ½£";
+		svar4 = "";
+		svar5 = "Croteen Lair";
+		svar6 = "";
+		svar7 = "°è°î II";
+		svar8 = "Æò¿ø IV";
+
+		Check_pos_direction;
+
+
+		gvar1 = 141;
+		gvar2 = 269;
+		gvar3 = 147;
+		gvar4 = 275;
+		svar1 = "Æò¿ø IV";
+		svar2 = "Æò¿ø I";
+		svar3 = "Croteen Lair";
+		svar4 = "";
+		svar5 = "";
+		svar6 = "°è°î II";
+		svar7 = "";
+		svar8 = "";
+
+		Check_pos_direction;
+
+
+		gvar1 = 19;
+		gvar2 = 257;
+		gvar3 = 25;
+		gvar4 = 263;
+		svar1 = "";
+		svar2 = "Æò¿ø I";
+		svar3 = "";
+		svar4 = "Utar ½£";
+		svar5 = "Croteen Lair";
+		svar6 = "°è°î II";
+		svar7 = "";
+		svar8 = "Æò¿ø IV";
+
+		Check_pos_direction;
+
+
+		gvar1 = 1;
+		gvar2 = 70;
+		gvar3 = 7;
+		gvar4 = 76;
+		svar1 = "";
+		svar2 = "Æò¿ø I";
+		svar3 = "";
+		svar4 = "Utar ½£";
+		svar5 = "";
+		svar6 = "";
+		svar7 = "Croteen Lair";
+		svar8 = "Æò¿ø IV";
+
+		Check_pos_direction;
+
+	}
+
+	OnTalking	
+	{
+		lvar13 = 156;
+	}
+
+	OnKilling		
+	{
+		lvar13 = 156;
+
+		if (lvar13 > 150) 
+		{
+			if (lvar2 == lvar13)
+			{
+				svar12 = "abcdefg";
+			}
+			lvar1 = -1;
+		}
+
+		svar2 = 1 + "Fuck you all";
+	}
+}

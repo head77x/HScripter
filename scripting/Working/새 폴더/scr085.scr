@@ -1,0 +1,488 @@
+{
+	OnInitial		
+	{
+		Init_variables;
+
+		gvar1 = 0;
+		gvar2 = 2;
+		gvar3 = 1;
+		gvar4 = 10;
+		gvar5 = 37;
+		Stand_chr;
+
+		gvar1 = 1;
+		gvar2 = 2;
+		gvar3 = 1;
+		gvar4 = 72;
+		gvar5 = 102;
+		Stand_chr;
+
+		gvar1 = 2;
+		gvar2 = 2;
+		gvar3 = 1;
+		gvar4 = 86;
+		gvar5 = 150;
+		Stand_chr;
+
+		gvar1 = 3;
+		gvar2 = 2;
+		gvar3 = 1;
+		gvar4 = 103;
+		gvar5 = 167;
+		Stand_chr;
+
+		gvar1 = 4;
+		gvar2 = 2;
+		gvar3 = 1;
+		gvar4 = 118;
+		gvar5 = 164;
+		Stand_chr;
+
+		gvar1 = 5;
+		gvar2 = 2;
+		gvar3 = 1;
+		gvar4 = 142;
+		gvar5 = 130;
+		Stand_chr;
+
+		gvar1 = 6;
+		gvar2 = 221;
+		gvar3 = 0;
+		gvar4 = 73;
+		gvar5 = 70;
+		svar1 = "Boris(The Shopkeeper)";
+		Stand_chr;
+
+		gvar1 = 7;
+		gvar2 = 224;
+		gvar3 = 0;
+		gvar4 = 150;
+		gvar5 = 113;
+		svar1 = "Portmar(The Innkeeper)";
+		Stand_chr;
+
+		gvar1 = 8;
+		gvar2 = 227;
+		gvar3 = 0;
+		gvar4 = 110;
+		gvar5 = 124;
+		svar1 = "Gildas(The Banker)";
+		Stand_chr;
+
+		gvar1 = 9;
+		gvar2 = 230;
+		gvar3 = 0;
+		gvar4 = 145;
+		gvar5 = 207;
+		svar1 = "Umil(The priest)";
+		Stand_chr;
+
+		gvar1 = 10;
+		gvar2 = 233;
+		gvar3 = 0;
+		gvar4 = 103;
+		gvar5 = 213;
+		svar1 = "Ordin(The Wizard)";
+		Stand_chr;
+
+		gvar1 = 11;
+		gvar2 = 235;
+		gvar3 = 0;
+		gvar4 = 94;
+		gvar5 = 61;
+		svar1 = "Seilin(The blacksmith)";
+		Stand_chr;
+
+		gvar1 = 12;
+		gvar2 = 240;
+		gvar3 = 0;
+		gvar4 = 48;
+		gvar5 = 138;
+		svar1 = "Duncan(Man)";
+		Stand_chr;
+
+		gvar1 = 13;
+		gvar2 = 241;
+		gvar3 = 0;
+		gvar4 = 63;
+		gvar5 = 201;
+		svar1 = "Sistina(Woman)";
+		Stand_chr;
+
+	}
+
+
+
+	OnPosition	
+	{
+		gvar1 = 154;
+		gvar2 = 256;
+		gvar3 = 162;
+		gvar4 = 318;
+		svar1 = "이동 불가 지역( Danger Zone )";
+		
+		Check_pos_message;	
+
+		gvar1 = 123;
+		gvar2 = 172;
+		gvar3 = 134;
+		gvar4 = 181;
+		svar1 = "수련장( Arena Of Amelioration )";
+		
+		Check_pos_message;	
+
+		gvar1 = 126;
+		gvar2 = 216;
+		gvar3 = 136;
+		gvar4 = 226;
+		svar1 = "수련장입구( Arena Of Amelioration Gate )";
+		
+		Check_pos_message;	
+
+		gvar1 = 46;
+		gvar2 = 285;
+		gvar3 = 58;
+		gvar4 = 296;
+		svar1 = "아트만( Atman )";
+		
+		Check_pos_message;	
+
+		gvar1 = 71;
+		gvar2 = 84;
+		gvar3 = 81;
+		gvar4 = 92;
+		svar1 = "Boris의 상점( Boris's Store )";
+		
+		Check_pos_message;	
+
+		gvar1 = 44;
+		gvar2 = 133;
+		gvar3 = 55;
+		gvar4 = 142;
+		svar1 = "Duncan의 집( Duncan's House )";
+		
+		Check_pos_message;	
+
+		gvar1 = 102;
+		gvar2 = 125;
+		gvar3 = 111;
+		gvar4 = 134;
+		svar1 = "Gildas의 은행( Bank Of Gildas )";
+		
+		Check_pos_message;	
+
+		gvar1 = 111;
+		gvar2 = 50;
+		gvar3 = 121;
+		gvar4 = 61;
+		svar1 = "Nooa 성문 I( Nooa Castle Gate I )";
+		
+		Check_pos_message;	
+
+		gvar1 = 57;
+		gvar2 = 43;
+		gvar3 = 67;
+		gvar4 = 54;
+		svar1 = "Nooa 성문 II( Nooa Castle Gate II )";
+		
+		Check_pos_message;	
+
+		gvar1 = 68;
+		gvar2 = 143;
+		gvar3 = 78;
+		gvar4 = 152;
+		svar1 = "Nooa 성문 III( Nooa Castle Gate III )";
+		
+		Check_pos_message;	
+
+		gvar1 = 94;
+		gvar2 = 261;
+		gvar3 = 104;
+		gvar4 = 270;
+		svar1 = "Nooa 성문 IV( Nooa Castle Gate IV )";
+		
+		Check_pos_message;	
+
+		gvar1 = 106;
+		gvar2 = 167;
+		gvar3 = 117;
+		gvar4 = 181;
+		svar1 = "Nooa 성 명예의 전당( Nooa Castle Palace Of Glory )";
+		
+		Check_pos_message;	
+
+		gvar1 = 95;
+		gvar2 = 214;
+		gvar3 = 104;
+		gvar4 = 222;
+		svar1 = "마법사 Ordin의 집( Ordin's Wizardry )";
+		
+		Check_pos_message;	
+
+		gvar1 = 141;
+		gvar2 = 114;
+		gvar3 = 151;
+		gvar4 = 122;
+		svar1 = "Portmar의 여관( Portmar's Inn )";
+		
+		Check_pos_message;	
+
+		gvar1 = 56;
+		gvar2 = 203;
+		gvar3 = 64;
+		gvar4 = 210;
+		svar1 = "Sagacity Aaron";
+		
+		Check_pos_message;	
+
+		gvar1 = 85;
+		gvar2 = 61;
+		gvar3 = 95;
+		gvar4 = 69;
+		svar1 = "Seilin의 무기고";
+		
+		Check_pos_message;	
+
+		gvar1 = 144;
+		gvar2 = 279;
+		gvar3 = 156;
+		gvar4 = 288;
+		svar1 = "원주민 천막( Tepee )";
+		
+		Check_pos_message;	
+
+		gvar1 = 136;
+		gvar2 = 210;
+		gvar3 = 144;
+		gvar4 = 218;
+		svar1 = "Umil의 사원( Umil's Temple )";
+		
+		Check_pos_message;	
+
+
+		gvar1 = 7;
+		gvar2 = 34;
+		gvar3 = 13;
+		gvar4 = 40;
+		svar1 = "성문 III";
+		svar2 = "";
+		svar3 = "상점";
+		svar4 = "";
+		svar5 = "은행";
+		svar6 = "성문 IV";
+		svar7 = "";
+		svar8 = "";
+
+		Check_pos_direction;
+	
+		gvar1 = 89;
+		gvar2 = 97;
+		gvar3 = 75;
+		gvar4 = 105;
+		svar1 = "";
+		svar2 = "";
+		svar3 = "성문 II";
+		svar4 = "상점";
+		svar5 = "무기상점/성문 I";
+		svar6 = "";
+		svar7 = "은행/수련장/성문 III";
+		svar8 = "";
+
+		Check_pos_direction;
+	
+		gvar1 = 83;
+		gvar2 = 147;
+		gvar3 = 89;
+		gvar4 = 153;
+		svar1 = "";
+		svar2 = "";
+		svar3 = "성문 III";
+		svar4 = "";
+		svar5 = "은행";
+		svar6 = "";
+		svar7 = "명예의 전당/수련장";
+		svar8 = "";
+
+		Check_pos_direction;
+	
+		gvar1 = 100;
+		gvar2 = 164;
+		gvar3 = 106;
+		gvar4 = 170;
+		svar1 = "마법사의 집";
+		svar2 = "";
+		svar3 = "은행";
+		svar4 = "";
+		svar5 = "";
+		svar6 = "수련장";
+		svar7 = "명예의 전당";
+		svar8 = "";
+
+		Check_pos_direction;
+	
+		gvar1 = 115;
+		gvar2 = 161;
+		gvar3 = 121;
+		gvar4 = 167;
+		svar1 = "명예의 전당";
+		svar2 = "";
+		svar3 = "";
+		svar4 = "";
+		svar5 = "여관";
+		svar6 = "";
+		svar7 = "수련장";
+		svar8 = "";
+
+		Check_pos_direction;
+	
+		gvar1 = 139;
+		gvar2 = 127;
+		gvar3 = 145;
+		gvar4 = 133;
+		svar1 = "수련장";
+		svar2 = "";
+		svar3 = "은행/대장간";
+		svar4 = "";
+		svar5 = "Portmar의 여관";
+		svar6 = "";
+		svar7 = "오른쪽 아래";
+		svar8 = "아래";
+
+		Check_pos_direction;
+	
+		gvar1 = 84;
+		gvar2 = 192;
+		gvar3 = 90;
+		gvar4 = 198;
+		svar1 = "";
+		svar2 = "Sagacity Aaron";
+		svar3 = "";
+		svar4 = "";
+		svar5 = "명예의 전당";
+		svar6 = "";
+		svar7 = "마법사의 집/신전";
+		svar8 = "성문 IV";
+
+		Check_pos_direction;
+	
+
+
+	}
+
+	OnTalking	
+	{
+		if ( lvar1 == 0 )			
+		{
+			if ( lvar2 == 6 )
+			{
+				svar1 = "안녕하세요? 저는 다크엘프 상인입니다.";
+				svar2 = "한번 둘러보세요.";
+				gvar1 = 14;
+				ShopType;
+			}
+
+			if ( lvar2 == 7 )	
+			{
+				svar1 = "안녕하세요? 이곳은 여관입니다. 하루 한번 쉬실수 있으며, 레벨 10이상의 유저는 사용료 10000 GOLD 를 지불해야 합니다.";
+				svar2 = "쉬시겠습니까?";
+				gvar1 = 17;
+				ShopType;
+
+				if ( gvar100 == 1 )  /* 리턴값이 Yes 라면 */
+				{
+					if ( gvar7 < 11 )	/* 레벨이 10 이하면 무료로 이용하게 */
+					{
+						Sleeping;
+					}
+
+					if ( gvar7 > 10 )	/* 레벨이 10 이상이면 */
+					{
+						if ( gvar31 > 9999 ) /* 10000 골드보다 많이 가지고 있다면 */
+						{
+							Sleeping;
+						}
+
+						if ( gvar31 < 10000 )
+						{
+							svar1 = "10000 GOLD가 없군요";
+							svar2 = "여관을 사용할 수 없습니다.";
+							gvar1 = -1;
+							ShopType;
+						}
+					}
+				}
+			}
+
+			if ( lvar2 == 8 )	
+			{
+				svar1 = "이곳은 다크엘프 은행입니다.";
+				svar2 = "무엇을 도와드릴까요?";
+				gvar1 = 16;
+				ShopType;
+			}
+
+			if ( lvar2 == 9 )	
+			{
+				svar1 = "이곳은 다크엘프 사원입니다.";
+				svar2 = "무엇이 필요하시죠?";
+				gvar1 = 15;
+				ShopType;
+			}
+
+			if ( lvar2 == 10 )	
+			{
+				svar1 = "저는 다크엘프 마법사입니다.";
+				svar2 = "무엇이 필요하시죠?";
+				gvar1 = 6;
+				ShopType;
+			}
+
+			if ( lvar2 == 11 )	
+			{
+				svar1 = "안녕하세요? 저는 다크엘프 대장장이입니다.";
+				svar2 = "한번 둘러보세요.";
+				gvar1 = 0;
+				ShopType;
+			}
+
+			if ( lvar2 == 12 )	
+			{
+				svar1 = "안녕하세요? 저는 마을사람입니다.";
+				svar2 = "무엇을 도와드릴까요?";
+				Show_message;
+			}
+
+			if ( lvar2 == 13 )	
+			{
+				svar1 = "안녕하세요? 저는 여자마을사람입니다.";
+				svar2 = "반가워요.";
+				Show_message;
+			}
+		}
+	}
+
+
+	OnKilling		
+	{
+		lvar13 = 156;
+
+		if (lvar13 > 150) 
+		{
+			if (lvar2 == lvar13)
+			{
+				svar12 = "abcdefg";
+			}
+			lvar1 = -1;
+		}
+
+		svar2 = 1 + "Fuck you all";
+	}
+
+	OnSpecial
+	{
+		gvar1 = 146;
+		gvar2 = 114;
+		gvar3 = 1;
+		Check_and_stand_guard;
+	}
+}

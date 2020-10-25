@@ -1,0 +1,348 @@
+/* Zone Number : 013 */
+
+
+{
+	/* 현재 존(zone)과 관련된 정보 초기화 */
+	OnInitial
+	{
+	}
+
+
+
+
+
+	/* 캐릭터 또는 오브젝트를 선택했을때 처리 */
+	OnClicking
+	{
+		/* 캐릭터인지 비교 */
+		if ( gvar1 = 0 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 241 )
+			{
+
+EXIT_CLICK_241:
+
+
+				/* 대화 출력 */
+				lvar1 = 420;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+		}
+
+		/* 오브젝트인지 비교 */
+		if ( gvar1 = 1 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 920677 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 76 )
+				{
+					/* 대화 출력 */
+					lvar1 = 0;
+					svar1 = "대륙의 생명 가까이에 전혀 다른 느낌의 존재가 느껴진다. 자탄이 다가오고 있다.";
+					svar2 = "";
+					svar3 = "자탄을 향해 파티원들이 움직여야 한다. 이제 최후의 전투가 시작될 시간이다.";
+					svar4 = "";
+					svar5 = "";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+
+					goto EXIT_CLICK;
+
+					goto EXIT_CLICK_920677;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 77 )
+				{
+					/* 조건 비교 */
+					lvar1 = 213;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 대화 출력 */
+						lvar1 = 0;
+						svar1 = "'대륙의 생명에 생명의 자이아석을 넣으라'는 무탄의 충고가 생각났다.";
+						svar2 = "";
+						svar3 = "";
+						svar4 = "";
+						svar5 = "";
+						Show_clickmessage;
+
+						/* 행동 처리 */
+						/* 대화 출력 */
+						/* 값 설정 */
+
+						goto EXIT_CLICK;
+					}
+
+
+					goto EXIT_CLICK_920677;
+				}
+
+
+EXIT_CLICK_920677:
+
+
+				/* 대화 출력 */
+				lvar1 = 0;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+		}
+
+
+EXIT_CLICK:
+	}
+
+
+
+
+
+	/* 캐릭터 또는 오브젝트를 죽였을때 처리 */
+	OnKilling
+	{
+		/* 캐릭터인지 비교 */
+		if ( gvar1 = 0 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 241 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 76 )
+				{
+					/* 조건 비교 */
+					if ( gvar12 = 1 )
+					{
+						/* 대화 출력 */
+						lvar1 = 420;
+						svar1 = "누군가 당신들을 막아야만 했다. 모두를 막아야만 했다.. ";
+						svar2 = "너희의 헛된 모험은 여기서 멈춰져야 했는데.. ";
+						svar3 = "";
+						svar4 = "에메다의 존재가 느껴진다.. 그녀가 직접 너를 찾을 것이다. ";
+						svar5 = "그녀의 경고를.. 그녀의 분노를.. 기억하라. 그녀는 네피림의 중심이다.";
+						Show_clickmessage;
+
+						/* 행동 처리 */
+						/* 대화 출력 */
+						/* 값 설정 */
+						lvar1 = -1;
+						lvar2 = 0;
+						lvar3 = -1;
+						lvar4 = 0;
+						lvar5 = 0;
+						lvar6 = 0;
+						lvar7 = 0;
+						lvar8 = 0;
+						lvar9 = 0;
+						lvar10 = -1;
+						lvar11 = -1;
+						lvar12 = 0;
+						lvar13 = 0;
+						lvar14 = 0;
+						lvar15 = 0;
+						lvar16 = 0;
+						lvar17 = 0;
+						lvar18 = 0;
+						lvar19 = -1;
+						lvar20 = 1;
+						lvar21 = 77;
+						Set_scriptvar;
+
+						goto EXIT_KILL;
+					}
+
+
+					goto EXIT_KILL_241;
+				}
+
+
+EXIT_KILL_241:
+
+
+
+				goto EXIT_KILL;
+			}
+
+		}
+
+		/* 오브젝트인지 비교 */
+		if ( gvar1 = 1 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 920677 )
+			{
+
+EXIT_KILL_920677:
+
+
+
+				goto EXIT_KILL;
+			}
+
+		}
+
+
+EXIT_KILL:
+	}
+
+
+
+
+
+	/* 아이템을 드래그 했을때 처리 */
+	OnDraging
+	{
+		/* 캐릭터인지 비교 */
+		if ( gvar1 = 0 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 241 )
+			{
+
+EXIT_GET_ITEM_241:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+		}
+
+		/* 오브젝트인지 비교 */
+		if ( gvar1 = 1 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 920677 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 77 )
+				{
+					/* 조건 비교 */
+					lvar1 = 231;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 대화 출력 */
+						lvar1 = 0;
+						svar1 = "대륙의 생명에 생명의 자이아석을 넣는 순간.. 대륙 전체를 변화가 느껴진다.";
+						svar2 = "거대한 이 존재의 부활은 두려움과 함께 경이로움을.. 감탄을 느끼게 한다. ";
+						svar3 = "";
+						svar4 = "";
+						svar5 = "몸안의 자이아 에너지가 완전히 채워졌다. ";
+						Show_clickmessage;
+
+						/* 행동 처리 */
+						/* 대화 출력 */
+						/* 값 설정 */
+						lvar1 = 213;
+						lvar2 = 1;
+						lvar3 = -1;
+						lvar4 = 0;
+						lvar5 = 0;
+						lvar6 = 0;
+						lvar7 = 0;
+						lvar8 = 0;
+						lvar9 = 0;
+						lvar10 = -1;
+						lvar11 = -1;
+						lvar12 = 4900;
+						lvar13 = 0;
+						lvar14 = 0;
+						lvar15 = 0;
+						lvar16 = 0;
+						lvar17 = 0;
+						lvar18 = 0;
+						lvar19 = -1;
+						lvar20 = 1;
+						lvar21 = 78;
+						Set_scriptvar;
+
+						goto EXIT_GET_ITEM;
+					}
+
+
+					goto EXIT_GET_ITEM_920677;
+				}
+
+
+EXIT_GET_ITEM_920677:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+		}
+
+
+EXIT_GET_ITEM:
+	}
+
+
+
+
+
+	/* 캐릭터 또는 오브젝트를 공격했을때 처리 */
+	OnHitting
+	{
+		/* 캐릭터인지 비교 */
+		if ( gvar1 = 0 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 241 )
+			{
+
+EXIT_HIT_241:
+
+
+
+				goto EXIT_HIT;
+			}
+
+		}
+
+		/* 오브젝트인지 비교 */
+		if ( gvar1 = 1 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 920677 )
+			{
+
+EXIT_HIT_920677:
+
+
+
+				goto EXIT_HIT;
+			}
+
+		}
+
+
+EXIT_HIT:
+	}
+
+}
+

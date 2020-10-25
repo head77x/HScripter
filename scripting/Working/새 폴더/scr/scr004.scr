@@ -1,0 +1,2625 @@
+/* Zone Number : 004 */
+
+
+{
+	/* 현재 존(zone)과 관련된 정보 초기화 */
+	OnInitial
+	{
+	}
+
+
+
+
+
+	/* 캐릭터 또는 오브젝트를 선택했을때 처리 */
+	OnClicking
+	{
+		/* 캐릭터인지 비교 */
+		if ( gvar1 = 0 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 61 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 18 )
+				{
+					/* 조건 비교 */
+					lvar1 = 74;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 대화 출력 */
+						lvar1 = 207;
+						svar1 = "...";
+						svar2 = "";
+						svar3 = "자네가 갖고 있는.. 베루수스의 엘라를 내게 전달해주게..";
+						svar4 = "";
+						svar5 = "";
+						Show_clickmessage;
+
+						/* 행동 처리 */
+						/* 대화 출력 */
+						/* 값 설정 */
+
+						goto EXIT_CLICK;
+					}
+
+
+					goto EXIT_CLICK_61;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 20 )
+				{
+					/* 조건 비교 */
+					lvar1 = 229;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 대화 출력 */
+						lvar1 = 207;
+						svar1 = "그 거울이 맞네. 여기 네피림의 밀서를 받게. 밀서와 거울은 무탄에게 전해졌으면 하는데..";
+						svar2 = "";
+						svar3 = "난 이제 어느정도 회복을 했으니, 또다시 네피림을 추적하러 떠나야 겠네.";
+						svar4 = "무탄에게 '밀서'와 '거울'을 전달해주면 내 뜻을 이해할꺼네. ";
+						svar5 = "그럼 이만 가보게.";
+						Show_clickmessage;
+
+						/* 행동 처리 */
+						/* 대화 출력 */
+						/* 값 설정 */
+						lvar1 = -1;
+						lvar2 = 0;
+						lvar3 = 212;
+						lvar4 = 0;
+						lvar5 = 1;
+						lvar6 = 0;
+						lvar7 = 0;
+						lvar8 = 0;
+						lvar9 = 0;
+						lvar10 = -1;
+						lvar11 = -1;
+						lvar12 = 0;
+						lvar13 = 0;
+						lvar14 = 0;
+						lvar15 = 0;
+						lvar16 = 0;
+						lvar17 = 0;
+						lvar18 = 0;
+						lvar19 = -1;
+						lvar20 = 1;
+						lvar21 = 21;
+						Set_scriptvar;
+
+						goto EXIT_CLICK;
+					}
+
+
+					goto EXIT_CLICK_61;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 21 )
+				{
+					/* 대화 출력 */
+					lvar1 = 207;
+					svar1 = "어서 무탄에게 밀서의 해독을 맡기게.";
+					svar2 = "";
+					svar3 = "자네가 갖고 있는 네피림의 밀서를 전달해 준뒤, 거울을 전달해주게.";
+					svar4 = "";
+					svar5 = "";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+
+					goto EXIT_CLICK;
+
+					goto EXIT_CLICK_61;
+				}
+
+
+EXIT_CLICK_61:
+
+
+				/* 대화 출력 */
+				lvar1 = 207;
+				svar1 = "으으윽.. ";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 62 )
+			{
+
+EXIT_CLICK_62:
+
+
+				/* 대화 출력 */
+				lvar1 = 360;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 63 )
+			{
+
+EXIT_CLICK_63:
+
+
+				/* 대화 출력 */
+				lvar1 = 320;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 68 )
+			{
+
+EXIT_CLICK_68:
+
+
+				/* 대화 출력 */
+				lvar1 = 350;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 67 )
+			{
+
+EXIT_CLICK_67:
+
+
+				/* 대화 출력 */
+				lvar1 = 360;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 69 )
+			{
+
+EXIT_CLICK_69:
+
+
+				/* 대화 출력 */
+				lvar1 = 330;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 70 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 51 )
+				{
+					/* 대화 출력 */
+					lvar1 = 340;
+					svar1 = "침묵의 돌 수호자는 쓰러졌다.";
+					svar2 = "";
+					svar3 = "무탄에게 돌아가서, 침묵의 돌을 어떻게 사용할지 물어봐야 겠다.";
+					svar4 = "";
+					svar5 = "";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+
+					goto EXIT_CLICK;
+
+					goto EXIT_CLICK_70;
+				}
+
+
+EXIT_CLICK_70:
+
+
+				/* 대화 출력 */
+				lvar1 = 340;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 71 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 54 )
+				{
+					/* 조건 비교 */
+					lvar1 = 224;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 대화 출력 */
+						lvar1 = 350;
+						svar1 = "첫번쨰 생명의 나무를 지배하던, 모사린의 시체가 놓여있다.";
+						svar2 = "";
+						svar3 = "";
+						svar4 = "";
+						svar5 = "'침묵의 돌'을 첫번쨰 생명의 나무에 넣어, 역행하는 대륙의 힘을 바로 잡아야 겠다.";
+						Show_clickmessage;
+
+						/* 행동 처리 */
+						/* 대화 출력 */
+						/* 값 설정 */
+
+						goto EXIT_CLICK;
+					}
+
+
+					goto EXIT_CLICK_71;
+				}
+
+
+EXIT_CLICK_71:
+
+
+				/* 대화 출력 */
+				lvar1 = 350;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 64 )
+			{
+
+EXIT_CLICK_64:
+
+
+				/* 대화 출력 */
+				lvar1 = 360;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 65 )
+			{
+
+EXIT_CLICK_65:
+
+
+				/* 대화 출력 */
+				lvar1 = 360;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 66 )
+			{
+
+EXIT_CLICK_66:
+
+
+				/* 대화 출력 */
+				lvar1 = 360;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 72 )
+			{
+
+EXIT_CLICK_72:
+
+
+				/* 대화 출력 */
+				lvar1 = 340;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 73 )
+			{
+
+EXIT_CLICK_73:
+
+
+				/* 대화 출력 */
+				lvar1 = 360;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 74 )
+			{
+
+EXIT_CLICK_74:
+
+
+				/* 대화 출력 */
+				lvar1 = 360;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+		}
+
+		/* 오브젝트인지 비교 */
+		if ( gvar1 = 1 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 5990905 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 32 )
+				{
+					/* 대화 출력 */
+					lvar1 = 0;
+					svar1 = "당신은 얼마나 강한 심장을 가졌기에 이곳까지 온것이오? ";
+					svar2 = "";
+					svar3 = "어서 하링에게 발각되기 전에 이곳을 떠나시오.";
+					svar4 = "";
+					svar5 = "";
+					Show_clickmessage;
+
+					lvar1 = 0;
+					svar1 = "이상한 사람의 동상을 조사하러 이곳까지 왔다구? ";
+					svar2 = "";
+					svar3 = "내 소식이 이미  에베스성에까지 알려졌나 보군. ";
+					svar4 = "";
+					svar5 = "난 사악한 정령에 의해 죽을 의지마저 빼앗긴 이아룬이라 하오. ";
+					Show_clickmessage;
+
+					lvar1 = 0;
+					svar1 = "지금은 보다시피 동상의 모습을 하고 있지만, 저주가 있기전엔 그저 평범한 인간이였소.";
+					svar2 = "";
+					svar3 = "저주스럽게도.. 이미 굳어버린 내 몸은 구제하지 못하겠지만, ";
+					svar4 = "";
+					svar5 = "이렇게 갇혀버린 내 영혼만이라도 구제해줄 누군가를 기다렸다오. ";
+					Show_clickmessage;
+
+					lvar1 = 0;
+					svar1 = "당신이?? 정말 당신이 내 영혼을 위해 싸워주겠다고요? ";
+					svar2 = "";
+					svar3 = "내가 기다리던 영웅이 당신인거 같군요. 그럼, 날 구할 방법을 알려드리죠.";
+					svar4 = "";
+					svar5 = "이 기둥을 따라 아래로 내려가면 요르곤 기둥의 숲을 지키고있는 하링보스가 있습니다.";
+					Show_clickmessage;
+
+					lvar1 = 0;
+					svar1 = "'애쉬'라는 이름의 하링보스를 쓰러뜨리고, 그의 영혼이 담긴 '영혼석'을 가져다 주십시오.";
+					svar2 = "";
+					svar3 = "'영혼석만 있다면.. 지친 내 영혼이 평안을 찾을 수 있을 겁니다.'";
+					svar4 = "";
+					svar5 = "내게 도움을 건낸 유일한 전사여.. 꼭 돌아와 주십시오.";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+					lvar1 = -1;
+					lvar2 = 0;
+					lvar3 = -1;
+					lvar4 = 0;
+					lvar5 = 0;
+					lvar6 = 0;
+					lvar7 = 0;
+					lvar8 = 0;
+					lvar9 = 0;
+					lvar10 = -1;
+					lvar11 = -1;
+					lvar12 = 0;
+					lvar13 = 0;
+					lvar14 = 0;
+					lvar15 = 0;
+					lvar16 = 0;
+					lvar17 = 0;
+					lvar18 = 0;
+					lvar19 = -1;
+					lvar20 = 1;
+					lvar21 = 33;
+					Set_scriptvar;
+
+					goto EXIT_CLICK;
+
+					goto EXIT_CLICK_5990905;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 33 )
+				{
+					/* 대화 출력 */
+					lvar1 = 0;
+					svar1 = "애쉬를 만난다면, 반드시 내 원수를 갚아주십시오.";
+					svar2 = "";
+					svar3 = "반드시 영혼석을 가져다 주시리라 믿고 있습니다.";
+					svar4 = "";
+					svar5 = "";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+
+					goto EXIT_CLICK;
+
+					goto EXIT_CLICK_5990905;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 34 )
+				{
+					/* 대화 출력 */
+					lvar1 = 0;
+					svar1 = "꼭 돌아오시리라 믿었습니다. ";
+					svar2 = "";
+					svar3 = "어서 정령석을 이 차가운 동상에 넣어 주십시오.";
+					svar4 = "";
+					svar5 = "";
+					Show_clickmessage;
+
+					lvar1 = 0;
+					svar1 = "";
+					svar2 = "";
+					svar3 = "";
+					svar4 = "";
+					svar5 = "";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+
+					goto EXIT_CLICK;
+
+					goto EXIT_CLICK_5990905;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 35 )
+				{
+					/* 대화 출력 */
+					lvar1 = 0;
+					svar1 = "제 육신은 이곳에 남아 모험가들의 길잡이가 되려 합니다. ";
+					svar2 = "";
+					svar3 = "에베스성의 사람들에게 요르곤 기둥의 숲에 영혼을 잃은 동상은 사라졌다고 알려주세요.";
+					svar4 = "";
+					svar5 = "";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+
+					goto EXIT_CLICK;
+
+					goto EXIT_CLICK_5990905;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri3 = 112 )
+				{
+					/* 조건 비교 */
+					lvar1 = 283;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 대화 출력 */
+						lvar1 = 0;
+						svar1 = "평안의 동상이 조용히 흐느끼고 있다.";
+						svar2 = "";
+						svar3 = "요르곤 기둥의 숲에서 모함자의 길잡이가 되는 그에게도.. 네피림과 관련된 슬픈 과거가";
+						svar4 = "";
+						svar5 = "쉽게 지워지지 않나 보다. '격려의 리타 8개'를 넣어봐야 겠다.";
+						Show_clickmessage;
+
+						lvar1 = 0;
+						svar1 = "";
+						svar2 = "";
+						svar3 = "";
+						svar4 = "";
+						svar5 = "";
+						Show_clickmessage;
+
+						/* 행동 처리 */
+						/* 대화 출력 */
+						/* 값 설정 */
+
+						goto EXIT_CLICK;
+					}
+
+
+					goto EXIT_CLICK_5990905;
+				}
+
+
+EXIT_CLICK_5990905:
+
+
+				/* 대화 출력 */
+				lvar1 = 0;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 1461089 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 40 )
+				{
+					/* 대화 출력 */
+					lvar1 = 0;
+					svar1 = "으.. 나를 죽이지 않는 당신은.. ";
+					svar2 = "내 생명을 농락하려는 자인가.. 아니면 날 도우려는 자인가? ";
+					svar3 = "";
+					svar4 = "음... ";
+					svar5 = "당신에게 느껴지는 대륙의 기운은 내 혼미한 정신을 바로 세워주는군. ";
+					Show_clickmessage;
+
+					lvar1 = 0;
+					svar1 = "라멕트의 피가 흐르는 그대를 여기서 만나다니 기적같은 일이군. ";
+					svar2 = "난 투란이네.. 롤스단장은.. 데바른에게 끌려갔네.. 다른 동료들도 함께.. ";
+					svar3 = "";
+					svar4 = "내 생명은 꺼진지 오래지만.. 내 영혼은 이렇게 버티고 있다네.";
+					svar5 = "내 영혼이. .자네를 기다렸나보군.";
+					Show_clickmessage;
+
+					lvar1 = 0;
+					svar1 = "난 빼앗긴 아버지의 유품을 되찾아주길 기다리고 있었네. ";
+					svar2 = "자네가 힘이 있다면, 내 생명을 농락하고 아버지의 유품인 '투구'를 빼앗아 간, ";
+					svar3 = "마누보 창전사를 응징하고, 내 투구를 되찾아 주게.";
+					svar4 = "";
+					svar5 = "그 놈은 '모르엔 전장 가장 왼쪽 끝'에 있는 작은 터에서 내 투구를 감상하고 있네.";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+					lvar1 = -1;
+					lvar2 = 0;
+					lvar3 = -1;
+					lvar4 = 0;
+					lvar5 = 0;
+					lvar6 = 0;
+					lvar7 = 0;
+					lvar8 = 0;
+					lvar9 = 0;
+					lvar10 = -1;
+					lvar11 = -1;
+					lvar12 = 0;
+					lvar13 = 0;
+					lvar14 = 0;
+					lvar15 = 0;
+					lvar16 = 0;
+					lvar17 = 0;
+					lvar18 = 0;
+					lvar19 = -1;
+					lvar20 = 1;
+					lvar21 = 41;
+					Set_scriptvar;
+
+					goto EXIT_CLICK;
+
+					goto EXIT_CLICK_1461089;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 41 )
+				{
+					/* 대화 출력 */
+					lvar1 = 0;
+					svar1 = "피로 얼룩진 모르엔 전장.. 더 이상 이곳에 머무르기 힘들군.. .";
+					svar2 = "";
+					svar3 = "그 놈은 '모르엔 전장 가장 왼쪽 끝'에 있는 작은 터에서 내 투구를 감상하고 있네.";
+					svar4 = "";
+					svar5 = "";
+					Show_clickmessage;
+
+					lvar1 = 0;
+					svar1 = "";
+					svar2 = "";
+					svar3 = "";
+					svar4 = "";
+					svar5 = "";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+
+					goto EXIT_CLICK;
+
+					goto EXIT_CLICK_1461089;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 42 )
+				{
+					/* 대화 출력 */
+					lvar1 = 0;
+					svar1 = "내 영혼이 버틸 수 없이.. 점점 지쳐가네.";
+					svar2 = "";
+					svar3 = "투구를 찾았다면  어서 건네주게.. 투구를 갖고 내 아버지를 만나러 떠나고 싶네. ";
+					svar4 = "";
+					svar5 = "";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+
+					goto EXIT_CLICK;
+
+					goto EXIT_CLICK_1461089;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 43 )
+				{
+					/* 대화 출력 */
+					lvar1 = 0;
+					svar1 = "차가워진 시체를 떠돌던 투란의 영혼이 사라졌다.";
+					svar2 = "";
+					svar3 = "서둘러.. 카른 정글안 살육의 제단으로 이동하여, 제사장 데바룬을 쓰러뜨려야 겠다.";
+					svar4 = "";
+					svar5 = "";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+
+					goto EXIT_CLICK;
+
+					goto EXIT_CLICK_1461089;
+				}
+
+
+EXIT_CLICK_1461089:
+
+
+				/* 대화 출력 */
+				lvar1 = 0;
+				svar1 = "모르엔 전장을 뒤덮고 있는 수많은 용병의 시체중,";
+				svar2 = "";
+				svar3 = "가장 참혹한 모습으로 이 곳을 떠나지 못하는 시체인 것처럼 보인다.";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 5311504 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 53 )
+				{
+					/* 대화 출력 */
+					lvar1 = 0;
+					svar1 = "첫번째 생명의 나무 주변에.. 강력한 에너지를 품고 있는 존재가 느껴진다.";
+					svar2 = "";
+					svar3 = "";
+					svar4 = "저기 모사린이 다가오고 있다. 그를 먼저 쓰러뜨린뒤, 생명의 나무를 구해야 겠다.";
+					svar5 = "";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+
+					goto EXIT_CLICK;
+
+					goto EXIT_CLICK_5311504;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 55 )
+				{
+					/* 대화 출력 */
+					lvar1 = 0;
+					svar1 = "첫번째 생명의 나무를 둘러싼 대륙의 힘이 올바로 흐르고 있음이 느껴진다.";
+					svar2 = "";
+					svar3 = "무탄에게 돌아가 제 1의 모두스를 어떻게 사용할지 물어봐야 겠다.";
+					svar4 = "";
+					svar5 = "";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+
+					goto EXIT_CLICK;
+
+					goto EXIT_CLICK_5311504;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 54 )
+				{
+					/* 대화 출력 */
+					lvar1 = 0;
+					svar1 = "첫번째 생명의 나무 주변에.. 강력한 대륙의 에너지가 느껴진다.";
+					svar2 = "";
+					svar3 = "'침묵의 돌'을 첫번쨰 생명의 나무에 넣어, 역행하는 대륙의 힘을 바로 잡아야 겠다.";
+					svar4 = "";
+					svar5 = "";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+
+					goto EXIT_CLICK;
+
+					goto EXIT_CLICK_5311504;
+				}
+
+
+EXIT_CLICK_5311504:
+
+
+				/* 대화 출력 */
+				lvar1 = 0;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 2771337 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 43 )
+				{
+					/* 대화 출력 */
+					lvar1 = 0;
+					svar1 = "롤스 단장 시체 주변에는 아직도 검은 피가 고여있다. ";
+					svar2 = "";
+					svar3 = "그의 죽음을 애도하기에 앞서, 제사장 데바룬을 쓰러뜨려 용병단의 원수를 갚아줘야 겠다.";
+					svar4 = "";
+					svar5 = "";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+
+					goto EXIT_CLICK;
+
+					goto EXIT_CLICK_2771337;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 44 )
+				{
+					/* 대화 출력 */
+					lvar1 = 0;
+					svar1 = "차갑게 변한 시체는.. 그의 뿔나팔을 기다리는 듯하다. ";
+					svar2 = "";
+					svar3 = "";
+					svar4 = "'롤스단장에게 뿔나팔을 전해주라'는 투란의 마지막 당부가 생각난다.";
+					svar5 = "";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+
+					goto EXIT_CLICK;
+
+					goto EXIT_CLICK_2771337;
+				}
+
+
+EXIT_CLICK_2771337:
+
+
+				/* 대화 출력 */
+				lvar1 = 0;
+				svar1 = "형상을 알아 볼 수 없을 정도로 망가진 이 시체도";
+				svar2 = "";
+				svar3 = "과거엔 라멕트의 영광을 위해 나선 어떤 영웅이였으리라 추정된다.";
+				svar4 = "";
+				svar5 = "비록 지금은 피로 얼룩진 시체의 모습이지만, 뭔가 사연을 갖은 듯 보인다.";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+		}
+
+
+EXIT_CLICK:
+	}
+
+
+
+
+
+	/* 캐릭터 또는 오브젝트를 죽였을때 처리 */
+	OnKilling
+	{
+		/* 캐릭터인지 비교 */
+		if ( gvar1 = 0 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 61 )
+			{
+
+EXIT_KILL_61:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 62 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 14 )
+				{
+					/* 대화 출력 */
+					lvar1 = 360;
+					svar1 = "알자만의 하링이 쓰러지자.. 맑은 소리를 내는 이구아나의 방울을 얻었다. ";
+					svar2 = "";
+					svar3 = "획득한 방울을 보자.. 베루수스의 이구아나가 생각났다. ";
+					svar4 = "";
+					svar5 = "무탄의 말대로 '베루수스에게 방울을 전달'해 주어야 겠다.";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+					lvar1 = -1;
+					lvar2 = 0;
+					lvar3 = 215;
+					lvar4 = 0;
+					lvar5 = 1;
+					lvar6 = 0;
+					lvar7 = 0;
+					lvar8 = 0;
+					lvar9 = 0;
+					lvar10 = -1;
+					lvar11 = -1;
+					lvar12 = 0;
+					lvar13 = 0;
+					lvar14 = 0;
+					lvar15 = 0;
+					lvar16 = 0;
+					lvar17 = 0;
+					lvar18 = 0;
+					lvar19 = -1;
+					lvar20 = 1;
+					lvar21 = 15;
+					Set_scriptvar;
+
+					goto EXIT_KILL;
+
+					goto EXIT_KILL_62;
+				}
+
+
+EXIT_KILL_62:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 63 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 19 )
+				{
+					/* 대화 출력 */
+					lvar1 = 320;
+					svar1 = "험두르 늪지대의 트리웜킹이 사망하자, '정직의 거울'을 손에 넣었다. ";
+					svar2 = "";
+					svar3 = "'마쿠'에게 되돌아가 정직의 거울을 누구에게 전해줄지 물어봐야 겠다.";
+					svar4 = "";
+					svar5 = "";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+					lvar1 = -1;
+					lvar2 = 0;
+					lvar3 = 229;
+					lvar4 = 0;
+					lvar5 = 1;
+					lvar6 = 0;
+					lvar7 = 0;
+					lvar8 = 0;
+					lvar9 = 0;
+					lvar10 = -1;
+					lvar11 = -1;
+					lvar12 = 0;
+					lvar13 = 0;
+					lvar14 = 0;
+					lvar15 = 0;
+					lvar16 = 0;
+					lvar17 = 0;
+					lvar18 = 0;
+					lvar19 = -1;
+					lvar20 = 1;
+					lvar21 = 20;
+					Set_scriptvar;
+
+					goto EXIT_KILL;
+
+					goto EXIT_KILL_63;
+				}
+
+
+EXIT_KILL_63:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 68 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 37 )
+				{
+					/* 대화 출력 */
+					lvar1 = 350;
+					svar1 = "저주스런 가면을 핑계로 수 없는 생명을 죽였지만..  ";
+					svar2 = "";
+					svar3 = "처음엔 가면의 힘을 얻어서.. 그러나 그 후엔 나 스스로.. ";
+					svar4 = "";
+					svar5 = "끝없는 살육을 즐기게 되더군..";
+					Show_clickmessage;
+
+					lvar1 = 350;
+					svar1 = "돌아가거라. 저주스런 가면을 기다리고 있는 네 형제들에게로..";
+					svar2 = "";
+					svar3 = "";
+					svar4 = "카르탄은 울부짖으며.. 죽어갔다. ";
+					svar5 = "'카르탄의 가면'을 얻었다. '무탄에게 전해줘야 겠다.'";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+					lvar1 = -1;
+					lvar2 = 0;
+					lvar3 = 214;
+					lvar4 = 0;
+					lvar5 = 1;
+					lvar6 = 0;
+					lvar7 = 0;
+					lvar8 = 0;
+					lvar9 = 0;
+					lvar10 = -1;
+					lvar11 = -1;
+					lvar12 = 0;
+					lvar13 = 0;
+					lvar14 = 0;
+					lvar15 = 0;
+					lvar16 = 0;
+					lvar17 = 0;
+					lvar18 = 0;
+					lvar19 = -1;
+					lvar20 = 1;
+					lvar21 = 38;
+					Set_scriptvar;
+
+					goto EXIT_KILL;
+
+					goto EXIT_KILL_68;
+				}
+
+
+EXIT_KILL_68:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 67 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 33 )
+				{
+					/* 대화 출력 */
+					lvar1 = 360;
+					svar1 = "평안의 동상이라.. 그 갈곳 없고 삶을 포기한 불쌍한 인간을 말하는가? ";
+					svar2 = "";
+					svar3 = "크크.. 요르곤의 기둥에 둘러쌓여 무척이나 행복해하고 있을텐데 말야.. ";
+					svar4 = "";
+					svar5 = "내가 베푼 친절의 작은 대가로 그의 영혼을 가둬놓았지만.. ";
+					Show_clickmessage;
+
+					lvar1 = 360;
+					svar1 = "그걸 돌려줄 생각은 없었는데.. 결국 나를 쓰러뜨리고 '정령석'을 손에 넣었군. ";
+					svar2 = "어서 평안의 동상에 갖다주어라... ";
+					svar3 = "";
+					svar4 = "크크.. 과연 너같은 전사가.. ";
+					svar5 = "스스로 포기한 어리석은 영혼의 평안까지 구할 수 있을까.. ";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+					lvar1 = -1;
+					lvar2 = 0;
+					lvar3 = 211;
+					lvar4 = 0;
+					lvar5 = 1;
+					lvar6 = 0;
+					lvar7 = 0;
+					lvar8 = 0;
+					lvar9 = 0;
+					lvar10 = -1;
+					lvar11 = -1;
+					lvar12 = 0;
+					lvar13 = 0;
+					lvar14 = 0;
+					lvar15 = 0;
+					lvar16 = 0;
+					lvar17 = 0;
+					lvar18 = 0;
+					lvar19 = -1;
+					lvar20 = 1;
+					lvar21 = 34;
+					Set_scriptvar;
+
+					goto EXIT_KILL;
+
+					goto EXIT_KILL_67;
+				}
+
+
+EXIT_KILL_67:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 69 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 43 )
+				{
+					/* 대화 출력 */
+					lvar1 = 330;
+					svar1 = "왜.. 이 성스러운 제단을 더럽히려 하는가? ";
+					svar2 = "";
+					svar3 = "살육의 제단에 가득 고인 피와 짖이겨진 시체의 살점들은.. ";
+					svar4 = "";
+					svar5 = "우리 부족의 영원을 노래하고 있다. 대륙의 힘을 찬양하고 있다. ";
+					Show_clickmessage;
+
+					lvar1 = 330;
+					svar1 = "나는 죽지만.. ";
+					svar2 = "";
+					svar3 = "나의 진한 피는 제단 주변에 지워지지 않는 얼룩으로 남아 영원토록.. 부족을 지키리라.";
+					svar4 = "";
+					svar5 = "";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+					lvar1 = -1;
+					lvar2 = 0;
+					lvar3 = -1;
+					lvar4 = 0;
+					lvar5 = 0;
+					lvar6 = 0;
+					lvar7 = 0;
+					lvar8 = 0;
+					lvar9 = 0;
+					lvar10 = -1;
+					lvar11 = -1;
+					lvar12 = 0;
+					lvar13 = 0;
+					lvar14 = 0;
+					lvar15 = 0;
+					lvar16 = 0;
+					lvar17 = 0;
+					lvar18 = 0;
+					lvar19 = -1;
+					lvar20 = 1;
+					lvar21 = 44;
+					Set_scriptvar;
+
+					goto EXIT_KILL;
+
+					goto EXIT_KILL_69;
+				}
+
+
+EXIT_KILL_69:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 70 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 50 )
+				{
+					/* 대화 출력 */
+					lvar1 = 340;
+					svar1 = "침묵의 돌 수호자를 쓰러뜨리자, 침묵의 돌 1개'를 얻었다. ";
+					svar2 = "";
+					svar3 = "수호자는 죽어가는 순간까지 입을 다물지 않았다.";
+					svar4 = "모사린을 깨우는자, 모사린의 분노를 함께 깨우리라.";
+					svar5 = "침묵의 돌만으로 결코 첫번째 생명의 나무를 자유롭게 하지 못하리.. 라는 저주를 남겼다.";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+					lvar1 = -1;
+					lvar2 = 0;
+					lvar3 = 224;
+					lvar4 = 0;
+					lvar5 = 1;
+					lvar6 = 0;
+					lvar7 = 0;
+					lvar8 = 0;
+					lvar9 = 0;
+					lvar10 = -1;
+					lvar11 = -1;
+					lvar12 = 0;
+					lvar13 = 0;
+					lvar14 = 0;
+					lvar15 = 0;
+					lvar16 = 0;
+					lvar17 = 0;
+					lvar18 = 0;
+					lvar19 = -1;
+					lvar20 = 1;
+					lvar21 = 51;
+					Set_scriptvar;
+
+					goto EXIT_KILL;
+
+					goto EXIT_KILL_70;
+				}
+
+
+EXIT_KILL_70:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 71 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 53 )
+				{
+					/* 대화 출력 */
+					lvar1 = 350;
+					svar1 = "오랜 시간 동안 너희를 느끼지 못했는데";
+					svar2 = "";
+					svar3 = "역겨운 라멕트의 피가 흐르는 어린 전사여. ";
+					svar4 = "";
+					svar5 = "첫번째 생명의 나무는 미약한 나로 인해 쓰러지지만.. 네피림의 힘을 간과한것이다.";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+					lvar1 = -1;
+					lvar2 = 0;
+					lvar3 = -1;
+					lvar4 = 0;
+					lvar5 = 0;
+					lvar6 = 0;
+					lvar7 = 0;
+					lvar8 = 0;
+					lvar9 = 0;
+					lvar10 = -1;
+					lvar11 = -1;
+					lvar12 = 0;
+					lvar13 = 0;
+					lvar14 = 0;
+					lvar15 = 0;
+					lvar16 = 0;
+					lvar17 = 0;
+					lvar18 = 0;
+					lvar19 = -1;
+					lvar20 = 1;
+					lvar21 = 54;
+					Set_scriptvar;
+
+					goto EXIT_KILL;
+
+					goto EXIT_KILL_71;
+				}
+
+
+EXIT_KILL_71:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 64 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 25 )
+				{
+					/* 대화 출력 */
+					lvar1 = 360;
+					svar1 = "처절하게 저항하던 하링이 죽자 '아르젠의 검날 1'이 내 손에 쥐어졌다.";
+					svar2 = "";
+					svar3 = "콰드의 영광을 상징하는 아르젠의 검중, 가장 예민하고 날카로운 부분을 얻었다.";
+					svar4 = "";
+					svar5 = "무탄에게 돌아가 검날을 전달해야 겠다.";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+					lvar1 = -1;
+					lvar2 = 0;
+					lvar3 = 208;
+					lvar4 = 0;
+					lvar5 = 1;
+					lvar6 = 0;
+					lvar7 = 0;
+					lvar8 = 0;
+					lvar9 = 0;
+					lvar10 = -1;
+					lvar11 = -1;
+					lvar12 = 0;
+					lvar13 = 0;
+					lvar14 = 0;
+					lvar15 = 0;
+					lvar16 = 0;
+					lvar17 = 0;
+					lvar18 = 0;
+					lvar19 = -1;
+					lvar20 = 1;
+					lvar21 = 26;
+					Set_scriptvar;
+
+					goto EXIT_KILL;
+
+					goto EXIT_KILL_64;
+				}
+
+
+EXIT_KILL_64:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 65 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 27 )
+				{
+					/* 대화 출력 */
+					lvar1 = 360;
+					svar1 = "처절하게 저항하던 하링이 죽자 '아르젠의 검날 2'가 내 손에 쥐어졌다. ";
+					svar2 = "";
+					svar3 = "아르젠의 검날 중, 가장 신의있고 단단한 부분을 얻었다.";
+					svar4 = "";
+					svar5 = "무탄에게 돌아가 검날을 전달해야 겠다.";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+					lvar1 = -1;
+					lvar2 = 0;
+					lvar3 = 209;
+					lvar4 = 0;
+					lvar5 = 1;
+					lvar6 = 0;
+					lvar7 = 0;
+					lvar8 = 0;
+					lvar9 = 0;
+					lvar10 = -1;
+					lvar11 = -1;
+					lvar12 = 0;
+					lvar13 = 0;
+					lvar14 = 0;
+					lvar15 = 0;
+					lvar16 = 0;
+					lvar17 = 0;
+					lvar18 = 0;
+					lvar19 = -1;
+					lvar20 = 1;
+					lvar21 = 28;
+					Set_scriptvar;
+
+					goto EXIT_KILL;
+
+					goto EXIT_KILL_65;
+				}
+
+
+EXIT_KILL_65:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 66 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 29 )
+				{
+					/* 대화 출력 */
+					lvar1 = 360;
+					svar1 = "처절하게 저항하던 하링이 죽자 '아르젠의 검날 3'이 내 손에 쥐어졌다. ";
+					svar2 = "";
+					svar3 = "아르젠의 검. 아르젠 몸의 마지막을 얻었다.";
+					svar4 = "";
+					svar5 = "무탄에게 돌아가 검날을 전달해야 겠다.";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+					lvar1 = -1;
+					lvar2 = 0;
+					lvar3 = 210;
+					lvar4 = 0;
+					lvar5 = 1;
+					lvar6 = 0;
+					lvar7 = 0;
+					lvar8 = 0;
+					lvar9 = 0;
+					lvar10 = -1;
+					lvar11 = -1;
+					lvar12 = 0;
+					lvar13 = 0;
+					lvar14 = 0;
+					lvar15 = 0;
+					lvar16 = 0;
+					lvar17 = 0;
+					lvar18 = 0;
+					lvar19 = -1;
+					lvar20 = 1;
+					lvar21 = 30;
+					Set_scriptvar;
+
+					goto EXIT_KILL;
+
+					goto EXIT_KILL_66;
+				}
+
+
+EXIT_KILL_66:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 72 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 41 )
+				{
+					/* 대화 출력 */
+					lvar1 = 340;
+					svar1 = "마누보 창전사는 쓰러졌다. ";
+					svar2 = "";
+					svar3 = "마누보 창전사의 머리에서 '투란의 투구'를 벗겨냈다. 서둘러 투란에게 돌려줘야 겠다. ";
+					svar4 = "";
+					svar5 = "";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+					lvar1 = -1;
+					lvar2 = 0;
+					lvar3 = 217;
+					lvar4 = 0;
+					lvar5 = 1;
+					lvar6 = 0;
+					lvar7 = 0;
+					lvar8 = 0;
+					lvar9 = 0;
+					lvar10 = -1;
+					lvar11 = -1;
+					lvar12 = 0;
+					lvar13 = 0;
+					lvar14 = 0;
+					lvar15 = 0;
+					lvar16 = 0;
+					lvar17 = 0;
+					lvar18 = 0;
+					lvar19 = -1;
+					lvar20 = 1;
+					lvar21 = 42;
+					Set_scriptvar;
+
+					goto EXIT_KILL;
+
+					goto EXIT_KILL_72;
+				}
+
+
+EXIT_KILL_72:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 73 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri3 = 110 )
+				{
+					/* 대화 출력 */
+					lvar1 = 360;
+					svar1 = "오비의 복병인 하링이 쓰러졌다.";
+					svar2 = "";
+					svar3 = "파우스탄에게 복병이 쓰러져, 정령의 근거지를 찾는 모험자들이 당분간 안전하단";
+					svar4 = "";
+					svar5 = "사실을 알려야 겠다.";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+					lvar1 = -1;
+					lvar2 = 0;
+					lvar3 = -1;
+					lvar4 = 0;
+					lvar5 = 0;
+					lvar6 = 0;
+					lvar7 = 0;
+					lvar8 = 0;
+					lvar9 = 0;
+					lvar10 = -1;
+					lvar11 = -1;
+					lvar12 = 0;
+					lvar13 = 0;
+					lvar14 = 0;
+					lvar15 = 0;
+					lvar16 = 0;
+					lvar17 = 0;
+					lvar18 = 0;
+					lvar19 = -1;
+					lvar20 = 2;
+					lvar21 = 111;
+					Set_scriptvar;
+
+					goto EXIT_KILL;
+
+					goto EXIT_KILL_73;
+				}
+
+
+EXIT_KILL_73:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 74 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri3 = 108 )
+				{
+					/* 조건 비교 */
+					if ( gvar12 = 1 )
+					{
+						/* 대화 출력 */
+						lvar1 = 360;
+						svar1 = "창고지기 에페의 잃어버린 수정을 되찾았다.";
+						svar2 = "";
+						svar3 = "에페에게 이 수정을 전해줘야 겠다.";
+						svar4 = "";
+						svar5 = "";
+						Show_clickmessage;
+
+						lvar1 = 360;
+						svar1 = "";
+						svar2 = "";
+						svar3 = "";
+						svar4 = "";
+						svar5 = "";
+						Show_clickmessage;
+
+						/* 행동 처리 */
+						/* 대화 출력 */
+						/* 값 설정 */
+						lvar1 = -1;
+						lvar2 = 0;
+						lvar3 = 216;
+						lvar4 = 0;
+						lvar5 = 1;
+						lvar6 = 0;
+						lvar7 = 0;
+						lvar8 = 0;
+						lvar9 = 0;
+						lvar10 = -1;
+						lvar11 = -1;
+						lvar12 = 0;
+						lvar13 = 0;
+						lvar14 = 0;
+						lvar15 = 0;
+						lvar16 = 0;
+						lvar17 = 0;
+						lvar18 = 0;
+						lvar19 = -1;
+						lvar20 = 2;
+						lvar21 = 109;
+						Set_scriptvar;
+
+						goto EXIT_KILL;
+					}
+
+
+					goto EXIT_KILL_74;
+				}
+
+
+EXIT_KILL_74:
+
+
+
+				goto EXIT_KILL;
+			}
+
+		}
+
+		/* 오브젝트인지 비교 */
+		if ( gvar1 = 1 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 5990905 )
+			{
+
+EXIT_KILL_5990905:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 1461089 )
+			{
+
+EXIT_KILL_1461089:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 5311504 )
+			{
+
+EXIT_KILL_5311504:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 2771337 )
+			{
+
+EXIT_KILL_2771337:
+
+
+
+				goto EXIT_KILL;
+			}
+
+		}
+
+
+EXIT_KILL:
+	}
+
+
+
+
+
+	/* 아이템을 드래그 했을때 처리 */
+	OnDraging
+	{
+		/* 캐릭터인지 비교 */
+		if ( gvar1 = 0 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 61 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 18 )
+				{
+					/* 조건 비교 */
+					lvar1 = 74;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 조건 비교 */
+						if ( gvar3 = 74 )
+						{
+							/* 대화 출력 */
+							lvar1 = 207;
+							svar1 = "고맙소. 내 몸이 조금씩 회복되어 가는군..";
+							svar2 = "";
+							svar3 = "하지만, 지금은 에베스성에 갈 수 없네. 아주 중요한.. 거울을 빼앗겼네. ";
+							svar4 = "";
+							svar5 = "자네가 내 부탁을 들어주겠다면.. 내가 부상당하기 전까지 겪은 모든 일을 말해주겠네.";
+							Show_clickmessage;
+
+							lvar1 = 207;
+							svar1 = "난 비밀리에 네피림 전사를 추적하는 비밀단체의 일을 맡았었네. ";
+							svar2 = "그들을 추적하던 중. 대륙의 힘에 대한 엄청난 내용이 적힌 '네피림 밀서의 이동경로'를 ";
+							svar3 = "손에 넣었지. ";
+							svar4 = "네피림의 밀서만 있다면.. 대륙의 힘에 대한 진실을 알 수 있겠단 생각에 그들을 추적했네.";
+							svar5 = "에베스성을 나선 이후 수많은 던전과 정글을 지나자.. 그들과 대면할 수 있었다네. ";
+							Show_clickmessage;
+
+							lvar1 = 207;
+							svar1 = "네피림의 잔당이라고 하지만, 그들은 정말 대단한 실력을 갖춘 전사였다네. ";
+							svar2 = "";
+							svar3 = "나는 그들과 피할 수 없는 대결을 했지만..  정말이지 멋진 '승부'를 벌이고 싶었네. ";
+							svar4 = "";
+							svar5 = "그들과 오랜 시간을 싸웠지..달이 차고 기울기를 두어번 반복했을 만큼의 시간이 흐른 뒤, ";
+							Show_clickmessage;
+
+							lvar1 = 207;
+							svar1 = "네피림의 전사는 하나둘씩 쓰러졌고 난 커다란 부상을 입었지만.. 승리를 얻었다네. ";
+							svar2 = "";
+							svar3 = "그리고, 죽은 네피림 전사의 품에서 단단히 봉인된 '네피림의 밀서' 와 ";
+							svar4 = "";
+							svar5 = "그 밀서를 읽을 수 있는 '정직의 거울'을 손에 넣었지. ";
+							Show_clickmessage;
+
+							lvar1 = 207;
+							svar1 = "에베스성으로 돌아가 밀서를 해독하려고 서둘러 이동하던 중, ";
+							svar2 = "험두르 늪지대에서 '트리웜킹'의 습격을 받았다네.";
+							svar3 = "";
+							svar4 = "몸이 완전히 회복되지 않은 상태로 싸웠고, 난 패배했고 '정직의 거울'마저 빼았겼네.";
+							svar5 = "어쩔 수 없이 이곳에 야영지를 마련한 뒤, 쉬면서 심한 부상을 치료하고 있었네.";
+							Show_clickmessage;
+
+							lvar1 = 207;
+							svar1 = "밀서를 읽기 위해선 반드시.. 정직의 거울이 필요한데.. 난 밀서만 갖고 있네. ";
+							svar2 = "";
+							svar3 = "거울 없이 에베스성으로 돌아갈 수 없지 않은가?";
+							svar4 = "";
+							svar5 = "자네가 나 대신 '험두르 늪지대의 트리웜킹'을 잡아 '정직의 거울'을 찾아다주게.";
+							Show_clickmessage;
+
+							/* 행동 처리 */
+							/* 대화 출력 */
+							/* 값 설정 */
+							lvar1 = 74;
+							lvar2 = 1;
+							lvar3 = -1;
+							lvar4 = 0;
+							lvar5 = 0;
+							lvar6 = 0;
+							lvar7 = 0;
+							lvar8 = 0;
+							lvar9 = 0;
+							lvar10 = -1;
+							lvar11 = -1;
+							lvar12 = 0;
+							lvar13 = 0;
+							lvar14 = 0;
+							lvar15 = 0;
+							lvar16 = 0;
+							lvar17 = 0;
+							lvar18 = 0;
+							lvar19 = -1;
+							lvar20 = 1;
+							lvar21 = 19;
+							Set_scriptvar;
+
+							goto EXIT_GET_ITEM;
+						}
+
+					}
+
+
+					goto EXIT_GET_ITEM_61;
+				}
+
+
+EXIT_GET_ITEM_61:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 62 )
+			{
+
+EXIT_GET_ITEM_62:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 63 )
+			{
+
+EXIT_GET_ITEM_63:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 68 )
+			{
+
+EXIT_GET_ITEM_68:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 67 )
+			{
+
+EXIT_GET_ITEM_67:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 69 )
+			{
+
+EXIT_GET_ITEM_69:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 70 )
+			{
+
+EXIT_GET_ITEM_70:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 71 )
+			{
+
+EXIT_GET_ITEM_71:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 64 )
+			{
+
+EXIT_GET_ITEM_64:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 65 )
+			{
+
+EXIT_GET_ITEM_65:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 66 )
+			{
+
+EXIT_GET_ITEM_66:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 72 )
+			{
+
+EXIT_GET_ITEM_72:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 73 )
+			{
+
+EXIT_GET_ITEM_73:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 74 )
+			{
+
+EXIT_GET_ITEM_74:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+		}
+
+		/* 오브젝트인지 비교 */
+		if ( gvar1 = 1 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 5990905 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 34 )
+				{
+					/* 조건 비교 */
+					lvar1 = 211;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 조건 비교 */
+						if ( gvar3 = 211 )
+						{
+							/* 대화 출력 */
+							lvar1 = 0;
+							svar1 = "꼭 돌아오시리라 믿었습니다. ";
+							svar2 = "";
+							svar3 = "당신이 준 정령석을 제 안에 간직하여 저 스스로의 평안을 지켜나가지요.";
+							svar4 = "";
+							svar5 = "";
+							Show_clickmessage;
+
+							lvar1 = 0;
+							svar1 = "제 육신은 이곳에 남아 모험가들의 길잡이가 되려 합니다. ";
+							svar2 = "";
+							svar3 = "이제 요르곤 기둥의 숲에 영혼을 잃은 동상은 사라졌습니다. ";
+							svar4 = "";
+							svar5 = "고맙습니다.";
+							Show_clickmessage;
+
+							/* 행동 처리 */
+							/* 대화 출력 */
+							/* 값 설정 */
+							lvar1 = 211;
+							lvar2 = 1;
+							lvar3 = -1;
+							lvar4 = 0;
+							lvar5 = 0;
+							lvar6 = 0;
+							lvar7 = 0;
+							lvar8 = 0;
+							lvar9 = 0;
+							lvar10 = -1;
+							lvar11 = -1;
+							lvar12 = 0;
+							lvar13 = 0;
+							lvar14 = 0;
+							lvar15 = 0;
+							lvar16 = 0;
+							lvar17 = 0;
+							lvar18 = 0;
+							lvar19 = -1;
+							lvar20 = 1;
+							lvar21 = 35;
+							Set_scriptvar;
+
+							goto EXIT_GET_ITEM;
+						}
+
+					}
+
+
+					goto EXIT_GET_ITEM_5990905;
+				}
+
+				/* 퀘스트 인덱스 비교 */
+				if ( scri3 = 112 )
+				{
+					/* 조건 비교 */
+					lvar1 = 283;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 조건 비교 */
+						if ( gvar3 = 283 )
+						{
+							/* 조건 비교 */
+							if ( gvar4 > 7 )
+							{
+								/* 대화 출력 */
+								lvar1 = 0;
+								svar1 = "흐느끼던 평안의 동상이 잠잠해졌다.";
+								svar2 = "";
+								svar3 = "그의 존재를 늘 기억하며, 다시는 네피림의 의해 스스로의 영혼을 잃어버리는 동상과 같은";
+								svar4 = "";
+								svar5 = "희생자가 생기지 않도록 해야 겠다.";
+								Show_clickmessage;
+
+								lvar1 = 0;
+								svar1 = "";
+								svar2 = "";
+								svar3 = "";
+								svar4 = "";
+								svar5 = "";
+								Show_clickmessage;
+
+								/* 행동 처리 */
+								/* 대화 출력 */
+								/* 값 설정 */
+								lvar1 = 283;
+								lvar2 = 8;
+								lvar3 = -1;
+								lvar4 = 0;
+								lvar5 = 0;
+								lvar6 = 0;
+								lvar7 = 0;
+								lvar8 = 0;
+								lvar9 = 0;
+								lvar10 = -1;
+								lvar11 = -1;
+								lvar12 = 0;
+								lvar13 = 0;
+								lvar14 = 0;
+								lvar15 = 0;
+								lvar16 = 0;
+								lvar17 = 0;
+								lvar18 = 0;
+								lvar19 = -1;
+								lvar20 = 2;
+								lvar21 = 113;
+								Set_scriptvar;
+
+								goto EXIT_GET_ITEM;
+							}
+
+						}
+
+					}
+
+
+					goto EXIT_GET_ITEM_5990905;
+				}
+
+
+EXIT_GET_ITEM_5990905:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 1461089 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 42 )
+				{
+					/* 조건 비교 */
+					lvar1 = 217;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 조건 비교 */
+						if ( gvar3 = 217 )
+						{
+							/* 대화 출력 */
+							lvar1 = 0;
+							svar1 = "내 아버지의 피를 간직한 이 투구를 되찾아 다행이군.. ";
+							svar2 = "";
+							svar3 = "그대의 용기와 따뜻한 배려 정말 고맙네. ";
+							svar4 = "";
+							svar5 = "자네가 찾고있는 롤스 단장님은 마누보에게 잡혀 카른 정글로 끌려갔네. ";
+							Show_clickmessage;
+
+							lvar1 = 0;
+							svar1 = "그분의 생사에 대해선 모른다네. ";
+							svar2 = "그분이 제사장 데바룬에 의해 카른 정글로 끌려갔으니.. 그저 무사하길 바래야지..";
+							svar3 = "";
+							svar4 = "롤스단장의 생사를 확인하려면, '카른 정글의 살육의 제단'을 찾아가게. ";
+							svar5 = "피로 얼룩진 제단 근처에 마누보 제단장이 있을테니, 먼저 데바룬을 쓰러뜨려 용병들의 ";
+							Show_clickmessage;
+
+							lvar1 = 0;
+							svar1 = "원수를 갚아주게. ";
+							svar2 = "";
+							svar3 = "그리고.. 롤스단장의 뿔나팔을 받게. 단장이 끌려갈때 그의 품에서 떨어졌다네.. ";
+							svar4 = "";
+							svar5 = "내가 투구를 애타게 찾은 것처럼, 그분도 이 뿔나팔을 원하고 있을꺼네.";
+							Show_clickmessage;
+
+							lvar1 = 0;
+							svar1 = "마누보 제사장인 '데바룬'을 쓰러뜨린 후. 단장님을 찾아 '뿔나팔'을 전해주게.";
+							svar2 = "";
+							svar3 = "아무것도 도와줄 수 없는 나는 이만 쉬려하네.. 전사의 행운을 빌어주겠네.";
+							svar4 = "";
+							svar5 = "";
+							Show_clickmessage;
+
+							/* 행동 처리 */
+							/* 대화 출력 */
+							/* 값 설정 */
+							lvar1 = 217;
+							lvar2 = 1;
+							lvar3 = 218;
+							lvar4 = 0;
+							lvar5 = 1;
+							lvar6 = 0;
+							lvar7 = 0;
+							lvar8 = 0;
+							lvar9 = 0;
+							lvar10 = -1;
+							lvar11 = -1;
+							lvar12 = 0;
+							lvar13 = 0;
+							lvar14 = 0;
+							lvar15 = 0;
+							lvar16 = 0;
+							lvar17 = 0;
+							lvar18 = 0;
+							lvar19 = -1;
+							lvar20 = 1;
+							lvar21 = 43;
+							Set_scriptvar;
+
+							goto EXIT_GET_ITEM;
+						}
+
+					}
+
+
+					goto EXIT_GET_ITEM_1461089;
+				}
+
+
+EXIT_GET_ITEM_1461089:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 5311504 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 54 )
+				{
+					/* 조건 비교 */
+					lvar1 = 224;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 조건 비교 */
+						if ( gvar3 = 224 )
+						{
+							/* 대화 출력 */
+							lvar1 = 0;
+							svar1 = "자이아의 충만한 에너지가 내 몸을 감싼 뒤, 대륙 깊숙히 스며들어 간다.";
+							svar2 = "";
+							svar3 = "첫번째 생명의 나무를 둘러싼 대륙의 힘이 올바로 흐르고 있음이 느껴진다.";
+							svar4 = "";
+							svar5 = "'제 1의 모두스를 손에 넣었다.'";
+							Show_clickmessage;
+
+							/* 행동 처리 */
+							/* 대화 출력 */
+							/* 값 설정 */
+							lvar1 = 224;
+							lvar2 = 1;
+							lvar3 = 221;
+							lvar4 = 0;
+							lvar5 = 1;
+							lvar6 = 0;
+							lvar7 = 0;
+							lvar8 = 0;
+							lvar9 = 0;
+							lvar10 = -1;
+							lvar11 = -1;
+							lvar12 = 300;
+							lvar13 = 0;
+							lvar14 = 0;
+							lvar15 = 0;
+							lvar16 = 0;
+							lvar17 = 0;
+							lvar18 = 0;
+							lvar19 = -1;
+							lvar20 = 1;
+							lvar21 = 55;
+							Set_scriptvar;
+
+							goto EXIT_GET_ITEM;
+						}
+
+					}
+
+
+					goto EXIT_GET_ITEM_5311504;
+				}
+
+
+EXIT_GET_ITEM_5311504:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 2771337 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri2 = 44 )
+				{
+					/* 조건 비교 */
+					lvar1 = 218;
+					Check_user_item;
+					if ( lvar1 = 1 )
+					{
+						/* 조건 비교 */
+						if ( gvar3 = 218 )
+						{
+							/* 대화 출력 */
+							lvar1 = 0;
+							svar1 = "롤스 단장의 시체에 뿔나팔을 바쳤다. ";
+							svar2 = "그의 의연한 죽음을 확인하니.. 절로 마음이 숙연해졌다. ";
+							svar3 = "";
+							svar4 = "그 순간, 롤스 단장의 시체에서 문서를 하나 발견했다. ";
+							svar5 = "피로 얼룩진 '롤스단장의 유서'다. 무탄에게 유서를 어떻게 할지 물어봐야 겠다.";
+							Show_clickmessage;
+
+							/* 행동 처리 */
+							/* 대화 출력 */
+							/* 값 설정 */
+							lvar1 = 218;
+							lvar2 = 1;
+							lvar3 = 219;
+							lvar4 = 0;
+							lvar5 = 1;
+							lvar6 = 0;
+							lvar7 = 0;
+							lvar8 = 0;
+							lvar9 = 0;
+							lvar10 = -1;
+							lvar11 = -1;
+							lvar12 = 0;
+							lvar13 = 0;
+							lvar14 = 0;
+							lvar15 = 0;
+							lvar16 = 0;
+							lvar17 = 0;
+							lvar18 = 0;
+							lvar19 = -1;
+							lvar20 = 1;
+							lvar21 = 45;
+							Set_scriptvar;
+
+							goto EXIT_GET_ITEM;
+						}
+
+					}
+
+
+					goto EXIT_GET_ITEM_2771337;
+				}
+
+
+EXIT_GET_ITEM_2771337:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+		}
+
+
+EXIT_GET_ITEM:
+	}
+
+
+
+
+
+	/* 캐릭터 또는 오브젝트를 공격했을때 처리 */
+	OnHitting
+	{
+		/* 캐릭터인지 비교 */
+		if ( gvar1 = 0 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 61 )
+			{
+
+EXIT_HIT_61:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 62 )
+			{
+
+EXIT_HIT_62:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 63 )
+			{
+
+EXIT_HIT_63:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 68 )
+			{
+
+EXIT_HIT_68:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 67 )
+			{
+
+EXIT_HIT_67:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 69 )
+			{
+
+EXIT_HIT_69:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 70 )
+			{
+
+EXIT_HIT_70:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 71 )
+			{
+
+EXIT_HIT_71:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 64 )
+			{
+
+EXIT_HIT_64:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 65 )
+			{
+
+EXIT_HIT_65:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 66 )
+			{
+
+EXIT_HIT_66:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 72 )
+			{
+
+EXIT_HIT_72:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 73 )
+			{
+
+EXIT_HIT_73:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 74 )
+			{
+
+EXIT_HIT_74:
+
+
+
+				goto EXIT_HIT;
+			}
+
+		}
+
+		/* 오브젝트인지 비교 */
+		if ( gvar1 = 1 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 5990905 )
+			{
+
+EXIT_HIT_5990905:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 1461089 )
+			{
+
+EXIT_HIT_1461089:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 5311504 )
+			{
+
+EXIT_HIT_5311504:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 2771337 )
+			{
+
+EXIT_HIT_2771337:
+
+
+
+				goto EXIT_HIT;
+			}
+
+		}
+
+
+EXIT_HIT:
+	}
+
+}
+

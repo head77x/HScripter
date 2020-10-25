@@ -1,0 +1,59 @@
+{
+	OnInitial
+	{
+		lvar1 = 281;
+		svar1 = "부유석 통과 교관";
+		Set_npcname;
+	}
+
+	OnClicking
+	{
+		if ( gvar1 == 0 )		/* 캐릭터를 클릭했다면.. */
+		{
+			if ( gvar2 == 281 )		/* 캐릭터 인덱스 */
+			{
+				lvar1 = 281;
+				svar1 = "실전 교육을 무사히 통과한 것을 다시한번 축하하오.";
+				svar2 = "";
+				svar3 = "이 곳은 당신이 모험에서 만나게 되는 곳 중에서, 끊겨진 길에서 부유석을 이용하여";
+				svar4 = "건너가는 방법을 연습하는 곳이오.";
+				svar5 = "";
+				Show_clickmessage;
+
+				lvar1 = 281;
+				svar1 = "끊어진 곳을 연결 해 주는 부유석을 타려면";
+				svar2 = "마우스로 뛸 방향을 가리킨 후, 단축키 'J'로 점프를 하면 된다오.";
+				svar3 = "거리와 움직임의 타이밍을 잘 맞추어 '점프'를 해서 탑승해야 하오.";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+				lvar1 = 281;
+				svar1 = "";
+				svar2 = "부유석을 탈 때, 한가지 주의해야 할 점은, 부유석을 타다가 실수로 떨어질 경우";
+				svar3 = "HP가 소량 감소하고, 월드의 특정 지역으로 떨어지게 된다는 것이오.";
+				svar4 = "";
+				svar5 = "이 때, 자칫 길을 잃거나, 방향을 잃을 수 있으니 주의해야 할 것이오.";
+				Show_clickmessage;
+
+				lvar1 = 281;
+				svar1 = "";
+			    svar2 = "그럼, 앞에 있는 부유석을 이용하여 무사히 던전을 통과하기 바라오.";
+				svar3 = "";
+				svar4 = "잘 가시오.";
+				svar5 = "";
+				Show_clickmessage;
+			}
+		}		
+	}
+
+	OnDraging
+	{
+	}
+	OnHitting
+	{
+	}
+	OnKilling
+	{
+	}
+}

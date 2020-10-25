@@ -1,0 +1,47 @@
+{
+	OnInitial		
+	{
+		Init_variables;
+	}
+
+	OnPosition	
+	{
+		gvar1 = 37;
+		gvar2 = 218;
+		gvar3 = 49;
+		gvar4 = 228;
+		svar1 = "Xexus의 얼굴( Xexus Face )";
+		
+		Check_pos_message;	
+
+		gvar1 = 11;
+		gvar2 = 159;
+		gvar3 = 46;
+		gvar4 = 210;
+		svar1 = "Xexus 유적지( Xexus Remains )";
+		
+		Check_pos_message;	
+
+	}
+
+	OnTalking	
+	{
+		lvar13 = 156;
+	}
+
+	OnKilling		
+	{
+		lvar13 = 156;
+
+		if (lvar13 > 150) 
+		{
+			if (lvar2 == lvar13)
+			{
+				svar12 = "abcdefg";
+			}
+			lvar1 = -1;
+		}
+
+		svar2 = 1 + "Fuck you all";
+	}
+}

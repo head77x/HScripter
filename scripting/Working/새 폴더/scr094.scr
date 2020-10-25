@@ -1,0 +1,410 @@
+{
+	OnInitial		
+	{
+		Init_variables;
+
+		gvar1 = 0;
+		gvar2 = 2;
+		gvar3 = 1;
+		gvar4 = 107;
+		gvar5 = 220;
+		Stand_chr;
+
+		gvar1 = 1;
+		gvar2 = 2;
+		gvar3 = 1;
+		gvar4 = 38;
+		gvar5 = 157;
+		Stand_chr;
+
+		gvar1 = 2;
+		gvar2 = 2;
+		gvar3 = 1;
+		gvar4 = 50;
+		gvar5 = 211;
+		Stand_chr;
+
+		gvar1 = 3;
+		gvar2 = 2;
+		gvar3 = 1;
+		gvar4 = 84;
+		gvar5 = 133;
+		Stand_chr;
+
+		gvar1 = 4;
+		gvar2 = 220;
+		gvar3 = 0;
+		gvar4 = 48;
+		gvar5 = 183;
+		svar1 = "Braham(The shopkeeper)";
+		Stand_chr;
+
+		gvar1 = 5;
+		gvar2 = 223;
+		gvar3 = 0;
+		gvar4 = 95;
+		gvar5 = 150;
+		svar1 = "Diregus(The innkeeper)";
+		Stand_chr;
+
+		gvar1 = 6;
+		gvar2 = 228;
+		gvar3 = 0;
+		gvar4 = 82;
+		gvar5 = 160;
+		svar1 = "Colrinson(The banker)";
+		Stand_chr;
+
+		gvar1 = 7;
+		gvar2 = 229;
+		gvar3 = 0;
+		gvar4 = 69;
+		gvar5 = 199;
+		svar1 = "Fatedonic(The priest)";
+		Stand_chr;
+
+		gvar1 = 8;
+		gvar2 = 233;
+		gvar3 = 0;
+		gvar4 = 95;
+		gvar5 = 182;
+		svar1 = "Darklard(The wizard)";
+		Stand_chr;
+
+		gvar1 = 9;
+		gvar2 = 234;
+		gvar3 = 0;
+		gvar4 = 41;
+		gvar5 = 119;
+		svar1 = "Evecas(The blacksmith)";
+		Stand_chr;
+
+		gvar1 = 10;
+		gvar2 = 238;
+		gvar3 = 0;
+		gvar4 = 66;
+		gvar5 = 123;
+		svar1 = "Slylan(Man)";
+		Stand_chr;
+
+		gvar1 = 11;
+		gvar2 = 239;
+		gvar3 = 0;
+		gvar4 = 21;
+		gvar5 = 151;
+		svar1 = "Remonia(Woman)";
+		Stand_chr;
+
+	}
+
+	OnPosition	
+	{
+		gvar1 = 40;
+		gvar2 = 185;
+		gvar3 = 56;
+		gvar4 = 190;
+		svar1 = "Braham`s Store";
+		
+		Check_pos_message;	
+
+		gvar1 = 76;
+		gvar2 = 155;
+		gvar3 = 84;
+		gvar4 = 161;
+		svar1 = "Bank Of Colrinson";
+		
+		Check_pos_message;	
+
+		gvar1 = 81;
+		gvar2 = 166;
+		gvar3 = 89;
+		gvar4 = 172;
+		svar1 = "Bank Of Colrinson";
+		
+		Check_pos_message;	
+
+		gvar1 = 93;
+		gvar2 = 175;
+		gvar3 = 102;
+		gvar4 = 181;
+		svar1 = "Darklard`s Wizardry";
+		
+		Check_pos_message;	
+
+		gvar1 = 87;
+		gvar2 = 148;
+		gvar3 = 95;
+		gvar4 = 154;
+		svar1 = "Diregus`s Inn";
+		
+		Check_pos_message;	
+
+		gvar1 = 37;
+		gvar2 = 120;
+		gvar3 = 45;
+		gvar4 = 125;
+		svar1 = "Evecas` Armory";
+		
+		Check_pos_message;	
+
+		gvar1 = 65;
+		gvar2 = 202;
+		gvar3 = 73;
+		gvar4 = 208;
+		svar1 = "Fatedonic`s Earthworks";
+		
+		Check_pos_message;	
+
+		gvar1 = 116;
+		gvar2 = 265;
+		gvar3 = 142;
+		gvar4 = 286;
+		svar1 = "제단( Irminsul )";
+		
+		Check_pos_message;	
+
+		gvar1 = 15;
+		gvar2 = 152;
+		gvar3 = 23;
+		gvar4 = 154;
+		svar1 = "Remonia House";
+		
+		Check_pos_message;	
+
+		gvar1 = 56;
+		gvar2 = 123;
+		gvar3 = 67;
+		gvar4 = 132;
+		svar1 = "Slylan House";
+		
+		Check_pos_message;	
+
+		gvar1 = 100;
+		gvar2 = 38;
+		gvar3 = 127;
+		gvar4 = 68;
+		svar1 = "암흑( Tamas )";
+		
+		Check_pos_message;	
+
+		gvar1 = 62;
+		gvar2 = 170;
+		gvar3 = 70;
+		gvar4 = 176;
+		svar1 = "회순( Tawaf )";
+		
+		Check_pos_message;	
+
+
+		gvar1 = 13;
+		gvar2 = 117;
+		gvar3 = 24;
+		gvar4 = 126;
+		svar1 = "Triton Village Gate I";
+		
+		Check_pos_message;	
+
+
+		gvar1 = 15;
+		gvar2 = 180;
+		gvar3 = 27;
+		gvar4 = 189;
+		svar1 = "Triton Village Gate II";
+		
+		Check_pos_message;	
+
+
+		gvar1 = 39;
+		gvar2 = 215;
+		gvar3 = 54;
+		gvar4 = 228;
+		svar1 = "Triton Village Gate III";
+		
+		Check_pos_message;	
+
+
+		gvar1 = 94;
+		gvar2 = 202;
+		gvar3 = 110;
+		gvar4 = 218;
+		svar1 = "Triton Village Gate IV";
+		
+		Check_pos_message;	
+
+		gvar1 = 84;
+		gvar2 = 121;
+		gvar3 = 95;
+		gvar4 = 132;
+		svar1 = "Triton Village Gate V";
+		
+		Check_pos_message;	
+
+
+		gvar1 = 104;
+		gvar2 = 217;
+		gvar3 = 110;
+		gvar4 = 223;
+		svar1 = "";
+		svar2 = "";
+		svar3 = "성문 I";
+		svar4 = "";
+		svar5 = "Tarmas";
+		svar6 = "";
+		svar7 = "Dark Sea 입구";
+		svar8 = "";
+
+		Check_pos_direction;
+	
+		gvar1 = 35;
+		gvar2 = 154;
+		gvar3 = 41;
+		gvar4 = 160;
+		svar1 = "";
+		svar2 = "Remonia의 집";
+		svar3 = "";
+		svar4 = "무기상점";
+		svar5 = "";
+		svar6 = "은행";
+		svar7 = "성문 IV";
+		svar8 = "";
+
+		Check_pos_direction;
+	
+		gvar1 = 47;
+		gvar2 = 208;
+		gvar3 = 53;
+		gvar4 = 214;
+		svar1 = "성문 III";
+		svar2 = "";
+		svar3 = "상점";
+		svar4 = "";
+		svar5 = "은행";
+		svar6 = "성문 IV";
+		svar7 = "";
+		svar8 = "";
+
+		Check_pos_direction;
+	
+		gvar1 = 81;
+		gvar2 = 130;
+		gvar3 = 87;
+		gvar4 = 136;
+		svar1 = "상점";
+		svar2 = "무기상점";
+		svar3 = "";
+		svar4 = "";
+		svar5 = "성문 V";
+		svar6 = "";
+		svar7 = "여관/마법사의 집";
+		svar8 = "은행";
+
+		Check_pos_direction;
+	
+		svar1 = "이곳은 레벨 45 이상만 출입이 가능한 곳입니다";
+		gvar1 = 140;
+		gvar2 = 260;
+		gvar3 = 147;
+		gvar4 = 268;
+		gvar5 = 45;
+		SetLevelZone;
+
+
+	}
+
+	OnTalking	
+	{
+		if ( lvar1 == 0 )			
+		{
+			if ( lvar2 == 4 )
+			{
+				svar1 = "안녕하세요? 저는 상인입니다.";
+				svar2 = "한번 둘러보세요.";
+				gvar1 = 14;
+				ShopType;
+			}
+
+			if ( lvar2 == 5 )	
+			{
+				svar1 = "안녕하세요? 이곳은 여관입니다. 하루 한번 쉬실수 있으며, 레벨 10이상의 유저는 사용료 10000 GOLD 를 지불해야 합니다.";
+				svar2 = "쉬시겠습니까?";
+				gvar1 = 17;
+				ShopType;
+
+				if ( gvar100 == 1 )  /* 리턴값이 Yes 라면 */
+				{
+					if ( gvar7 < 11 )	/* 레벨이 10 이하면 무료로 이용하게 */
+					{
+						Sleeping;
+					}
+
+					if ( gvar7 > 10 )	/* 레벨이 10 이상이면 */
+					{
+						if ( gvar31 > 9999 ) /* 10000 골드보다 많이 가지고 있다면 */
+						{
+							Sleeping;
+						}
+
+						if ( gvar31 < 10000 )
+						{
+							svar1 = "10000 GOLD가 없군요";
+							svar2 = "여관을 사용할 수 없습니다.";
+							gvar1 = -1;
+							ShopType;
+						}
+					}
+				}
+			}
+
+			if ( lvar2 == 6 )	
+			{
+				svar1 = "저는 오우거 은행직원입니다.";
+				svar2 = "무엇을 도와드릴까요?";
+				gvar1 = 16;
+				ShopType;
+			}
+
+			if ( lvar2 == 7 )	
+			{
+				svar1 = "이곳은 사원입니다.";
+				svar2 = "무엇이 필요하시죠?";
+				gvar1 = 15;
+				ShopType;
+			}
+
+			if ( lvar2 == 8 )	
+			{
+				svar1 = "저는 마법사입니다.";
+				svar2 = "무엇이 필요하시죠?";
+				gvar1 = 12;
+				ShopType;
+			}
+
+			if ( lvar2 == 9 )	
+			{
+				svar1 = "안녕하세요? 저는 대장장이입니다.";
+				svar2 = "한번 둘러보세요.";
+				gvar1 = 4;
+				ShopType;
+			}
+
+			if ( lvar2 == 10 )	
+			{
+				svar1 = "안녕하세요? 저는 마을사람입니다.";
+				svar2 = "무엇을 도와드릴까요?";
+				Show_message;
+			}
+
+			if ( lvar2 == 11 )	
+			{
+				svar1 = "안녕하세요? 저는 여자마을사람입니다.";
+				svar2 = "반가워요.";
+				Show_message;
+			}
+		}
+	}
+
+	OnKilling		
+	{
+		lvar13 = 156;
+	}
+}

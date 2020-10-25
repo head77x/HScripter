@@ -1,0 +1,371 @@
+{
+	OnInitial		
+	{
+		Init_variables;
+
+		gvar1 = 0;
+		gvar2 = 2;
+		gvar3 = 1;
+		gvar4 = 123;
+		gvar5 = 142;
+		Stand_chr;
+
+		gvar1 = 1;
+		gvar2 = 2;
+		gvar3 = 1;
+		gvar4 = 92;
+		gvar5 = 62;
+		Stand_chr;
+
+
+		gvar1 = 2;
+		gvar2 = 2;
+		gvar3 = 1;
+		gvar4 = 92;
+		gvar5 = 123;
+		Stand_chr;
+
+		gvar1 = 3;
+		gvar2 = 2;
+		gvar3 = 1;
+		gvar4 = 132;
+		gvar5 = 13;
+		Stand_chr;
+
+		gvar1 = 4;
+		gvar2 = 220;
+		gvar3 = 0;
+		gvar4 = 124;
+		gvar5 = 155;
+		svar1 = "Cornfred(The shopkeeper)";
+		Stand_chr;
+
+		gvar1 = 5;
+		gvar2 = 223;
+		gvar3 = 0;
+		gvar4 = 104;
+		gvar5 = 137;
+		svar1 = "Dudoch(The innkeeper)";
+		Stand_chr;
+
+		gvar1 = 6;
+		gvar2 = 227;
+		gvar3 = 0;
+		gvar4 = 110;
+		gvar5 = 64;
+		svar1 = "Kisan(The banker)";
+		Stand_chr;
+
+		gvar1 = 7;
+		gvar2 = 229;
+		gvar3 = 0;
+		gvar4 = 104;
+		gvar5 = 167;
+		svar1 = "Meedlan(The priest)";
+		Stand_chr;
+
+		gvar1 = 8;
+		gvar2 = 232;
+		gvar3 = 0;
+		gvar4 = 119;
+		gvar5 = 123;
+		svar1 = "Charinscain(The wizard)";
+		Stand_chr;
+
+		gvar1 = 9;
+		gvar2 = 234;
+		gvar3 = 0;
+		gvar4 = 103;
+		gvar5 = 95;
+		svar1 = "Musetor(The blacksmith)";
+		Stand_chr;
+
+		gvar1 = 10;
+		gvar2 = 238;
+		gvar3 = 0;
+		gvar4 = 87;
+		gvar5 = 161;
+		svar1 = "Gillteun(Man)";
+		Stand_chr;
+
+		gvar1 = 11;
+		gvar2 = 239;
+		gvar3 = 0;
+		gvar4 = 112;
+		gvar5 = 106;
+		svar1 = "Yein(Woman)";
+		Stand_chr;
+
+	}
+
+	OnPosition	
+	{
+		gvar1 = 113;
+		gvar2 = 124;
+		gvar3 = 121;
+		gvar4 = 130;
+		svar1 = "마법사 Charinscain의 집( Charinscain's Wizardry )";
+		
+		Check_pos_message;	
+
+		gvar1 = 120;
+		gvar2 = 156;
+		gvar3 = 128;
+		gvar4 = 162;
+		svar1 = "Cornfred의 상점( Cornfred's Store )";
+		
+		Check_pos_message;	
+
+		gvar1 = 97;
+		gvar2 = 142;
+		gvar3 = 113;
+		gvar4 = 147;
+		svar1 = "Dudoch의 여관( Dudoch's Inn )";
+		
+		Check_pos_message;	
+
+		gvar1 = 105;
+		gvar2 = 64;
+		gvar3 = 114;
+		gvar4 = 71;
+		svar1 = "Kisan의 은행( Bank Of Kisan )";
+		
+		Check_pos_message;	
+
+		gvar1 = 99;
+		gvar2 = 168;
+		gvar3 = 107;
+		gvar4 = 174;
+		svar1 = "Meedlan의 사원( Meedlan's Temple )";
+		
+		Check_pos_message;	
+
+		gvar1 = 99;
+		gvar2 = 96;
+		gvar3 = 107;
+		gvar4 = 101;
+		svar1 = "Musetor의 무기고( Musetor's Armory )";
+		
+		Check_pos_message;	
+
+		gvar1 = 112;
+		gvar2 = 31;
+		gvar3 = 123;
+		gvar4 = 38;
+		svar1 = "Omaf 성문 I( Omaf Gate I )";
+		
+		Check_pos_message;	
+
+		gvar1 = 61;
+		gvar2 = 92;
+		gvar3 = 74;
+		gvar4 = 98;
+		svar1 = "Omaf 성문 II( Omaf Gate II )";
+		
+		Check_pos_message;	
+
+		gvar1 = 59;
+		gvar2 = 151;
+		gvar3 = 70;
+		gvar4 = 160;
+		svar1 = "Omaf 성문 III( Omaf Gate III )";
+		
+		Check_pos_message;	
+
+		gvar1 = 139;
+		gvar2 = 147;
+		gvar3 = 140;
+		gvar4 = 156;
+		svar1 = "Omaf 성문 IV( Omaf Gate IV )";
+		
+		Check_pos_message;	
+
+		gvar1 = 100;
+		gvar2 = 257;
+		gvar3 = 116;
+		gvar4 = 273;
+		svar1 = "영혼 악마( Pneuma Evil )";
+		
+		Check_pos_message;	
+
+		gvar1 = 116;
+		gvar2 = 195;
+		gvar3 = 136;
+		gvar4 = 207;
+		svar1 = "정복되지 않은 태양( Sol Invictus )";
+		
+		Check_pos_message;	
+
+		gvar1 = 120;
+		gvar2 = 139;
+		gvar3 = 126;
+		gvar4 = 145;
+		svar1 = "";
+		svar2 = "여관";
+		svar3 = "무기상점/은행";
+		svar4 = "마법사의 집";
+		svar5 = "";
+		svar6 = "";
+		svar7 = "";
+		svar8 = "상점";
+
+		Check_pos_direction;
+	
+		gvar1 = 89;
+		gvar2 = 59;
+		gvar3 = 95;
+		gvar4 = 65;
+		svar1 = "성문 II";
+		svar2 = "";
+		svar3 = "";
+		svar4 = "";
+		svar5 = "성문 I";
+		svar6 = "은행";
+		svar7 = "";
+		svar8 = "무기상점";
+
+		Check_pos_direction;
+	
+		gvar1 = 89;
+		gvar2 = 120;
+		gvar3 = 95;
+		gvar4 = 126;
+		svar1 = "성문 II";
+		svar2 = "";
+		svar3 = "";
+		svar4 = "무기상점/은행";
+		svar5 = "";
+		svar6 = "마법사의 집";
+		svar7 = "여관/상점";
+		svar8 = "";
+
+		Check_pos_direction;
+	
+		gvar1 = 129;
+		gvar2 = 10;
+		gvar3 = 135;
+		gvar4 = 16;
+		svar1 = "Omaf 성문 I";
+		svar2 = "";
+		svar3 = "";
+		svar4 = "Drial 계곡";
+		svar5 = "";
+		svar6 = "산맥 I";
+		svar7 = "";
+		svar8 = "";
+
+		Check_pos_direction;
+	
+
+
+	}
+
+	OnTalking	
+	{
+		if ( lvar1 == 0 )			
+		{
+			if ( lvar2 == 4 )
+			{
+				svar1 = "안녕하세요? 저는 상인입니다.";
+				svar2 = "한번 둘러보세요.";
+				gvar1 = 14;
+				ShopType;
+			}
+
+			if ( lvar2 == 5 )	
+			{
+				svar1 = "안녕하세요? 이곳은 여관입니다. 하루 한번 쉬실수 있으며, 레벨 10이상의 유저는 사용료 10000 GOLD 를 지불해야 합니다.";
+				svar2 = "쉬시겠습니까?";
+				gvar1 = 17;
+				ShopType;
+
+				if ( gvar100 == 1 )  /* 리턴값이 Yes 라면 */
+				{
+					if ( gvar7 < 11 )	/* 레벨이 10 이하면 무료로 이용하게 */
+					{
+						Sleeping;
+					}
+
+					if ( gvar7 > 10 )	/* 레벨이 10 이상이면 */
+					{
+						if ( gvar31 > 9999 ) /* 10000 골드보다 많이 가지고 있다면 */
+						{
+							Sleeping;
+						}
+
+						if ( gvar31 < 10000 )
+						{
+							svar1 = "10000 GOLD가 없군요";
+							svar2 = "여관을 사용할 수 없습니다.";
+							gvar1 = -1;
+							ShopType;
+						}
+					}
+				}
+			}
+
+			if ( lvar2 == 6 )	
+			{
+				svar1 = "저는 다크엘프 은행직원입니다.";
+				svar2 = "무엇을 도와드릴까요?";
+				gvar1 = 16;
+				ShopType;
+			}
+
+			if ( lvar2 == 7 )	
+			{
+				svar1 = "이곳은 사원입니다.";
+				svar2 = "무엇이 필요하시죠?";
+				gvar1 = 15;
+				ShopType;
+			}
+
+			if ( lvar2 == 8 )	
+			{
+				svar1 = "저는 마법사입니다.";
+				svar2 = "무엇이 필요하시죠?";
+				gvar1 = 11;
+				ShopType;
+			}
+
+			if ( lvar2 == 9 )	
+			{
+				svar1 = "안녕하세요? 저는 대장장이입니다.";
+				svar2 = "한번 둘러보세요.";
+				gvar1 = 1;
+				ShopType;
+			}
+
+			if ( lvar2 == 10 )	
+			{
+				svar1 = "안녕하세요? 저는 마을사람입니다.";
+				svar2 = "무엇을 도와드릴까요?";
+				Show_message;
+			}
+
+			if ( lvar2 == 11 )	
+			{
+				svar1 = "안녕하세요? 저는 여자마을사람입니다.";
+				svar2 = "반가워요.";
+				Show_message;
+			}
+		}
+	}
+
+	OnKilling		
+	{
+		lvar13 = 156;
+
+		if (lvar13 > 150) 
+		{
+			if (lvar2 == lvar13)
+			{
+				svar12 = "abcdefg";
+			}
+			lvar1 = -1;
+		}
+
+		svar2 = 1 + "Fuck you all";
+	}
+
+}

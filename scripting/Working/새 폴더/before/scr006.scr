@@ -1,0 +1,254 @@
+/* Zone Number : 006 */
+
+
+{
+	/* 현재 존(zone)과 관련된 정보 초기화 */
+	OnInitial
+	{
+	}
+
+
+
+
+
+	/* 캐릭터 또는 오브젝트를 선택했을때 처리 */
+	OnClicking
+	{
+		/* 캐릭터인지 비교 */
+		if ( gvar1 = 0 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 101 )
+			{
+
+EXIT_CLICK_101:
+
+
+				/* 대화 출력 */
+				lvar1 = 200;
+				svar1 = "던전 벼랑 사이를 오고가는 '부유석'을 타면, 건너편 벼랑으로 이동할수 있다네.";
+				svar2 = "부유석 타는 방법을 알려주겠네. 몇 번 타다보면 익숙해진다네.";
+				svar3 = "";
+				svar4 = "첫째, 마우스포인트를 부유석이 다가올 위치(이동 지점)에 올려 놓는다.";
+				svar5 = "둘째, 부유석이 가까이 다가오면 '점프키(J)'를 눌러 부유석을 탄다.(마우스는 안 누름)";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 102 )
+			{
+
+EXIT_CLICK_102:
+
+
+				/* 대화 출력 */
+				lvar1 = 200;
+				svar1 = "이 곳은 '통과의 던전'입니다. 위의 부유석을 건너면 반대편에 도착할 수 있습니다.";
+				svar2 = "";
+				svar3 = "가운데 부유석을 통과하면, 더 강한 몬스터가 나오는 지역과 연결된 출구가 나옵니다.";
+				svar4 = "";
+				svar5 = "부유석을 통과할 땐, 저 위의 '가드'에게 안내를 받거나 '이동석상'을 사용해보세요.";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 103 )
+			{
+
+EXIT_CLICK_103:
+
+
+				/* 대화 출력 */
+				lvar1 = 200;
+				svar1 = "위에 보이는 출구로 통과의 던전을 나가면, ";
+				svar2 = "'트리웜(레벨: 4~8)'이 출현하는 '약탈의 사냥터'가 나옵니다.";
+				svar3 = "";
+				svar4 = "이 던전의 출구 근처에 '오비','대련장','아레나존'이 있으니 지도로 위치를 확인해 보세요.";
+				svar5 = "오비는 기억된 지역과 또 다른 기억된 지역을 쉽게 이동시켜 준답니다.";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+		}
+
+		/* 오브젝트인지 비교 */
+		if ( gvar1 = 1 )
+		{
+		}
+
+
+EXIT_CLICK:
+	}
+
+
+
+
+
+	/* 캐릭터 또는 오브젝트를 죽였을때 처리 */
+	OnKilling
+	{
+		/* 캐릭터인지 비교 */
+		if ( gvar1 = 0 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 101 )
+			{
+
+EXIT_KILL_101:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 102 )
+			{
+
+EXIT_KILL_102:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 103 )
+			{
+
+EXIT_KILL_103:
+
+
+
+				goto EXIT_KILL;
+			}
+
+		}
+
+		/* 오브젝트인지 비교 */
+		if ( gvar1 = 1 )
+		{
+		}
+
+
+EXIT_KILL:
+	}
+
+
+
+
+
+	/* 아이템을 드래그 했을때 처리 */
+	OnDraging
+	{
+		/* 캐릭터인지 비교 */
+		if ( gvar1 = 0 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 101 )
+			{
+
+EXIT_GET_ITEM_101:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 102 )
+			{
+
+EXIT_GET_ITEM_102:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 103 )
+			{
+
+EXIT_GET_ITEM_103:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+		}
+
+		/* 오브젝트인지 비교 */
+		if ( gvar1 = 1 )
+		{
+		}
+
+
+EXIT_GET_ITEM:
+	}
+
+
+
+
+
+	/* 캐릭터 또는 오브젝트를 공격했을때 처리 */
+	OnHitting
+	{
+		/* 캐릭터인지 비교 */
+		if ( gvar1 = 0 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 101 )
+			{
+
+EXIT_HIT_101:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 102 )
+			{
+
+EXIT_HIT_102:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 103 )
+			{
+
+EXIT_HIT_103:
+
+
+
+				goto EXIT_HIT;
+			}
+
+		}
+
+		/* 오브젝트인지 비교 */
+		if ( gvar1 = 1 )
+		{
+		}
+
+
+EXIT_HIT:
+	}
+
+}
+

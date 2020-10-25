@@ -1,0 +1,44 @@
+{
+	OnInitial		
+	{
+		Init_variables;
+	}
+
+	OnPosition	
+	{
+		gvar1 = 61;
+		gvar2 = 53;
+		gvar3 = 74;
+		gvar4 = 65;
+		svar1 = "µå·¡°ïÀÇ ¹¦Áö( Dragon`s Bone )";
+		
+		Check_pos_message;	
+
+		gvar1 = 29;
+		gvar2 = 226;
+		gvar3 = 46;
+		gvar4 = 256;
+		svar1 = "Fraternal Megalith";
+		
+		Check_pos_message;	
+
+		gvar1 = 90;
+		gvar2 = 120;
+		gvar3 = 98;
+		gvar4 = 126;
+		svar1 = "»þ°¡µÒ µ¿»ó( Shacadum Statue )";
+		
+		Check_pos_message;	
+
+	}
+
+	OnTalking	
+	{
+		lvar13 = 156;
+	}
+
+	OnKilling		
+	{
+		lvar13 = 156;
+	}
+}

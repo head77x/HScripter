@@ -1,0 +1,71 @@
+{
+	OnInitial		
+	{
+		Init_variables;
+	}
+
+	OnPosition	
+	{
+		gvar1 = 67;
+		gvar2 = 54;
+		gvar3 = 121;
+		gvar4 = 102;
+		svar1 = "바랄의 사원( Balal's Temple )";
+		
+		Check_pos_message;	
+
+		gvar1 = 27;
+		gvar2 = 103;
+		gvar3 = 46;
+		gvar4 = 115;
+		svar1 = "글라테스 강 지역( Glatess River Side )";
+		
+		Check_pos_message;	
+
+		gvar1 = 109;
+		gvar2 = 162;
+		gvar3 = 120;
+		gvar4 = 174;
+		svar1 = "영혼의 다리( Soul Bridge )";
+		
+		Check_pos_message;	
+
+		gvar1 = 32;
+		gvar2 = 112;
+		gvar3 = 41;
+		gvar4 = 119;
+		svar1 = "기즈마을행 부유대륙 입구( To Geeze Village Floatland Gate )";
+		
+		Check_pos_message;	
+
+		svar1 = "이곳은 레벨 45 이상만 출입이 가능한 곳입니다";
+		gvar1 = 34;
+		gvar2 = 113;
+		gvar3 = 39;
+		gvar4 = 118;
+		gvar5 = 45;
+		SetLevelZone;
+
+	}
+
+	OnTalking	
+	{
+		lvar13 = 156;
+	}
+
+	OnKilling		
+	{
+		lvar13 = 156;
+
+		if (lvar13 > 150) 
+		{
+			if (lvar2 == lvar13)
+			{
+				svar12 = "abcdefg";
+			}
+			lvar1 = -1;
+		}
+
+		svar2 = 1 + "Fuck you all";
+	}
+}

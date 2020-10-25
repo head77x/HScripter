@@ -1,0 +1,36 @@
+{
+	OnInitial		
+	{
+		Init_variables;
+	}
+
+	OnPosition	
+	{
+		gvar1 = 87;
+		gvar2 = 89;
+		gvar3 = 97;
+		gvar4 = 98;
+		svar1 = "명상의 바위( Meditation Boulder )";
+		
+		Check_pos_message;	
+
+		gvar1 = 130;
+		gvar2 = 94;
+		gvar3 = 145;
+		gvar4 = 109;
+		svar1 = "영혼의 성지( Sanctuary Of Souls )";
+		
+		Check_pos_message;	
+
+	}
+
+	OnTalking	
+	{
+		lvar13 = 156;
+	}
+
+	OnKilling		
+	{
+		lvar13 = 156;
+	}
+}

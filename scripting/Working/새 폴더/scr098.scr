@@ -1,0 +1,44 @@
+{
+	OnInitial		
+	{
+		Init_variables;
+	}
+
+	OnPosition	
+	{
+		gvar1 = 58;
+		gvar2 = 253;
+		gvar3 = 71;
+		gvar4 = 265;
+		svar1 = "Cavern Of Meditation";
+		
+		Check_pos_message;	
+
+		gvar1 = 34;
+		gvar2 = 99;
+		gvar3 = 46;
+		gvar4 = 110;
+		svar1 = "Mukarrib";
+		
+		Check_pos_message;	
+		gvar1 = 130;
+		gvar2 = 146;
+		gvar3 = 142;
+		gvar4 = 157;
+		svar1 = "신성문자4( Tetragrammaton )";
+		
+		Check_pos_message;	
+
+	}
+
+	OnTalking	
+	{
+		lvar13 = 156;
+	}
+
+
+	OnKilling		
+	{
+		lvar13 = 156;
+	}
+}

@@ -1,0 +1,383 @@
+/* Zone Number : 008 */
+
+
+{
+	/* 현재 존(zone)과 관련된 정보 초기화 */
+	OnInitial
+	{
+	}
+
+
+
+
+
+	/* 캐릭터 또는 오브젝트를 선택했을때 처리 */
+	OnClicking
+	{
+		/* 캐릭터인지 비교 */
+		if ( gvar1 = 0 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 142 )
+			{
+
+EXIT_CLICK_142:
+
+
+				/* 대화 출력 */
+				lvar1 = 440;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 141 )
+			{
+
+EXIT_CLICK_141:
+
+
+				/* 대화 출력 */
+				lvar1 = 440;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 143 )
+			{
+
+EXIT_CLICK_143:
+
+
+				/* 대화 출력 */
+				lvar1 = 440;
+				svar1 = "";
+				svar2 = "";
+				svar3 = "";
+				svar4 = "";
+				svar5 = "";
+				Show_clickmessage;
+
+
+				goto EXIT_CLICK;
+			}
+
+		}
+
+		/* 오브젝트인지 비교 */
+		if ( gvar1 = 1 )
+		{
+		}
+
+
+EXIT_CLICK:
+	}
+
+
+
+
+
+	/* 캐릭터 또는 오브젝트를 죽였을때 처리 */
+	OnKilling
+	{
+		/* 캐릭터인지 비교 */
+		if ( gvar1 = 0 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 142 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri3 = 114 )
+				{
+					/* 대화 출력 */
+					lvar1 = 440;
+					svar1 = "은닉의 스컬이 쓰러지고, 첫번째 검날을 얻었다.";
+					svar2 = "";
+					svar3 = "";
+					svar4 = "은닉의 스컬 2를 찾아 사냥을 해야 겠다.";
+					svar5 = "";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+					lvar1 = -1;
+					lvar2 = 0;
+					lvar3 = 205;
+					lvar4 = 0;
+					lvar5 = 1;
+					lvar6 = 0;
+					lvar7 = 0;
+					lvar8 = 0;
+					lvar9 = 0;
+					lvar10 = -1;
+					lvar11 = -1;
+					lvar12 = 0;
+					lvar13 = 0;
+					lvar14 = 0;
+					lvar15 = 0;
+					lvar16 = 0;
+					lvar17 = 0;
+					lvar18 = 0;
+					lvar19 = -1;
+					lvar20 = 2;
+					lvar21 = 115;
+					Set_scriptvar;
+
+					goto EXIT_KILL;
+
+					goto EXIT_KILL_142;
+				}
+
+
+EXIT_KILL_142:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 141 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri3 = 115 )
+				{
+					/* 대화 출력 */
+					lvar1 = 440;
+					svar1 = "은닉의 스컬 2가 쓰러졌다. 두번째 검날을 얻었다.";
+					svar2 = "";
+					svar3 = "";
+					svar4 = "은닉의 스컬 3을 찾아 쓰러뜨려야 겠다.";
+					svar5 = "";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+					lvar1 = -1;
+					lvar2 = 0;
+					lvar3 = 206;
+					lvar4 = 0;
+					lvar5 = 1;
+					lvar6 = 0;
+					lvar7 = 0;
+					lvar8 = 0;
+					lvar9 = 0;
+					lvar10 = -1;
+					lvar11 = -1;
+					lvar12 = 0;
+					lvar13 = 0;
+					lvar14 = 0;
+					lvar15 = 0;
+					lvar16 = 0;
+					lvar17 = 0;
+					lvar18 = 0;
+					lvar19 = -1;
+					lvar20 = 2;
+					lvar21 = 116;
+					Set_scriptvar;
+
+					goto EXIT_KILL;
+
+					goto EXIT_KILL_141;
+				}
+
+
+EXIT_KILL_141:
+
+
+
+				goto EXIT_KILL;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 143 )
+			{
+				/* 퀘스트 인덱스 비교 */
+				if ( scri3 = 116 )
+				{
+					/* 대화 출력 */
+					lvar1 = 440;
+					svar1 = "은닉의 스컬 3이 쓰러졌다. 세번째 검날을 얻었다.";
+					svar2 = "";
+					svar3 = "";
+					svar4 = "파우스탄에게 돌아가야 겠다.";
+					svar5 = "";
+					Show_clickmessage;
+
+					/* 행동 처리 */
+					/* 대화 출력 */
+					/* 값 설정 */
+					lvar1 = -1;
+					lvar2 = 0;
+					lvar3 = 207;
+					lvar4 = 0;
+					lvar5 = 1;
+					lvar6 = 0;
+					lvar7 = 0;
+					lvar8 = 0;
+					lvar9 = 0;
+					lvar10 = -1;
+					lvar11 = -1;
+					lvar12 = 0;
+					lvar13 = 0;
+					lvar14 = 0;
+					lvar15 = 0;
+					lvar16 = 0;
+					lvar17 = 0;
+					lvar18 = 0;
+					lvar19 = -1;
+					lvar20 = 2;
+					lvar21 = 117;
+					Set_scriptvar;
+
+					goto EXIT_KILL;
+
+					goto EXIT_KILL_143;
+				}
+
+
+EXIT_KILL_143:
+
+
+
+				goto EXIT_KILL;
+			}
+
+		}
+
+		/* 오브젝트인지 비교 */
+		if ( gvar1 = 1 )
+		{
+		}
+
+
+EXIT_KILL:
+	}
+
+
+
+
+
+	/* 아이템을 드래그 했을때 처리 */
+	OnDraging
+	{
+		/* 캐릭터인지 비교 */
+		if ( gvar1 = 0 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 142 )
+			{
+
+EXIT_GET_ITEM_142:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 141 )
+			{
+
+EXIT_GET_ITEM_141:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 143 )
+			{
+
+EXIT_GET_ITEM_143:
+
+
+
+				goto EXIT_GET_ITEM;
+			}
+
+		}
+
+		/* 오브젝트인지 비교 */
+		if ( gvar1 = 1 )
+		{
+		}
+
+
+EXIT_GET_ITEM:
+	}
+
+
+
+
+
+	/* 캐릭터 또는 오브젝트를 공격했을때 처리 */
+	OnHitting
+	{
+		/* 캐릭터인지 비교 */
+		if ( gvar1 = 0 )
+		{
+			/* 인덱스 비교 */
+			if ( gvar2 = 142 )
+			{
+
+EXIT_HIT_142:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 141 )
+			{
+
+EXIT_HIT_141:
+
+
+
+				goto EXIT_HIT;
+			}
+
+			/* 인덱스 비교 */
+			if ( gvar2 = 143 )
+			{
+
+EXIT_HIT_143:
+
+
+
+				goto EXIT_HIT;
+			}
+
+		}
+
+		/* 오브젝트인지 비교 */
+		if ( gvar1 = 1 )
+		{
+		}
+
+
+EXIT_HIT:
+	}
+
+}
+

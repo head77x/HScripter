@@ -1,0 +1,47 @@
+{
+	OnInitial		
+	{
+		Init_variables;
+	}
+
+	OnPosition	
+	{
+		gvar1 = 89;
+		gvar2 = 208;
+		gvar3 = 101;
+		gvar4 = 221;
+		svar1 = "Haiden ´Ù¸®( Haiden Bridge )";
+		
+		Check_pos_message;	
+
+		gvar1 = 67;
+		gvar2 = 128;
+		gvar3 = 82;
+		gvar4 = 144;
+		svar1 = "Kelos ¾ð´ö( Kelos Hillock )";
+		
+		Check_pos_message;	
+
+	}
+
+	OnTalking	
+	{
+		lvar13 = 156;
+	}
+
+	OnKilling		
+	{
+		lvar13 = 156;
+
+		if (lvar13 > 150) 
+		{
+			if (lvar2 == lvar13)
+			{
+				svar12 = "abcdefg";
+			}
+			lvar1 = -1;
+		}
+
+		svar2 = 1 + "Fuck you all";
+	}
+}

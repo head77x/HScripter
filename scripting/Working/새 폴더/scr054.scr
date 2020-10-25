@@ -1,0 +1,47 @@
+{
+	OnInitial		
+	{
+		Init_variables;
+	}
+
+	OnPosition	
+	{
+		gvar1 = 28;
+		gvar2 = 129;
+		gvar3 = 47;
+		gvar4 = 148;
+		svar1 = "Miche 다리( Miche Bridge )";
+		
+		Check_pos_message;	
+
+		gvar1 = 101;
+		gvar2 = 180;
+		gvar3 = 117;
+		gvar4 = 196;
+		svar1 = "Zicharder의 다리( Zicharder Bridge )";
+		
+		Check_pos_message;	
+
+	}
+
+	OnTalking	
+	{
+		lvar13 = 156;
+	}
+
+	OnKilling		
+	{
+		lvar13 = 156;
+
+		if (lvar13 > 150) 
+		{
+			if (lvar2 == lvar13)
+			{
+				svar12 = "abcdefg";
+			}
+			lvar1 = -1;
+		}
+
+		svar2 = 1 + "Fuck you all";
+	}
+}

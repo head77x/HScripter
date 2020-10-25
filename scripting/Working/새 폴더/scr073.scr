@@ -1,0 +1,55 @@
+{
+	OnInitial		
+	{
+		Init_variables;
+	}
+
+	OnPosition	
+	{
+		gvar1 = 102;
+		gvar2 = 196;
+		gvar3 = 115;
+		gvar4 = 209;
+		svar1 = "Benin 거석( Benin Megalith )";
+		
+		Check_pos_message;	
+
+		gvar1 = 85;
+		gvar2 = 82;
+		gvar3 = 102;
+		gvar4 = 118;
+		svar1 = "르페( Lfe )";
+		
+		Check_pos_message;	
+
+		gvar1 = 19;
+		gvar2 = 26;
+		gvar3 = 38;
+		gvar4 = 50;
+		svar1 = "Thor의 기둥( Thor's Pillar )";
+		
+		Check_pos_message;	
+
+	}
+
+	OnTalking	
+	{
+		lvar13 = 156;
+	}
+
+	OnKilling		
+	{
+		lvar13 = 156;
+
+		if (lvar13 > 150) 
+		{
+			if (lvar2 == lvar13)
+			{
+				svar12 = "abcdefg";
+			}
+			lvar1 = -1;
+		}
+
+		svar2 = 1 + "Fuck you all";
+	}
+}

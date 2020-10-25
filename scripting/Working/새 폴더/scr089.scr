@@ -1,0 +1,349 @@
+{
+	OnInitial		
+	{
+		Init_variables;
+
+
+		gvar1 = 0;
+		gvar2 = 2;
+		gvar3 = 1;
+		gvar4 = 65;
+		gvar5 = 69;
+		Stand_chr;
+
+		gvar1 = 1;
+		gvar2 = 2;
+		gvar3 = 1;
+		gvar4 = 122;
+		gvar5 = 129;
+		Stand_chr;
+
+
+		gvar1 = 2;
+		gvar2 = 2;
+		gvar3 = 1;
+		gvar4 = 74;
+		gvar5 = 181;
+		Stand_chr;
+
+		gvar1 = 3;
+		gvar2 = 220;
+		gvar3 = 0;
+		gvar4 = 91;
+		gvar5 = 124;
+		svar1 = "Olbition(The shopkeeper)";
+		Stand_chr;
+
+		gvar1 = 4;
+		gvar2 = 223;
+		gvar3 = 0;
+		gvar4 = 75;
+		gvar5 = 152;
+		svar1 = "Rauman(The innkeeper)";
+		Stand_chr;
+
+		gvar1 = 5;
+		gvar2 = 227;
+		gvar3 = 0;
+		gvar4 = 54;
+		gvar5 = 108;
+		svar1 = "Pantian(The banker)";
+		Stand_chr;
+
+		gvar1 = 6;
+		gvar2 = 229;
+		gvar3 = 0;
+		gvar4 = 104;
+		gvar5 = 74;
+		svar1 = "Oldastin(The priest)";
+		Stand_chr;
+
+		gvar1 = 7;
+		gvar2 = 232;
+		gvar3 = 0;
+		gvar4 = 67;
+		gvar5 = 51;
+		svar1 = "Kanopus(The wizard)";
+		Stand_chr;
+
+		gvar1 = 8;
+		gvar2 = 234;
+		gvar3 = 0;
+		gvar4 = 69;
+		gvar5 = 91;
+		svar1 = "Magenix(The blacksmith)";
+		Stand_chr;
+
+		gvar1 = 9;
+		gvar2 = 238;
+		gvar3 = 0;
+		gvar4 = 42;
+		gvar5 = 73;
+		svar1 = "Ruseun(Man)";
+		Stand_chr;
+
+		gvar1 = 10;
+		gvar2 = 239;
+		gvar3 = 0;
+		gvar4 = 119;
+		gvar5 = 129;
+		svar1 = "Karin(Woman)";
+		Stand_chr;
+	}
+
+	OnPosition	
+	{
+		gvar1 = 26;
+		gvar2 = 266;
+		gvar3 = 39;
+		gvar4 = 280;
+		svar1 = "악마의 눈( Devil's Eye )";
+		
+		Check_pos_message;	
+
+		gvar1 = 62;
+		gvar2 = 53;
+		gvar3 = 71;
+		gvar4 = 60;
+		svar1 = "마법사 Kanopus의 집( Kanopus's Wizardry )";
+		
+		Check_pos_message;	
+
+		gvar1 = 63;
+		gvar2 = 93;
+		gvar3 = 73;
+		gvar4 = 100;
+		svar1 = "Magenix의 무기상점( Magenix's Armory )";
+		
+		Check_pos_message;	
+
+		gvar1 = 82;
+		gvar2 = 127;
+		gvar3 = 100;
+		gvar4 = 135;
+		svar1 = "Olbition의 상점( Olbition's Store )";
+		
+		Check_pos_message;	
+
+		gvar1 = 100;
+		gvar2 = 77;
+		gvar3 = 108;
+		gvar4 = 83;
+		svar1 = "Oldastin의 사원( Oldastin's Temple )";
+		
+		Check_pos_message;	
+
+		gvar1 = 57;
+		gvar2 = 112;
+		gvar3 = 61;
+		gvar4 = 118;
+		svar1 = "Pantian의 은행( Bank Of Pantian )";
+		
+		Check_pos_message;	
+
+		gvar1 = 72;
+		gvar2 = 153;
+		gvar3 = 80;
+		gvar4 = 159;
+		svar1 = "Rauman의 여관( Rauman's Inn )";
+		
+		Check_pos_message;	
+
+		gvar1 = 35;
+		gvar2 = 73;
+		gvar3 = 45;
+		gvar4 = 80;
+		svar1 = "Ruseun의 집( Ruseun's House )";
+		
+		Check_pos_message;	
+
+		gvar1 = 93;
+		gvar2 = 199;
+		gvar3 = 104;
+		gvar4 = 208;
+		svar1 = "Dark Sea행 부유대륙 입구( To Dark Sea Floatland Gate )";
+		
+		Check_pos_message;	
+
+
+		gvar1 = 62;
+		gvar2 = 66;
+		gvar3 = 68;
+		gvar4 = 72;
+		svar1 = "";
+		svar2 = "Ruseun의 집";
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+		svar6 = "마법사의 집";
+		svar7 = "상점";
+		svar8 = "무기상점/은행";
+
+		Check_pos_direction;
+	
+		gvar1 = 119;
+		gvar2 = 126;
+		gvar3 = 125;
+		gvar4 = 132;
+		svar1 = "";
+		svar2 = "상점";
+		svar3 = "무기상점/신전";
+		svar4 = "";
+		svar5 = "";
+		svar6 = "";
+		svar7 = "";
+		svar8 = "부유대륙 입구";
+
+		Check_pos_direction;
+	
+		gvar1 = 71;
+		gvar2 = 178;
+		gvar3 = 77;
+		gvar4 = 184;
+		svar1 = "";
+		svar2 = "";
+		svar3 = "여관";
+		svar4 = "상인";
+		svar5 = "";
+		svar6 = "";
+		svar7 = "";
+		svar8 = "부유대륙 입구";
+
+		Check_pos_direction;
+
+
+		svar1 = "이곳은 레벨 40 이상만 출입이 가능한 곳입니다";
+		gvar1 = 96;
+		gvar2 = 201;
+		gvar3 = 101;
+		gvar4 = 206;
+		gvar5 = 40;
+		SetLevelZone;
+	}
+
+	OnTalking	
+	{
+		if ( lvar1 == 0 )			
+		{
+			if ( lvar2 == 3 )
+			{
+				svar1 = "안녕하세요? 저는 상인입니다.";
+				svar2 = "한번 둘러보세요.";
+				gvar1 = 14;
+				ShopType;
+			}
+
+			if ( lvar2 == 4 )	
+			{
+				svar1 = "안녕하세요? 이곳은 여관입니다. 하루 한번 쉬실수 있으며, 레벨 10이상의 유저는 사용료 10000 GOLD 를 지불해야 합니다.";
+				svar2 = "쉬시겠습니까?";
+				gvar1 = 17;
+				ShopType;
+
+				if ( gvar100 == 1 )  /* 리턴값이 Yes 라면 */
+				{
+					if ( gvar7 < 11 )	/* 레벨이 10 이하면 무료로 이용하게 */
+					{
+						Sleeping;
+					}
+
+					if ( gvar7 > 10 )	/* 레벨이 10 이상이면 */
+					{
+						if ( gvar31 > 9999 ) /* 10000 골드보다 많이 가지고 있다면 */
+						{
+							Sleeping;
+						}
+
+						if ( gvar31 < 10000 )
+						{
+							svar1 = "10000 GOLD가 없군요";
+							svar2 = "여관을 사용할 수 없습니다.";
+							gvar1 = -1;
+							ShopType;
+						}
+					}
+				}
+			}
+
+			if ( lvar2 == 5 )	
+			{
+				svar1 = "저는 다크엘프 은행직원입니다.";
+				svar2 = "무엇을 도와드릴까요?";
+				gvar1 = 16;
+				ShopType;
+			}
+
+			if ( lvar2 == 6 )	
+			{
+				svar1 = "이곳은 사원입니다.";
+				svar2 = "무엇이 필요하시죠?";
+				gvar1 = 15;
+				ShopType;
+			}
+
+			if ( lvar2 == 7 )	
+			{
+				svar1 = "저는 마법사입니다.";
+				svar2 = "무엇이 필요하시죠?";
+				gvar1 = 10;
+				ShopType;
+			}
+
+			if ( lvar2 == 8 )	
+			{
+				svar1 = "안녕하세요? 저는 대장장이입니다.";
+				svar2 = "한번 둘러보세요.";
+				gvar1 = 3;
+				ShopType;
+			}
+
+			if ( lvar2 == 9 )	
+			{
+				svar1 = "안녕하세요? 저는 마을사람입니다.";
+				svar2 = "무엇을 도와드릴까요?";
+				Show_message;
+			}
+
+			if ( lvar2 == 10 )	
+			{
+				svar1 = "안녕하세요? 저는 여자마을사람입니다.";
+				svar2 = "반가워요.";
+				Show_message;
+			}
+		}
+	}
+
+	OnKilling		
+	{
+		lvar13 = 156;
+
+		if (lvar13 > 150) 
+		{
+			if (lvar2 == lvar13)
+			{
+				svar12 = "abcdefg";
+			}
+			lvar1 = -1;
+		}
+
+		svar2 = 1 + "Fuck you all";
+	}
+
+	OnSpecial
+	{
+		gvar1 = 74;
+		gvar2 = 158;
+		gvar3 = 0;
+		Check_and_stand_guard;
+
+		gvar1 = 65;
+		gvar2 = 143;
+		gvar3 = 0;
+		Check_and_stand_guard;
+
+		gvar1 = 78;
+		gvar2 = 154;
+		gvar3 = 0;
+		Check_and_stand_guard;
+	}
+}

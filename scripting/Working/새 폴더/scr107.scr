@@ -1,0 +1,28 @@
+{
+	OnInitial		
+	{
+		Init_variables;
+	}
+
+	OnPosition	
+	{
+		gvar1 = 56;
+		gvar2 = 126;
+		gvar3 = 90;
+		gvar4 = 174;
+		svar1 = "±×·£µÒ¼ºÁö( Grandoom Temple )";
+		
+		Check_pos_message;	
+	}
+
+
+	OnTalking	
+	{
+		lvar13 = 156;
+	}
+
+	OnKilling		
+	{
+		lvar13 = 156;
+	}
+}

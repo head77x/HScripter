@@ -1,0 +1,63 @@
+{
+	OnInitial		
+	{
+		Init_variables;
+	}
+
+	OnPosition	
+	{
+		gvar1 = 3;
+		gvar2 = 176;
+		gvar3 = 16;
+		gvar4 = 187;
+		svar1 = "Abandoned ±¤»ê( Abandoned Mine )";
+		
+		Check_pos_message;	
+
+		gvar1 = 101;
+		gvar2 = 33;
+		gvar3 = 113;
+		gvar4 = 44;
+		svar1 = "Caral »ù( Caral Fountain )";
+		
+		Check_pos_message;	
+
+		gvar1 = 133;
+		gvar2 = 50;
+		gvar3 = 147;
+		gvar4 = 64;
+		svar1 = "Caral ±¤»ê( Caral Mine )";
+		
+		Check_pos_message;	
+
+		gvar1 = 63;
+		gvar2 = 207;
+		gvar3 = 85;
+		gvar4 = 229;
+		svar1 = "NoaÀÇ ¾ó±¼( Noa's Face )";
+		
+		Check_pos_message;	
+
+	}
+
+	OnTalking	
+	{
+		lvar13 = 156;
+	}
+
+	OnKilling		
+	{
+		lvar13 = 156;
+
+		if (lvar13 > 150) 
+		{
+			if (lvar2 == lvar13)
+			{
+				svar12 = "abcdefg";
+			}
+			lvar1 = -1;
+		}
+
+		svar2 = 1 + "Fuck you all";
+	}
+}

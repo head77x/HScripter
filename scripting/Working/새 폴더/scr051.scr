@@ -1,0 +1,55 @@
+{
+	OnInitial		
+	{
+		Init_variables;
+	}
+
+	OnPosition	
+	{
+		gvar1 = 16;
+		gvar2 = 46;
+		gvar3 = 45;
+		gvar4 = 84;
+		svar1 = "¿ÀÅ©ÀÇ ¿ÀµÎ¸·( Orc's Cells )";
+		
+		Check_pos_message;	
+
+		gvar1 = 93;
+		gvar2 = 172;
+		gvar3 = 147;
+		gvar4 = 250;
+		svar1 = "RecluseÀÇ ´Ë( Recluse's Marsh )";
+		
+		Check_pos_message;	
+
+		gvar1 = 34;
+		gvar2 = 265;
+		gvar3 = 154;
+		gvar4 = 306;
+		svar1 = "Vergenia ½£( Vergenia Forest )";
+		
+		Check_pos_message;	
+
+	}
+
+	OnTalking	
+	{
+		lvar13 = 156;
+	}
+
+	OnKilling		
+	{
+		lvar13 = 156;
+
+		if (lvar13 > 150) 
+		{
+			if (lvar2 == lvar13)
+			{
+				svar12 = "abcdefg";
+			}
+			lvar1 = -1;
+		}
+
+		svar2 = 1 + "Fuck you all";
+	}
+}

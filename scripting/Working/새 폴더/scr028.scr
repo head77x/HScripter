@@ -1,0 +1,330 @@
+{
+
+	OnInitial		
+	{
+		Init_variables;
+
+		gvar1 = 0;
+		gvar2 = 2;
+		gvar3 = 1;
+		gvar4 = 105;
+		gvar5 = 174;
+		Stand_chr;
+
+		gvar1 = 1;
+		gvar2 = 2;
+		gvar3 = 1;
+		gvar4 = 58;
+		gvar5 = 105;
+		Stand_chr;
+
+		gvar1 = 2;
+		gvar2 = 2;
+		gvar3 = 1;
+		gvar4 = 145;
+		gvar5 = 224;
+		Stand_chr;
+
+		gvar1 = 3;
+		gvar2 = 220;
+		gvar3 = 0;
+		gvar4 = 85;
+		gvar5 = 171;
+		svar1 = "Boillard(The shopkeeper)";
+		Stand_chr;
+
+		gvar1 = 4;
+		gvar2 = 223;
+		gvar3 = 0;
+		gvar4 = 94;
+		gvar5 = 132;
+		svar1 = "Nabillist(The innkeeper)";
+		Stand_chr;
+
+		gvar1 = 5;
+		gvar2 = 226;
+		gvar3 = 0;
+		gvar4 = 56;
+		gvar5 = 127;
+		svar1 = "Fayham(The banker)";
+		Stand_chr;
+
+		gvar1 = 6;
+		gvar2 = 229;
+		gvar3 = 0;
+		gvar4 = 105;
+		gvar5 = 124;
+		svar1 = "Saint(The priest)";
+		Stand_chr;
+
+		gvar1 = 7;
+		gvar2 = 232;
+		gvar3 = 0;
+		gvar4 = 42;
+		gvar5 = 141;
+		svar1 = "Vainban(The wizard)";
+		Stand_chr;
+
+		gvar1 = 8;
+		gvar2 = 234;
+		gvar3 = 0;
+		gvar4 = 81;
+		gvar5 = 96;
+		svar1 = "Steedsard(The blacksmith)";
+		Stand_chr;
+
+		gvar1 = 9;
+		gvar2 = 238;
+		gvar3 = 0;
+		gvar4 = 60;
+		gvar5 = 76;
+		svar1 = "Oxban(Man)";
+		Stand_chr;
+
+		gvar1 = 10;
+		gvar2 = 239;
+		gvar3 = 0;
+		gvar4 = 53;
+		gvar5 = 84;
+		svar1 = "Freela(Woman)";
+		Stand_chr;
+
+	}
+
+
+	OnPosition	
+	{
+		gvar1 = 51;
+		gvar2 = 130;
+		gvar3 = 59;
+		gvar4 = 135;
+		svar1 = "페이함의 은행( Bank of Fayham )";
+		
+		Check_pos_message;	
+
+		gvar1 = 47;
+		gvar2 = 84;
+		gvar3 = 55;
+		gvar4 = 90;
+		svar1 = "프릴라의 집( Freela's House )";
+		
+		Check_pos_message;	
+
+		gvar1 = 118;
+		gvar2 = 188;
+		gvar3 = 133;
+		gvar4 = 202;
+		svar1 = "라리안느 성( Lariane Castle )";
+		
+		Check_pos_message;	
+
+		gvar1 = 86;
+		gvar2 = 137;
+		gvar3 = 94;
+		gvar4 = 143;
+		svar1 = "나빌리스트의 여관( Nabilist's Inn )";
+		
+		Check_pos_message;	
+
+		gvar1 = 95;
+		gvar2 = 136;
+		gvar3 = 103;
+		gvar4 = 142;
+		svar1 = "나빌리스트의 여관( Nabilist's Inn )";
+		
+		Check_pos_message;	
+
+		gvar1 = 56;
+		gvar2 = 76;
+		gvar3 = 63;
+		gvar4 = 83;
+		svar1 = "옥스반의 집( Oxban's House )";
+		
+		Check_pos_message;	
+
+		gvar1 = 98;
+		gvar2 = 125;
+		gvar3 = 106;
+		gvar4 = 131;
+		svar1 = "세인트의 사원( Saint's Temple )";
+		
+		Check_pos_message;	
+
+		gvar1 = 39;
+		gvar2 = 285;
+		gvar3 = 65;
+		gvar4 = 309;
+		svar1 = "검은태양( Sol Niger )";
+		
+		Check_pos_message;	
+
+		gvar1 = 49;
+		gvar2 = 35;
+		gvar3 = 60;
+		gvar4 = 44;
+		svar1 = "오마프성행 부유대륙 입구( To Omaf Castle Floatland Gate )";
+		
+		Check_pos_message;	
+
+		gvar1 = 38;
+		gvar2 = 145;
+		gvar3 = 46;
+		gvar4 = 151;
+		svar1 = "마술사 베인반의 집( Vainban's Wizardry )";
+		
+		Check_pos_message;	
+
+		gvar1 = 102;
+		gvar2 = 171;
+		gvar3 = 108;
+		gvar4 = 177;
+		svar1 = "";
+		svar2 = "상점";
+		svar3 = "은행/마법사의 집";
+		svar4 = "여관/무기상점";
+		svar5 = "";
+		svar6 = "";
+		svar7 = "성문";
+		svar8 = "";
+
+		Check_pos_direction;
+	
+		gvar1 = 55;
+		gvar2 = 102;
+		gvar3 = 61;
+		gvar4 = 108;
+		svar1 = "";
+		svar2 = "우물";
+		svar3 = "";
+		svar4 = "부유대륙 입구";
+		svar5 = "";
+		svar6 = "무기상점";
+		svar7 = "성문";
+		svar8 = "은행/마법사의 집";
+
+		Check_pos_direction;
+	
+		gvar1 = 142;
+		gvar2 = 221;
+		gvar3 = 148;
+		gvar4 = 227;
+		svar1 = "Kelos 계곡";
+		svar2 = "";
+		svar3 = "Lariane 성";
+		svar4 = "";
+		svar5 = "";
+		svar6 = "";
+		svar7 = "Zerk 입구";
+		svar8 = "";
+
+		Check_pos_direction;
+	}
+
+	OnTalking	
+	{
+		if ( lvar1 == 0 )			
+		{
+			if ( lvar2 == 3 )
+			{
+				svar1 = "안녕하세요? 저는 상인입니다.";
+				svar2 = "한번 둘러보세요.";
+				gvar1 = 14;
+				ShopType;
+			}
+
+			if ( lvar2 == 4 )	
+			{
+				svar1 = "안녕하세요? 이곳은 여관입니다. 하루 한번 쉬실수 있으며, 레벨 10이상의 유저는 사용료 10000 GOLD 를 지불해야 합니다.";
+				svar2 = "쉬시겠습니까?";
+				gvar1 = 17;
+				ShopType;
+
+				if ( gvar100 == 1 )		/* 리턴값이 Yes 라면 */
+				{
+					if ( gvar7 < 11 )	/* 레벨이 10 이하면 무료로 이용하게	*/
+					{
+						Sleeping;
+					}
+
+					if ( gvar7 > 10 )	/* 레벨이 10 이상이면 */
+					{
+						if ( gvar31 > 9999 ) /* 10000 골드보다 많이 가지고 있다면 */
+						{
+							Sleeping;
+						}
+
+						if ( gvar31 < 10000 )
+						{
+							svar1 = "10000 GOLD가 없군요";
+							svar2 = "여관을 사용할 수 없습니다.";
+							gvar1 = -1;
+							ShopType;
+						}
+					}
+				}
+			}
+
+			if ( lvar2 == 5 )	
+			{
+				svar1 = "이곳은 은행입니다.";
+				svar2 = "무엇을 도와드릴까요?";
+				gvar1 = 16;
+				ShopType;
+			}
+
+			if ( lvar2 == 6 )	
+			{
+				svar1 = "이곳은 사원입니다.";
+				svar2 = "무엇이 필요하시죠?";
+				gvar1 = 15;
+				ShopType;
+			}
+
+			if ( lvar2 == 7 )	
+			{
+				svar1 = "저는 마법사입니다.";
+				svar2 = "무엇이 필요하시죠?";
+				gvar1 = 8;
+				ShopType;
+			}
+
+			if ( lvar2 == 8 )	
+			{
+				svar1 = "안녕하세요? 저는 대장장이입니다.";
+				svar2 = "한번 둘러보세요.";
+				gvar1 = 2;
+				ShopType;
+			}
+
+			if ( lvar2 == 9 )	
+			{
+				svar1 = "안녕하세요? 저는 마을사람입니다.";
+				svar2 = "무엇을 도와드릴까요?";
+				Show_message;
+			}
+
+			if ( lvar2 == 10 )	
+			{
+				svar1 = "안녕하세요? 저는 여자마을사람입니다.";
+				svar2 = "반가워요.";
+				Show_message;
+			}
+		}
+	}
+
+	OnKilling		
+	{
+		lvar13 = 156;
+
+		if (lvar13 > 150) 
+		{
+			if (lvar2 == lvar13)
+			{
+				svar12 = "abcdefg";
+			}
+			lvar1 = -1;
+		}
+
+		svar2 = 1 + "Fuck you all";
+	}
+}

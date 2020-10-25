@@ -1,0 +1,55 @@
+{
+	OnInitial		
+	{
+		Init_variables;
+	}
+
+	OnPosition	
+	{
+		gvar1 = 128;
+		gvar2 = 88;
+		gvar3 = 144;
+		gvar4 = 105;
+		svar1 = "태고의 방( Antiquity Room )";
+		
+		Check_pos_message;	
+
+		gvar1 = 126;
+		gvar2 = 36;
+		gvar3 = 143;
+		gvar4 = 55;
+		svar1 = "Meteorite Room";
+		
+		Check_pos_message;	
+
+		gvar1 = 18;
+		gvar2 = 228;
+		gvar3 = 39;
+		gvar4 = 243;
+		svar1 = "세월의 방( Time Room )";
+		
+		Check_pos_message;	
+
+	}
+
+	OnTalking	
+	{
+		lvar13 = 156;
+	}
+
+	OnKilling		
+	{
+		lvar13 = 156;
+
+		if (lvar13 > 150) 
+		{
+			if (lvar2 == lvar13)
+			{
+				svar12 = "abcdefg";
+			}
+			lvar1 = -1;
+		}
+
+		svar2 = 1 + "Fuck you all";
+	}
+}
