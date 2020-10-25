@@ -1,0 +1,36 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 1;
+		svar1 = "腊月天气——";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = " 动手动脚 ";
+		svar7 = "毛手毛脚";
+		svar8 = "双手双脚";
+		svar9 = "冻手冻脚";
+		Set_quiz;
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+		lvar1 = 1;
+		Run_quiz;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

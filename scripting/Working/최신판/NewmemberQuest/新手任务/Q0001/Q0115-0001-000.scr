@@ -1,0 +1,40 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{		
+	
+		svar1 = "我是魔法师迪科，负责训练你们最基本的战斗技能。你看到那些老鼠了么，";
+		svar2 = "现在，你双击其中的一个，你的宠物就会帮你打败它。而且告诉你一个诀窍，";
+		svar3 = "你按F2，点击鼠标左键，就能独立控制你的宠物了，如果以后你宠物多了，";
+		svar4 = "可以利用F2、F3、F4选中你想指挥的宠物，好了，你先去打败一只老鼠，拿到";
+		svar5 = "它身上的鼠须糖，再来向我汇报吧。";
+		Show_clickmessage;
+
+		lvar1 = 13;
+		lvar2 = 8054;
+		lvar3 = 1;
+		Set_toygetitem;
+
+		lvar1 = 1;
+		lvar2 = 1;
+		Set_scriptvar;	
+
+
+
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

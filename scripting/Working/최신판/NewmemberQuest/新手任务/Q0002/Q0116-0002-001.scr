@@ -1,0 +1,35 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{		
+	
+		svar1 = "在你右下角的背包里现在有一套基本的装备，首先点击背包，";
+		svar2 = "然后用鼠标左键双击那些装备，它们就会穿到你的身上了！";
+		svar3 = "试试看，很简单！你把基本装备都穿上，再来向我汇报吧。";
+		svar4 = "";
+		svar5 = "";
+		Show_clickmessage;
+
+		lvar1 = 2;
+		lvar2 = 2;
+		Set_scriptvar;	
+
+
+
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

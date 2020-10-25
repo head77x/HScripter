@@ -1,0 +1,64 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	
+	
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{		
+
+	lvar1 = 8005;
+	lvar2 = 5;
+	Check_user_item;
+
+		if(lvar1 = 1)
+		{
+		lvar1 = 8005; 
+		lvar2 = 5;
+		Delete_user_item;
+		
+		svar1 = "谢谢，今后我还需要更多更多的红浆果。";
+		svar2 = " ";
+		svar3 = " ";
+		svar4 = " ";
+		svar5 = " ";
+		Show_clickmessage;
+		
+		lvar1 = 9999;
+		lvar2 = 250;
+		Give_user_item;	
+
+		lvar1 = 5;
+		lvar2 = 2;
+		Set_scriptvar;
+		}
+
+		if(lvar1 ! 1)
+		{
+		svar1 = "你的红浆果还不够哦,再多拿点来吧！";
+		svar2 = " ";
+		svar3 = " ";
+		svar4 = " ";
+		svar5 = " ";
+		Show_clickmessage;
+		}
+
+}
+
+
+				 
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

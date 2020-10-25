@@ -1,0 +1,36 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 1;
+		svar1 = "What¡¯s the weather going ";
+		svar2 = "to be like next week?"; 
+		svar3 = "It¡¯s going to be ________. ";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = " wet ";
+		svar7 = "dark";
+		svar8 = "long";
+		svar9 = "far";
+		Set_quiz;
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+		lvar1 = 1;
+		Run_quiz;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

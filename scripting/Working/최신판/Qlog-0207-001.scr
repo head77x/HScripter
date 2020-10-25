@@ -1,0 +1,26 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 207;
+		lvar2 = 1;
+		svar1 = "情报";
+		svar2 = "拉布拉布买给克莉斯的漂亮蝴蝶发\n夹，现在却被兔子洁妮偷走了，你\n要打败洁妮，拿到蝴蝶发夹，交给\n克莉斯，克莉斯也在中部湖。";
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

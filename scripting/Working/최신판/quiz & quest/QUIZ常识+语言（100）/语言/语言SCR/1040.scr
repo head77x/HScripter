@@ -1,0 +1,36 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 1;
+		svar1 = "集思广____";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = " 益 ";
+		svar7 = "义";
+		svar8 = "易";
+		svar9 = "意";
+		Set_quiz;
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+		lvar1 = 1;
+		Run_quiz;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

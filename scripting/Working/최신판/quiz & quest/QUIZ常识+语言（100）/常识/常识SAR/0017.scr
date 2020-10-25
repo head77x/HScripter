@@ -1,0 +1,36 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 0;
+		svar1 = "美国历史上第一所高等学府是";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = " 哈佛大学 ";
+		svar7 = "耶鲁大学";
+		svar8 = "普林斯顿大学";
+		svar9 = "麻省理工学院";
+		Set_quiz;
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+		lvar1 = 0;
+		Run_quiz;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

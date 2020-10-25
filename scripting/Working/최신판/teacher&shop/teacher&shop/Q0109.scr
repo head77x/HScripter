@@ -1,0 +1,50 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{		
+		svar1 = "我是宠物领养老师拉莫尔！哈哈，";
+		svar2 = "让你眼花缭乱的神奇宠物都在我";
+		svar3 = "这里，想要的孩子们快来领养吧！";
+		svar4 = "先到先得，机会不多噢！";
+		svar5 = "";
+		
+		svar6 = "1. 我的宠物已经很厉害了！";
+		svar7 = "2. 我要我要！";
+		svar8 = "3. 我去别的地方逛逛！";
+		svar9 = "";
+		
+		Show_multiselect;
+		
+		if ( lvar1 = 1 )
+		{
+			svar1 = "人外有人，天外有天！高级宠物之外还有更高级的宠物噢！";
+			svar2 = "来我这里看看你就知道了！";
+			svar3 = "";
+			svar4 = "";
+			svar5 = "";
+			
+			Show_clickmessage;
+		}
+		
+		if ( lvar1 = 2 )
+		{
+			lvar1 = 2;
+			Run_shop;
+		}
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

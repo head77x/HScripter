@@ -1,0 +1,36 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 1;
+		svar1 = "There isn't ________ water in the glass. ";
+		svar2 = "Let's go and get some."; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = " any ";
+		svar7 = "many";
+		svar8 = "lots";
+		svar9 = "some";
+		Set_quiz;
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+		lvar1 = 1;
+		Run_quiz;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

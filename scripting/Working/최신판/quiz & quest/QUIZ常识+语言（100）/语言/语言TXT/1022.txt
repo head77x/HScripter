@@ -1,0 +1,36 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 1;
+		svar1 = "Tomorrow's meeting is very important. ";
+		svar2 = "Please ask them ________ there on time."; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = " to go ";
+		svar7 = "go";
+		svar8 = "going";
+		svar9 = "went";
+		Set_quiz;
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+		lvar1 = 1;
+		Run_quiz;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

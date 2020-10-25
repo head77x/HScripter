@@ -1,0 +1,36 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 1;
+		svar1 = "这一套百科全书，内容涉及各个领域、";
+		svar2 = "各门学科，真是________，十富多彩。"; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = " 包罗万象 ";
+		svar7 = "洋洋大观 ";
+		svar8 = "蔚为大观";
+		svar9 = "汗牛充栋";
+		Set_quiz;
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+		lvar1 = 1;
+		Run_quiz;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

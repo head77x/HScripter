@@ -1,0 +1,26 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 200;
+		lvar2 = 1;
+		svar1 = "新手任务1——装备";
+		svar2 = "托里岛的冒险生活即将展开，前路\n危机重重，充满挑战，装备将有效\n提升你的战斗力，而且能改变你的\n形象噢！快试试吧！双击它们就可以\n了。";
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

@@ -1,0 +1,28 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{		
+	
+		svar1 = "我是黄金魔力使白，现在托里岛上有邪恶力量， ";
+		svar2 = "你就是铲除邪恶、查明真相、保卫岛屿的生力军，";
+		svar3 = " 义无反顾地走上漫长的修炼道路吧，成长起来！";
+		svar4 = " ";
+		svar5 = " ";
+		Show_clickmessage;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

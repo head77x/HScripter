@@ -1,0 +1,50 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{		
+		svar1 = "大家好，我是你们的智力老师老师莫莫桑。俗话说，";
+		svar2 = "头脑越用越灵活，嗯……让我看看……你很有潜力，";
+		svar3 = "想不想变得更聪明啊！我可以教你噢！";
+		svar4 = "";
+		svar5 = "";
+		
+		svar6 = "1. 唉……我现在担心的就是我已经太聪明了！";
+		svar7 = "2. 真有这么神奇？我试试！";
+		svar8 = "3. 没意思！";
+		svar9 = "";
+		
+		Show_multiselect;
+		
+		if ( lvar1 = 1 )
+		{
+			svar1 = "人类的智慧是无穷无尽的，总之，多用脑子不会吃亏的！";
+			svar2 = "";
+			svar3 = "";
+			svar4 = "";
+			svar5 = "";
+			
+			Show_clickmessage;
+		}
+		
+		if ( lvar1 = 2 )
+		{
+			lvar1 = 0;
+			Run_minigame;
+		}
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

@@ -1,0 +1,26 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 4;    /* QUEST ID */
+		lvar2 = 2;     /* scriptvar ID */
+		svar1 = "新手：光荣毕业";   /* quest name */
+		svar2 = "任务完成";   /* scriptvar  info */
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

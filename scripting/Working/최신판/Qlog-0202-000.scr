@@ -1,0 +1,26 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 202;
+		lvar2 = 0;
+		svar1 = "初试身手";
+		svar2 = "在方舟花园打败3只跳球瓜皮怪拿到3个弹簧糖后回复马凯";
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

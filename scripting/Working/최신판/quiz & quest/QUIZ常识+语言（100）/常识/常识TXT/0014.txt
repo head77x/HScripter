@@ -1,0 +1,36 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 0;
+		svar1 = "欧元什么时候正式诞生？";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = " 1999年1月1日 ";
+		svar7 = "1998年1月1日";
+		svar8 = "1997年7月1日";
+		svar9 = "1998年7月1日";
+		Set_quiz;
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+		lvar1 = 0;
+		Run_quiz;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

@@ -1,0 +1,36 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 1;
+		svar1 = "Where is Tom?";
+		svar2 = "He¡¯s left a _____ saying that he has"; 
+		svar3 = "something important to do. ";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = " message ";
+		svar7 = "excuse";
+		svar8 = "sentence";
+		svar9 = "news";
+		Set_quiz;
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+		lvar1 = 1;
+		Run_quiz;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

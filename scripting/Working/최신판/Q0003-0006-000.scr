@@ -1,0 +1,37 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		/* NPC Information */
+
+		/* NPC Number */
+	
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+       	svar1 = "虽然你已经略有小成，但要熟练的驾驭宠物可不是一件简单的事，你的经验还不够，等你宠物到4级的时候再来找我吧。";
+	svar2 = " ";
+	svar3 = " ";
+	svar4 = " ";
+	svar5 = " ";
+	Show_clickmessage;
+       			
+	lvar1 = 6;
+	lvar2 = 1;
+	Set_scriptvar;	
+
+				 
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

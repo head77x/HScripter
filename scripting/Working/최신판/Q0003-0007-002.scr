@@ -1,0 +1,103 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		/* NPC Information */
+
+		/* NPC Number */
+	
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{		
+
+		lvar1 = 5;
+		Get_toystatus;
+			
+			if(lvar1 > 6)
+			{
+			svar1 = "很好，你看它现在多有精神。";
+			svar2 = "我想你已经清楚了怎样提高宠物的能力了，至于别的训练，你自己可以慢慢研究。";
+			svar3 = " ";
+			svar4 = " ";
+			svar5 = " ";
+			Show_clickmessage; 
+
+			lvar1 = 9999; 
+			lvar2 = 350;
+			Give_user_item;	
+
+			lvar1 = 7;
+			lvar2 = 3;
+			Set_scriptvar;
+
+			goto skip;
+			}
+
+
+			if(lvar2 > 6)
+			{
+			svar1 = "很好，你看它现在多有精神。";
+			svar2 = "我想你已经清楚了怎样提高宠物的能力了，至于别的训练，你自己可以慢慢研究。";
+			svar3 = " ";
+			svar4 = " ";
+			svar5 = " ";
+			Show_clickmessage; 
+
+			lvar1 = 9999; 
+			lvar2 = 350;
+			Give_user_item;	
+
+			lvar1 = 7;
+			lvar2 = 3;
+			Set_scriptvar;
+
+			goto skip;
+			}
+
+
+			if(lvar3 > 6)
+			{
+			svar1 = "很好，你看它现在多有精神。";
+			svar2 = "我想你已经清楚了怎样提高宠物的能力了，至于别的训练，你自己可以慢慢研究。";
+			svar3 = " ";
+			svar4 = " ";
+			svar5 = " ";
+			Show_clickmessage; 
+
+			lvar1 = 9999; 
+			lvar2 = 350;
+			Give_user_item;	
+
+			lvar1 = 7;
+			lvar2 = 3;
+			Set_scriptvar;
+
+			goto skip;
+			}
+
+
+			if(lvar1 < 7)
+			{
+			svar1 = " 你宠物的运动值还没有到达7呢。";
+			svar2 = " ";
+			svar3 = " ";
+			svar4 = " ";
+			svar5 = " ";
+			Show_clickmessage; 
+			}
+
+
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

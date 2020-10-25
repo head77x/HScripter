@@ -1,0 +1,36 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 1;
+		svar1 = "We never know _______he is. ";
+		svar2 = "They say he is a doctor. "; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = " what ";
+		svar7 = "whom";
+		svar8 = "which";
+		svar9 = "where";
+		Set_quiz;
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+		lvar1 = 1;
+		Run_quiz;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

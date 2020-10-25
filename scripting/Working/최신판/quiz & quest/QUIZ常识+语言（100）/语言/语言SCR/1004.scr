@@ -1,0 +1,36 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 1;
+		svar1 = "Oh, I¡¯ve left my schoolbag ";
+		svar2 = "in the classroom. "; 
+		svar3 = "Don¡¯t worry, I¡¯ll ___it for you.";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = " get ";
+		svar7 = "carry ";
+		svar8 = "bring";
+		svar9 = "take";
+		Set_quiz;
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+		lvar1 = 1;
+		Run_quiz;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

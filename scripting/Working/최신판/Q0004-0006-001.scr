@@ -1,0 +1,61 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		/* NPC Information */
+
+		/* NPC Number */
+	
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{		
+
+		Check_toy_level;
+			
+			if(lvar1 > 3)
+			{
+			svar1 = " 很好，我认为你现在已经有能力学习更多东西了。";
+			svar2 = " ";
+			svar3 = " ";
+			svar4 = " ";
+			svar5 = " ";
+			Show_clickmessage; 
+
+			lvar1 = 9999; 
+			lvar2 = 250;
+			Give_user_item;
+
+			lvar1 = 6;
+			lvar2 = 2;
+			Set_scriptvar;	
+	
+			goto skip;
+			}
+
+			if(lvar1 < 4)
+			{
+			svar1 = "你的宠物还没到达4级呢。";
+			svar2 = " ";
+			svar3 = " ";
+			svar4 = " ";
+			svar5 = " ";
+			Show_clickmessage; 
+			}
+
+skip:
+
+
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

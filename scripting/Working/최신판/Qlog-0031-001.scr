@@ -1,0 +1,27 @@
+
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 31;
+		lvar2 = 1;
+		svar1 = "破碎的鱼竿";
+		svar2 = "米米亚的精致鱼杆坏了，似乎只有\n阿里克斯能够修理，委托你去问问\n托里郊外的阿里克斯是否愿意帮这\n个忙。";
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

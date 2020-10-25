@@ -1,0 +1,27 @@
+
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 41;
+		lvar2 = 1;
+		svar1 = "料理邀请";
+		svar2 = "维安听说莫古的厨艺也很好，请你\n带个口信给蘑菇森林的莫古让他周\n末去切磋厨艺。";
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

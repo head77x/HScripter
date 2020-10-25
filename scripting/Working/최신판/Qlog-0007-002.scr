@@ -1,0 +1,26 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 7;
+		lvar2 = 2;
+		svar1 = "宠物的训练";
+		svar2 = "虽然你的宠物变机灵了，不过在白\n老师眼里它还不够健康，快带着宠\n物做运动，当宠物运动值达到7的\n时候再去找白老师。";
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

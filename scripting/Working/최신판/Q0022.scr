@@ -1,0 +1,28 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{		
+	
+		svar1 = " 嘿咻、嘿咻。。。我是勤劳的矿工阿历克斯，";
+		svar2 = " 努力总会有收获的，这些矿石和魔力碎片";
+		svar3 = " 就是我努力的结果，只要肯付出，";
+		svar4 = "你也可以挖到的。 ";
+		svar5 = " ";
+		Show_clickmessage;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

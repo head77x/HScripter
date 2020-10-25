@@ -1,0 +1,39 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{		
+        svar1 = "一向宁静的托里岛出现了邪恶玩具，未知起因，我需要找勇敢的孩子";
+	svar2 = "加入调查队伍。雷欧说你很不错噢，那就试试吧，我的训练可是很严";
+	svar3 = "格的！ 先在郊外草地打败10只小鹿乔巴！";
+	svar4 = " ";
+	svar5 = " ";
+	Show_clickmessage;
+      
+	lvar1 = 0083;  
+	lvar2 = 8052;  
+	lvar3 = 10; 
+	Set_toygetitem;
+	
+	lvar1 = 0205;
+	lvar2 = 1;
+	Set_scriptvar;	
+
+
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

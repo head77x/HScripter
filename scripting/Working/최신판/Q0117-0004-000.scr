@@ -1,0 +1,50 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{	
+	
+		lvar1 = 3;
+		Get_scriptvar;	
+		
+	if(lvar1 = 3) {
+		svar1 = "噢，我是传送老师奥莱娜！恭喜你圆满完成新手训练，现在的托里岛上来了";
+		svar2 = "一群充满破坏力的邪恶宠物，所以，托里岛的魔法师们都集结起来，投入战斗了！";
+		svar3 = "如果你要加入魔法师战队的行列，就要去宠物学校接受严格的考验，孩子，";
+		svar4 = "未来，掌握在你们的手里！现在宠物学校正在招募魔法学徒，我想你应该符合条件，";
+		svar5 = "如果你准备好了就告诉我，我会传送你去宠物学校。";
+		Show_clickmessage;
+
+		lvar1 = 4;
+		lvar2 = 1;
+		Set_scriptvar;	
+
+		goto skip;
+
+		}
+
+	if(lvar1 ! 3) {
+		svar1 = "你还没完成装备老师帕洛达的任务，你先去找帕洛达吧。";
+		svar2 = " ";
+		svar3 = " ";
+		svar4 = " ";
+		svar5 = " ";
+		Show_clickmessage;
+		}
+		skip:
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

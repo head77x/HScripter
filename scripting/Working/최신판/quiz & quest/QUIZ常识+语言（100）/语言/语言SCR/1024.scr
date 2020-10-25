@@ -1,0 +1,36 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 1;
+		svar1 = "Betty didn't come to school";
+		svar2 = " yesterday ________ she was ill."; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = " because ";
+		svar7 = "but";
+		svar8 = "than";
+		svar9 = "if";
+		Set_quiz;
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+		lvar1 = 1;
+		Run_quiz;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

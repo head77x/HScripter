@@ -1,0 +1,35 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{		
+	
+		svar1 = "托里岛五大长老之一的索伯特长老，他是岛上最伟大的魔法师，";
+		svar2 = "他利用充满魔力的精矿石，创造了一种将矿石能量导入玩具中，";
+		svar3 = "让玩具拥有生命——成为活泼可爱的宠物的神奇魔法，于是，托";
+		svar4 = "里岛的孩子从此有了宠物作为伙伴，这片神奇的宠物和魔法的世界，";
+		svar5 = "也成了其他孩子向往的快乐天堂！（接着和托里爷爷对话）";
+		Show_clickmessage;
+
+		lvar1 = 0;
+		lvar2 = 3;
+		Set_scriptvar;	
+
+
+
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

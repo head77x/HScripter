@@ -1,0 +1,36 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 1;
+		svar1 = "古人有“闻过则喜”之说，";
+		svar2 = "而今天有些人则不然，总是________，"; 
+		svar3 = "对比之下，实在不应该。";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = " 讳疾忌医 ";
+		svar7 = "瑕不掩瑜";
+		svar8 = "刚愎自用";
+		svar9 = "好大喜功";
+		Set_quiz;
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+		lvar1 = 1;
+		Run_quiz;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

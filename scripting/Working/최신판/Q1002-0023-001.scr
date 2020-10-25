@@ -1,0 +1,32 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+        svar1 = "阳光农场里竟然还有像你一般的厉害人物，我真是失算啊，不过别太得意，我还会回来报仇的。";
+	svar2 = " ";
+	svar3 = " ";
+	svar4 = " ";
+	svar5 = " ";
+	Show_clickmessage;
+
+	lvar1 = 23;
+	lvar2 = 2;
+	Set_scriptvar;	
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

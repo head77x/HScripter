@@ -1,0 +1,26 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 202;
+		lvar2 = 1;
+		svar1 = "初试身手";
+		svar2 = "有一伙长相奇怪的瓜皮怪最近在方\n舟花园破坏猖獗，你的任务是打败\n它们中的三个，拿到3个弹簧糖后\n向马凯复命。";
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

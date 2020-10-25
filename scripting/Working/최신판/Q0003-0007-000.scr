@@ -1,0 +1,34 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{		
+        svar1 = "你知道托里学校么，那是个充满知识和乐趣的地方，你已经熟悉了这个世界了，我想你可以去托里学校看看，";
+	svar2 = "那里有许多老师，他们可以让你的宠物学到更多有用的东西。 ";
+	svar3 = "我感到你的宠物好象没有什么成长，目前智力或许对你的宠物会更有帮助，";
+	svar4 = "你去好好训练一下你的宠物，当它的智力值达到7的时候再来找我吧。";
+	svar5 = " ";
+	Show_clickmessage;
+      
+	lvar1 = 7;
+	lvar2 = 1;
+	Set_scriptvar;	
+
+
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

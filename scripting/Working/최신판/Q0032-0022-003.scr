@@ -1,0 +1,66 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		/* NPC Information */
+
+		/* NPC Number */
+	
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{		
+
+			lvar1 = 8055;
+			lvar2 = 10;
+			Check_user_item;
+
+			if(lvar1 = 1) {
+			lvar1 = 8055;  
+			lvar2 = 10;
+			Delete_user_item;			
+
+			svar1 = "太感谢了，终于能放心一段时间了。";
+			svar2 = " ";
+			svar3 = " ";
+			svar4 = " ";
+			svar5 = " ";
+			Show_clickmessage; 
+
+			lvar1 = 2; 
+			lvar2 = 8014;
+			Reset_toygetitem;
+			
+			lvar1 = 9999; 
+			lvar2 = 750;
+			Give_user_item;	
+			
+			lvar1 = 22;
+			lvar2 = 4;
+			Set_scriptvar;	
+			goto skip;
+			}
+
+			if(lvar1 ! 1) {
+			svar1 = "真没想到那些可爱的兔子竟然会是邪恶玩具。你还没去赶走它们么？";
+			svar2 = "快去吧，别忘记带来兔兔饼干，那是你打败它们的凭证 ";
+			svar3 = " ";
+			svar4 = " ";
+			svar5 = " ";
+			Show_clickmessage; 
+			}
+skip:
+
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

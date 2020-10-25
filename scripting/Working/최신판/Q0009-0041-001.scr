@@ -1,0 +1,47 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{	
+	lvar1 = 41;
+	Get_scriptvar;
+	
+		if(lvar1 = 1 )
+		{
+		svar1 = " 你已经去告诉莫古了么，他就在蘑菇森林，可别走错了。";
+		svar2 = " ";
+		svar3 = " "; 
+		svar4 = " "; 
+		svar5 = " "; 
+		Show_clickmessage; 
+		}
+
+		if(lvar1 ! 1 )
+		{
+		svar1 = " 料理只有融入了爱心才会美味，作为一个厨师，我得菜里可装满了满满得爱呢。";
+		svar2 = " ";
+		svar3 = " "; 
+		svar4 = " "; 
+		svar5 = " "; 
+		Show_clickmessage; 
+		}
+
+	
+
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

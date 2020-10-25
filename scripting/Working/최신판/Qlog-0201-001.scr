@@ -1,0 +1,26 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 0201;
+		lvar2 = 1;
+		svar1 = "新手任务2——战斗";
+		svar2 = "托里岛的部分宠物被邪恶力量控制\n了，肆意破坏岛屿，你现在要在方\n舟花园打败1只被邪恶力量控制的\n小鹿乔巴，拿到鹿鹿饼干，向马凯\n证明你的实力！;
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

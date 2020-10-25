@@ -1,0 +1,42 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{		
+	
+	svar1 = "噢，能为无所不知的拉布拉布配药，真是我的荣幸，";
+	svar2 = "这是我刚配好的枇杷润喉糖，药效很好，味道也甜，";
+	svar3 = "你快给他拿过去吧！";
+	svar4 = " ";
+	svar5 = " ";
+	Show_clickmessage;
+      
+	lvar1 = 8013; 
+	lvar2 = 1;
+	Give_user_item;	
+	
+	lvar1 = 0207;
+	lvar2 = 4;
+	Set_scriptvar;	
+
+	}
+
+
+
+
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

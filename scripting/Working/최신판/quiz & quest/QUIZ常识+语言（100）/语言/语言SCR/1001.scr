@@ -1,0 +1,36 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 1;
+		svar1 = "Who washed the plates on the table?";
+		svar2 = "Jenny ________. "; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = " did ";
+		svar7 = "was";
+		svar8 = "had ";
+		svar9 = "would";
+		Set_quiz;
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+		lvar1 = 1;
+		Run_quiz;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

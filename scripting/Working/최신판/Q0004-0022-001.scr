@@ -1,0 +1,40 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+			
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{	
+
+		svar1 = "我真的很抱歉。最近邪恶宠物骚扰事件频繁出现，我每天都要处理大量的此类事件，";
+		svar2 = "已经忙的焦头烂额了，我看你的宠物很厉害的样子，赶跑那些小鹿乔巴应该足够了，"; 
+		svar3 = "你可以帮一下里拉么赶跑那些邪恶宠物小鹿乔巴么？";
+		svar4 = " ";
+		svar5 = " "; 
+		Show_clickmessage;
+		
+		lvar1 = 83; 
+		lvar2 = 8052;  
+		lvar3 = 1; 
+		Set_toygetitem;
+	
+		lvar1 = 22;
+		lvar2 = 2;
+		Set_scriptvar;			
+
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

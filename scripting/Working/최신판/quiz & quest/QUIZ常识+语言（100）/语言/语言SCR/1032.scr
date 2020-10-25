@@ -1,0 +1,36 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 1;
+		svar1 = "人人都有缺点，都有不足，不应";
+		svar2 = "对别人（　　　），对自己高抬贵手。"; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = " 吹毛求疵 ";
+		svar7 = "手下留情 ";
+		svar8 = "严格要求";
+		svar9 = "得过且过 ";
+		Set_quiz;
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+		lvar1 = 1;
+		Run_quiz;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

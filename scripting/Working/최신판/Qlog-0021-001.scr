@@ -1,0 +1,27 @@
+
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 21;
+		lvar2 = 1;
+		svar1 = "绿风果花茶";
+		svar2 = "克莉斯很久没有带她的宠物出去散\n步了，她想给她的宠物吃一些很久没\n吃的绿风果，委托你去找5个绿风果给\n她，绿风果在方舟花园南的邪恶玩具\n上可以得到。";
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

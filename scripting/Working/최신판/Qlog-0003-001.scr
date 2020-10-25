@@ -1,0 +1,26 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 3;
+		lvar2 = 1;
+		svar1 = "放心不下的宠物们";
+		svar2 = "雷欧最近又要外出冒险了，不过他\n很是放心不下他的宠物们，听说白\n老师为人细心，于是委托你去郊外\n草地问问白老师是否愿意帮他照顾\n宠物。";
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

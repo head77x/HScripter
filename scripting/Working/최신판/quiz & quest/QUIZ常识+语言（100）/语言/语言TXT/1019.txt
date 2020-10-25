@@ -1,0 +1,36 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 1;
+		svar1 = "Of all the students, Linda draws";
+		svar2 = "________ carefully ."; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = " most ";
+		svar7 = "very";
+		svar8 = " much";
+		svar9 = "more";
+		Set_quiz;
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+		lvar1 = 1;
+		Run_quiz;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

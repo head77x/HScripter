@@ -1,0 +1,36 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 1;
+		svar1 = "How long have you ____the";
+		svar2 = "football team of the school? "; 
+		svar3 = "About two years.";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = " been on ";
+		svar7 = "been at ";
+		svar8 = "joined";
+		svar9 = "played";
+		Set_quiz;
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+		lvar1 = 1;
+		Run_quiz;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

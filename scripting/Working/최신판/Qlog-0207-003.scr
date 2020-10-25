@@ -1,0 +1,26 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 207;
+		lvar2 = 3;
+		svar1 = "情报";
+		svar2 = "拉布拉布只要多说点话就气喘咳嗽，\n你去托里学校南的药剂师凌那里帮\n拉布拉布要一些润喉糖吧！情报是\n要用汗水换取的！";
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

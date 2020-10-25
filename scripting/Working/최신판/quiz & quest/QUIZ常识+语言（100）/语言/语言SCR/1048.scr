@@ -1,0 +1,36 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 1;
+		svar1 = "我国大型深水港——山东石臼港的建设";
+		svar2 = "进展顺利，（　　　）九月中旬，"; 
+		svar3 = "已完成年施工计划的90%。 ";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = "  截至 ";
+		svar7 = "截止";
+		svar8 = "大约";
+		svar9 = "到了";
+		Set_quiz;
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+		lvar1 = 1;【0 常识 1 语言】
+		Run_quiz;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

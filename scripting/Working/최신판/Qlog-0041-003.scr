@@ -1,0 +1,27 @@
+
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 41;
+		lvar2 = 3;
+		svar1 = "料理邀请";
+		svar2 = "阻挠莫古的邪恶宠物已经落荒而逃\n了，去告诉维安莫古会准时到达的。";
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

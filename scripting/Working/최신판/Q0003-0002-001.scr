@@ -1,0 +1,38 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+			
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{	
+
+		svar1 = "最近邪恶宠物扰民的事件越来越多了，我也没有空闲的时间，";
+		svar2 = "不过这是雷欧自己的失责，自己犯的错误怎么能麻烦别人呢，这可不对，"; 
+		svar3 = "你去告诉雷欧，让他自己来拿包裹，然后向马凯好好道歉。";
+		svar4 = " ";
+		svar5 = " "; 
+		Show_clickmessage;
+		
+		lvar1 = 2;
+		lvar2 = 2;
+		Set_scriptvar;			
+		}
+
+
+		 
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

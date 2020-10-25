@@ -1,0 +1,36 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 1;
+		svar1 = "How are you feeling now? ";
+		svar2 = "________. "; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = " Much better ";
+		svar7 = "Very interesting";
+		svar8 = "Never mind";
+		svar9 = "Thank you very much";
+		Set_quiz;
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+		lvar1 = 1;
+		Run_quiz;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

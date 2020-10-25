@@ -1,0 +1,27 @@
+
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 31;
+		lvar2 = 2;
+		svar1 = "破碎的鱼竿";
+		svar2 = "阿里克斯最近总是被邪恶宠物猛牛\n咕嘟骚扰，这让阿里克斯无法好好\n地修理米米亚的鱼竿，你必须\n去旷野泥沼打败猛牛咕嘟，并拿15\n个牛角饼干给阿里克斯。";
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

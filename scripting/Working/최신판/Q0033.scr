@@ -1,0 +1,28 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{		
+	
+		svar1 = "想要拥有健康的身体，就一定要运动。 ";
+		svar2 = "看我，多么的四肢发达，虽然 ";
+		svar3 = "老是有人说我头脑简单。。。 ";
+		svar4 = " 但是这两者可没有什么联系哦。";
+		svar5 = " ";
+		Show_clickmessage;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

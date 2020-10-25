@@ -1,0 +1,50 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{		
+		svar1 = "我是莘迪，我是莘迪！莘迪制造，品质保证！";
+		svar2 = "外形帅气与功能实用的完美结合！英雄配战甲，";
+		svar3 = "美女配短裙，呵呵，孩子们快来看看吧！";
+		svar4 = "";
+		svar5 = "";
+		
+		svar6 = "1. 你的服装有什么用啊？";
+		svar7 = "2. 嗯，看看你的装备吧！";
+		svar8 = "3. 我去别的地方逛逛！";
+		svar9 = "";
+		
+		Show_multiselect;
+		
+		if ( lvar1 = 1 )
+		{
+			svar1 = "衣服不仅很漂亮，还很实用，";
+			svar2 = "很多能力都会随着衣服的升级而提高噢！";
+			svar3 = "";
+			svar4 = "";
+			svar5 = "";
+			
+			Show_clickmessage;
+		}
+		
+		if ( lvar1 = 2 )
+		{
+			lvar1 = 1;
+			Run_shop;
+		}
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

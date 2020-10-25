@@ -1,0 +1,42 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		/* NPC Information */
+
+		/* NPC Number */
+	
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{		
+
+			svar1 = "你真是太厉害了，我想这下它们永远不会再来骚扰我的农场了。";
+			svar2 = " ";
+			svar3 = " ";
+			svar4 = " ";
+			svar5 = " ";
+			Show_clickmessage; 
+
+			
+			lvar1 = 9999; 
+			lvar2 = 700;
+			Give_user_item;	
+
+			lvar1 = 23;
+			lvar2 = 3;
+			Set_scriptvar;	
+
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

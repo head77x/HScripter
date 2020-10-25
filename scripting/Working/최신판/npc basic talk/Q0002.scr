@@ -1,0 +1,28 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{		
+	
+		svar1 = "我是药剂师凌，最近我正在研究一种好喝的草药， ";
+		svar2 = " 即可当饮料喝，又能强身健体，希望孩子们能喜欢。";
+		svar3 = "但是药也不能乱吃啊。 ";
+		svar4 = " ";
+		svar5 = " ";
+		Show_clickmessage;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

@@ -1,0 +1,38 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		/* NPC Information */
+
+		/* NPC Number */
+	
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{		
+       	svar1 = "最近我又打算去外面的世界探险了，不过我放心不下我的几个宠物，不过还不知道他答不答应，你能帮我去询问一下白么？";
+	svar2 = "白一直很细心，我想他可以好好照顾我的宠物，这样我外出就会放心很多。";
+	svar3 = "不过还不知道他答不答应，你能帮我去询问一下白么？";
+	svar4 = " ";
+	svar5 = " ";
+	Show_clickmessage;
+       			
+	lvar1 = 3;
+	lvar2 = 1;
+	Set_scriptvar;	
+		
+}
+
+
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

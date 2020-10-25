@@ -1,0 +1,51 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{		
+		svar1 = "大家好，我是常识老师桑妮，常识越丰富，";
+		svar2 = "视野和思维就越开阔，生活能力也就越强，";
+		svar3 = "你想要知道更多的常识么？";
+		svar4 = "";
+		svar5 = "";
+		
+		svar6 = "1. 不了，我的常识已经很好了！";
+		svar7 = "2. 我正想多了解一些常识呢！";
+		svar8 = "3. 没兴趣！";
+		svar9 = "";
+		
+		Show_multiselect;
+		
+		if ( lvar1 = 1 )
+		{
+			svar1 = "希望如此，如果还想多学点常识就来找我吧！";
+			svar2 = "";
+			svar3 = "";
+			svar4 = "";
+			svar5 = "";
+			
+			Show_clickmessage;
+		}
+		
+		if ( lvar1 = 2 )
+		{
+			lvar1 = 1;
+			lvar2 = 10;
+			Run_quiz;
+		}
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

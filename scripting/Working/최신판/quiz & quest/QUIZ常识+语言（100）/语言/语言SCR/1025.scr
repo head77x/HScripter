@@ -1,0 +1,36 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 1;
+		svar1 = "Do you enjoy ________ English in";
+		svar2 = "our class, Mr. Green?"; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = " teaching ";
+		svar7 = "teach";
+		svar8 = "taught";
+		svar9 = "to teach";
+		Set_quiz;
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+		lvar1 = 1;
+		Run_quiz;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

@@ -1,0 +1,50 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{		
+		svar1 = "嘿！我是强壮的体育老师达尔！想要容光焕发吗？";
+		svar2 = "想要充满活力吗？想要激情四射吗？那就快来参";
+		svar3 = "加我们的超级运动班吧！";
+		svar4 = "";
+		svar5 = "";
+		
+		svar6 = "1. 真的吗？我对运动还是没兴趣啊！";
+		svar7 = "2. 太好了，我正想去锻炼一下呢！";
+		svar8 = "3. 太累了，不想去！";
+		svar9 = "";
+		
+		Show_multiselect;
+		
+		if ( lvar1 = 1 )
+		{
+			svar1 = "北京都办奥运会了，神州七号都登月了，难道你对运动还是一点兴趣都没有？";
+			svar2 = "";
+			svar3 = "";
+			svar4 = "";
+			svar5 = "";
+			
+			Show_clickmessage;
+		}
+		
+		if ( lvar1 = 2 )
+		{
+			lvar1 = 5;
+			Run_minigame;
+		}
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

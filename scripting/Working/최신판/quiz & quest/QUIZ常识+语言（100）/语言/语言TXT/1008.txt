@@ -1,0 +1,36 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 1;
+		svar1 = "My parents have been to the United States.";
+		svar2 = "Really? When _______there? "; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = " did they go ";
+		svar7 = "will they go";
+		svar8 = " had they gone";
+		svar9 = "have they gone.";
+		Set_quiz;
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+		lvar1 = 1;
+		Run_quiz;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

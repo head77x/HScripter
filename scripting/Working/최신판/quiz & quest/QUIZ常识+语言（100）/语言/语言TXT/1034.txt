@@ -1,0 +1,36 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 1;
+		svar1 = "武当山（　　　）312平方公里，";
+		svar2 = "主峰天柱峰，海拔1613米。"; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = " 方圆 ";
+		svar7 = "大约";
+		svar8 = "大小";
+		svar9 = "周围";
+		Set_quiz;
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+		lvar1 = 1;
+		Run_quiz;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

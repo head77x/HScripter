@@ -1,0 +1,26 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 5;
+		lvar2 = 1;
+		svar1 = "宠物最爱红浆果";
+		svar2 = "出门在外一定要多带些宠物爱吃的\n红浆果啊！不过雷欧的红浆果不多\n了，于是委托你去帮他找5个红浆\n果来，红浆果在很多邪恶宠物身上\n都能找到哦！";
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

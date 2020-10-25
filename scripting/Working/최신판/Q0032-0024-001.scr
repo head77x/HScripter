@@ -1,0 +1,110 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		/* NPC Information */
+
+		/* NPC Number */
+	
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{		
+		lvar1 = 23;
+		Get_scriptvar;
+		
+        	if(lvar1 = 1)
+		{
+		lvar1 = 8062;
+		lvar2 = 1;
+		Check_user_item;
+
+	
+			if(lvar1 = 1) {
+			lvar1 = 8052;
+			lvar2 = 15;
+			Check_user_item;			
+			
+				if(lvar1 = 1) {
+				svar1 = "我想它还不会死心的，我快受不了那讨厌的家伙了。";
+				svar2 = " ";
+				svar3 = " ";
+				svar4 = " ";
+				svar5 = " ";
+				Show_clickmessage; 
+				
+				lvar1 = 8062;  
+				lvar2 = 1;
+				Delete_user_item;
+				
+				lvar1 = 8052;  
+				lvar2 = 15;
+				Delete_user_item;
+
+				lvar1 = 10; 
+				lvar2 = 8012;
+				Reset_toygetitem;
+			
+				lvar1 = 83; 
+				lvar2 = 8005;
+				Reset_toygetitem;
+
+				lvar1 = 9999; 
+				lvar2 = 200;
+				Give_user_item;	
+				
+				goto skip;
+				}
+
+				if(lvar1 ! 1) {
+				svar1 = "你好像还没赶走它们，快去粮仓打跑它们。";
+				svar2 = " ";
+				svar3 = " ";
+				svar4 = " ";
+				svar5 = " ";
+				Show_clickmessage; }
+			}
+
+			if(lvar1 = 1) {
+			svar1 = "你好像还没赶走它们，快去粮仓打跑它们。";
+			svar2 = " ";
+			svar3 = " ";
+			svar4 = " ";
+			svar5 = " ";
+			Show_clickmessage; }
+		}
+				
+
+			if(lvar1 ! 1) {
+			svar1 = " 你好像还没赶走它们，快去粮仓打跑它们。";
+			svar2 = " ";
+			svar3 = " ";
+			svar4 = " ";
+			svar5 = " ";
+			Show_clickmessage; 
+			}
+		}
+
+
+		if(lvar1 ! 1 )
+		{
+		svar1 = "孩子，平时多吃点水果，对身体可是很有帮助的。";
+		svar2 = " ";
+		svar3 = " "; 
+		svar4 = " "; 
+		svar5 = " "; 
+		Show_clickmessage; 
+		}
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

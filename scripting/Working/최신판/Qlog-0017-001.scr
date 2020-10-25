@@ -1,0 +1,26 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 17;
+		lvar2 = 1;
+		svar1 = "爱提问的小女孩 一";
+		svar2 = "克莉斯想知道为什么鱼儿不能在陆\n地上存活，委托你去问问什么都知\n道的拉布拉布，拉布拉布也在中部\n湖。";
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

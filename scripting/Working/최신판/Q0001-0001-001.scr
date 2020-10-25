@@ -1,0 +1,40 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	
+	
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{		
+
+		svar1 = "明白了，我马上就把包裹送回去。";
+		svar2 = " ";
+		svar3 = " ";
+		svar4 = " ";
+		svar5 = " ";
+		Show_clickmessage;
+
+		lvar1 = 9999;
+		lvar2 = 80;
+		Give_user_item;		
+
+
+	 	lvar1 = 1;
+		lvar2 = 2;
+		Set_scriptvar;
+		
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

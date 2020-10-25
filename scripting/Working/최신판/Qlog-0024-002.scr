@@ -1,0 +1,27 @@
+
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 24;
+		lvar2 = 2;
+		svar1 = "难缠的对手";
+		svar2 = "你已经打败那个难缠的猎犬弗雷德\n了，如果你也已经得到15个鹿鹿饼\n干了，那就去找里拉回复吧。";
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

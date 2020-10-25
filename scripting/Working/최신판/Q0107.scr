@@ -1,0 +1,50 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{		
+		svar1 = "我是科学家T博士！从牛顿到爱因斯坦，";
+		svar2 = "从宇宙大爆炸到时空旅行，不了解科学";
+		svar3 = "的孩子，是很难领略到世界的神奇的！";
+		svar4 = "";
+		svar5 = "";
+		
+		svar6 = "1. 科学真有这么厉害？";
+		svar7 = "2. 你这里有什么科学课程呢？";
+		svar8 = "3. 我去别的地方逛逛！";
+		svar9 = "";
+		
+		Show_multiselect;
+		
+		if ( lvar1 = 1 )
+		{
+			svar1 = "当然，世界万物都有运行规律，而科学，就是";
+			svar2 = "揭示这些规律的金钥匙！我这里有些基础的科";
+			svar3 = "学训练，你有兴趣可以来试试。";
+			svar4 = "";
+			svar5 = "";
+			
+			Show_clickmessage;
+		}
+		
+		if ( lvar1 = 2 )
+		{
+			lvar1 = 4;
+			Run_minigame;
+		}
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

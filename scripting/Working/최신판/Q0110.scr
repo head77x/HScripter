@@ -1,0 +1,50 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{		
+		svar1 = "具有无穷魔力的美女仙娜就是我啦！在神奇的托里岛屿冒险，";
+		svar2 = "没有我的道具怎么能行呢？！";
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+		
+		svar6 = "1. 不会卖假货吧？";
+		svar7 = "2. 哇！快让我看看你的神奇道具吧！";
+		svar8 = "3. 我去别的地方看看吧！";
+		svar9 = "";
+		
+		Show_multiselect;
+		
+		if ( lvar1 = 1 )
+		{
+			svar1 = "货比三家，仙娜最佳！你来看看就知道啦，价格公道，包您满意！";
+			svar2 = "";
+			svar3 = "";
+			svar4 = "";
+			svar5 = "";
+			
+			Show_clickmessage;
+		}
+		
+		if ( lvar1 = 2 )
+		{
+			lvar1 = 0;
+			Run_shop;
+		}
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

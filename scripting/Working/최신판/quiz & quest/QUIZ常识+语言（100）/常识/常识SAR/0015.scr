@@ -1,0 +1,36 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 0;
+		svar1 = ""心比天高，身为下贱" ";
+		svar2 = "是《红楼梦》中对谁的判词？"; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = " 睛雯 ";
+		svar7 = "袭人";
+		svar8 = "林黛玉";
+		svar9 = "薛宝钗";
+		Set_quiz;
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+		lvar1 = 0;
+		Run_quiz;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

@@ -1,0 +1,36 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 1;
+		svar1 = "目前许多国家都在寻求和采取各种有力";
+		svar2 = "（　　　），减少汽车对人类的危害。 "; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = " 措施 ";
+		svar7 = "举措";
+		svar8 = "手段";
+		svar9 = "方法";
+		Set_quiz;
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+		lvar1 = 1;
+		Run_quiz;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

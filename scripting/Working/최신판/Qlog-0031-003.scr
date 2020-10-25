@@ -1,0 +1,27 @@
+
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 31;
+		lvar2 = 3;
+		svar1 = "破碎的鱼竿";
+		svar2 = "太好了，你已经打败那些猛牛咕嘟\n了，阿里克斯答应帮米米亚修鱼竿，\n快把这个好消息告诉米米亚吧。";
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

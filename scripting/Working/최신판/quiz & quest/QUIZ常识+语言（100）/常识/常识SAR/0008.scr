@@ -1,0 +1,36 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 0;
+		svar1 = "世界最重要的IT高科技";
+		svar2 = "产业基地硅谷位于美国的哪个州？"; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = " 加利弗尼亚州 ";
+		svar7 = "阿拉斯加州";
+		svar8 = "科罗拉多州";
+		svar9 = "佛罗里达州";
+		Set_quiz;
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+		lvar1 = 0;
+		Run_quiz;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

@@ -1,0 +1,35 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{		
+        svar1 = "蘑菇林子里来了一个厉害的家伙，到处偷摘我的蘑菇，而且屡次得手。";
+	svar2 = "你能帮我去调查一下么，据说那家伙是一只会飞的猫，我可不知道那究竟是个什么东西，";
+	svar3 = "不过我已经得到线索它经常出没的地方，就在东北面的蘑菇高地，希望你能找到它，并且赶走它。";
+	svar4 = " ";
+	svar5 = " ";
+	Show_clickmessage;
+      
+	
+	lvar1 = 38;
+	lvar2 = 1;
+	Set_scriptvar;	
+
+
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

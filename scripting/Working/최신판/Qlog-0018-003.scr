@@ -1,0 +1,27 @@
+
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 18;
+		lvar2 = 3;
+		svar1 = "爱提问的小女孩 二";
+		svar2 = "克莉斯的朋友给了克莉斯很多糖果，\n她让你去问问雷欧想不想吃糖。\n雷欧就在方舟花园。";
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

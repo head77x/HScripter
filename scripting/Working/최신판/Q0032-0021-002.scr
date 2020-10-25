@@ -1,0 +1,63 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		/* NPC Information */
+
+		/* NPC Number */
+	
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{		
+
+		lvar1 = 8039; 
+		lvar2 = 1;
+		Check_user_item;
+
+			if(lvar1 = 1) {
+			lvar1 = 8039; 
+			lvar2 = 1;
+			Delete_user_item;
+
+			svar1 = "克莉斯这个小甜心，难得她有这片孝心，别看她年纪小，她已经很懂事了。";
+			svar2 = "不过还是要多谢谢拉布拉布一直在中部湖照顾我的孙女克莉斯，还教会她很多有用的知识。";
+			svar3 = "我这里有一些水果，你帮我送给拉布拉布作为我的感谢吧。 ";
+			svar4 = " ";
+			svar5 = " ";
+			Show_clickmessage; 
+               
+			
+			lvar1 = 8005; 
+			lvar2 = 3;
+			Give_user_item;	
+				
+				if(lvar1 = 1) {
+				lvar1 = 21;
+				lvar2 = 3;
+				Set_scriptvar;
+				goto skip;
+				}
+				
+				if(lvar1 = 0) {
+				svar1 = "你的包裹好像已经满了。";
+				svar2 = " ";
+				svar3 = " ";
+				svar4 = " ";
+				svar5 = " ";
+				Show_clickmessage; }
+			}
+	skip:
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

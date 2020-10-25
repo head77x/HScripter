@@ -1,0 +1,63 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		/* NPC Information */
+
+		/* NPC Number */
+	
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{		
+
+
+		lvar1 = 8005; 
+		lvar2 = 3;
+		Check_user_item;
+
+
+			if(lvar1 = 1) {
+			lvar1 = 8005; 
+			lvar2 = 3;
+			Delete_user_item;
+
+			svar1 = "里拉真是太客气了，克莉斯我会好好照顾的。";
+			svar2 = " ";
+			svar3 = " ";
+			svar4 = " ";
+			svar5 = " ";
+			Show_clickmessage; 
+               
+			lvar1 = 9999; 
+			lvar2 = 550;
+			Give_user_item;	
+
+			lvar1 = 21;
+			lvar2 = 4;
+			Set_scriptvar;	
+goto skip;
+			}
+			
+			if(lvar1 ! 1) {
+			svar1 = "我是布拉布拉，看你脸色那么差，一定是被问题难倒了吧，不过只要你问我我肯定会告诉你的。";
+			svar2 = " ";
+			svar3 = " ";
+			svar4 = " ";
+			svar5 = " ";
+			Show_clickmessage; 
+			}
+skip:
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

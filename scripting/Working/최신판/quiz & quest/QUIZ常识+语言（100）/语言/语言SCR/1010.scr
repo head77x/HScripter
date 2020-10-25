@@ -1,0 +1,36 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 1;
+		svar1 = "Would you like to come to dinner tonight? ";
+		svar2 = "I¡¯d like to, _____I¡¯m to busy. "; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = " but ";
+		svar7 = "and";
+		svar8 = "if ";
+		svar9 = " so";
+		Set_quiz;
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+		lvar1 = 1;
+		Run_quiz;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

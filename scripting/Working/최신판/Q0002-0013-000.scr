@@ -1,0 +1,37 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		/* NPC Information */
+
+		/* NPC Number */
+	
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+       	svar1 = "多可怜啊，一只野外的宠物受伤了，现在这个小家伙需要治疗。";
+	svar2 = "可是我的治疗药水不多了，你能去托里学校的仙娜那里帮我购买一瓶小型治疗药水么？";
+	svar3 = " ";
+	svar4 = " ";
+	svar5 = " ";
+	Show_clickmessage;
+       			
+	lvar1 = 13;
+	lvar2 = 1;
+	Set_scriptvar;	
+
+				 
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

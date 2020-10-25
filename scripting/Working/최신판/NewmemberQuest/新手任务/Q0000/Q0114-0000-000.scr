@@ -1,0 +1,35 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{		
+	
+		svar1 = "噢！亲爱的孩子，欢迎你！我是新人接待员托里爷爷，这里是";
+		svar2 = "充满魔法和宠物的神奇世界——托里岛。嗯，你刚来岛上，对";
+		svar3 = "岛上的环境还不是很熟悉。首先，我要向你简单介绍一下托里岛";
+		svar4 = "的情况，你要耐心听噢！（接着和托里爷爷对话）";
+		svar5 = "";
+		Show_clickmessage;
+
+		lvar1 = 0;
+		lvar2 = 1;
+		Set_scriptvar;	
+
+
+
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

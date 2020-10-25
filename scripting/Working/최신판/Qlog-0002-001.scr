@@ -1,0 +1,26 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 2;
+		lvar2 = 1;
+		svar1 = "马凯的包裹 续";
+		svar2 = "雷欧似乎把马凯的包裹忘在白老师\n那里了，不过雷欧想让白老师亲\n自把包裹送给白，委托你去郊外草\n地找白老师问问。";
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

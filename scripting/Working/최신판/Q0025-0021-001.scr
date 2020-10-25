@@ -1,0 +1,75 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		/* NPC Information */
+
+		/* NPC Number */
+	
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{		
+
+		lvar1 = 8006; 
+		lvar2 = 5;
+		Check_user_item;
+
+			if(lvar1 = 1)
+			{
+			lvar1 = 8006; 
+			lvar2 = 5;
+			Delete_user_item;
+
+			svar1 = " 太谢谢了，我想它很喜欢呢，你看它今天多么开心。";
+			svar2 = "不过我忽然有点想念我奶奶了，那么多年来我总是很淘气，给奶奶添了很多麻烦，于是我为奶奶做了一份绿风果花茶。";
+			svar3 = "你能帮我送去给里拉奶奶么，希望她会开心。我的里拉奶奶就住在阳光农场。";
+			svar4 = " ";
+			svar5 = " ";
+			Show_clickmessage; 
+               
+			
+			lvar1 = 8039; 
+			lvar2 = 1;
+			Give_user_item;	
+				
+				if(lvar1 = 1)
+				{
+				lvar1 = 21;
+				lvar2 = 2;
+				Set_scriptvar;
+				goto skip;
+				}
+				
+				if(lvar1 = 0) {
+				svar1 = "你的包裹好像已经满了。";
+				svar2 = " ";
+				svar3 = " ";
+				svar4 = " ";
+				svar5 = " ";
+				Show_clickmessage; }
+			}
+			
+			if(lvar1 ! 1)
+			{
+			svar1 = " 我的果子呢？你可以去方舟花园南的邪恶宠物身上找找。";
+			svar2 = " ";
+			svar3 = " ";
+			svar4 = " ";
+			svar5 = " ";
+			Show_clickmessage; 
+			}
+	skip:
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

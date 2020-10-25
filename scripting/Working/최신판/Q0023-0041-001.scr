@@ -1,0 +1,40 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{		
+
+        svar1 = "维安的邀请我一定接受，她的厨艺可是非同一般啊，";
+	svar2 = "不过通往维安家的路上出现了许多邪恶宠物，你如果不去赶跑它们，我可不敢过去， ";
+	svar3 = "那些骏马酱爆就在幽静森林里。你去帮我赶走它们吧。";
+	svar4 = " ";
+	svar5 = " ";
+	Show_clickmessage;
+      
+	lvar1 = 5;  
+	lvar2 = 8074;  
+	lvar3 = 1;  
+	Set_toygetitem;
+	
+	lvar1 = 41;
+	lvar2 = 2;
+	Set_scriptvar;
+	
+
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

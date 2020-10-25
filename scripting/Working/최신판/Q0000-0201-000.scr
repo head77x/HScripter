@@ -1,0 +1,40 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{	
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{		
+        svar1 = "现在可以带着宠物伙伴一起去试试身手了。方舟花园里就有一些";
+	svar2 = "被邪恶力量控制的宠物，你去打败一只小鹿乔巴吧。告诉你噢，";
+	svar3 = "按F1是宠物跟随主人状态，按F2就是宠物自由活动状态，此时再";
+	svar4 = "用鼠标左键点击邪恶宠物，就能发动攻击，试试吧，勇敢一点！";
+	svar5 = "拿到它身上的鹿鹿饼干才算完成任务噢！";
+	Show_clickmessage;
+
+
+	lvar1 = 0083;  
+	lvar2 = 8052;  
+	lvar3 = 1;
+	Set_toygetitem;
+	
+	lvar1 = 0201;
+	lvar2 = 1;
+	Set_scriptvar;	
+	
+
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}
+

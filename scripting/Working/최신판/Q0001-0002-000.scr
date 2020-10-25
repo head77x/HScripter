@@ -1,0 +1,33 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{		
+        svar1 = "真是抱歉，我忽然想起来。";
+	svar2 = "关于马凯的包裹，我似乎把它寄放在白那里了，如果你有时间的话帮我去和白说一下，让他早日把马凯的包裹送来。";
+	svar3 = "白应该就在郊外草地吧。";
+	svar4 = " ";
+	svar5 = " ";
+	Show_clickmessage;
+      
+	lvar1 = 2;
+	lvar2 = 1;
+	Set_scriptvar;	
+
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

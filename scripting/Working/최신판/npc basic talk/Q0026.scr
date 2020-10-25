@@ -1,0 +1,28 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{		
+	
+		svar1 = "我是这片森林的守护者彭卡，";
+		svar2 = " 而且还是森林里最勇敢的猎人， ";
+		svar3 = "啊。。。什么东西？？ ";
+		svar4 = " 原来是一只猫啊，吓死我了。";
+		svar5 = " ";
+		Show_clickmessage;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

@@ -1,0 +1,36 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 1;
+		svar1 = "Could you look after ";
+		svar2 = "y daughter for me while I¡¯m away?"; 
+		svar3 = "___________. ";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = " With pleasure ";
+		svar7 = "Yes, here you are";
+		svar8 = "You¡¯re welcome";
+		svar9 = "Yes, please ";
+		Set_quiz;
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+		lvar1 = 1;
+		Run_quiz;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

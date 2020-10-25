@@ -1,0 +1,26 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 4;    /* QUEST ID */
+		lvar2 = 1;     /* scriptvar ID */
+		svar1 = "新手：光荣毕业";   /* quest name */
+		svar2 = "你已经光荣地完成了新手任务，再\n次和奥莱娜对话，她将把你传送到\n宠物学校。";   /* scriptvar  info */
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

@@ -1,0 +1,26 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 7;
+		lvar2 = 1;
+		svar1 = "宠物的训练";
+		svar2 = "白老师觉得你的宠物不够机灵，快\n带着你的宠物去学习吧，当宠物的\n智力值到达7的时候再去找白老师。";
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

@@ -1,0 +1,39 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{		
+        svar1 = "噢，我可不是浪得虚名的，因为我把人生中大量的时间用在搜集情报和分析情报上，";
+	svar2 = "因此……我答应送克莉斯一枚蝴蝶发夹，但是刚买来就被一只兔子洁妮偷走了……";
+	svar3 = "现在她总是缠着我，搞得我没时间没心情分析情报。这样吧，你先帮我打败兔子洁妮， ";
+	svar4 = "拿到蝴蝶发夹，给克莉斯送过去，让我摆脱这个麻烦精！ ";
+	svar5 = " ";
+	Show_clickmessage;
+      
+	lvar1 = 1007;  
+	lvar2 = 5003;  
+	lvar3 = 1;  
+	Set_toygetitem;
+	
+	lvar1 = 0207;
+	lvar2 = 1;
+	Set_scriptvar;	
+
+
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

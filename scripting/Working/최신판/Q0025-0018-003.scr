@@ -1,0 +1,56 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{	
+	lvar1 = 18;
+	Get_scriptvar;
+	
+		if(lvar1 = 1 )
+		{
+		svar1 = " 你怎么到现在都没有去找白老师？他就在郊外草地呢。";
+		svar2 = " ";
+		svar3 = " "; 
+		svar4 = " "; 
+		svar5 = " "; 
+		Show_clickmessage; 
+		
+
+
+		lvar1 = 18;
+		lvar2 = 4;
+		Set_scriptvar;	
+
+		goto skip;		
+
+
+		}
+
+		if(lvar1 ! 1 )
+		{
+		svar1 = " 哥哥姐姐好，我叫克莉斯，喜欢一切可爱的东西，我很萌哦。";
+		svar2 = " ";
+		svar3 = " "; 
+		svar4 = " "; 
+		svar5 = " "; 
+		Show_clickmessage; 
+		}
+		skip:
+
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

@@ -1,0 +1,36 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 1;
+		svar1 = "Will Mr. Smith be here soon?";
+		svar2 = " I can¡¯t tell. Let¡¯s"; 
+		svar3 = " go and _____when the train arrives.";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = " find out ";
+		svar7 = "look";
+		svar8 = "look for";
+		svar9 = "find";
+		Set_quiz;
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+		lvar1 = 1;
+		Run_quiz;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

@@ -1,0 +1,36 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 1;
+		svar1 = "____²»ÄÜÒù£¬____²»ÄÜÒÆ£¬____²»ÄÜÇü";
+		svar2 = ""; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = " ¸»¹ó¡¢Æ¶¼ú¡¢ÍþÎä ";
+		svar7 = "Æ¶¼ú¡¢ÍþÎä¡¢¸»¹ó";
+		svar8 = "ÍþÎä¡¢¸»¹ó¡¢Æ¶¼ú";
+		svar9 = "";
+		Set_quiz;
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+		lvar1 = 1;
+		Run_quiz;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

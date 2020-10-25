@@ -1,0 +1,54 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{		
+		svar1 = "我是宠物领养老师拉莫尔！哈哈，让你眼花缭乱的";
+		svar2 = "神奇宠物都在我这里，想要的孩子快来领养吧！先到";
+		svar3 = "先得，机会不多噢！而且，我还有神奇的宠物合体魔";
+		svar4 = "法，能让两只普通宠物变成一只更强的宠物噢！";
+		svar5 = "";
+		
+		svar6 = "1. 我有一个玩具，现在要领养对应的宠物！";
+		svar7 = "2. 我要买新的宠物！";
+		svar8 = "3. 我要进行宠物合体！";
+		svar9 = "4. 我去别的地方逛逛！";
+		
+		Show_multiselect;
+		
+		if ( lvar1 = 1 )
+		{
+			lvar1 = 6;
+			Run_shop;
+		}
+		
+		if ( lvar1 = 2 )
+		{
+			lvar1 = 2;
+			Run_shop;
+		}
+
+
+		if ( lvar1 = 3 )
+		{
+			lvar1 = 4;
+			Run_shop;
+		}
+
+
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

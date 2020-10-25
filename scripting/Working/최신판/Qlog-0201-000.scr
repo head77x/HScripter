@@ -1,0 +1,26 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 201;
+		lvar2 = 0;
+		svar1 = "新手任务2——战斗";
+		svar2 = "在方舟花园里打败1只被邪恶力量控制的小鹿乔巴，拿到鹿鹿饼干";
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

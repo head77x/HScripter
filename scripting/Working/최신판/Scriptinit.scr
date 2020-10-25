@@ -1,0 +1,562 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+						
+		lvar1 = 0000;	
+		svar1 = "马凯";
+		Set_npcname;
+		
+		lvar1 = 0001;	
+		svar1 = "雷欧";
+		Set_npcname;
+
+		lvar1 = 0002;	
+		svar1 = "凌";
+		Set_npcname;
+
+		lvar1 = 0003;	
+		svar1 = "白";
+		Set_npcname;
+	
+		lvar1 = 0004;	
+		svar1 = "柯妮";
+		Set_npcname;
+		
+		lvar1 = 0005;	
+		svar1 = "爱迪姆";
+		Set_npcname;
+
+		lvar1 = 0006;	
+		svar1 = "MISS 张";
+		Set_npcname;
+
+  		lvar1 = 0007;	
+		svar1 = "魏达";
+		Set_npcname;
+
+		lvar1 = 0008;	
+		svar1 = "亲亲";
+		Set_npcname;
+
+		lvar1 = 0009;	
+		svar1 = "维安";
+		Set_npcname;
+
+		lvar1 = 0010;	
+		svar1 = "庞贝";
+		Set_npcname;
+
+		lvar1 = 0011;	
+		svar1 = "魏玛";
+		Set_npcname;
+	
+		lvar1 = 0012;	
+		svar1 = "尼莫";
+		Set_npcname;
+
+  		lvar1 = 0013;	
+		svar1 = "米米亚";
+		Set_npcname;
+		
+		lvar1 = 0014;	
+		svar1 = "阿依卡";
+		Set_npcname;
+	
+		lvar1 = 0015;	
+		svar1 = "洛可可";
+		Set_npcname;
+
+		lvar1 = 0016;	
+		svar1 = "老邪";
+		Set_npcname;
+	
+		lvar1 = 0017;	
+		svar1 = "利安";
+		Set_npcname;
+
+		lvar1 = 0018;	
+		svar1 = "朵朵";
+		Set_npcname;
+
+  		lvar1 = 0019;	
+		svar1 = "萨曼";
+		Set_npcname;
+	
+		lvar1 = 0020;	
+		svar1 = "老杰克";
+		Set_npcname;
+
+		lvar1 = 0021;	
+		svar1 = "盖尔波特";
+		Set_npcname;
+	
+		lvar1 = 0022;	
+		svar1 = "阿历克斯";
+		Set_npcname;
+
+		lvar1 = 0023;	
+		svar1 = "莫古";
+		Set_npcname;
+	
+		lvar1 = 0024;	
+		svar1 = "罗莉";
+		Set_npcname;
+		
+		lvar1 = 0025;	
+		svar1 = "克莉斯";
+		Set_npcname;
+		
+		lvar1 = 0026;	
+		svar1 = "彭卡";
+		Set_npcname;
+		
+		lvar1 = 0027;	
+		svar1 = "费舍尔";
+		Set_npcname;
+		
+		lvar1 = 0028;	
+		svar1 = "拉尔夫";
+		Set_npcname;
+		
+		lvar1 = 0029;	
+		svar1 = "米雪";
+		Set_npcname;
+		
+		lvar1 = 0030;	
+		svar1 = "兰";
+		Set_npcname;
+		
+		lvar1 = 0031;	
+		svar1 = "陈鱼";
+		Set_npcname;
+						
+		lvar1 = 0032;	
+		svar1 = "里拉";
+		Set_npcname;
+		
+		lvar1 = 0033;	
+		svar1 = "丹尼尔";
+		Set_npcname;
+		
+		lvar1 = 0034;	
+		svar1 = "娜娜";
+		Set_npcname;
+		
+		lvar1 = 0035;	
+		svar1 = "拉布拉布";
+		Set_npcname;
+				
+  	        lvar1 = 0036;	
+		svar1 = "大卫";
+		Set_npcname;
+						
+		lvar1 = 0037;	
+		svar1 = "爱美丽";
+		Set_npcname;		
+
+					
+		lvar1 = 0100;	
+		svar1 = "高斯";
+		Set_npcname;
+		
+		lvar1 = 0101;	
+		svar1 = "桑妮";
+		Set_npcname;
+
+		lvar1 = 0102;	
+		svar1 = "莫莫桑";
+		Set_npcname;
+		
+		lvar1 = 0103;	
+		svar1 = "达尔";
+		Set_npcname;
+		
+		lvar1 = 0104;	
+		svar1 = "朵朵拉";
+		Set_npcname;
+		
+		lvar1 = 0105;	
+		svar1 = "史蒂夫";
+		Set_npcname;
+
+		lvar1 = 0106;	
+		svar1 = "妮可";
+		Set_npcname;
+		
+		lvar1 = 0107;	
+		svar1 = "T博士";
+		Set_npcname;
+
+		lvar1 = 0108;	
+		svar1 = "潘";
+		Set_npcname;
+		
+		lvar1 = 0109;	
+		svar1 = "拉莫尔";
+		Set_npcname;
+
+		lvar1 = 0110;	
+		svar1 = "仙娜";
+		Set_npcname;
+		
+		lvar1 = 0111;	
+		svar1 = "莘迪";
+		Set_npcname;
+
+		lvar1 = 0112;	
+		svar1 = "船员莱茵";
+		Set_npcname;
+
+
+		lvar1 = 0113;	
+		svar1 = "船长莱昂";
+		Set_npcname;
+
+
+
+
+
+
+		lvar1 = 1;
+		svar1 = "冰龙巨塔";
+		Set_mapname;
+
+		lvar1 = 2;
+		svar1 = "林之塔";
+		Set_mapname;
+
+		lvar1 = 3;
+		svar1 = "幽幽雪原";
+		Set_mapname;
+
+		lvar1 = 4;
+		svar1 = "荒芜之地";
+		Set_mapname;
+
+		lvar1 = 5;
+		svar1 = "冰之塔";
+		Set_mapname;
+
+		lvar1 = 6;
+		svar1 = "结晶树林";
+		Set_mapname;
+
+		lvar1 = 7;
+		svar1 = "托里姆港口";
+		Set_mapname;
+
+		lvar1 = 8;
+		svar1 = "诡异海岸";
+		Set_mapname;
+
+		lvar1 = 9;
+		svar1 = "托里迪港口";
+		Set_mapname;
+
+		lvar1 = 10;
+		svar1 = "雪糕城";
+		Set_mapname;
+
+		lvar1 = 11;
+		svar1 = "北方营地";
+		Set_mapname;
+
+		lvar1 = 12;
+		svar1 = "白浪海滩";
+		Set_mapname;
+
+		lvar1 = 13;
+		svar1 = "星空之巅";
+		Set_mapname;
+
+		lvar1 = 14;
+		svar1 = "漫星镇外";
+		Set_mapname;
+
+		lvar1 = 15;
+		svar1 = "玩具森林北";
+		Set_mapname;
+
+		lvar1 = 16;
+		svar1 = "托里谷";
+		Set_mapname;
+
+		lvar1 = 17;
+		svar1 = "奔奔山瀑布";
+		Set_mapname;
+
+		lvar1 = 18;
+		svar1 = "珍宝海滩";
+		Set_mapname;
+
+		lvar1 = 19;
+		svar1 = "观星原";
+		Set_mapname;
+
+		lvar1 = 20;	
+		svar1 = "沙漠绿洲";
+		Set_mapname;
+
+		lvar1 = 21;
+		svar1 = "玩具森林南";
+		Set_mapname;
+
+		lvar1 = 22;
+		svar1 = "方舟花园";
+		Set_mapname;
+
+		lvar1 = 23;
+		svar1 = "托里学校";
+		Set_mapname;
+
+		lvar1 = 24;
+		svar1 = "白沙海滩";
+		Set_mapname;
+
+		lvar1 = 25;
+		svar1 = "沙漠小镇";
+		Set_mapname;
+				
+		lvar1 = 26;
+		svar1 = "蘑菇森林";
+		Set_mapname;
+
+		lvar1 = 27;
+		svar1 = "阳光农场";
+		Set_mapname;
+
+		lvar1 = 28;
+		svar1 = "托里郊外";
+		Set_mapname;
+
+		lvar1 = 29;	
+		svar1 = "蓝海渔村";
+		Set_mapname;
+
+		lvar1 = 30;	
+		svar1 = "沼泽腹地";
+		Set_mapname;
+
+		lvar1 = 31;	
+		svar1 = "黑暗沼泽";
+		Set_mapname;
+			
+		lvar1 = 32;
+		svar1 = "迪斯特遗迹";
+		Set_mapname;
+
+		lvar1 = 33;
+		svar1 = "迷雾沼泽";
+		Set_mapname;
+		
+		lvar1 = 34;
+		svar1 = "蓝海圣地";
+		Set_mapname;
+
+		lvar1 = 35;
+		svar1 = "鲸鱼岛";
+		Set_mapname;
+
+		lvar1 = 36;
+		svar1 = "冰龙之路";
+		Set_mapname;
+
+		lvar1 = 37;
+		svar1 = "林之塔东";
+		Set_mapname;
+
+		lvar1 = 38;
+		svar1 = "林之塔南";
+		Set_mapname;
+
+		lvar1 = 39;
+		svar1 = "冰之塔东";
+		Set_mapname;
+
+		lvar1 = 40;
+		svar1 = "结晶小路";
+		Set_mapname;
+
+		lvar1 = 41;
+		svar1 = "托里姆东";
+		Set_mapname;
+
+		lvar1 = 42;
+		svar1 = "托里迪西海岸";
+		Set_mapname;
+
+		lvar1 = 43;
+		svar1 = "托里迪南海岸";
+		Set_mapname;
+
+		lvar1 = 44;
+		svar1 = "外营地";
+		Set_mapname;
+
+		lvar1 = 45;
+		svar1 = "雪糕城郊外";
+		Set_mapname;
+
+		lvar1 = 46;
+		svar1 = "海边小镇";
+		Set_mapname;
+
+		lvar1 = 47;
+		svar1 = "北部沙滩";
+		Set_mapname;
+
+		lvar1 = 48;
+		svar1 = "奔奔山高地";
+		Set_mapname;
+
+		lvar1 = 49;
+		svar1 = "山林大道";
+		Set_mapname;
+
+		lvar1 = 50;
+		svar1 = "托里谷东";
+		Set_mapname;
+
+		lvar1 = 51;
+		svar1 = "方舟花园北";
+		Set_mapname;
+
+		lvar1 = 52;
+		svar1 = "峡谷丛林";
+		Set_mapname;
+
+		lvar1 = 53;
+		svar1 = "中部森林";
+		Set_mapname;
+
+		lvar1 = 54;
+		svar1 = "陨石地";
+		Set_mapname;
+
+		lvar1 = 55;
+		svar1 = "漫星镇";
+		Set_mapname;
+
+		lvar1 = 56;
+		svar1 = "星空之路";
+		Set_mapname;
+
+		lvar1 = 57;
+		svar1 = "星星高地";
+		Set_mapname;
+
+		lvar1 = 58;
+		svar1 = "摘星之路";
+		Set_mapname;
+
+		lvar1 = 59;
+		svar1 = "无限沙漠";
+		Set_mapname;
+
+		lvar1 = 60;
+		svar1 = "幽静森林";
+		Set_mapname;
+
+		lvar1 = 61;
+		svar1 = "方舟花园西";
+		Set_mapname;
+
+		lvar1 = 62;
+		svar1 = "郊外草地";
+		Set_mapname;
+
+		lvar1 = 63;
+		svar1 = "托里学校东";
+		Set_mapname;
+
+		lvar1 = 64;
+		svar1 = "南部沙滩";
+		Set_mapname;
+
+		lvar1 = 65;
+		svar1 = "近海郊外";
+		Set_mapname;
+
+		lvar1 = 66;
+		svar1 = "托里学校南";
+		Set_mapname;
+
+		lvar1 = 67;
+		svar1 = "中部湖";
+		Set_mapname;
+
+		lvar1 = 68;
+		svar1 = "方舟花园南";
+		Set_mapname;
+
+		lvar1 = 69;
+		svar1 = "野外果场";
+		Set_mapname;
+
+		lvar1 = 70;
+		svar1 = "小树林";
+		Set_mapname;
+
+		lvar1 = 71;
+		svar1 = "旷野沼泽";
+		Set_mapname;
+
+		lvar1 = 72;
+		svar1 = "泥草地";
+		Set_mapname;
+
+		lvar1 = 73;
+		svar1 = "中部果园";
+		Set_mapname;
+	
+		lvar1 = 74;
+		svar1 = "黑沼之城";
+		Set_mapname;
+
+		lvar1 = 75;
+		svar1 = "沙漠入口";
+		Set_mapname;
+
+		lvar1 = 76;
+		svar1 = "黑沙漠";
+		Set_mapname;
+
+		lvar1 = 77;
+		svar1 = "腹地入口";
+		Set_mapname;
+
+		lvar1 = 78;
+		svar1 = "沼泽泥潭";
+		Set_mapname;
+
+		lvar1 = 79;
+		svar1 = "幽幽沼泽";
+		Set_mapname;
+
+
+
+
+
+
+
+
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}
+

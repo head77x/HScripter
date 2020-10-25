@@ -1,0 +1,41 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{		
+
+			svar1 = "现在，方舟花园的邪恶宠物对你应该已经没有威胁了，";
+			svar2 = "但是，这只是小小的成绩，千万不要自满噢！";
+			svar3 = " ";
+			svar4 = " ";
+			svar5 = " ";
+			Show_clickmessage; 
+
+
+			lvar1 = 99999; 
+			lvar2 = 100;
+			Give_user_item;	
+
+			lvar1 = 203;
+			lvar2 = 4;
+			Set_scriptvar;	
+
+
+			}
+
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

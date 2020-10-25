@@ -1,0 +1,39 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{		
+        svar1 = "我是药剂师凌，经常在这一片采摘草药，但是现在岛上不太平，邪恶宠物";
+	svar2 = "破坏了很多宝贵的草药，尤其是喜欢吃草的小鹿乔巴，你能帮我赶走它们吗？ ";
+	svar3 = " ";
+	svar4 = " ";
+	svar5 = " ";
+	Show_clickmessage;
+      
+	lvar1 = 0083;  
+	lvar2 = 8052;  
+	lvar3 = 10;  
+	Set_toygetitem;
+	
+	lvar1 = 0206;
+	lvar2 = 1;
+	Set_scriptvar;	
+
+
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

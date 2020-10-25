@@ -1,0 +1,35 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+			
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{	
+
+		svar1 = "我可不想吃太多糖，糖虽然很好吃，但它能产生一种酸的物质。";
+		svar2 = "糖粘在牙槽上，如不及时洗刷掉，细菌就会在上面生长繁殖，产生许多酸，把牙齿烂出洞来。"; 
+		svar3 = "另外，糖吃多了，会影响吃饭。饭吃少了，身体就得不到所需要的营养，会影响身体健康。";
+		svar4 = "所以里拉说的一点都不错。你回去告诉克莉斯让她也少吃点糖。";
+		svar5 = " "; 
+		Show_clickmessage;
+		
+		lvar1 = 18;
+		lvar2 = 4;
+		Set_scriptvar;			
+		 
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

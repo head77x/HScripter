@@ -1,0 +1,26 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 6;
+		lvar2 = 1;
+		svar1 = "能力鉴定";
+		svar2 = "白老师认为你还不能很熟练的驾驭\n宠物，希望你再接再厉，当你的宠\n物到达4级的时候再去找白老师可\n以得到奖励。";
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

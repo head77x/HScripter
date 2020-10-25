@@ -1,0 +1,36 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 1;
+		svar1 = "There ________ a lot of meat on";
+		svar2 = "he plate. Would you like some?"; 
+		svar3 = "Just a little, please.";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = " is ";
+		svar7 = "are";
+		svar8 = "am";
+		svar9 = "be";
+		Set_quiz;
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+		lvar1 = 1;
+		Run_quiz;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

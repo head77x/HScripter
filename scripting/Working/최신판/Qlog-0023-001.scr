@@ -1,0 +1,27 @@
+
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 23;
+		lvar2 = 1;
+		svar1 = "保卫农场 二";
+		svar2 = "上次被赶跑的邪恶宠物们又开始卷\n土重来了，而且还占领了最重要的\n粮仓，同时它们还带了一个更厉害\n的角色猎犬弗雷德，里拉希望你能\n帮忙打败猎犬弗雷德。那家伙就在\n阳光农场东北部的粮仓里。";
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

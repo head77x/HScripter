@@ -1,0 +1,36 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 1;
+		svar1 = "Why are you walking to school?";
+		svar2 = "Because my ________ is broken."; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = " bike ";
+		svar7 = " radio";
+		svar8 = "watch";
+		svar9 = "bag";
+		Set_quiz;
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+		lvar1 = 1;
+		Run_quiz;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

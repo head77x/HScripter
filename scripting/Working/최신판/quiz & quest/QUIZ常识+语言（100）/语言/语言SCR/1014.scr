@@ -1,0 +1,36 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 1;
+		svar1 = "What a nice garden!";
+		svar2 = " It ___ every day. "; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = " is cleaned. ";
+		svar7 = "is cleaning";
+		svar8 = "has cleaned ";
+		svar9 = "must clean";
+		Set_quiz;
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+		lvar1 = 1;
+		Run_quiz;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

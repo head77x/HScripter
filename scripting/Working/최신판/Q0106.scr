@@ -1,0 +1,51 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{		
+		svar1 = "要让你的语言和你的穿着一样的时髦噢！";
+		svar2 = "面对才高八斗学富五车的妮可老师，你有";
+		svar3 = "胆量面对我的测验吗？";
+		svar4 = "";
+		svar5 = "";
+		
+		svar6 = "1. 王婆卖瓜，自卖自夸！";
+		svar7 = "2. 好啊，我才不怕你呢！";
+		svar8 = "3. 没兴趣！";
+		svar9 = "";
+		
+		Show_multiselect;
+		
+		if ( lvar1 = 1 )
+		{
+			svar1 = "噢，你竟然出口成章，有点小道行！真有本事，就来试试我的题目吧！";
+			svar2 = "";
+			svar3 = "";
+			svar4 = "";
+			svar5 = "";
+			
+			Show_clickmessage;
+		}
+		
+		if ( lvar1 = 2 )
+		{
+			lvar1 = 1;
+			lvar2 = 10;
+			Run_quiz;
+		}
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

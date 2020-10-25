@@ -1,0 +1,35 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{		
+	
+		svar1 = "托里岛以盛产优质的玩具闻名，托里岛上，不管大人还是孩子，";
+		svar2 = "都对可爱的玩具充满感情，当然，这都归功于勤劳智慧的玩具";
+		svar3 = "工匠们。除了优秀的玩具工匠，岛上还有强大的魔法师，他们精研";
+		svar4 = "各种神奇魔法，为干旱大漠降下甘霖，给悲伤的人们带来快乐，";
+		svar5 = "尤其是……（接着和托里爷爷对话）";
+		Show_clickmessage;
+
+		lvar1 = 0;
+		lvar2 = 2;
+		Set_scriptvar;	
+
+
+
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

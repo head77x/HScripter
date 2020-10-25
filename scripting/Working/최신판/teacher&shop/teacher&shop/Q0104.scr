@@ -1,0 +1,50 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{		
+		svar1 = "你们好，我是美术老师朵朵拉！这个世界上不是缺少美，";
+		svar2 = "而是缺少发现美的眼睛。如果你能从我这里出师，那你";
+		svar3 = "肯定会发现美的事物无所不在。";
+		svar4 = "";
+		svar5 = "";
+		
+		svar6 = "1. 没有艺术细胞，怕给别人笑话呢。";
+		svar7 = "2. 是吗？你能教我什么呢？";
+		svar8 = "3. 不想学。";
+		svar9 = "";
+		
+		Show_multiselect;
+		
+		if ( lvar1 = 1 )
+		{
+			svar1 = "别担心，自信是成功的第一步！";
+			svar2 = "达芬奇是靠自己临摹鸡蛋起步学画的，你现在可比他幸福多了！";
+			svar3 = "";
+			svar4 = "";
+			svar5 = "";
+			
+			Show_clickmessage;
+		}
+		
+		if ( lvar1 = 2 )
+		{
+			lvar1 = 6;
+			Run_minigame;
+		}
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

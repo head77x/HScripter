@@ -1,0 +1,39 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{		
+        svar1 = "真烦人，那猎犬弗雷德又出现了，我们已经打败它几百次了，可它还是不愿意善罢甘休，";
+	svar2 = "我知道你也已经不耐烦了，不过就当做做好事，再去打败它一回。";
+	svar3 = "猎犬弗雷德每次来总会带上一群手下，你也顺便收拾掉吧。它们依旧在粮仓那里。";
+	svar4 = " ";
+	svar5 = " ";
+	Show_clickmessage;
+      
+	lvar1 = 83;  
+	lvar2 = 8052;  
+	lvar3 = 1;  
+	Set_toygetitem;
+
+	lvar1 = 23;
+	lvar2 = 1;
+	Set_scriptvar;	
+
+
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

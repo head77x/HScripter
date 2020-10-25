@@ -1,0 +1,36 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 1;
+		svar1 = "What is Mum doing now?";
+		svar2 = "She ________ some clothes."; 
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+
+		svar6 = " is washingt ";
+		svar7 = "washes";
+		svar8 = "washed";
+		svar9 = "has washed";
+		Set_quiz;
+
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+		lvar1 = 1;
+		Run_quiz;
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

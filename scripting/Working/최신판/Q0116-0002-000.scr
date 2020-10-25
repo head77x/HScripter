@@ -1,0 +1,35 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{		
+	
+		svar1 = "我是帕洛达老师，每一个小小魔法师都";
+		svar2 = "必须熟练使用他们的背包噢！因为背包";
+		svar3 = "里装载着威力强大的装备和道具，现在";
+		svar4 = "我就来教你吧！（继续和帕洛达老师对话）";
+		svar5 = "";
+		Show_clickmessage;
+
+		lvar1 = 2;
+		lvar2 = 1;
+		Set_scriptvar;	
+
+
+
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

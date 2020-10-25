@@ -1,0 +1,27 @@
+
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 21;
+		lvar2 = 3;
+		svar1 = "绿风果花茶";
+		svar2 = "里拉奶奶收到克莉斯的花茶很感动，\n她认为克莉斯懂事了，让万家带些\n水果去给经常教导克莉斯的拉布拉\n布。拉布拉布就在中部湖的小屋里。";
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

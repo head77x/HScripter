@@ -1,0 +1,34 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{		
+	
+		svar1 = "但是，最近岛上出现了一批邪恶宠物，他们同样拥有玩具的外表，";
+		svar2 = "也拥有自身的生命和意识，但是，它们充满邪恶，到处肆意破坏，";
+		svar3 = "托里岛的和平宁静陷入了危机，这，也就是你来到此地需要肩负的";
+		svar4 = "使命——通过修炼，成为一个合格的魔法师，你要有信心，我看好";
+		svar5 = "你噢！现在，我送你去找战斗老师迪科吧！（接着点击托里爷爷）";
+		Show_clickmessage;
+
+		lvar1 = 0;
+		lvar2 = 4;
+		Set_scriptvar;
+
+
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

@@ -1,0 +1,43 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		/* NPC Information */
+
+		/* NPC Number */
+	
+	}
+
+	/* When Click the NPC */
+	OnClicking
+{		
+
+		svar1 = "明白了，这的确是我自己忘记了才造成的疏忽，我应该自己去把包裹拿回来，";
+		svar2 = "还是谢谢你，不过我可不是一个逃避责任的人哦！";
+		svar3 = " ";
+		svar4 = " ";
+		svar5 = " ";
+		Show_clickmessage; 
+               
+		lvar1 = 9999;
+		lvar2 = 100;
+		Give_user_item;	
+
+		lvar1 = 2;
+		lvar2 = 3;
+		Set_scriptvar;
+		}
+
+
+}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

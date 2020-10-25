@@ -1,0 +1,50 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{		
+		svar1 = "大家好啊！我是社交老师史蒂夫，找呀找呀找朋友，";
+		svar2 = "找到一个好朋友……人际交往是一门大学问，不好";
+		svar3 = "好学，可不一定能顺利找到好朋友噢！";
+		svar4 = "";
+		svar5 = "";
+		
+		svar6 = "1. 朋友？我多的是！";
+		svar7 = "2. 太好了，我能跟更多的朋友们玩吗？";
+		svar8 = "3. 没兴趣！";
+		svar9 = "";
+		
+		Show_multiselect;
+		
+		if ( lvar1 = 1 )
+		{
+			svar1 = "朋友怎么能嫌多呢，在家靠父母，出门靠朋友，";
+			svar2 = "和朋友在一起玩你会更开心的哦。";
+			svar3 = "";
+			svar4 = "";
+			svar5 = "";
+			
+			Show_clickmessage;
+		}
+		
+		if ( lvar1 = 2 )
+		{
+			lvar1 = 7;
+			Run_minigame;
+		}
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

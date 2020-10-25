@@ -1,0 +1,69 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{		
+	
+
+		lvar1 = 8054;
+		lvar2 = 1;
+		Check_user_item;
+
+
+
+
+		if(lvar1 = 1)
+		{
+		lvar1 = 8054; 
+		lvar2 = 1;
+		Delete_user_item;
+
+		svar1 = "很好，你已经掌握战斗的基本要领了，接着，我会送你到装备老师那里去！";
+		svar2 = "";
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+		Show_clickmessage;
+
+		lvar1 = 13; 
+		lvar2 = 8054;
+		Reset_toygetitem;
+
+
+		lvar1 = 1;
+		lvar2 = 2;
+		Set_scriptvar;	
+
+	goto skip;
+		}
+
+		if(lvar1 ! 1)
+		{
+
+		svar1 = "双击老鼠就可以，很简单的，再试试！";
+		svar2 = "";
+		svar3 = "";
+		svar4 = "";
+		svar5 = "";
+		Show_clickmessage;
+
+		}
+
+	skip:
+	
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

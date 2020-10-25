@@ -1,0 +1,58 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{	
+	
+
+		svar1 = "看来你已经准备好了，那我现在就将你传送至宠物学校。你可以在学校里和老师们";
+		svar2 = "打个招呼，然后你可以去方舟花园找白老师，他会告诉你如何成为一个优秀的魔法";
+		svar3 = "学徒。";
+		svar4 = " ";
+		svar5 = " ";
+		Show_clickmessage;
+
+		Check_nowmap;
+		if(lvar1 = 23) {
+		lvar1 = 23;
+		lvar2 = 98;
+		lvar3 = 61;
+		Move_character;
+
+		lvar1 = 4;
+		lvar2 = 2;
+		Set_scriptvar;	
+		
+
+		goto skip;
+		}
+
+
+		if(lvar1 = 62) {
+		lvar1 = 62;
+		lvar2 = 98;
+		lvar3 = 186;
+		Move_character;
+
+		lvar1 = 4;
+		lvar2 = 2;
+		Set_scriptvar;	
+		}
+
+		skip:
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}

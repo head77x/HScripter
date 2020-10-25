@@ -1,0 +1,26 @@
+{
+	/* NPC and Quest Log Init */
+	OnInitial
+	{
+		lvar1 = 13;
+		lvar2 = 1;
+		svar1 = "救救野外受伤的小宠物";
+		svar2 = "有一只野外的宠物受伤了，凌正在\n为它治疗，不过凌还需要一个小瓶\n治疗药水才能治好它，委托你去托\n里学校的仙娜处购买一瓶。";
+		Set_questlog;
+	}
+
+	/* When Click the NPC */
+	OnClicking
+	{
+	}
+
+	/* When Kill the NPC */
+	OnKilling
+	{
+	}
+
+	/* When Hit the NPC */
+	OnHitting
+	{
+	}
+}
